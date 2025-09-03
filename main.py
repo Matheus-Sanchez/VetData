@@ -157,7 +157,8 @@ class VetMedicineScraper:
                 
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            # Buscar accordion de detalhes
+            # Buscar detalhes
+            # Para pegar os outros itens com variação de unidade, se tiver, fazer busca em url, fazendo uma copia do remedio so mudando quantidade e preço
             accordion = soup.find('div', {'data-testid': 'accordion-details'})
             if accordion:
                 tables = accordion.find_all('thead')
@@ -280,6 +281,7 @@ class VetMedicineScraper:
                     details['eficacia'] = eficacia_divs[1].text.strip()
             
             # Quantidade
+            # Para pegar as outras unidades usar div class="variant-list", tem preço e unidade (fazer copia)
             variant_selected = soup.find('div', class_='variant-selector__card--selected')
             if variant_selected:
                 qtd_elem = variant_selected.find('span')
@@ -312,18 +314,27 @@ class VetMedicineScraper:
             
             for produto in produtos:
                 try:
+                    # Em manutenção
+                    aux = produto.find('product-card')
+                    json_prod = json.loads(produto.get_text(strip=True))
+                    preco = json_prod['currency'] + " " + json_prod['price']
+                    nome = json_prod['name']
+                    link_produto = json_prod['url']
+                    variacao = json_prod['variationDescription']
+
+
                     # Dados básicos
-                    nome_elem = produto.find('p', class_='ptz-card-label-left')
-                    nome = nome_elem.text.strip() if nome_elem else "N/A"
+                    # nome_elem = produto.find('p', class_='ptz-card-label-left')
+                    # nome = nome_elem.text.strip() if nome_elem else "N/A"
                     
-                    preco_elem = produto.find('p', class_='ptz-card-price ptz-card-price-showcase')
-                    preco = preco_elem.text.strip() if preco_elem else "N/A"
+                    # preco_elem = produto.find('p', class_='ptz-card-price ptz-card-price-showcase')
+                    # preco = preco_elem.text.strip() if preco_elem else "N/A"
                     
-                    # Link para detalhes
-                    link_elem = produto.find('a', class_='card-link-product')
-                    link_produto = link_elem.get('href') if link_elem else None
-                    if link_produto and not link_produto.startswith('http'):
-                        link_produto = f"https://www.petz.com.br{link_produto}"
+                    # # Link para detalhes
+                    # link_elem = produto.find('a', class_='card-link-product')
+                    # link_produto = link_elem.get('href') if link_elem else None
+                    # if link_produto and not link_produto.startswith('http'):
+                    #     link_produto = f"https://www.petz.com.br{link_produto}"
                     
                     # Buscar ficha técnica
                     ficha_tecnica = self.get_petz_details(link_produto) if link_produto else {}
@@ -390,6 +401,7 @@ class VetMedicineScraper:
                     details['eficacia'] = match.group(1)
             
             # Quantidade
+            # Para pegar as outras unidades, pegar pela div id="popupVariacoes", tem o preço lá tambem (fazer cópia)
             nome_var = soup.find('div', class_='nome-variacao')
             if nome_var:
                 qtd_elem = nome_var.find('b')
