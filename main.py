@@ -8,6 +8,7 @@ from datetime import datetime
 import time
 import re
 import os
+import json
 from typing import Dict, List, Optional
 import logging
 
@@ -264,29 +265,35 @@ class VetMedicineScraper:
             # Buscar properties lists
             properties = soup.find_all('div', class_='properties__list')
             
-            if len(properties) >= 5:
+            # if len(properties) >= 5:
                 # Animal (1° div, 2° div interno)
-                animal_divs = properties[0].find_all('div')
-                if len(animal_divs) >= 2:
-                    details['animal'] = animal_divs[1].text.strip()
+                # animal_divs = properties[0].find_all('div')
+                # if len(animal_divs) >= 2:
+                #     details['animal'] = animal_divs[1].text.strip()
                 
                 # Porte (2° div, 2° div interno)
-                porte_divs = properties[1].find_all('div')
-                if len(porte_divs) >= 2:
-                    details['porte'] = porte_divs[1].text.strip()
+                # porte_divs = properties[1].find_all('div')
+                # if len(porte_divs) >= 2:
+                #     details['porte'] = porte_divs[1].text.strip()
                 
                 # Eficácia (5° div, 2° div interno)
-                eficacia_divs = properties[4].find_all('div')
-                if len(eficacia_divs) >= 2:
-                    details['eficacia'] = eficacia_divs[1].text.strip()
+                # eficacia_divs = properties[4].find_all('div')
+                # if len(eficacia_divs) >= 2:
+                #     details['eficacia'] = eficacia_divs[1].text.strip()
             
             # Quantidade
             # Para pegar as outras unidades usar div class="variant-list", tem preço e unidade (fazer copia)
-            variant_selected = soup.find('div', class_='variant-selector__card--selected')
-            if variant_selected:
-                qtd_elem = variant_selected.find('span')
-                if qtd_elem:
-                    details['quantidade'] = qtd_elem.text.strip()
+            variant_selected_button = soup.find('button', class_='size-select-button')
+            variant_selected = variant_selected_button.find('b')
+            variants = soup.find('div', class_='produto-popup-variacoes hidden').find_all('div', class_="variacao-item")
+            for var in variants:
+                unidade_var = var.find('div', class_='item-name')
+                if unidade_var:
+                    details['quantidade'] = unidade_var.text.strip()
+            # if variant_selected:
+            #     qtd_elem = variant_selected.find('span')
+            #     if qtd_elem:
+            #         details['quantidade'] = qtd_elem.text.strip()
                     
         except Exception as e:
             logger.error(f"Erro ao buscar detalhes Petlove: {e}")
@@ -314,23 +321,26 @@ class VetMedicineScraper:
             
             for produto in produtos:
                 try:
+                    # {"price":"103.99","name":"Revolution Zoetis 6% 0.75ml para Gatos 2,6Kg a 7,5Kg","promotional_price":"72.79","priceForSubs":"72.79","id":"74618","sku":"74618","category":"Antipulgas e Carrapatos","brand":"Zoetis","hideSubscriberDiscountPrice":false}
                     # Em manutenção
-                    aux = produto.find('product-card')
-                    json_prod = json.loads(produto.get_text(strip=True))
-                    preco = json_prod['currency'] + " " + json_prod['price']
-                    nome = json_prod['name']
-                    link_produto = json_prod['url']
-                    variacao = json_prod['variationDescription']
-
-
+                    aux = produto.find('meta', itemprop="url")
+                    link_produto = aux.get('content') if aux else "N/A"
+                    # aux = produto.find('a', class_="card-link-product")
+                    # logger.info(f"Aux: {aux.get_text(strip=True)}")
+                    # json_prod = json.loads(aux.get_text(strip=True))
+                    # preco = json_prod['price']
+                    # nome = json_prod['name']
+                    # link_produto = json_prod['url']
+                    # variacao = json_prod['variationDescription']
+                    # logger.info(json_prod)
+                    
                     # Dados básicos
-                    # nome_elem = produto.find('p', class_='ptz-card-label-left')
-                    # nome = nome_elem.text.strip() if nome_elem else "N/A"
+                    aux = json.loads(produto.get_text(strip=True))
+                    nome = aux['name'].strip() if aux else "N/A"
+                    preco = aux['price'].strip() if aux else "N/A"
+
                     
-                    # preco_elem = produto.find('p', class_='ptz-card-price ptz-card-price-showcase')
-                    # preco = preco_elem.text.strip() if preco_elem else "N/A"
-                    
-                    # # Link para detalhes
+                    # Link para detalhes
                     # link_elem = produto.find('a', class_='card-link-product')
                     # link_produto = link_elem.get('href') if link_elem else None
                     # if link_produto and not link_produto.startswith('http'):
@@ -435,20 +445,20 @@ class VetMedicineScraper:
         logger.info("=" * 50)
         
         # Scraping Cobasi
-        try:
-            cobasi_data = self.scrape_cobasi()
-            self.save_to_excel(cobasi_data, f"cobasi_{datetime.now().strftime('%Y%m%d')}.xlsx")
-            logger.info(f"Cobasi: {len(cobasi_data)} produtos coletados")
-        except Exception as e:
-            logger.error(f"Erro no scraping Cobasi: {e}")
+        # try:
+        #     cobasi_data = self.scrape_cobasi()
+        #     self.save_to_excel(cobasi_data, f"cobasi_{datetime.now().strftime('%Y%m%d')}.xlsx")
+        #     logger.info(f"Cobasi: {len(cobasi_data)} produtos coletados")
+        # except Exception as e:
+        #     logger.error(f"Erro no scraping Cobasi: {e}")
         
-        # Scraping Petlove
-        try:
-            petlove_data = self.scrape_petlove()
-            self.save_to_excel(petlove_data, f"petlove_{datetime.now().strftime('%Y%m%d')}.xlsx")
-            logger.info(f"Petlove: {len(petlove_data)} produtos coletados")
-        except Exception as e:
-            logger.error(f"Erro no scraping Petlove: {e}")
+        # # Scraping Petlove
+        # try:
+        #     petlove_data = self.scrape_petlove()
+        #     self.save_to_excel(petlove_data, f"petlove_{datetime.now().strftime('%Y%m%d')}.xlsx")
+        #     logger.info(f"Petlove: {len(petlove_data)} produtos coletados")
+        # except Exception as e:
+        #     logger.error(f"Erro no scraping Petlove: {e}")
         
         # Scraping Petz
         try:
