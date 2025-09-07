@@ -1,6 +1,3 @@
-# Arrumar html de Petz
-# Arrumar eficacia de Petlove
-
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -34,44 +31,165 @@ class VetMedicineScraper:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
-        
+
+    
         # Lista de medicamentos para buscar
         self.medicamentos = [
-            "Simparic", "Revolution", "NexGard", "NextGard Spectra", "Bravecto", "Frontline", "Advocate",
+            "Simparic", "Revolution", "NexGard", "NexGard Spectra", "NexGard Combo", "Bravecto", "Frontline", "Advocate",
             "Drontal", "Milbemax", "Vermivet",
             "Rimadyl", "Onsior", "Maxicam", "Carproflan", "Previcox",
             "Apoquel", "Zenrelia",
             "Synulox", "Baytril",
         ]
         
-        # Mapeamento de medicamentos para empresas e categorias
+        # Mapeamento expandido com informações da bula
         self.medicamento_info = {
-            "Simparic": {"empresa": "Zoetis", "categoria": "Antipulgas e Carrapatos"},
-            "Revolution": {"empresa": "Zoetis", "categoria": "Antipulgas e Carrapatos"},
-            "NexGard": {"empresa": "Boehringer Ingelheim", "categoria": "Antipulgas e Carrapatos"},
-            "NexGard Spectra": {"empresa": "Boehringer Ingelheim", "categoria": "Antipulgas e Carrapatos"},
-            "Bravecto": {"empresa": "MSD Saúde Animal", "categoria": "Antipulgas e Carrapatos"},
-            "Frontline": {"empresa": "Boehringer Ingelheim", "categoria": "Antipulgas e Carrapatos"},
-            "Advocate": {"empresa": "Elanco", "categoria": "Antipulgas e Carrapatos"},
+            "Simparic": {
+                "empresa": "Zoetis", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "35 dias"
+            },
+            "Revolution": {
+                "empresa": "Zoetis", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "NexGard": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "NexGard Spectra": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "NexGard Combo": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "Bravecto": {
+                "empresa": "MSD Saúde Animal", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "90 dias"
+            },
+            "Frontline": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "Advocate": {
+                "empresa": "Elanco", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
 
-            "Drontal": {"empresa": "Elanco", "categoria": "Vermífugo"},
-            "Milbemax": {"empresa": "Elanco", "categoria": "Vermífugo"},
-            "Vermivet": {"empresa": "Agener União Química", "categoria": "Vermífugo"},
+            "Drontal": {
+                "empresa": "Elanco", 
+                "categoria": "Vermífugo",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "Dose única"
+            },
+            "Milbemax": {
+                "empresa": "Elanco", 
+                "categoria": "Vermífugo",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "Dose única"
+            },
+            "Vermivet": {
+                "empresa": "Agener União Química", 
+                "categoria": "Vermífugo",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "Dose única"
+            },
             
-            "Rimadyl": {"empresa": "Zoetis", "categoria": "Anti-inflamatório"},
-            "Onsior": {"empresa": "Elanco", "categoria": "Anti-inflamatório"},
-            "Maxicam": {"empresa": "Ourofino Saúde Animal", "categoria": "Anti-inflamatório"},
-            "Carproflan": {"empresa": "Agener União Química", "categoria": "Anti-inflamatório"},
-            "Previcox": {"empresa": "Boehringer Ingelheim", "categoria": "Anti-inflamatório"},
+            "Rimadyl": {
+                "empresa": "Zoetis", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "12-24 horas"
+            },
+            "Onsior": {
+                "empresa": "Elanco", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
+            "Maxicam": {
+                "empresa": "Ourofino Saúde Animal", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
+            "Carproflan": {
+                "empresa": "Agener União Química", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
+            "Previcox": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
             
-            "Apoquel": {"empresa": "Zoetis", "categoria": "Dermatológico / Antialergico"},
-            "Zenrelia": {"empresa": "Elanco", "categoria": "Dermatológico / Antialergico"},
+            "Apoquel": {
+                "empresa": "Zoetis", 
+                "categoria": "Dermatológico / Antialergico",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "12 horas"
+            },
+            "Zenrelia": {
+                "empresa": "Elanco", 
+                "categoria": "Dermatológico / Antialergico",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
         
-            "Synulox": {"empresa": "Zoetis", "categoria": "Antibiótico"},
-            "Baytril": {"empresa": "Elanco", "categoria": "Antibiótico"},
-
+            "Synulox": {
+                "empresa": "Zoetis", 
+                "categoria": "Antibiótico",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "12 horas"
+            },
+            "Baytril": {
+                "empresa": "Elanco", 
+                "categoria": "Antibiótico",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
         }
-        
+      
     def make_request(self, url: str, max_retries: int = 3) -> Optional[requests.Response]:
         """Faz requisição com retry"""
         for i in range(max_retries):
@@ -87,7 +205,7 @@ class VetMedicineScraper:
         return None
     
     def scrape_cobasi(self) -> List[Dict]:
-        """Scraper para Cobasi"""
+        """Scraper otimizado para Cobasi usando dados JSON"""
         logger.info("Iniciando scraping Cobasi...")
         produtos_data = []
         
@@ -100,6 +218,125 @@ class VetMedicineScraper:
                 continue
                 
             soup = BeautifulSoup(response.content, 'html.parser')
+
+            # Buscar o script que contém os dados JSON estruturados
+            script_tag = soup.find("script", {"id": "__NEXT_DATA__"})
+
+            if script_tag:
+                try:
+                    # Converter o conteúdo do script de texto JSON para dicionário Python
+                    data = json.loads(script_tag.string)
+                    
+                    # Navegar até a seção de produtos na estrutura JSON
+                    produtos_json = data["props"]["pageProps"]["searchResult"]["products"]
+                    logger.info(f"Encontrados {len(produtos_json)} produtos no JSON para {medicamento}")
+                    
+                    # Limitar produtos em modo teste
+                    if self.test_mode and produtos_json:
+                        produtos_json = produtos_json[:1]  # Apenas 1 produto em modo teste
+                    
+                    # Processar cada produto encontrado no JSON
+                    for produto_json in produtos_json:
+                        try:
+                            # Extrair dados básicos do produto
+                            nome_produto = produto_json.get('name', 'N/A')
+                            produto_id = produto_json.get('id', 'N/A')
+                            preco_base = produto_json.get('price', 0)
+                            marca = produto_json.get('brand', medicamento)
+                            
+                            logger.info(f"Processando produto: {nome_produto}")
+                            
+                            # Buscar as variações de SKU (diferentes quantidades/embalagens)
+                            skus = produto_json.get('skus', [])
+                            
+                            if not skus:
+                                # Se não há SKUs específicos, usar dados do produto principal
+                                info_base = self.medicamento_info.get(medicamento, {})
+                                produto_info = {
+                                    "categoria": info_base.get("categoria", "N/A"),
+                                    "marca": medicamento,
+                                    "produto": nome_produto,
+                                    "quantidade": "N/A",
+                                    "preco": f"R$ {preco_base:.2f}" if isinstance(preco_base, (int, float)) else str(preco_base),
+                                    "site": "cobasi.com.br",
+                                    "data_coleta": datetime.now().strftime("%Y-%m-%d"),
+                                }
+                                produtos_data.append(produto_info)
+                                logger.info(f"Produto coletado (sem SKUs): {nome_produto}")
+                            else:
+                                # Processar cada SKU (variação) do produto
+                                for sku in skus:
+                                    try:
+                                        # Extrair informações específicas de cada variação
+                                        quantidade = sku.get('name', 'N/A')  # Ex: "1 tablete", "3 tabletes"
+                                        preco_sku = sku.get('price', 0)
+                                        preco_antigo = sku.get('oldPrice', 0)
+                                        disponibilidade = sku.get('available', 'UNKNOWN')
+                                        
+                                        # Calcular desconto se houver preço antigo
+                                        desconto_percent = sku.get('discountPercent', 0)
+                                        
+                                        # Verificar se o produto está disponível
+                                        if disponibilidade != 'AVAILABLE':
+                                            logger.warning(f"Produto indisponível: {nome_produto} - {quantidade}")
+                                            continue
+                                        
+                                        # Formatar preço
+                                        preco_formatado = f"R$ {preco_sku:.2f}" if isinstance(preco_sku, (int, float)) else str(preco_sku)
+                                        
+                                        # Obter informações base do medicamento
+                                        info_base = self.medicamento_info.get(medicamento, {})
+                                        
+                                        # Criar registro do produto com todas as informações
+                                        produto_info = {
+                                            "categoria": info_base.get("categoria", "N/A"),
+                                            "marca": medicamento,
+                                            "produto": nome_produto,
+                                            "quantidade": quantidade,
+                                            "preco": preco_formatado,
+                                            "preco_antigo": f"R$ {preco_antigo:.2f}" if preco_antigo and isinstance(preco_antigo, (int, float)) else "N/A",
+                                            "desconto": f"{desconto_percent}%" if desconto_percent > 0 else "0%",
+                                            "disponibilidade": disponibilidade,
+                                            "site": "cobasi.com.br",
+                                            "produto_id": produto_id,
+                                            "sku_id": sku.get('sku', 'N/A'),
+                                            "data_coleta": datetime.now().strftime("%Y-%m-%d"),
+                                        }
+                                        
+                                        produtos_data.append(produto_info)
+                                        logger.info(f"SKU coletado: {nome_produto} - {quantidade} - {preco_formatado}")
+                                        
+                                    except Exception as e:
+                                        logger.error(f"Erro ao processar SKU: {e}")
+                                        continue
+                            
+                        except Exception as e:
+                            logger.error(f"Erro ao processar produto JSON da Cobasi: {e}")
+                            continue
+                            
+                except json.JSONDecodeError as e:
+                    logger.error(f"Erro ao decodificar JSON da Cobasi: {e}")
+                    # Fallback para método HTML se JSON falhar
+                    produtos_data.extend(self._scrape_cobasi_html_fallback(soup, medicamento))
+                    
+            else:
+                logger.warning(f"Não encontrou script __NEXT_DATA__ para {medicamento}")
+                # Fallback para método HTML se não encontrar o script JSON
+                produtos_data.extend(self._scrape_cobasi_html_fallback(soup, medicamento))
+                
+            # Delay entre requisições para evitar sobrecarga do servidor
+            time.sleep(1)
+            
+        logger.info(f"Cobasi: Total de {len(produtos_data)} produtos coletados")
+        return produtos_data
+
+    def _scrape_cobasi_html_fallback(self, soup, medicamento) -> List[Dict]:
+        """Método de fallback usando HTML caso o JSON não funcione"""
+        logger.info(f"Usando método HTML fallback para {medicamento}")
+        produtos_data = []
+        
+        try:
+            # Buscar produtos usando seletores HTML (método original)
             produtos = soup.find_all('a', {'data-testid': 'product-item-v4'})
             
             if self.test_mode and produtos:
@@ -107,89 +344,38 @@ class VetMedicineScraper:
             
             for produto in produtos:
                 try:
-                    # Dados básicos
+                    # Extrair nome do produto
                     nome_elem = produto.find('h3', class_='body-text-sm')
                     nome = nome_elem.text.strip() if nome_elem else "N/A"
                     
+                    # Extrair preço
                     preco_elem = produto.find('span', class_='card-price')
                     preco = preco_elem.text.strip() if preco_elem else "N/A"
                     
-                    # Link para detalhes
-                    link_produto = produto.get('href')
-                    if link_produto and not link_produto.startswith('http'):
-                        link_produto = f"https://www.cobasi.com.br{link_produto}"
-                    
-                    # Buscar ficha técnica
-                    ficha_tecnica = self.get_cobasi_details(link_produto) if link_produto else {}
-                    
-                    # Montar dados do produto
+                    # Criar registro básico do produto
                     info_base = self.medicamento_info.get(medicamento, {})
                     produto_info = {
                         "categoria": info_base.get("categoria", "N/A"),
                         "marca": medicamento,
                         "produto": nome,
-                        "animal": ficha_tecnica.get("animal", info_base.get("animal", "N/A")),
-                        "porte": ficha_tecnica.get("porte", "N/A"),
-                        "eficacia": ficha_tecnica.get("eficacia", "N/A"),
-                        "quantidade": ficha_tecnica.get("quantidade", "N/A"),
+                        "quantidade": "N/A",
                         "preco": preco,
-                        "empresa": info_base.get("empresa", "N/A"),
                         "site": "cobasi.com.br",
-                        "url": link_produto or "N/A",
                         "data_coleta": datetime.now().strftime("%Y-%m-%d"),
+                        "metodo": "html_fallback"  # Indicar que foi coletado via fallback
                     }
                     produtos_data.append(produto_info)
-                    logger.info(f"Produto coletado: {nome}")
+                    logger.info(f"Produto coletado via HTML: {nome}")
                     
                 except Exception as e:
-                    logger.error(f"Erro ao processar produto Cobasi: {e}")
+                    logger.error(f"Erro ao processar produto HTML: {e}")
+                    continue
                     
-            time.sleep(1)  # Delay entre requisições
+        except Exception as e:
+            logger.error(f"Erro no método HTML fallback: {e}")
             
         return produtos_data
-    
-    def get_cobasi_details(self, url: str) -> Dict:
-        """Busca detalhes da ficha técnica na Cobasi"""
-        details = {}
-        try:
-            response = self.make_request(url)
-            if not response:
-                return details
-                
-            soup = BeautifulSoup(response.content, 'html.parser')
-            
-            # Buscar detalhes
-            # Para pegar os outros itens com variação de unidade, se tiver, fazer busca em url, fazendo uma copia do remedio so mudando quantidade e preço
-            accordion = soup.find('div', {'data-testid': 'accordion-details'})
-            if accordion:
-                tables = accordion.find_all('thead')
-                if len(tables) >= 11:
-                    # Animal (11° thead, 2° th)
-                    animal_row = tables[10].find_all('th')
-                    if len(animal_row) >= 2:
-                        details['animal'] = animal_row[1].text.strip()
-                    
-                    # Porte (1° thead, 2° th)
-                    porte_row = tables[0].find_all('th')
-                    if len(porte_row) >= 2:
-                        details['porte'] = porte_row[1].text.strip()
-                    
-                    # Eficácia (8° thead, 2° th)
-                    if len(tables) >= 8:
-                        eficacia_row = tables[7].find_all('th')
-                        if len(eficacia_row) >= 2:
-                            details['eficacia'] = eficacia_row[1].text.strip()
-            
-            # Quantidade
-            selected_div = soup.find('div', class_='selected')
-            if selected_div:
-                details['quantidade'] = selected_div.text.strip()
-                
-        except Exception as e:
-            logger.error(f"Erro ao buscar detalhes Cobasi: {e}")
-            
-        return details
-    
+        
     def scrape_petlove(self) -> List[Dict]:
         """Scraper para Petlove"""
         logger.info("Iniciando scraping Petlove...")
@@ -224,26 +410,32 @@ class VetMedicineScraper:
                     if link_produto and not link_produto.startswith('http'):
                         link_produto = f"https://www.petlove.com.br{link_produto}"
                     
-                    # Buscar ficha técnica
-                    ficha_tecnica = self.get_petlove_details(link_produto) if link_produto else {}
+                    # Buscar variações de quantidade
+                    variacoes = self.get_petlove_variations(link_produto) if link_produto else []
                     
-                    # Montar dados do produto
-                    info_base = self.medicamento_info.get(medicamento, {})
-                    produto_info = {
-                        "animal": ficha_tecnica.get("animal", info_base.get("animal", "N/A")),
-                        "categoria": info_base.get("categoria", "N/A"),
-                        "empresa": info_base.get("empresa", "N/A"),
-                        "produto": nome,
-                        "eficacia": ficha_tecnica.get("eficacia", "N/A"),
-                        "porte": ficha_tecnica.get("porte", "N/A"),
-                        "quantidade": ficha_tecnica.get("quantidade", "N/A"),
-                        "preco": preco,
-                        "site": "petlove.com.br",
-                        "data_coleta": datetime.now().strftime("%Y-%m-%d"),
-                        "url": link_produto or "N/A"
-                    }
-                    produtos_data.append(produto_info)
-                    logger.info(f"Produto coletado: {nome}")
+                    # Se não houver variações, criar produto único
+                    if not variacoes:
+                        variacoes = [{"quantidade": "N/A", "preco": preco}]
+                    
+                    # Criar um produto para cada variação
+                    for variacao in variacoes:
+                        info_base = self.medicamento_info.get(medicamento, {})
+                        produto_info = {
+                            "categoria": info_base.get("categoria", "N/A"),
+                            "marca": medicamento,
+                            "produto": nome,
+                            # "animal": info_base.get("animal", "N/A"),
+                            # "porte": info_base.get("porte", "N/A"),
+                            # "eficacia": info_base.get("eficacia", "N/A"),
+                            "quantidade": variacao.get("quantidade", "N/A"),
+                            "preco": variacao.get("preco", preco),
+                            # "empresa": info_base.get("empresa", "N/A"),
+                            "site": "petlove.com.br",
+                            # "url": link_produto or "N/A",
+                            "data_coleta": datetime.now().strftime("%Y-%m-%d"),
+                        }
+                        produtos_data.append(produto_info)
+                        logger.info(f"Produto coletado: {nome} - {variacao.get('quantidade', 'Único')}")
                     
                 except Exception as e:
                     logger.error(f"Erro ao processar produto Petlove: {e}")
@@ -252,53 +444,59 @@ class VetMedicineScraper:
             
         return produtos_data
     
-    def get_petlove_details(self, url: str) -> Dict:
-        """Busca detalhes da ficha técnica na Petlove"""
-        details = {}
+    def get_petlove_variations(self, url: str) -> List[Dict]:
+        """Busca variações de quantidade na Petlove"""
+        variacoes = []
         try:
             response = self.make_request(url)
             if not response:
-                return details
+                return variacoes
                 
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            # Buscar properties lists
-            properties = soup.find_all('div', class_='properties__list')
+            # Buscar na div de variações (se existir)
+            variations_popup = soup.find('div', class_='variant-list flex align-items-center full-width')
+            if variations_popup:
+                variation_items = variations_popup.find_all('div', class_='badge__container variant-selector__badge')
+
+                for item in variation_items:
+                    try:
+                        # Quantidade
+                        nome_elem = item.find('span', class_='font-bold mb-2')
+                        quantidade = nome_elem.text.strip() if nome_elem else "Único"
+
+                        # Preço
+                        preco_elem = item.find('div', class_='font-body-s')
+                        preco = preco_elem.text.strip() if preco_elem else "N/A"
+                        
+                        variacoes.append({
+                            "quantidade": quantidade,
+                            "preco": preco
+                        })
+                        
+                    except Exception as e:
+                        logger.error(f"Erro ao processar item de variação Petlove: {e}")
             
-            # if len(properties) >= 5:
-                # Animal (1° div, 2° div interno)
-                # animal_divs = properties[0].find_all('div')
-                # if len(animal_divs) >= 2:
-                #     details['animal'] = animal_divs[1].text.strip()
-                
-                # Porte (2° div, 2° div interno)
-                # porte_divs = properties[1].find_all('div')
-                # if len(porte_divs) >= 2:
-                #     details['porte'] = porte_divs[1].text.strip()
-                
-                # Eficácia (5° div, 2° div interno)
-                # eficacia_divs = properties[4].find_all('div')
-                # if len(eficacia_divs) >= 2:
-                #     details['eficacia'] = eficacia_divs[1].text.strip()
-            
-            # Quantidade
-            # Para pegar as outras unidades usar div class="variant-list", tem preço e unidade (fazer copia)
-            variant_selected_button = soup.find('button', class_='size-select-button')
-            variant_selected = variant_selected_button.find('b')
-            variants = soup.find('div', class_='produto-popup-variacoes hidden').find_all('div', class_="variacao-item")
-            for var in variants:
-                unidade_var = var.find('div', class_='item-name')
-                if unidade_var:
-                    details['quantidade'] = unidade_var.text.strip()
-            # if variant_selected:
-            #     qtd_elem = variant_selected.find('span')
-            #     if qtd_elem:
-            #         details['quantidade'] = qtd_elem.text.strip()
+            # Se não encontrou no popup, buscar no botão selecionado
+            if not variacoes:
+                selected_button = soup.find('button', class_='size-select-button')
+                if selected_button:
+                    quantidade_elem = selected_button.find('b')
+                    quantidade = quantidade_elem.text.strip() if quantidade_elem else "Único"
+
+                    # Preço atual
+                    price_elem = soup.find('span', class_='price-value') or soup.find('div', class_='price')
+                    preco = price_elem.text.strip() if price_elem else "N/A"
+                    
+                    variacoes.append({
+                        "quantidade": quantidade,
+                        "preco": preco
+                    })
                     
         except Exception as e:
-            logger.error(f"Erro ao buscar detalhes Petlove: {e}")
+            logger.error(f"Erro ao buscar variações Petlove: {e}")
             
-        return details
+        return variacoes
     
     def scrape_petz(self) -> List[Dict]:
         """Scraper para Petz"""
@@ -321,52 +519,45 @@ class VetMedicineScraper:
             
             for produto in produtos:
                 try:
-                    # {"price":"103.99","name":"Revolution Zoetis 6% 0.75ml para Gatos 2,6Kg a 7,5Kg","promotional_price":"72.79","priceForSubs":"72.79","id":"74618","sku":"74618","category":"Antipulgas e Carrapatos","brand":"Zoetis","hideSubscriberDiscountPrice":false}
-                    # Em manutenção
+                    # Link do produto
                     aux = produto.find('meta', itemprop="url")
                     link_produto = aux.get('content') if aux else "N/A"
-                    # aux = produto.find('a', class_="card-link-product")
-                    # logger.info(f"Aux: {aux.get_text(strip=True)}")
-                    # json_prod = json.loads(aux.get_text(strip=True))
-                    # preco = json_prod['price']
-                    # nome = json_prod['name']
-                    # link_produto = json_prod['url']
-                    # variacao = json_prod['variationDescription']
-                    # logger.info(json_prod)
                     
-                    # Dados básicos
-                    aux = json.loads(produto.get_text(strip=True))
-                    nome = aux['name'].strip() if aux else "N/A"
-                    preco = aux['price'].strip() if aux else "N/A"
-
+                    # Dados do JSON
+                    try:
+                        produto_json = json.loads(produto.get_text(strip=True))
+                        nome = produto_json.get('name', 'N/A').strip()
+                        preco_base = produto_json.get('price', 'N/A')
+                    except:
+                        nome = "N/A"
+                        preco_base = "N/A"
                     
-                    # Link para detalhes
-                    # link_elem = produto.find('a', class_='card-link-product')
-                    # link_produto = link_elem.get('href') if link_elem else None
-                    # if link_produto and not link_produto.startswith('http'):
-                    #     link_produto = f"https://www.petz.com.br{link_produto}"
+                    # Buscar variações de quantidade
+                    variacoes = self.get_petz_variations(link_produto) if link_produto != "N/A" else []
                     
-                    # Buscar ficha técnica
-                    ficha_tecnica = self.get_petz_details(link_produto) if link_produto else {}
+                    # Se não houver variações, criar produto único
+                    if not variacoes:
+                        variacoes = [{"quantidade": "N/A", "preco": preco_base}]
                     
-                    # Montar dados do produto
-                    info_base = self.medicamento_info.get(medicamento, {})
-                    produto_info = {
-                        "categoria": info_base.get("categoria", "N/A"),
-                        "marca": medicamento,
-                        "produto": nome,
-                        "animal": ficha_tecnica.get("animal", info_base.get("animal", "N/A")),
-                        "porte": ficha_tecnica.get("porte", "N/A"),
-                        "eficacia": ficha_tecnica.get("eficacia", "N/A"),
-                        "quantidade": ficha_tecnica.get("quantidade", "N/A"),
-                        "preco": preco,
-                        "empresa": info_base.get("empresa", "N/A"),
-                        "site": "petz.com.br",
-                        "url": link_produto or "N/A",
-                        "data_coleta": datetime.now().strftime("%Y-%m-%d"),
-                    }
-                    produtos_data.append(produto_info)
-                    logger.info(f"Produto coletado: {nome}")
+                    # Criar um produto para cada variação
+                    for variacao in variacoes:
+                        info_base = self.medicamento_info.get(medicamento, {})
+                        produto_info = {
+                            "categoria": info_base.get("categoria", "N/A"),
+                            "marca": medicamento,
+                            "produto": nome,
+                            # "animal": info_base.get("animal", "N/A"),
+                            # "porte": info_base.get("porte", "N/A"),
+                            # "eficacia": info_base.get("eficacia", "N/A"),
+                            "quantidade": variacao.get("quantidade", "N/A"),
+                            "preco": variacao.get("preco", preco_base),
+                            # "empresa": info_base.get("empresa", "N/A"),
+                            "site": "petz.com.br",
+                            # "url": link_produto,
+                            "data_coleta": datetime.now().strftime("%Y-%m-%d"),
+                        }
+                        produtos_data.append(produto_info)
+                        logger.info(f"Produto coletado: {nome} - {variacao.get('quantidade', 'Único')}")
                     
                 except Exception as e:
                     logger.error(f"Erro ao processar produto Petz: {e}")
@@ -375,53 +566,61 @@ class VetMedicineScraper:
             
         return produtos_data
     
-    def get_petz_details(self, url: str) -> Dict:
-        """Busca detalhes da ficha técnica na Petz"""
-        details = {}
+    def get_petz_variations(self, url: str) -> List[Dict]:
+        """Busca variações de quantidade na Petz"""
+        variacoes = []
         try:
             response = self.make_request(url)
             if not response:
-                return details
+                return variacoes
                 
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            # Buscar specifications
-            specs_section = soup.find('section', id='specifications')
-            if specs_section:
-                spec_items = specs_section.find_all('li', class_='specifications')
+            # Buscar no popup de variações
+            popup_variacoes = soup.find('div', id='popupVariacoes')
+            if popup_variacoes:
+                variation_items = popup_variacoes.find_all('div', class_='variacao-item')
                 
-                # Animal (2° li, 2° span)
-                if len(spec_items) >= 2:
-                    animal_spans = spec_items[1].find_all('span')
-                    if len(animal_spans) >= 2:
-                        details['animal'] = animal_spans[1].text.strip()
-                
-                # Porte (3° li, 2° span)
-                if len(spec_items) >= 3:
-                    porte_spans = spec_items[2].find_all('span')
-                    if len(porte_spans) >= 2:
-                        details['porte'] = porte_spans[1].text.strip()
+                for item in variation_items:
+                    logger.debug(f"Processando variação: {item}")
+                    try:
+
+                        # Quantidade
+                        nome_elem = item.find('div', class_='item-name')
+                        quantidade = nome_elem.get_text(strip=True) if nome_elem else "Único"
+                        
+                        # Preço
+                        preco_elem = item.find('b')
+                        preco = preco_elem.get_text(strip=True) if preco_elem else "N/A"
+                        
+                        variacoes.append({
+                            "quantidade": quantidade,
+                            "preco": preco
+                        })
+                        
+                    except Exception as e:
+                        logger.error(f"Erro ao processar variação Petz: {e}")
             
-            # Eficácia (buscar no texto com regex)
-            spec_content = soup.find('div', class_='spec-content')
-            if spec_content:
-                texto = spec_content.text
-                match = re.search(r'protege por (\d+ dias)', texto, re.IGNORECASE)
-                if match:
-                    details['eficacia'] = match.group(1)
-            
-            # Quantidade
-            # Para pegar as outras unidades, pegar pela div id="popupVariacoes", tem o preço lá tambem (fazer cópia)
-            nome_var = soup.find('div', class_='nome-variacao')
-            if nome_var:
-                qtd_elem = nome_var.find('b')
-                if qtd_elem:
-                    details['quantidade'] = qtd_elem.text.strip()
+            # Se não encontrou no popup, buscar na variação atual
+            if not variacoes:
+                nome_var = soup.find('div', class_='nome-variacao')
+                if nome_var:
+                    qtd_elem = nome_var.find('b')
+                    quantidade = qtd_elem.text.strip() if qtd_elem else "Único"
+                    
+                    # Preço atual
+                    price_elem = soup.find('span', class_='price') or soup.find('div', class_='preco')
+                    preco = price_elem.text.strip() if price_elem else "N/A"
+                    
+                    variacoes.append({
+                        "quantidade": quantidade,
+                        "preco": preco
+                    })
                     
         except Exception as e:
-            logger.error(f"Erro ao buscar detalhes Petz: {e}")
+            logger.error(f"Erro ao buscar variações Petz: {e}")
             
-        return details
+        return variacoes
     
     def save_to_excel(self, data: List[Dict], filename: str):
         """Salva dados em arquivo Excel"""
@@ -445,20 +644,20 @@ class VetMedicineScraper:
         logger.info("=" * 50)
         
         # Scraping Cobasi
-        # try:
-        #     cobasi_data = self.scrape_cobasi()
-        #     self.save_to_excel(cobasi_data, f"cobasi_{datetime.now().strftime('%Y%m%d')}.xlsx")
-        #     logger.info(f"Cobasi: {len(cobasi_data)} produtos coletados")
-        # except Exception as e:
-        #     logger.error(f"Erro no scraping Cobasi: {e}")
+        try:
+            cobasi_data = self.scrape_cobasi()
+            self.save_to_excel(cobasi_data, f"cobasi_{datetime.now().strftime('%Y%m%d')}.xlsx")
+            logger.info(f"Cobasi: {len(cobasi_data)} produtos coletados")
+        except Exception as e:
+            logger.error(f"Erro no scraping Cobasi: {e}")
         
-        # # Scraping Petlove
-        # try:
-        #     petlove_data = self.scrape_petlove()
-        #     self.save_to_excel(petlove_data, f"petlove_{datetime.now().strftime('%Y%m%d')}.xlsx")
-        #     logger.info(f"Petlove: {len(petlove_data)} produtos coletados")
-        # except Exception as e:
-        #     logger.error(f"Erro no scraping Petlove: {e}")
+        # Scraping Petlove
+        try:
+            petlove_data = self.scrape_petlove()
+            self.save_to_excel(petlove_data, f"petlove_{datetime.now().strftime('%Y%m%d')}.xlsx")
+            logger.info(f"Petlove: {len(petlove_data)} produtos coletados")
+        except Exception as e:
+            logger.error(f"Erro no scraping Petlove: {e}")
         
         # Scraping Petz
         try:
