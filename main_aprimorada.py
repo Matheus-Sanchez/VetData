@@ -53,17 +53,21 @@ class RequestHandler:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
         })
     
     def make_request(self, url: str, max_retries: int = 3) -> Optional[requests.Response]:
         """Faz requisição com retry"""
         for i in range(max_retries):
+            requests.cookies = dict(cookies_are='working')
+            cookies = dict(cookies_are='working')
             try:
-                response = self.session.get(url, timeout=10)
+                response = self.session.get(url, timeout=10, cookies=cookies)
                 if response.status_code == 200:
                     return response
                 logger.warning(f"Status code {response.status_code} para {url}")
+                logger.logging.info(f"Tentativa {i+1} de {max_retries} falhou para {url}: Status {response.reason}")
+                logger.warning(f", URL: {url} /n, motivo: {response.reason}")
             except Exception as e:
                 logger.error(f"Erro na requisição {url}: {e}")
                 if i < max_retries - 1:
