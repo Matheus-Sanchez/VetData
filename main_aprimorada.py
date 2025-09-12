@@ -1,8 +1,10 @@
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
+from bs4.element import Tag
 import pandas as pd
 from datetime import datetime
 import time
+import random
 import re
 import os
 import json
@@ -48,26 +50,130 @@ class ProdutoInfo:
     metodo: Optional[str] = None
 
 class RequestHandler:
-    """Classe responsável por fazer requisições HTTP"""
+    """Classe responsável por fazer requisições HTTP com proteções anti-bot"""
     
     def __init__(self):
         self.session = requests.Session()
+        
+        # Lista de User-Agents realistas
+        self.user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/120.0.0.0 Safari/537.36',
+        ]
+        
+        self.setup_session()
+    
+    def accept_cookies(self, site_url: str):
+        """Acessa a home do site para receber cookies de consentimento"""
+        try:
+            response = self.session.get(f"https://{site_url}", timeout=10)
+            if response.status_code == 200:
+                logger.info(f"Cookies aceitos automaticamente de {site_url}")
+        except Exception as e:
+            logger.warning(f"Falha ao aceitar cookies de {site_url}: {e}")
+    
+    def setup_session(self):
+        """Configura a sessão com headers realistas"""
+        self.session.cookies.set('OptanonAlertBoxClosed', '2024-01-01T00:00:00.000Z')
+        
+        # Headers mais realistas
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': random.choice(self.user_agents),
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'Accept-Language': 'pt-BR,pt;q=0.9,en;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'DNT': '1',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0',
         })
     
+    def rotate_user_agent(self):
+        """Rotaciona o User-Agent"""
+        self.session.headers['User-Agent'] = random.choice(self.user_agents)
+    
+    
+    def add_site_specific_headers(self, url: str):
+        """Adiciona headers específicos para cada site"""
+        if 'petlove.com.br' in url:
+            self.session.headers.update({
+                'Referer': 'https://www.petlove.com.br/',
+                'Origin': 'https://www.petlove.com.br',
+                'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+                'Sec-Ch-Ua-Mobile': '?0',
+                'Sec-Ch-Ua-Platform': '"Windows"',
+            })
+        elif 'petz.com.br' in url:
+            self.session.headers.update({
+                'Referer': 'https://www.petz.com.br/',
+                'Origin': 'https://www.petz.com.br',
+                'X-Requested-With': 'XMLHttpRequest',
+            })
+        elif 'cobasi.com.br' in url:
+            self.session.headers.update({
+                'Referer': 'https://www.cobasi.com.br/',
+                'Origin': 'https://www.cobasi.com.br',
+            })
+    
     def make_request(self, url: str, max_retries: int = 3) -> Optional[requests.Response]:
-        """Faz requisição com retry"""
-        for i in range(max_retries):
+        """Faz requisição com retry e proteções anti-bot"""
+        for attempt in range(max_retries):
             try:
-                response = self.session.get(url, timeout=10)
+                # Rotacionar User-Agent a cada tentativa
+                self.rotate_user_agent()
+                
+                # Adicionar headers específicos do site
+                self.add_site_specific_headers(url)
+                
+                # Delay aleatório entre requisições
+                if attempt > 0:
+                    delay = random.uniform(2, 5) + (attempt * 2)
+                    logger.info(f"Aguardando {delay:.2f}s antes da tentativa {attempt + 1}")
+                    time.sleep(delay)
+                
+                self.session.headers.update({
+                    "X-Forwarded-For": f"177.{random.randint(0,255)}.{random.randint(0,255)}.{random.randint(0,255)}",
+                    "Pragma": "no-cache",
+                    "Cache-Control": "no-cache"
+                })
+
+                # Fazer a requisição
+                response = self.session.get(
+                    url, 
+                    timeout=15,
+                    allow_redirects=True
+                )
+                
+                logger.info(f"Status {response.status_code} para {url}")
+                
                 if response.status_code == 200:
                     return response
-                logger.warning(f"Status code {response.status_code} para {url}")
+                elif response.status_code == 403:
+                    logger.warning(f"403 Forbidden - Tentativa {attempt + 1}/{max_retries}")
+                elif response.status_code == 429:
+                    logger.warning(f"429 Too Many Requests - Aguardando mais tempo")
+                    time.sleep(random.uniform(10, 20))
+                    continue
+                else:
+                    logger.warning(f"Status code {response.status_code} para {url}")
+                    
+            except requests.exceptions.Timeout as e:
+                logger.error(f"Timeout na requisição {url}: {e}")
+                continue
             except Exception as e:
                 logger.error(f"Erro na requisição {url}: {e}")
-                if i < max_retries - 1:
-                    time.sleep(2 ** i)  # Backoff exponencial
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)  # Backoff exponencial
+        
         return None
 
 class DataManager:
@@ -210,6 +316,7 @@ class CobasiScraper(BaseSiteScraper):
         produtos = []
         
         url = f"https://www.cobasi.com.br/pesquisa?terms={medicamento}"
+        self.request_handler.accept_cookies(f"www.cobasi.com.br/pesquisa?terms={medicamento}")
         response = self.request_handler.make_request(url)
         
         if not response:
@@ -357,6 +464,7 @@ class PetloveScraper(BaseSiteScraper):
         produtos = []
         
         url = f"https://www.petlove.com.br/busca?q={medicamento}"
+        self.request_handler.accept_cookies(f"www.petlove.com.br/busca?q={medicamento}")
         response = self.request_handler.make_request(url)
         
         if not response:
@@ -370,8 +478,13 @@ class PetloveScraper(BaseSiteScraper):
         
         info_base = self.data_manager.get_medicamento_info(medicamento)
         
+        from bs4 import Tag
         for produto_html in produtos_html:
             try:
+                # Certifique-se de que produto_html é um Tag antes de acessar .find
+                if not isinstance(produto_html, Tag):
+                    continue
+
                 nome_elem = produto_html.find('h2', class_='product-card__name')
                 nome = nome_elem.text.strip() if nome_elem else "N/A"
 
@@ -379,12 +492,19 @@ class PetloveScraper(BaseSiteScraper):
                 preco = preco_elem.text.strip() if preco_elem else "N/A"
                 
                 link_elem = produto_html.find('a', {'itemprop': 'url'})
-                link_produto = link_elem.get('href') if link_elem else None
-                if link_produto and not link_produto.startswith('http'):
-                    link_produto = f"https://www.petlove.com.br{link_produto}"
+                link_produto = None
+                from bs4 import Tag
+                if link_elem and isinstance(link_elem, Tag):
+                    link_produto = link_elem.get('href')
+                if link_produto:
+                    # Se link_produto não for string, converte para string
+                    if not isinstance(link_produto, str):
+                        link_produto = str(link_produto)
+                    if not link_produto.startswith('http'):
+                        link_produto = f"https://www.petlove.com.br{link_produto}"
                 
                 # Buscar variações
-                variacoes = self._get_variations(link_produto) if link_produto else []
+                variacoes = self._get_variations(str(link_produto)) if link_produto else []
                 
                 if not variacoes:
                     variacoes = [{"quantidade": "N/A", "preco": preco}]
@@ -396,7 +516,7 @@ class PetloveScraper(BaseSiteScraper):
                         produto=nome,
                         quantidade=variacao.get("quantidade", "N/A"),
                         preco=variacao.get("preco", preco),
-                        url=link_produto or "N/A",
+                        url=str(link_produto) if link_produto else "N/A",
                         site=self.site_url,
                         data_coleta=datetime.now().strftime("%Y-%m-%d"),
                     )
@@ -419,11 +539,14 @@ class PetloveScraper(BaseSiteScraper):
             
             # Buscar variações no popup
             variations_popup = soup.find('div', class_='variant-list flex align-items-center full-width')
-            if variations_popup:
+
+            if variations_popup and isinstance(variations_popup, Tag):
                 variation_items = variations_popup.find_all('div', class_='badge__container variant-selector__badge')
 
                 for item in variation_items:
                     try:
+                        if not isinstance(item, Tag):
+                            continue
                         nome_elem = item.find('span', class_='font-bold mb-2')
                         quantidade = nome_elem.text.strip() if nome_elem else "Único"
 
@@ -438,7 +561,8 @@ class PetloveScraper(BaseSiteScraper):
             # Fallback para botão selecionado
             if not variacoes:
                 selected_button = soup.find('button', class_='size-select-button')
-                if selected_button:
+                from bs4 import Tag
+                if selected_button and isinstance(selected_button, Tag):
                     quantidade_elem = selected_button.find('b')
                     quantidade = quantidade_elem.text.strip() if quantidade_elem else "Único"
 
@@ -469,6 +593,7 @@ class PetzScraper(BaseSiteScraper):
         produtos = []
         
         url = f"https://www.petz.com.br/busca?q={medicamento}"
+        self.request_handler.accept_cookies(f"www.petz.com.br/busca?q={medicamento}")
         response = self.request_handler.make_request(url)
         
         if not response:
@@ -497,7 +622,7 @@ class PetzScraper(BaseSiteScraper):
                     preco_base = "N/A"
                 
                 # Buscar variações
-                variacoes = self._get_variations(link_produto) if link_produto != "N/A" else []
+                variacoes = self._get_variations(str(link_produto)) if link_produto != "N/A" else []
                 
                 if not variacoes:
                     variacoes = [{"quantidade": "N/A", "preco": preco_base}]
@@ -510,7 +635,7 @@ class PetzScraper(BaseSiteScraper):
                         quantidade=variacao.get("quantidade", "N/A"),
                         preco=variacao.get("preco", preco_base),
                         site=self.site_url,
-                        url=link_produto,
+                        url=str(link_produto) if link_produto != "N/A" else "N/A",
                         data_coleta=datetime.now().strftime("%Y-%m-%d")
                     )
                     produtos.append(produto)
@@ -574,12 +699,17 @@ class VetMedicineScraperManager:
         self.data_manager = DataManager()
         self.file_manager = FileManager()
         
+        # Aceitar cookies antes de rodar os scrapers
+        for site in ["www.cobasi.com.br", "www.petlove.com.br", "www.petz.com.br"]:
+            self.request_handler.accept_cookies(site)
+
         # Inicializar scrapers
         self.scrapers = [
             CobasiScraper(self.request_handler, self.data_manager, test_mode),
             PetloveScraper(self.request_handler, self.data_manager, test_mode),
             PetzScraper(self.request_handler, self.data_manager, test_mode)
         ]
+
     
     def run_scraper(self, scraper: BaseSiteScraper) -> bool:
         """Executa um scraper específico"""
