@@ -1,0 +1,597 @@
+2025-09-12 12:05:36,707 - INFO - Gerenciador inicializado - Modo: TESTE
+2025-09-12 12:05:36,707 - INFO - Inicializando driver Selenium com webdriver-manager...
+2025-09-12 12:05:36,707 - INFO - Configurando Chrome com webdriver-manager...
+2025-09-12 12:05:36,707 - INFO - ====== WebDriver manager ======
+2025-09-12 12:05:38,327 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 12:05:38,612 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 12:05:38,872 - INFO - Driver [C:\Users\gipal\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 12:05:39,859 - INFO - Chrome configurado com sucesso!
+2025-09-12 12:05:39,859 - INFO - Driver e scrapers inicializados com sucesso!
+2025-09-12 12:05:39,859 - INFO - ============================================================
+2025-09-12 12:05:39,859 - INFO - INICIANDO SCRAPING COMPLETO - Modo: TESTE
+2025-09-12 12:05:39,859 - INFO - ============================================================
+2025-09-12 12:05:39,859 - INFO - 
+>>> Processando site 1/3: Cobasi
+2025-09-12 12:05:39,859 - INFO - Iniciando scraping para Cobasi...
+2025-09-12 12:05:39,859 - INFO - Iniciando scraping completo para Cobasi...
+2025-09-12 12:05:39,859 - INFO - Processando Simparic (1/20)
+2025-09-12 12:05:39,860 - INFO - Buscando Simparic na Cobasi...
+2025-09-12 12:05:47,064 - INFO - Cookies aceitos automaticamente!
+2025-09-12 12:05:48,087 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Simparic (Tentativa 1)
+2025-09-12 12:05:51,294 - INFO - Navegação bem-sucedida!
+2025-09-12 12:05:54,306 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:05:54,307 - INFO - Dados extraídos via JSON para Simparic
+2025-09-12 12:05:54,307 - INFO - Encontrados 2 produtos para Simparic
+2025-09-12 12:05:54,307 - INFO - Aguardando 2.4s...
+2025-09-12 12:05:56,746 - INFO - Processando Revolution (2/20)
+2025-09-12 12:05:56,747 - INFO - Buscando Revolution na Cobasi...
+2025-09-12 12:07:43,829 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Revolution (Tentativa 1)
+2025-09-12 12:07:48,527 - INFO - Navegação bem-sucedida!
+2025-09-12 12:07:51,618 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:07:51,619 - INFO - Dados extraídos via JSON para Revolution
+2025-09-12 12:07:51,619 - INFO - Encontrados 2 produtos para Revolution
+2025-09-12 12:07:51,620 - INFO - Aguardando 2.0s...
+2025-09-12 12:07:53,606 - INFO - Processando NexGard (3/20)
+2025-09-12 12:07:53,606 - INFO - Buscando NexGard na Cobasi...
+2025-09-12 12:09:42,855 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=NexGard (Tentativa 1)
+2025-09-12 12:09:47,895 - INFO - Navegação bem-sucedida!
+2025-09-12 12:09:50,976 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:09:50,977 - INFO - Dados extraídos via JSON para NexGard
+2025-09-12 12:09:50,977 - INFO - Encontrados 2 produtos para NexGard
+2025-09-12 12:09:50,977 - INFO - Aguardando 1.3s...
+2025-09-12 12:09:52,298 - INFO - Processando NexGard Spectra (4/20)
+2025-09-12 12:09:52,298 - INFO - Buscando NexGard Spectra na Cobasi...
+2025-09-12 12:11:41,884 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=NexGard Spectra (Tentativa 1)
+2025-09-12 12:11:48,284 - INFO - Navegação bem-sucedida!
+2025-09-12 12:11:51,298 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:11:51,298 - INFO - Dados extraídos via JSON para NexGard Spectra
+2025-09-12 12:11:51,298 - INFO - Encontrados 2 produtos para NexGard Spectra
+2025-09-12 12:11:51,298 - INFO - Aguardando 1.4s...
+2025-09-12 12:11:52,699 - INFO - Processando NexGard Combo (5/20)
+2025-09-12 12:11:52,700 - INFO - Buscando NexGard Combo na Cobasi...
+2025-09-12 12:13:38,394 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=NexGard Combo (Tentativa 1)
+2025-09-12 12:13:43,555 - INFO - Navegação bem-sucedida!
+2025-09-12 12:13:46,568 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:13:46,568 - INFO - Dados extraídos via JSON para NexGard Combo
+2025-09-12 12:13:46,568 - INFO - Encontrados 2 produtos para NexGard Combo
+2025-09-12 12:13:46,568 - INFO - Aguardando 2.1s...
+2025-09-12 12:13:48,621 - INFO - Processando Bravecto (6/20)
+2025-09-12 12:13:48,621 - INFO - Buscando Bravecto na Cobasi...
+2025-09-12 12:15:36,506 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Bravecto (Tentativa 1)
+2025-09-12 12:15:49,610 - INFO - Navegação bem-sucedida!
+2025-09-12 12:15:52,700 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:15:52,702 - INFO - Dados extraídos via JSON para Bravecto
+2025-09-12 12:15:52,702 - INFO - Encontrados 1 produtos para Bravecto
+2025-09-12 12:15:52,703 - INFO - Aguardando 2.3s...
+2025-09-12 12:15:54,984 - INFO - Processando Frontline (7/20)
+2025-09-12 12:15:54,985 - INFO - Buscando Frontline na Cobasi...
+2025-09-12 12:17:46,614 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Frontline (Tentativa 1)
+2025-09-12 12:17:55,355 - INFO - Navegação bem-sucedida!
+2025-09-12 12:17:58,455 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:17:58,457 - INFO - Dados extraídos via JSON para Frontline
+2025-09-12 12:17:58,458 - INFO - Encontrados 1 produtos para Frontline
+2025-09-12 12:17:58,459 - INFO - Aguardando 2.6s...
+2025-09-12 12:18:01,102 - INFO - Processando Advocate (8/20)
+2025-09-12 12:18:01,103 - INFO - Buscando Advocate na Cobasi...
+2025-09-12 12:19:54,936 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Advocate (Tentativa 1)
+2025-09-12 12:20:04,021 - INFO - Navegação bem-sucedida!
+2025-09-12 12:20:07,111 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:20:07,112 - INFO - Dados extraídos via JSON para Advocate
+2025-09-12 12:20:07,113 - INFO - Encontrados 2 produtos para Advocate
+2025-09-12 12:20:07,114 - INFO - Aguardando 1.5s...
+2025-09-12 12:20:08,631 - INFO - Processando Drontal (9/20)
+2025-09-12 12:20:08,632 - INFO - Buscando Drontal na Cobasi...
+2025-09-12 12:21:59,468 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Drontal (Tentativa 1)
+2025-09-12 12:22:07,829 - INFO - Navegação bem-sucedida!
+2025-09-12 12:22:10,914 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:22:10,915 - INFO - Dados extraídos via JSON para Drontal
+2025-09-12 12:22:10,916 - INFO - Encontrados 2 produtos para Drontal
+2025-09-12 12:22:10,917 - INFO - Aguardando 2.0s...
+2025-09-12 12:22:12,960 - INFO - Processando Milbemax (10/20)
+2025-09-12 12:22:12,961 - INFO - Buscando Milbemax na Cobasi...
+2025-09-12 12:24:03,725 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Milbemax (Tentativa 1)
+2025-09-12 12:24:13,388 - INFO - Navegação bem-sucedida!
+2025-09-12 12:24:16,483 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:24:16,485 - INFO - Dados extraídos via JSON para Milbemax
+2025-09-12 12:24:16,486 - INFO - Encontrados 1 produtos para Milbemax
+2025-09-12 12:24:16,486 - INFO - Aguardando 1.5s...
+2025-09-12 12:24:17,975 - INFO - Processando Vermivet (11/20)
+2025-09-12 12:24:17,976 - INFO - Buscando Vermivet na Cobasi...
+2025-09-12 12:26:09,180 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Vermivet (Tentativa 1)
+2025-09-12 12:26:17,289 - INFO - Navegação bem-sucedida!
+2025-09-12 12:26:20,371 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:26:20,372 - INFO - Dados extraídos via JSON para Vermivet
+2025-09-12 12:26:20,373 - INFO - Encontrados 1 produtos para Vermivet
+2025-09-12 12:26:20,374 - INFO - Aguardando 1.0s...
+2025-09-12 12:26:21,403 - INFO - Processando Rimadyl (12/20)
+2025-09-12 12:26:21,405 - INFO - Buscando Rimadyl na Cobasi...
+2025-09-12 12:28:12,171 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Rimadyl (Tentativa 1)
+2025-09-12 12:28:21,321 - INFO - Navegação bem-sucedida!
+2025-09-12 12:28:24,398 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:28:24,400 - INFO - Dados extraídos via JSON para Rimadyl
+2025-09-12 12:28:24,401 - INFO - Encontrados 1 produtos para Rimadyl
+2025-09-12 12:28:24,402 - INFO - Aguardando 1.2s...
+2025-09-12 12:28:25,568 - INFO - Processando Onsior (13/20)
+2025-09-12 12:28:25,569 - INFO - Buscando Onsior na Cobasi...
+2025-09-12 12:30:16,928 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Onsior (Tentativa 1)
+2025-09-12 12:30:24,801 - INFO - Navegação bem-sucedida!
+2025-09-12 12:30:27,882 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:30:27,883 - INFO - Dados extraídos via JSON para Onsior
+2025-09-12 12:30:27,884 - INFO - Encontrados 1 produtos para Onsior
+2025-09-12 12:30:27,884 - INFO - Aguardando 2.9s...
+2025-09-12 12:30:30,761 - INFO - Processando Maxicam (14/20)
+2025-09-12 12:30:30,763 - INFO - Buscando Maxicam na Cobasi...
+2025-09-12 12:32:21,029 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Maxicam (Tentativa 1)
+2025-09-12 12:32:28,996 - INFO - Navegação bem-sucedida!
+2025-09-12 12:32:32,104 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:32:32,106 - INFO - Dados extraídos via JSON para Maxicam
+2025-09-12 12:32:32,106 - INFO - Encontrados 1 produtos para Maxicam
+2025-09-12 12:32:32,107 - INFO - Aguardando 1.0s...
+2025-09-12 12:32:33,151 - INFO - Processando Carproflan (15/20)
+2025-09-12 12:32:33,153 - INFO - Buscando Carproflan na Cobasi...
+2025-09-12 12:34:24,361 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Carproflan (Tentativa 1)
+2025-09-12 12:34:31,184 - INFO - Navegação bem-sucedida!
+2025-09-12 12:34:34,241 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:34:34,242 - INFO - Dados extraídos via JSON para Carproflan
+2025-09-12 12:34:34,243 - INFO - Encontrados 1 produtos para Carproflan
+2025-09-12 12:34:34,244 - INFO - Aguardando 2.8s...
+2025-09-12 12:34:36,997 - INFO - Processando Previcox (16/20)
+2025-09-12 12:34:36,998 - INFO - Buscando Previcox na Cobasi...
+2025-09-12 12:36:27,839 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Previcox (Tentativa 1)
+2025-09-12 12:36:35,265 - INFO - Navegação bem-sucedida!
+2025-09-12 12:36:38,331 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:36:38,332 - INFO - Dados extraídos via JSON para Previcox
+2025-09-12 12:36:38,333 - INFO - Encontrados 1 produtos para Previcox
+2025-09-12 12:36:38,334 - INFO - Aguardando 1.9s...
+2025-09-12 12:36:40,243 - INFO - Processando Apoquel (17/20)
+2025-09-12 12:36:40,244 - INFO - Buscando Apoquel na Cobasi...
+2025-09-12 12:38:31,087 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Apoquel (Tentativa 1)
+2025-09-12 12:38:38,037 - INFO - Navegação bem-sucedida!
+2025-09-12 12:38:41,132 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:38:41,134 - INFO - Dados extraídos via JSON para Apoquel
+2025-09-12 12:38:41,134 - INFO - Encontrados 1 produtos para Apoquel
+2025-09-12 12:38:41,135 - INFO - Aguardando 2.9s...
+2025-09-12 12:38:44,031 - INFO - Processando Zenrelia (18/20)
+2025-09-12 12:38:44,033 - INFO - Buscando Zenrelia na Cobasi...
+2025-09-12 12:40:33,998 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Zenrelia (Tentativa 1)
+2025-09-12 12:40:42,344 - INFO - Navegação bem-sucedida!
+2025-09-12 12:40:45,423 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:40:45,424 - INFO - Dados extraídos via JSON para Zenrelia
+2025-09-12 12:40:45,424 - INFO - Encontrados 1 produtos para Zenrelia
+2025-09-12 12:40:45,425 - INFO - Aguardando 1.2s...
+2025-09-12 12:40:46,628 - INFO - Processando Synulox (19/20)
+2025-09-12 12:40:46,630 - INFO - Buscando Synulox na Cobasi...
+2025-09-12 12:42:36,493 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Synulox (Tentativa 1)
+2025-09-12 12:42:46,170 - INFO - Navegação bem-sucedida!
+2025-09-12 12:42:49,244 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:42:49,244 - INFO - Dados extraídos via JSON para Synulox
+2025-09-12 12:42:49,244 - INFO - Encontrados 1 produtos para Synulox
+2025-09-12 12:42:49,245 - INFO - Aguardando 2.7s...
+2025-09-12 12:42:51,931 - INFO - Processando Baytril (20/20)
+2025-09-12 12:42:51,933 - INFO - Buscando Baytril na Cobasi...
+2025-09-12 12:44:43,080 - INFO - Navegando para: https://www.cobasi.com.br/pesquisa?terms=Baytril (Tentativa 1)
+2025-09-12 12:44:54,215 - INFO - Navegação bem-sucedida!
+2025-09-12 12:44:57,293 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:44:57,294 - INFO - Dados extraídos via JSON para Baytril
+2025-09-12 12:44:57,295 - INFO - Encontrados 1 produtos para Baytril
+2025-09-12 12:44:57,296 - INFO - Cobasi: 27 produtos coletados no total
+2025-09-12 12:44:58,652 - INFO - Dados salvos: dados_coletados\cobasi_20250912_124457.xlsx (27 produtos)
+2025-09-12 12:44:58,653 - INFO - Cobasi: 27 produtos salvos em cobasi_20250912_124457.xlsx
+2025-09-12 12:44:58,654 - INFO - Aguardando 4.2s antes do próximo site...
+2025-09-12 12:45:02,857 - INFO - 
+>>> Processando site 2/3: Petlove
+2025-09-12 12:45:02,857 - INFO - Iniciando scraping para Petlove...
+2025-09-12 12:45:02,858 - INFO - Iniciando scraping completo para Petlove...
+2025-09-12 12:45:02,858 - INFO - Processando Simparic (1/20)
+2025-09-12 12:45:02,858 - INFO - Buscando Simparic na Petlove...
+2025-09-12 12:46:52,116 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Simparic (Tentativa 1)
+2025-09-12 12:48:52,129 - ERROR - Erro inesperado: HTTPConnectionPool(host='localhost', port=64873): Read timed out. (read timeout=120)
+2025-09-12 12:48:52,139 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Simparic (Tentativa 2)
+2025-09-12 12:48:52,140 - INFO - Aguardando 6.1s antes da próxima tentativa...
+2025-09-12 12:50:21,522 - INFO - Navegação bem-sucedida!
+2025-09-12 12:50:24,548 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:50:24,825 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-zoetis-simparic-20-mg-para-caes-5-1-a-10-kg/p?sku=3110173-2 (Tentativa 1)
+2025-09-12 12:50:32,409 - INFO - Navegação bem-sucedida!
+2025-09-12 12:50:34,903 - INFO - Encontrados 3 produtos para Simparic
+2025-09-12 12:50:34,906 - INFO - Aguardando 1.3s...
+2025-09-12 12:50:36,253 - INFO - Processando Revolution (2/20)
+2025-09-12 12:50:36,253 - INFO - Buscando Revolution na Petlove...
+2025-09-12 12:52:23,447 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Revolution (Tentativa 1)
+2025-09-12 12:52:29,564 - INFO - Navegação bem-sucedida!
+2025-09-12 12:52:32,587 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:52:32,856 - INFO - Navegando para: https://www.petlove.com.br/revolution-gatos-de-25-a-75kg-pfizer-saude-animal-103103/p?sku=3103103-1 (Tentativa 1)
+2025-09-12 12:52:45,137 - INFO - Navegação bem-sucedida!
+2025-09-12 12:52:47,623 - INFO - Encontrados 3 produtos para Revolution
+2025-09-12 12:52:47,625 - INFO - Aguardando 2.4s...
+2025-09-12 12:52:50,036 - INFO - Processando NexGard (3/20)
+2025-09-12 12:52:50,036 - INFO - Buscando NexGard na Petlove...
+2025-09-12 12:54:37,299 - INFO - Navegando para: https://www.petlove.com.br/busca?q=NexGard (Tentativa 1)
+2025-09-12 12:54:47,602 - INFO - Navegação bem-sucedida!
+2025-09-12 12:54:50,626 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:54:50,873 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-283-mg---caes-de-41-a-10-kg-3105746/p?sku=3105746 (Tentativa 1)
+2025-09-12 12:55:02,885 - INFO - Navegação bem-sucedida!
+2025-09-12 12:55:05,323 - INFO - Encontrados 3 produtos para NexGard
+2025-09-12 12:55:05,324 - INFO - Aguardando 2.3s...
+2025-09-12 12:55:07,597 - INFO - Processando NexGard Spectra (4/20)
+2025-09-12 12:55:07,599 - INFO - Buscando NexGard Spectra na Petlove...
+2025-09-12 12:56:55,810 - INFO - Navegando para: https://www.petlove.com.br/busca?q=NexGard Spectra (Tentativa 1)
+2025-09-12 12:57:05,206 - INFO - Navegação bem-sucedida!
+2025-09-12 12:57:08,225 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:57:08,492 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-7-6-a-15-kg/p?sku=2659016 (Tentativa 1)
+2025-09-12 12:57:27,481 - INFO - Navegação bem-sucedida!
+2025-09-12 12:57:29,956 - INFO - Encontrados 3 produtos para NexGard Spectra
+2025-09-12 12:57:29,957 - INFO - Aguardando 1.8s...
+2025-09-12 12:57:31,799 - INFO - Processando NexGard Combo (5/20)
+2025-09-12 12:57:31,799 - INFO - Buscando NexGard Combo na Petlove...
+2025-09-12 12:59:18,409 - INFO - Navegando para: https://www.petlove.com.br/busca?q=NexGard Combo (Tentativa 1)
+2025-09-12 12:59:24,072 - INFO - Navegação bem-sucedida!
+2025-09-12 12:59:27,109 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 12:59:27,370 - INFO - Navegando para: https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-2-5-kg-a-7-5-kg/p?sku=31027541855 (Tentativa 1)
+2025-09-12 12:59:33,435 - INFO - Navegação bem-sucedida!
+2025-09-12 12:59:35,834 - INFO - Encontrados 2 produtos para NexGard Combo
+2025-09-12 12:59:35,836 - INFO - Aguardando 1.5s...
+2025-09-12 12:59:37,301 - INFO - Processando Bravecto (6/20)
+2025-09-12 12:59:37,302 - INFO - Buscando Bravecto na Petlove...
+2025-09-12 13:01:24,006 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Bravecto (Tentativa 1)
+2025-09-12 13:01:29,743 - INFO - Navegação bem-sucedida!
+2025-09-12 13:01:32,768 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:01:33,010 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-45-a-10kg---250-mg-3104947/p?sku=3104947 (Tentativa 1)
+2025-09-12 13:01:38,736 - INFO - Navegação bem-sucedida!
+2025-09-12 13:01:41,075 - INFO - Encontrados 2 produtos para Bravecto
+2025-09-12 13:01:41,077 - INFO - Aguardando 2.2s...
+2025-09-12 13:01:43,301 - INFO - Processando Frontline (7/20)
+2025-09-12 13:01:43,302 - INFO - Buscando Frontline na Petlove...
+2025-09-12 13:03:31,518 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Frontline (Tentativa 1)
+2025-09-12 13:03:38,469 - INFO - Navegação bem-sucedida!
+2025-09-12 13:03:41,494 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:03:41,762 - INFO - Navegando para: https://www.petlove.com.br/frontline-plus-para-cao-p-de-1-a-10-quilos-31030301/p?sku=31030301 (Tentativa 1)
+2025-09-12 13:03:48,403 - INFO - Navegação bem-sucedida!
+2025-09-12 13:03:50,603 - INFO - Encontrados 1 produtos para Frontline
+2025-09-12 13:03:50,605 - INFO - Aguardando 2.2s...
+2025-09-12 13:03:52,854 - INFO - Processando Advocate (8/20)
+2025-09-12 13:03:52,857 - INFO - Buscando Advocate na Petlove...
+2025-09-12 13:05:39,588 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Advocate (Tentativa 1)
+2025-09-12 13:05:45,051 - INFO - Navegação bem-sucedida!
+2025-09-12 13:05:48,088 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:05:48,330 - INFO - Navegando para: https://www.petlove.com.br/vermifugo-advocate-elanco-para-gatos-de-4-a-8-kg/p?sku=31027544101 (Tentativa 1)
+2025-09-12 13:05:54,288 - INFO - Navegação bem-sucedida!
+2025-09-12 13:05:56,486 - INFO - Encontrados 1 produtos para Advocate
+2025-09-12 13:05:56,488 - INFO - Aguardando 2.5s...
+2025-09-12 13:05:59,036 - INFO - Processando Drontal (9/20)
+2025-09-12 13:05:59,037 - INFO - Buscando Drontal na Petlove...
+2025-09-12 13:07:45,960 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Drontal (Tentativa 1)
+2025-09-12 13:07:51,985 - INFO - Navegação bem-sucedida!
+2025-09-12 13:07:55,010 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:07:55,275 - INFO - Navegando para: https://www.petlove.com.br/vermifugo-elanco-drontal-plus-sabor-para-carne-caes-35-kg/p?sku=31027552390 (Tentativa 1)
+2025-09-12 13:08:04,439 - INFO - Navegação bem-sucedida!
+2025-09-12 13:08:06,650 - INFO - Encontrados 1 produtos para Drontal
+2025-09-12 13:08:06,653 - INFO - Aguardando 1.7s...
+2025-09-12 13:08:08,383 - INFO - Processando Milbemax (10/20)
+2025-09-12 13:08:08,385 - INFO - Buscando Milbemax na Petlove...
+2025-09-12 13:09:56,255 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Milbemax (Tentativa 1)
+2025-09-12 13:10:01,830 - INFO - Navegação bem-sucedida!
+2025-09-12 13:10:04,865 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:10:05,137 - INFO - Navegando para: https://www.petlove.com.br/vermifugo-elanco-milbemax-fc-para-gatos-2318236/p?sku=2261657 (Tentativa 1)
+2025-09-12 13:10:19,991 - INFO - Navegação bem-sucedida!
+2025-09-12 13:10:22,226 - INFO - Encontrados 1 produtos para Milbemax
+2025-09-12 13:10:22,230 - INFO - Aguardando 2.3s...
+2025-09-12 13:10:24,530 - INFO - Processando Vermivet (11/20)
+2025-09-12 13:10:24,530 - INFO - Buscando Vermivet na Petlove...
+2025-09-12 13:12:11,592 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Vermivet (Tentativa 1)
+2025-09-12 13:12:16,595 - INFO - Navegação bem-sucedida!
+2025-09-12 13:12:19,619 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:12:19,884 - INFO - Navegando para: https://www.petlove.com.br/vermivet-plus-660g-para-caes--caixa-com-4-comprimidos-biovet-1017933/p?sku=31017933 (Tentativa 1)
+2025-09-12 13:12:24,438 - INFO - Navegação bem-sucedida!
+2025-09-12 13:12:26,622 - INFO - Encontrados 1 produtos para Vermivet
+2025-09-12 13:12:26,625 - INFO - Aguardando 2.2s...
+2025-09-12 13:12:28,787 - INFO - Processando Rimadyl (12/20)
+2025-09-12 13:12:28,788 - INFO - Buscando Rimadyl na Petlove...
+2025-09-12 13:14:16,269 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Rimadyl (Tentativa 1)
+2025-09-12 13:14:21,184 - INFO - Navegação bem-sucedida!
+2025-09-12 13:14:24,219 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:14:24,483 - INFO - Navegando para: https://www.petlove.com.br/anti-inflamatorio-zoetis-rimadyl-de-14-comprimidos/p?sku=2507303 (Tentativa 1)
+2025-09-12 13:14:30,309 - INFO - Navegação bem-sucedida!
+2025-09-12 13:14:32,741 - INFO - Encontrados 3 produtos para Rimadyl
+2025-09-12 13:14:32,743 - INFO - Aguardando 2.9s...
+2025-09-12 13:14:35,676 - INFO - Processando Onsior (13/20)
+2025-09-12 13:14:35,677 - INFO - Buscando Onsior na Petlove...
+2025-09-12 13:16:23,172 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Onsior (Tentativa 1)
+2025-09-12 13:16:27,764 - INFO - Navegação bem-sucedida!
+2025-09-12 13:16:30,794 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:16:31,068 - INFO - Navegando para: https://www.petlove.com.br/anti-inflamatorios-elanco-onsior-para-caes-de-10-a-20-kg/p?sku=2261654 (Tentativa 1)
+2025-09-12 13:16:36,154 - INFO - Navegação bem-sucedida!
+2025-09-12 13:16:38,343 - INFO - Encontrados 1 produtos para Onsior
+2025-09-12 13:16:38,346 - INFO - Aguardando 1.9s...
+2025-09-12 13:16:40,244 - INFO - Processando Maxicam (14/20)
+2025-09-12 13:16:40,246 - INFO - Buscando Maxicam na Petlove...
+2025-09-12 13:18:27,732 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Maxicam (Tentativa 1)
+2025-09-12 13:18:32,597 - INFO - Navegação bem-sucedida!
+2025-09-12 13:18:35,617 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:18:35,793 - INFO - Navegando para: https://www.petlove.com.br/maxicam-ourofino-pet-coop-10-comprimidos-102740/p?sku=3102740-1 (Tentativa 1)
+2025-09-12 13:18:42,312 - INFO - Navegação bem-sucedida!
+2025-09-12 13:18:44,670 - INFO - Encontrados 2 produtos para Maxicam
+2025-09-12 13:18:44,672 - INFO - Aguardando 3.0s...
+2025-09-12 13:18:47,648 - INFO - Processando Carproflan (15/20)
+2025-09-12 13:18:47,649 - INFO - Buscando Carproflan na Petlove...
+2025-09-12 13:20:34,809 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Carproflan (Tentativa 1)
+2025-09-12 13:20:39,660 - INFO - Navegação bem-sucedida!
+2025-09-12 13:20:42,684 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:20:42,911 - INFO - Navegando para: https://www.petlove.com.br/anti-inflamatorio-agener-uniao-carproflan-25-mg/p?sku=31025222 (Tentativa 1)
+2025-09-12 13:20:48,063 - INFO - Navegação bem-sucedida!
+2025-09-12 13:20:50,280 - INFO - Encontrados 1 produtos para Carproflan
+2025-09-12 13:20:50,284 - INFO - Aguardando 1.8s...
+2025-09-12 13:20:52,077 - INFO - Processando Previcox (16/20)
+2025-09-12 13:20:52,078 - INFO - Buscando Previcox na Petlove...
+2025-09-12 13:22:39,472 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Previcox (Tentativa 1)
+2025-09-12 13:22:44,074 - INFO - Navegação bem-sucedida!
+2025-09-12 13:22:47,102 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:22:47,328 - INFO - Navegando para: https://www.petlove.com.br/anti-inflamatorio-previcox-57-mg-para-caes/p?sku=31027531228 (Tentativa 1)
+2025-09-12 13:22:52,298 - INFO - Navegação bem-sucedida!
+2025-09-12 13:22:54,536 - INFO - Encontrados 1 produtos para Previcox
+2025-09-12 13:22:54,537 - INFO - Aguardando 2.4s...
+2025-09-12 13:22:56,916 - INFO - Processando Apoquel (17/20)
+2025-09-12 13:22:56,917 - INFO - Buscando Apoquel na Petlove...
+2025-09-12 13:24:44,352 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Apoquel (Tentativa 1)
+2025-09-12 13:24:48,399 - INFO - Navegação bem-sucedida!
+2025-09-12 13:24:51,423 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:24:51,604 - INFO - Navegando para: https://www.petlove.com.br/apoquel-dermatologico-zoetis-para-caes/p?sku=31153-1 (Tentativa 1)
+2025-09-12 13:24:58,135 - INFO - Navegação bem-sucedida!
+2025-09-12 13:25:00,865 - INFO - Encontrados 3 produtos para Apoquel
+2025-09-12 13:25:00,867 - INFO - Aguardando 1.6s...
+2025-09-12 13:25:02,439 - INFO - Processando Zenrelia (18/20)
+2025-09-12 13:25:02,440 - INFO - Buscando Zenrelia na Petlove...
+2025-09-12 13:26:48,740 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Zenrelia (Tentativa 1)
+2025-09-12 13:26:52,876 - INFO - Navegação bem-sucedida!
+2025-09-12 13:26:55,905 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:26:56,138 - INFO - Navegando para: https://www.petlove.com.br/tratamento-dermatologico-elanco-zenrelia-8-5-mg-para-caes/p?sku=31027542134 (Tentativa 1)
+2025-09-12 13:27:01,669 - INFO - Navegação bem-sucedida!
+2025-09-12 13:27:03,970 - INFO - Encontrados 1 produtos para Zenrelia
+2025-09-12 13:27:03,971 - INFO - Aguardando 1.4s...
+2025-09-12 13:27:05,356 - INFO - Processando Synulox (19/20)
+2025-09-12 13:27:05,358 - INFO - Buscando Synulox na Petlove...
+2025-09-12 13:28:52,966 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Synulox (Tentativa 1)
+2025-09-12 13:28:57,334 - INFO - Navegação bem-sucedida!
+2025-09-12 13:29:00,366 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:29:00,579 - INFO - Navegando para: https://www.petlove.com.br/synulox-50mg-10-comprimidos-palataveis-pfizer-saude-animal-102887/p?sku=3102887 (Tentativa 1)
+2025-09-12 13:29:07,046 - INFO - Navegação bem-sucedida!
+2025-09-12 13:29:09,425 - INFO - Encontrados 2 produtos para Synulox
+2025-09-12 13:29:09,427 - INFO - Aguardando 1.6s...
+2025-09-12 13:29:11,076 - INFO - Processando Baytril (20/20)
+2025-09-12 13:29:11,078 - INFO - Buscando Baytril na Petlove...
+2025-09-12 13:30:58,197 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Baytril (Tentativa 1)
+2025-09-12 13:31:02,315 - INFO - Navegação bem-sucedida!
+2025-09-12 13:31:05,344 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:31:05,551 - INFO - Navegando para: https://www.petlove.com.br/antibiotico-elanco-baytril-flavour-50-mg-para-caes-e-gatos-de-ate-10-kg/p?sku=31027553295 (Tentativa 1)
+2025-09-12 13:31:12,299 - INFO - Navegação bem-sucedida!
+2025-09-12 13:31:14,476 - INFO - Encontrados 1 produtos para Baytril
+2025-09-12 13:31:14,479 - INFO - Petlove: 36 produtos coletados no total
+2025-09-12 13:31:14,566 - INFO - Dados salvos: dados_coletados\petlove_20250912_133114.xlsx (36 produtos)
+2025-09-12 13:31:14,567 - INFO - Petlove: 36 produtos salvos em petlove_20250912_133114.xlsx
+2025-09-12 13:31:14,569 - INFO - Aguardando 5.7s antes do próximo site...
+2025-09-12 13:31:20,269 - INFO - 
+>>> Processando site 3/3: Petz
+2025-09-12 13:31:20,270 - INFO - Iniciando scraping para Petz...
+2025-09-12 13:31:20,271 - INFO - Iniciando scraping completo para Petz...
+2025-09-12 13:31:20,272 - INFO - Processando Simparic (1/20)
+2025-09-12 13:31:20,272 - INFO - Buscando Simparic na Petz...
+2025-09-12 13:33:07,980 - INFO - Navegando para: https://www.petz.com.br/busca?q=Simparic (Tentativa 1)
+2025-09-12 13:33:18,248 - INFO - Navegação bem-sucedida!
+2025-09-12 13:33:21,314 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:33:21,450 - INFO - Navegando para: https://www.petz.com.br/produto/antipulgas-simparic-20-mg-para-caes-5-1-a-10-kg-zoetis-100179 (Tentativa 1)
+2025-09-12 13:33:29,171 - INFO - Navegação bem-sucedida!
+2025-09-12 13:33:31,668 - INFO - Encontrados 2 produtos para Simparic
+2025-09-12 13:33:31,670 - INFO - Aguardando 2.2s...
+2025-09-12 13:33:33,901 - INFO - Processando Revolution (2/20)
+2025-09-12 13:33:33,902 - INFO - Buscando Revolution na Petz...
+2025-09-12 13:35:23,497 - INFO - Navegando para: https://www.petz.com.br/busca?q=Revolution (Tentativa 1)
+2025-09-12 13:35:32,360 - INFO - Navegação bem-sucedida!
+2025-09-12 13:35:35,388 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:35:35,501 - INFO - Navegando para: https://www.petz.com.br/produto/revolution-zoetis-6-075ml-para-gatos-2-6kg-a-7-5kg-74618 (Tentativa 1)
+2025-09-12 13:35:42,818 - INFO - Navegação bem-sucedida!
+2025-09-12 13:35:45,153 - INFO - Encontrados 2 produtos para Revolution
+2025-09-12 13:35:45,156 - INFO - Aguardando 2.7s...
+2025-09-12 13:35:47,850 - INFO - Processando NexGard (3/20)
+2025-09-12 13:35:47,851 - INFO - Buscando NexGard na Petz...
+2025-09-12 13:37:42,407 - INFO - Navegando para: https://www.petz.com.br/busca?q=NexGard (Tentativa 1)
+2025-09-12 13:37:49,117 - INFO - Navegação bem-sucedida!
+2025-09-12 13:37:52,139 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:37:52,261 - INFO - Navegando para: https://www.petz.com.br/produto/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-15-1-a-30kg-166515 (Tentativa 1)
+2025-09-12 13:37:59,430 - INFO - Navegação bem-sucedida!
+2025-09-12 13:38:01,736 - INFO - Encontrados 2 produtos para NexGard
+2025-09-12 13:38:01,741 - INFO - Aguardando 1.1s...
+2025-09-12 13:38:02,841 - INFO - Processando NexGard Spectra (4/20)
+2025-09-12 13:38:02,844 - INFO - Buscando NexGard Spectra na Petz...
+2025-09-12 13:39:51,384 - INFO - Navegando para: https://www.petz.com.br/busca?q=NexGard Spectra (Tentativa 1)
+2025-09-12 13:40:01,417 - INFO - Navegação bem-sucedida!
+2025-09-12 13:40:04,478 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:40:04,565 - INFO - Navegando para: https://www.petz.com.br/produto/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-15-1-a-30kg-166515 (Tentativa 1)
+2025-09-12 13:40:10,918 - INFO - Navegação bem-sucedida!
+2025-09-12 13:40:13,046 - INFO - Encontrados 2 produtos para NexGard Spectra
+2025-09-12 13:40:13,046 - INFO - Aguardando 1.9s...
+2025-09-12 13:40:14,973 - INFO - Processando NexGard Combo (5/20)
+2025-09-12 13:40:14,974 - INFO - Buscando NexGard Combo na Petz...
+2025-09-12 13:42:03,881 - INFO - Navegando para: https://www.petz.com.br/busca?q=NexGard Combo (Tentativa 1)
+2025-09-12 13:42:11,032 - INFO - Navegação bem-sucedida!
+2025-09-12 13:42:14,075 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:42:14,197 - INFO - Navegando para: https://www.petz.com.br/produto/nexgard-combo-antipulgas-sarna-e-vermes-para-gatos-de-2-5-a-7-5-kg-0-9-ml-196812 (Tentativa 1)
+2025-09-12 13:42:21,316 - INFO - Navegação bem-sucedida!
+2025-09-12 13:42:23,444 - INFO - Encontrados 2 produtos para NexGard Combo
+2025-09-12 13:42:23,445 - INFO - Aguardando 2.6s...
+2025-09-12 13:42:26,044 - INFO - Processando Bravecto (6/20)
+2025-09-12 13:42:26,045 - INFO - Buscando Bravecto na Petz...
+2025-09-12 13:44:15,678 - INFO - Navegando para: https://www.petz.com.br/busca?q=Bravecto (Tentativa 1)
+2025-09-12 13:44:28,084 - INFO - Navegação bem-sucedida!
+2025-09-12 13:44:31,108 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:44:31,231 - INFO - Navegando para: https://www.petz.com.br/produto/antipulgas-e-carrapatos-bravecto-msd-para-caes-de-4-5-a-10-kg-88400 (Tentativa 1)
+2025-09-12 13:44:40,450 - INFO - Navegação bem-sucedida!
+2025-09-12 13:44:42,502 - INFO - Encontrados 1 produtos para Bravecto
+2025-09-12 13:44:42,502 - INFO - Aguardando 2.3s...
+2025-09-12 13:44:44,824 - INFO - Processando Frontline (7/20)
+2025-09-12 13:44:44,824 - INFO - Buscando Frontline na Petz...
+2025-09-12 13:46:36,467 - INFO - Navegando para: https://www.petz.com.br/busca?q=Frontline (Tentativa 1)
+2025-09-12 13:46:47,605 - INFO - Navegação bem-sucedida!
+2025-09-12 13:46:50,630 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:46:50,749 - INFO - Navegando para: https://www.petz.com.br/produto/antipulgas-e-carrapatos-frontline-plus-para-gatos-75577 (Tentativa 1)
+2025-09-12 13:46:57,617 - INFO - Navegação bem-sucedida!
+2025-09-12 13:46:59,687 - INFO - Encontrados 1 produtos para Frontline
+2025-09-12 13:46:59,689 - INFO - Aguardando 2.4s...
+2025-09-12 13:47:02,092 - INFO - Processando Advocate (8/20)
+2025-09-12 13:47:02,093 - INFO - Buscando Advocate na Petz...
+2025-09-12 13:48:56,643 - INFO - Navegando para: https://www.petz.com.br/busca?q=Advocate (Tentativa 1)
+2025-09-12 13:49:02,234 - INFO - Navegação bem-sucedida!
+2025-09-12 13:49:05,266 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:49:05,357 - INFO - Navegando para: https://www.petz.com.br/produto/antipulgas-advocate-para-gatos-entre-4-e-8kg-1,0ml-75719 (Tentativa 1)
+2025-09-12 13:49:10,174 - INFO - Navegação bem-sucedida!
+2025-09-12 13:49:12,400 - INFO - Encontrados 2 produtos para Advocate
+2025-09-12 13:49:12,404 - INFO - Aguardando 2.1s...
+2025-09-12 13:49:14,458 - INFO - Processando Drontal (9/20)
+2025-09-12 13:49:14,459 - INFO - Buscando Drontal na Petz...
+2025-09-12 13:51:02,820 - INFO - Navegando para: https://www.petz.com.br/busca?q=Drontal (Tentativa 1)
+2025-09-12 13:51:09,372 - INFO - Navegação bem-sucedida!
+2025-09-12 13:51:12,399 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:51:12,451 - INFO - Navegando para: https://www.petz.com.br/produto/drontal-para-caes-acima-de-35kg-sabor-carne-94379 (Tentativa 1)
+2025-09-12 13:51:17,131 - INFO - Navegação bem-sucedida!
+2025-09-12 13:51:19,189 - INFO - Encontrados 1 produtos para Drontal
+2025-09-12 13:51:19,190 - INFO - Aguardando 2.6s...
+2025-09-12 13:51:21,824 - INFO - Processando Milbemax (10/20)
+2025-09-12 13:51:21,825 - INFO - Buscando Milbemax na Petz...
+2025-09-12 13:53:09,117 - INFO - Navegando para: https://www.petz.com.br/busca?q=Milbemax (Tentativa 1)
+2025-09-12 13:53:14,410 - INFO - Navegação bem-sucedida!
+2025-09-12 13:53:17,435 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:53:17,505 - INFO - Navegando para: https://www.petz.com.br/produto/milbemax-novartis-para-caes-de-5kg-a-25kg-78443 (Tentativa 1)
+2025-09-12 13:53:22,405 - INFO - Navegação bem-sucedida!
+2025-09-12 13:53:24,467 - INFO - Encontrados 1 produtos para Milbemax
+2025-09-12 13:53:24,468 - INFO - Aguardando 2.1s...
+2025-09-12 13:53:26,603 - INFO - Processando Vermivet (11/20)
+2025-09-12 13:53:26,604 - INFO - Buscando Vermivet na Petz...
+2025-09-12 13:56:00,480 - INFO - Navegando para: https://www.petz.com.br/busca?q=Vermivet (Tentativa 1)
+2025-09-12 13:56:06,358 - INFO - Navegação bem-sucedida!
+2025-09-12 13:56:09,388 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 13:56:09,468 - INFO - Navegando para: https://www.petz.com.br/produto/vermifugo-biovet-vermivet-plus-660mg-para-caes-com-4-comprimidos-97542 (Tentativa 1)
+2025-09-12 13:56:14,561 - INFO - Navegação bem-sucedida!
+2025-09-12 13:56:16,618 - INFO - Encontrados 1 produtos para Vermivet
+2025-09-12 13:56:16,619 - INFO - Aguardando 1.2s...
+2025-09-12 13:56:17,785 - INFO - Processando Rimadyl (12/20)
+2025-09-12 13:56:17,786 - INFO - Buscando Rimadyl na Petz...
+2025-09-12 13:59:23,683 - INFO - Navegando para: https://www.petz.com.br/busca?q=Rimadyl (Tentativa 1)
+2025-09-12 13:59:24,017 - ERROR - Erro do navegador: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x11ad2a3+66419]
+	GetHandleVerifier [0x0x11ad2e4+66484]
+	(No symbol) [0x0xf84bd3]
+	(No symbol) [0x0xf82244]
+	(No symbol) [0x0xf75662]
+	(No symbol) [0x0xf770c8]
+	(No symbol) [0x0xf758f8]
+	(No symbol) [0x0xf7542c]
+	(No symbol) [0x0xf7513a]
+	(No symbol) [0x0xf73040]
+	(No symbol) [0x0xf739eb]
+	(No symbol) [0x0xf8874e]
+	(No symbol) [0x0x10134c7]
+	(No symbol) [0x0xff101c]
+	(No symbol) [0x0x10128a1]
+	(No symbol) [0x0xff0e16]
+	(No symbol) [0x0xfc25ce]
+	(No symbol) [0x0xfc34a4]
+	GetHandleVerifier [0x0x13f5ee3+2461619]
+	GetHandleVerifier [0x0x13f0f66+2441270]
+	GetHandleVerifier [0x0x11d6242+234258]
+	GetHandleVerifier [0x0x11c6208+168664]
+	GetHandleVerifier [0x0x11cd1ad+197245]
+	GetHandleVerifier [0x0x11b55f8+100040]
+	GetHandleVerifier [0x0x11b5792+100450]
+	GetHandleVerifier [0x0x119f74a+10266]
+	BaseThreadInitThunk [0x0x76135d49+25]
+	RtlInitializeExceptionChain [0x0x76ecd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76ecd281+561]
+
+2025-09-12 13:59:24,018 - INFO - Navegando para: https://www.petz.com.br/busca?q=Rimadyl (Tentativa 2)
+2025-09-12 13:59:24,018 - INFO - Aguardando 5.3s antes da próxima tentativa...
+2025-09-12 14:00:09,390 - INFO - Navegação bem-sucedida!
+2025-09-12 14:00:12,418 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:00:12,487 - INFO - Navegando para: https://www.petz.com.br/produto/rimadyl-zoetis-100mg-14-comprimidos-78180 (Tentativa 1)
+2025-09-12 14:00:18,127 - INFO - Navegação bem-sucedida!
+2025-09-12 14:00:20,181 - INFO - Encontrados 1 produtos para Rimadyl
+2025-09-12 14:00:20,181 - INFO - Aguardando 1.0s...
+2025-09-12 14:00:21,213 - INFO - Processando Onsior (13/20)
+2025-09-12 14:00:21,214 - INFO - Buscando Onsior na Petz...
+2025-09-12 14:02:47,956 - INFO - Navegando para: https://www.petz.com.br/busca?q=Onsior (Tentativa 1)
+2025-09-12 14:02:52,718 - INFO - Navegação bem-sucedida!
+2025-09-12 14:02:55,747 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:02:55,824 - INFO - Navegando para: https://www.petz.com.br/produto/anti-inflamatorio-onsior-para-caes-10mg-149287 (Tentativa 1)
+2025-09-12 14:03:01,102 - INFO - Navegação bem-sucedida!
+2025-09-12 14:03:03,152 - INFO - Encontrados 1 produtos para Onsior
+2025-09-12 14:03:03,153 - INFO - Aguardando 2.2s...
+2025-09-12 14:03:05,330 - INFO - Processando Maxicam (14/20)
+2025-09-12 14:03:05,330 - INFO - Buscando Maxicam na Petz...
+2025-09-12 14:04:55,121 - INFO - Navegando para: https://www.petz.com.br/busca?q=Maxicam (Tentativa 1)
+2025-09-12 14:05:04,260 - INFO - Navegação bem-sucedida!
+2025-09-12 14:05:07,296 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:05:07,356 - INFO - Navegando para: https://www.petz.com.br/produto/maxicam-ourofino-2mg-10-comprimidos-84035 (Tentativa 1)
+2025-09-12 14:05:12,100 - INFO - Navegação bem-sucedida!
+2025-09-12 14:05:14,148 - INFO - Encontrados 1 produtos para Maxicam
+2025-09-12 14:05:14,148 - INFO - Aguardando 2.0s...
+2025-09-12 14:05:16,193 - INFO - Processando Carproflan (15/20)
+2025-09-12 14:05:16,194 - INFO - Buscando Carproflan na Petz...
+2025-09-12 14:07:06,178 - INFO - Navegando para: https://www.petz.com.br/busca?q=Carproflan (Tentativa 1)
+2025-09-12 14:07:11,147 - INFO - Navegação bem-sucedida!
+2025-09-12 14:07:14,169 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:07:14,244 - INFO - Navegando para: https://www.petz.com.br/produto/carproflan-agener-uniao-100mg-14-comprimidos-73982 (Tentativa 1)
+2025-09-12 14:07:19,960 - INFO - Navegação bem-sucedida!
+2025-09-12 14:07:22,006 - INFO - Encontrados 1 produtos para Carproflan
+2025-09-12 14:07:22,007 - INFO - Aguardando 1.3s...
+2025-09-12 14:07:23,326 - INFO - Processando Previcox (16/20)
+2025-09-12 14:07:23,327 - INFO - Buscando Previcox na Petz...
+2025-09-12 14:09:11,942 - INFO - Navegando para: https://www.petz.com.br/busca?q=Previcox (Tentativa 1)
+2025-09-12 14:09:18,716 - INFO - Navegação bem-sucedida!
+2025-09-12 14:09:21,778 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:09:21,855 - INFO - Navegando para: https://www.petz.com.br/produto/previcox-merial-227mg-75956 (Tentativa 1)
+2025-09-12 14:09:26,992 - INFO - Navegação bem-sucedida!
+2025-09-12 14:09:29,036 - INFO - Encontrados 1 produtos para Previcox
+2025-09-12 14:09:29,037 - INFO - Aguardando 2.1s...
+2025-09-12 14:09:31,115 - INFO - Processando Apoquel (17/20)
+2025-09-12 14:09:31,116 - INFO - Buscando Apoquel na Petz...
+2025-09-12 14:11:18,766 - INFO - Navegando para: https://www.petz.com.br/busca?q=Apoquel (Tentativa 1)
+2025-09-12 14:11:23,369 - INFO - Navegação bem-sucedida!
+2025-09-12 14:11:26,397 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:11:26,467 - INFO - Navegando para: https://www.petz.com.br/produto/apoquel-zoetis-dermatologico-para-caes-99014 (Tentativa 1)
+2025-09-12 14:11:32,093 - INFO - Navegação bem-sucedida!
+2025-09-12 14:11:34,400 - INFO - Encontrados 3 produtos para Apoquel
+2025-09-12 14:11:34,402 - INFO - Aguardando 2.3s...
+2025-09-12 14:11:36,703 - INFO - Processando Zenrelia (18/20)
+2025-09-12 14:11:36,705 - INFO - Buscando Zenrelia na Petz...
+2025-09-12 14:13:23,594 - INFO - Navegando para: https://www.petz.com.br/busca?q=Zenrelia (Tentativa 1)
+2025-09-12 14:13:27,902 - INFO - Navegação bem-sucedida!
+2025-09-12 14:13:30,930 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:13:31,003 - INFO - Navegando para: https://www.petz.com.br/produto/antialergico-elanco-zenrelia-para-caes-30-comprimidos-197576 (Tentativa 1)
+2025-09-12 14:13:35,826 - INFO - Navegação bem-sucedida!
+2025-09-12 14:13:37,881 - INFO - Encontrados 1 produtos para Zenrelia
+2025-09-12 14:13:37,882 - INFO - Aguardando 1.9s...
+2025-09-12 14:13:39,784 - INFO - Processando Synulox (19/20)
+2025-09-12 14:13:39,785 - INFO - Buscando Synulox na Petz...
+2025-09-12 14:15:26,098 - INFO - Navegando para: https://www.petz.com.br/busca?q=Synulox (Tentativa 1)
+2025-09-12 14:15:31,433 - INFO - Navegação bem-sucedida!
+2025-09-12 14:15:34,460 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:15:34,520 - INFO - Navegando para: https://www.petz.com.br/produto/synulox-zoetis-250mg-10-comprimidos-76377 (Tentativa 1)
+2025-09-12 14:15:39,846 - INFO - Navegação bem-sucedida!
+2025-09-12 14:15:41,891 - INFO - Encontrados 1 produtos para Synulox
+2025-09-12 14:15:41,893 - INFO - Aguardando 2.1s...
+2025-09-12 14:15:44,021 - INFO - Processando Baytril (20/20)
+2025-09-12 14:15:44,022 - INFO - Buscando Baytril na Petz...
+2025-09-12 14:17:31,327 - INFO - Navegando para: https://www.petz.com.br/busca?q=Baytril (Tentativa 1)
+2025-09-12 14:17:36,003 - INFO - Navegação bem-sucedida!
+2025-09-12 14:17:39,027 - INFO - Modo teste: limitando a 1 produto
+2025-09-12 14:17:39,072 - INFO - Navegando para: https://www.petz.com.br/produto/baytril-flavour-50mg-com-10-comprimidos-76265 (Tentativa 1)
+2025-09-12 14:17:43,635 - INFO - Navegação bem-sucedida!
+2025-09-12 14:17:45,689 - INFO - Encontrados 1 produtos para Baytril
+2025-09-12 14:17:45,690 - INFO - Petz: 28 produtos coletados no total
+2025-09-12 14:17:45,752 - INFO - Dados salvos: dados_coletados\petz_20250912_141745.xlsx (28 produtos)
+2025-09-12 14:17:45,753 - INFO - Petz: 28 produtos salvos em petz_20250912_141745.xlsx
+2025-09-12 14:36:59,842 - INFO - Navegador fechado com sucesso
+2025-09-12 14:36:59,844 - INFO - ============================================================
+2025-09-12 14:36:59,845 - INFO - SCRAPING FINALIZADO!
+2025-09-12 14:36:59,846 - INFO - Sites processados com sucesso: 3/3
+2025-09-12 14:36:59,847 - INFO - Arquivos salvos na pasta: dados_teste/
+2025-09-12 14:36:59,847 - INFO - ============================================================
