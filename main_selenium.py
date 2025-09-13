@@ -138,6 +138,7 @@ class ManipuladorSelenium:
             chrome_options.add_argument("--no-sandbox")
             chrome_options.add_argument("--disable-dev-shm-usage")
             chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+            chrome_options.add_argument("--headless=new")
             chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
             chrome_options.add_experimental_option('useAutomationExtension', False)
             
@@ -161,7 +162,7 @@ class ManipuladorSelenium:
             
             # ---- INICIALIZAR DRIVER COM WEBDRIVER-MANAGER ----
             # O webdriver-manager baixa automaticamente o ChromeDriver correto
-            service = Service(ChromeDriverManager().install())
+            service = Service(ChromeDriverManager("140.0.7339").install())
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
             
             # Configurar timeout padrão para esperas
@@ -194,7 +195,7 @@ class ManipuladorSelenium:
                 
                 # Delay progressivo entre tentativas
                 if tentativa > 0:
-                    delay = random.uniform(2, 5) + (tentativa * 2)
+                    delay = random.uniform(1, 3) + (tentativa * 2)
                     logger.info(f"Aguardando {delay:.1f}s antes da próxima tentativa...")
                     time.sleep(delay)
                 
@@ -1019,7 +1020,7 @@ class ScraperPetlove(ScraperBase):
 class ScraperPetz(ScraperBase):
     """
     Scraper específico para o site Petz
-    Implementa estratégias de extração JSON e HTML
+    Implementa estratégias de extração HTML
     """
     
     @property
@@ -1079,35 +1080,47 @@ class ScraperPetz(ScraperBase):
                     link_produto = self.selenium_handler.obter_atributo_seguro(
                         elementos_meta[0] if elementos_meta else None, "content"
                     )
+
+                    # Dados do JSON
+                    try:
+                        produto_json = json.loads(elementos_meta.get_text(strip=True))
+                        nome = produto_json.get('name', 'N/A').strip()
+                        preco_base = produto_json.get('price', 'N/A')
+                    except:
+                        nome = "N/A"
+                        preco_base = "N/A"
+
+                    logger.debug(f"Produto JSON: {produto_json}")
+                    logger.debug(f"Nome: {nome}, Preço Base: {preco_base}")
                     
                     # Tentar extrair dados do JSON incorporado primeiro
-                    nome = "N/A"
-                    preco_base = "N/A"
+                    # nome = "N/A"
+                    # preco_base = "N/A"
                     
-                    try:
-                        # Buscar script com dados JSON do produto
-                        elementos_script = elemento_produto.find_elements(By.TAG_NAME, 'script')
-                        for script in elementos_script:
-                            conteudo_script = self.selenium_handler.obter_texto_seguro(script)
-                            if conteudo_script and conteudo_script != "N/A":
-                                try:
-                                    produto_json = json.loads(conteudo_script)
-                                    nome = produto_json.get('name', 'N/A').strip()
-                                    preco_base = produto_json.get('price', 'N/A')
-                                    break
-                                except json.JSONDecodeError:
-                                    continue
-                    except Exception:
-                        # Fallback para extração HTML
-                        elementos_nome = elemento_produto.find_elements(By.CSS_SELECTOR, 'h3, h2, .product-name')
-                        nome = self.selenium_handler.obter_texto_seguro(
-                            elementos_nome[0] if elementos_nome else None
-                        )
-                        
-                        elementos_preco = elemento_produto.find_elements(By.CSS_SELECTOR, '.price, .valor')
-                        preco_base = self.selenium_handler.obter_texto_seguro(
-                            elementos_preco[0] if elementos_preco else None
-                        )
+                    # try:
+                    #     # Buscar script com dados JSON do produto
+                    #     elementos_script = elemento_produto.find_elements(By.TAG_NAME, 'script')
+                    #     for script in elementos_script:
+                    #         conteudo_script = self.selenium_handler.obter_texto_seguro(script)
+                    #         if conteudo_script and conteudo_script != "N/A":
+                    #             try:
+                    #                 produto_json = json.loads(conteudo_script)
+                    #                 nome = produto_json.get('name', 'N/A').strip()
+                    #                 preco_base = produto_json.get('price', 'N/A')
+                    #                 break
+                    #             except json.JSONDecodeError:
+                    #                 continue
+                    # except Exception:
+                    # Fallback para extração HTML
+                    # elementos_nome = elemento_produto.find_elements(By.CSS_SELECTOR, 'h3, h2, .product-name')
+                    # nome = self.selenium_handler.obter_texto_seguro(
+                    #     elementos_nome[0] if elementos_nome else None
+                    # )
+                    
+                    # elementos_preco = elemento_produto.find_elements(By.CSS_SELECTOR, '.price, .valor')
+                    # preco_base = self.selenium_handler.obter_texto_seguro(
+                    #     elementos_preco[0] if elementos_preco else None
+                    # )
                     
                     # Buscar variações do produto
                     variacoes = self._obter_variacoes(link_produto) if link_produto != "N/A" else []
@@ -1347,7 +1360,7 @@ class GerenciadorScraperMedicamentos:
                 
             # Pausa entre sites para não sobrecarregar
             if indice < total_scrapers - 1:  # Não pausar após o último
-                delay = random.uniform(3, 7)
+                delay = random.uniform(1,3)
                 logger.info(f"Aguardando {delay:.1f}s antes do próximo site...")
                 time.sleep(delay)
         
