@@ -1,23 +1,3 @@
-"""
-SCRAPER DE MEDICAMENTOS VETERINÁRIOS - VERSÃO MELHORADA
-========================================================
-
-Este script coleta preços de medicamentos veterinários dos principais pet shops online:
-- Cobasi
-- Petlove  
-- Petz
-
-Melhorias implementadas:
-- Uso do webdriver-manager (não precisa do PATH do ChromeDriver)
-- Código mais limpo e organizado
-- Comentários detalhados em português
-- Tratamento de erros aprimorado
-- Performance otimizada
-
-Autor: Sistema automatizado de coleta de preços
-Data: Dezembro 2024
-"""
-
 import pandas as pd
 from datetime import datetime
 import time
@@ -68,31 +48,31 @@ class InfoMedicamento:
     """
     Informações básicas sobre cada medicamento veterinário
     """
-    empresa: str          # Fabricante (ex: Zoetis, Elanco)
-    categoria: str        # Tipo (ex: Antipulgas, Anti-inflamatório)
-    animal: str           # Para quais animais (ex: Cães e Gatos)
-    porte: str           # Tamanho do animal (ex: Todos os portes)
-    eficacia: str        # Duração do efeito (ex: 30 dias)
+    empresa: str         
+    categoria: str       
+    animal: str          
+    porte: str           
+    eficacia: str        
 
 @dataclass
 class InfoProduto:
     """
     Dados coletados de cada produto encontrado nos sites
     """
-    categoria: str                          # Categoria do medicamento
-    marca: str                             # Marca/nome do medicamento
-    produto: str                           # Nome completo do produto
-    quantidade: str                        # Quantidade/tamanho (ex: 1 comprimido)
-    preco: str                            # Preço atual
-    site: str                             # Site onde foi encontrado
-    data_coleta: str                      # Data da coleta
-    preco_antigo: Optional[str] = None     # Preço anterior (se houver)
-    desconto: Optional[str] = None         # Percentual de desconto
-    disponibilidade: Optional[str] = None  # Status de disponibilidade
-    produto_id: Optional[str] = None       # ID interno do produto
-    sku_id: Optional[str] = None          # SKU do produto
-    url: Optional[str] = None             # Link direto para o produto
-    metodo: Optional[str] = None          # Método usado para extrair dados
+    categoria: str                          
+    marca: str                              
+    produto: str                            
+    quantidade: str                         
+    preco: str                              
+    site: str                               
+    data_coleta: str                        
+    preco_antigo: Optional[str] = None      
+    desconto: Optional[str] = None          
+    disponibilidade: Optional[str] = None   
+    produto_id: Optional[str] = None        
+    sku_id: Optional[str] = None            
+    url: Optional[str] = None               
+    metodo: Optional[str] = None            
 
 # ==========================================
 # MANIPULADOR DO SELENIUM
@@ -138,7 +118,20 @@ class ManipuladorSelenium:
             chrome_options.add_argument("--no-sandbox")
             chrome_options.add_argument("--disable-dev-shm-usage")
             chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-            chrome_options.add_argument("--headless=new")
+
+            chrome_options.add_argument("--ignore-certificate-errors")
+            chrome_options.add_argument("--ignore-ssl-errors")
+            chrome_options.add_argument("--disable-web-security")
+
+            # Modo estável contra interferência
+            chrome_options.add_argument("--disable-features=IsolateOrigins,site-per-process")
+
+            # Mantém perfil temporário (não pega cookies antigos que o antivírus pode escanear)
+            # chrome_options.add_argument("--incognito")
+            chrome_options.add_argument("--profile-directory=Default")
+
+
+            # chrome_options.add_argument("--headless=new")
             chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
             chrome_options.add_experimental_option('useAutomationExtension', False)
             
@@ -157,8 +150,7 @@ class ManipuladorSelenium:
             chrome_options.add_argument("--window-size=1920,1080")
             chrome_options.add_argument("--start-maximized")
             
-            # Para execução invisível (descomente se necessário)
-            # chrome_options.add_argument("--headless")
+
             
             # ---- INICIALIZAR DRIVER COM WEBDRIVER-MANAGER ----
             # O webdriver-manager baixa automaticamente o ChromeDriver correto
@@ -179,16 +171,6 @@ class ManipuladorSelenium:
             return False
     
     def navegar_para_url(self, url: str, max_tentativas: int = 3) -> bool:
-        """
-        Navega para uma URL com retry automático e simulação humana
-        
-        Args:
-            url: URL para navegar
-            max_tentativas: Máximo de tentativas em caso de falha
-            
-        Returns:
-            bool: True se navegou com sucesso
-        """
         for tentativa in range(max_tentativas):
             try:
                 logger.info(f"Navegando para: {url} (Tentativa {tentativa + 1})")
@@ -206,7 +188,7 @@ class ManipuladorSelenium:
                 self.wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
                 
                 # Simular comportamento humano com scroll
-                self.scroll_humano()
+                # self.scroll_humano()
                 
                 logger.info("Navegação bem-sucedida!")
                 return True
@@ -221,25 +203,25 @@ class ManipuladorSelenium:
         logger.error(f"Falha ao navegar para {url} após {max_tentativas} tentativas")
         return False
     
-    def scroll_humano(self):
-        """
-        Simula scroll humano na página para parecer navegação natural
-        """
-        try:
-            # Scroll gradual para baixo
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight/3);")
-            time.sleep(random.uniform(0.5, 1.0))
+    # def scroll_humano(self):
+    #     """
+    #     Simula scroll humano na página para parecer navegação natural
+    #     """
+    #     try:
+    #         # Scroll gradual para baixo
+    #         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight/3);")
+    #         time.sleep(random.uniform(0.5, 1.0))
             
-            # Scroll para o meio da página
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight/2);")
-            time.sleep(random.uniform(0.5, 1.0))
+    #         # Scroll para o meio da página
+    #         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight/2);")
+    #         time.sleep(random.uniform(0.5, 1.0))
             
-            # Voltar para o topo
-            self.driver.execute_script("window.scrollTo(0, 0);")
-            time.sleep(random.uniform(0.3, 0.8))
+    #         # Voltar para o topo
+    #         self.driver.execute_script("window.scrollTo(0, 0);")
+    #         time.sleep(random.uniform(0.3, 0.8))
             
-        except Exception as e:
-            logger.warning(f"Erro no scroll simulado: {e}")
+    #     except Exception as e:
+    #         logger.warning(f"Erro no scroll simulado: {e}")
     
     def aceitar_cookies(self, url: str):
         """
@@ -301,6 +283,9 @@ class ManipuladorSelenium:
             WebElement ou None se não encontrou
         """
         try:
+            if self.driver is None:
+                logger.error("Driver Selenium não inicializado.")
+                return None
             return WebDriverWait(self.driver, timeout).until(
                 EC.presence_of_element_located((by, valor))
             )
@@ -846,24 +831,28 @@ class ScraperPetlove(ScraperBase):
         
         try:
             # Aguardar carregamento
-            time.sleep(3)
-            
-            # Buscar elementos de produto na página
+            self.selenium_handler.aguardar_elemento(By.CSS_SELECTOR, 'div.list__item', timeout=10)
+
+            # Coletar URLs e dados básicos primeiro (antes de navegar para outras páginas)
+            produtos_info = []
             elementos_produto = self.selenium_handler.encontrar_elementos_seguro(
                 By.CSS_SELECTOR, 
                 'div.list__item'
             )
             
+            logger.info(f"Elementos de produto carregados: {'Sim' if elementos_produto else 'Não'}")
+            logger.info(f"Número de produtos encontrados na página: {len(elementos_produto)}")
+
             # Limitar em modo teste
             if self.test_mode and elementos_produto:
                 elementos_produto = elementos_produto[:1]
                 logger.info("Modo teste: limitando a 1 produto")
             
-            info_base = self.data_manager.obter_info_medicamento(medicamento)
-            
-            # Processar cada produto
-            for elemento_produto in elementos_produto:
+            # PRIMEIRA PASSADA: Coletar todos os dados básicos sem navegar
+            for i, elemento_produto in enumerate(elementos_produto):
                 try:
+                    logger.info(f"Coletando dados básicos do produto {i + 1}/{len(elementos_produto)}")
+                    
                     # Extrair nome do produto
                     elementos_nome = elemento_produto.find_elements(By.CSS_SELECTOR, 'h2.product-card__name')
                     nome = self.selenium_handler.obter_texto_seguro(
@@ -878,51 +867,118 @@ class ScraperPetlove(ScraperBase):
                     preco = self.selenium_handler.obter_texto_seguro(
                         elementos_preco[0] if elementos_preco else None
                     )
-                    
-                    # Extrair URL do produto
-                    elementos_link = elemento_produto.find_elements(By.CSS_SELECTOR, 'a[itemprop="url"]')
+
+                    # Extrair quantidade básica
+                    elementos_quantidade = elemento_produto.find_elements(By.CSS_SELECTOR, 'span.button__label')
+                    quantidade_basica = self.selenium_handler.obter_texto_seguro(
+                        elementos_quantidade[0] if elementos_quantidade else None
+                    )
+
+                    # Verificar se tem botão "+opções" para variações
+                    tem_variacoes = False
                     link_produto = None
                     
-                    if elementos_link:
-                        link_produto = self.selenium_handler.obter_atributo_seguro(
-                            elementos_link[0], "href"
+                    elementos_quantidade_mais = elemento_produto.find_elements(
+                        By.CSS_SELECTOR, 
+                        'button.button'
+                    )
+                    
+                    for btn in elementos_quantidade_mais:
+                        quantidade_btn = btn.find_elements(By.CSS_SELECTOR, 'span.button__label')
+                        btn_text = self.selenium_handler.obter_texto_seguro( 
+                            quantidade_btn[0] if quantidade_btn else None
                         )
-                        
-                        # Corrigir URL se necessário
-                        if link_produto and link_produto != "N/A" and not link_produto.startswith('http'):
-                            link_produto = f"https://www.petlove.com.br{link_produto}"
+                        if btn_text and btn_text == "+opções":
+                            tem_variacoes = True
+                            # Extrair URL do produto
+                            elementos_link = elemento_produto.find_elements(By.CSS_SELECTOR, 'a[itemprop="url"]')
+                            if elementos_link:
+                                link_produto = self.selenium_handler.obter_atributo_seguro(
+                                    elementos_link[0], "href"
+                                )
+                                # Corrigir URL se necessário
+                                if link_produto and link_produto != "N/A" and not link_produto.startswith('http'):
+                                    link_produto = f"https://www.petlove.com.br{link_produto}"
+                            break
+
+                    # Armazenar informações para processamento posterior
+                    produto_info = {
+                        'nome': nome,
+                        'preco_basico': preco,
+                        'quantidade_basica': quantidade_basica,
+                        'tem_variacoes': tem_variacoes,
+                        'link_produto': link_produto
+                    }
+                    produtos_info.append(produto_info)
                     
-                    # Buscar variações de produtos (diferentes tamanhos/quantidades)
-                    variacoes = self._obter_variacoes(link_produto) if link_produto else []
+                    logger.info(f"Produto coletado: {nome} | Preço: {preco} | Tem variações: {tem_variacoes}")
                     
-                    # Se não há variações, usar dados básicos
+                except Exception as e:
+                    logger.error(f"Erro ao coletar dados básicos do produto {i + 1}: {e}")
+                    continue
+
+            # SEGUNDA PASSADA: Processar variações navegando para cada produto
+            info_base = self.data_manager.obter_info_medicamento(medicamento)
+            
+            for i, produto_info in enumerate(produtos_info):
+                try:
+                    logger.info(f"Processando variações do produto {i + 1}/{len(produtos_info)}")
+                    
+                    variacoes = []
+                    
+                    if produto_info['tem_variacoes'] and produto_info['link_produto']:
+                        # Buscar variações navegando para a página do produto
+                        variacoes = self._obter_variacoes(produto_info['link_produto'])
+                    
+                    # Se não conseguiu obter variações, usar dados básicos
                     if not variacoes:
-                        variacoes = [{"quantidade": "N/A", "preco": preco}]
+                        variacoes = [{
+                            "quantidade": produto_info['quantidade_basica'], 
+                            "preco": produto_info['preco_basico']
+                        }]
                     
                     # Criar produto para cada variação
                     for variacao in variacoes:
+                        logger.info(f"Criando produto: {produto_info['nome']} | Quantidade: {variacao.get('quantidade')} | Preço: {variacao.get('preco')}")
+                        
                         produto = InfoProduto(
                             categoria=info_base.categoria,
                             marca=medicamento,
-                            produto=nome,
-                            quantidade=variacao.get("quantidade", "N/A"),
-                            preco=variacao.get("preco", preco),
-                            url=link_produto if link_produto else "N/A",
+                            produto=produto_info['nome'],
+                            quantidade=variacao.get("quantidade", produto_info['quantidade_basica']),
+                            preco=variacao.get("preco", produto_info['preco_basico']),
+                            url=produto_info['link_produto'] if produto_info['link_produto'] else "N/A",
                             site=self.url_site,
                             data_coleta=datetime.now().strftime("%Y-%m-%d"),
-                            metodo="selenium"
+                            metodo="selenium_fixed"
                         )
                         produtos.append(produto)
-                
+                    
                 except Exception as e:
-                    logger.error(f"Erro ao processar produto Petlove: {e}")
-                    continue
-        
+                    logger.error(f"Erro ao processar variações do produto {i + 1}: {e}")
+                    # Em caso de erro, criar produto com dados básicos
+                    try:
+                        produto = InfoProduto(
+                            categoria=info_base.categoria,
+                            marca=medicamento,
+                            produto=produto_info['nome'],
+                            quantidade=produto_info['quantidade_basica'],
+                            preco=produto_info['preco_basico'],
+                            url=produto_info['link_produto'] if produto_info['link_produto'] else "N/A",
+                            site=self.url_site,
+                            data_coleta=datetime.now().strftime("%Y-%m-%d"),
+                            metodo="selenium_fallback"
+                        )
+                        produtos.append(produto)
+                    except Exception as e2:
+                        logger.error(f"Erro crítico no produto {i + 1}: {e2}")
+                        continue
+                    
         except Exception as e:
             logger.error(f"Erro geral no scraping Petlove para {medicamento}: {e}")
         
         return produtos
-    
+
     def _obter_variacoes(self, url: str) -> List[Dict]:
         """
         Busca variações de quantidade/tamanho na página do produto
@@ -941,25 +997,29 @@ class ScraperPetlove(ScraperBase):
         try:
             # Navegar para página do produto
             if not self.selenium_handler.navegar_para_url(url):
+                logger.warning(f"Não foi possível navegar para {url}")
                 return variacoes
             
-            # Aguardar carregamento
+            # Aguardar carregamento com timeout maior
             time.sleep(2)
             
             # MÉTODO 1: Buscar popup de variações
             elementos_popup = self.selenium_handler.encontrar_elementos_seguro(
                 By.CSS_SELECTOR, 
-                'div.variant-list.flex.align-items-center.full-width'
+                'div.variant-list'
             )
             
             if elementos_popup:
+                logger.info("Popup de variações encontrado")
                 # Buscar itens de variação dentro do popup
                 elementos_variacao = elementos_popup[0].find_elements(
                     By.CSS_SELECTOR, 
                     'div.badge__container.variant-selector__badge'
                 )
                 
-                for item in elementos_variacao:
+                logger.info(f"Encontradas {len(elementos_variacao)} variações")
+                
+                for j, item in enumerate(elementos_variacao):
                     try:
                         # Extrair nome da variação
                         elementos_nome = item.find_elements(By.CSS_SELECTOR, 'span.font-bold.mb-2')
@@ -967,7 +1027,7 @@ class ScraperPetlove(ScraperBase):
                             elementos_nome[0] if elementos_nome else None
                         )
                         if quantidade == "N/A":
-                            quantidade = "Único"
+                            quantidade = f"Variação {j + 1}"
                         
                         # Extrair preço da variação
                         elementos_preco = item.find_elements(By.CSS_SELECTOR, 'div.font-body-s')
@@ -975,41 +1035,38 @@ class ScraperPetlove(ScraperBase):
                             elementos_preco[0] if elementos_preco else None
                         )
                         
-                        variacoes.append({"quantidade": quantidade, "preco": preco})
-                        
+                        if preco and preco != "N/A":
+                            logger.info(f"Variação encontrada: {quantidade} | Preço: {preco}")
+                            variacoes.append({"quantidade": quantidade, "preco": preco})
+                            
                     except Exception as e:
-                        logger.error(f"Erro ao processar variação Petlove: {e}")
+                        logger.error(f"Erro ao processar variação {j + 1}: {e}")
                         continue
-            
-            # MÉTODO 2: Fallback - buscar botão selecionado
-            if not variacoes:
-                elementos_selecionados = self.selenium_handler.encontrar_elementos_seguro(
+            else:
+                logger.info("Popup de variações não encontrado, tentando método alternativo")
+                
+                # MÉTODO 2: Buscar variações na página principal
+                elementos_variacao_alt = self.selenium_handler.encontrar_elementos_seguro(
                     By.CSS_SELECTOR, 
-                    'button.size-select-button'
+                    'button[data-testid*="variant"], .variant-selector button, .size-selector button'
                 )
                 
-                if elementos_selecionados:
-                    # Extrair quantidade do botão selecionado
-                    elementos_quantidade = elementos_selecionados[0].find_elements(By.TAG_NAME, 'b')
-                    quantidade = self.selenium_handler.obter_texto_seguro(
-                        elementos_quantidade[0] if elementos_quantidade else None
-                    )
-                    if quantidade == "N/A":
-                        quantidade = "Único"
+                if elementos_variacao_alt:
+                    logger.info(f"Encontradas {len(elementos_variacao_alt)} variações alternativas")
                     
-                    # Buscar preço na página
-                    elementos_preco = self.selenium_handler.encontrar_elementos_seguro(
-                        By.CSS_SELECTOR, 
-                        'span.price-value, div.price'
-                    )
-                    preco = self.selenium_handler.obter_texto_seguro(
-                        elementos_preco[0] if elementos_preco else None
-                    )
-                    
-                    variacoes.append({"quantidade": quantidade, "preco": preco})
-                    
+                    for j, btn in enumerate(elementos_variacao_alt):
+                        try:
+                            quantidade = self.selenium_handler.obter_texto_seguro(btn)
+                            if quantidade and quantidade != "N/A":
+                                # Para método alternativo, não temos preço específico
+                                logger.info(f"Variação alternativa encontrada: {quantidade}")
+                                variacoes.append({"quantidade": quantidade, "preco": "N/A"})
+                        except Exception as e:
+                            logger.error(f"Erro ao processar variação alternativa {j + 1}: {e}")
+                            continue
+                
         except Exception as e:
-            logger.error(f"Erro ao buscar variações Petlove: {e}")
+            logger.error(f"Erro ao buscar variações em {url}: {e}")
             
         return variacoes
 
