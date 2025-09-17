@@ -28651,3 +28651,1755 @@ Stacktrace:
 2025-09-16 00:21:17,656 - INFO - Petlove: 385 produtos salvos em petlove_20250916_002117.xlsx
 2025-09-16 00:21:17,657 - INFO - Arquivo salvo na pasta: dados_coletados/
 2025-09-16 00:22:05,302 - INFO - Navegador fechado com sucesso
+2025-09-16 23:14:49,491 - INFO - Gerenciador inicializado - Modo: COMPLETO
+2025-09-16 23:14:49,492 - INFO - Inicializando driver Selenium com webdriver-manager...
+2025-09-16 23:14:49,493 - INFO - Configurando Chrome com webdriver-manager...
+2025-09-16 23:14:49,493 - INFO - ====== WebDriver manager ======
+2025-09-16 23:14:51,188 - INFO - WebDriver version 140.0.7339.82 selected
+2025-09-16 23:14:51,192 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/win32/chromedriver-win32.zip
+2025-09-16 23:14:51,192 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/win32/chromedriver-win32.zip
+2025-09-16 23:14:51,539 - INFO - Driver downloading response is 200
+2025-09-16 23:14:58,273 - INFO - Driver has been saved in cache [C:\Users\gipal\.wdm\drivers\chromedriver\win64\140.0.7339]
+2025-09-16 23:14:59,887 - INFO - Chrome configurado com sucesso!
+2025-09-16 23:14:59,887 - INFO - Driver e scrapers inicializados com sucesso!
+2025-09-16 23:14:59,888 - INFO - Executando scraping específico para Petlove
+2025-09-16 23:14:59,888 - INFO - Iniciando scraping para Petlove...
+2025-09-16 23:14:59,889 - INFO - Iniciando scraping completo para Petlove...
+2025-09-16 23:14:59,889 - INFO - Processando Simparic (1/20)
+2025-09-16 23:14:59,889 - INFO - Buscando Simparic na Petlove...
+2025-09-16 23:16:47,409 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Simparic (Tentativa 1)
+2025-09-16 23:16:52,730 - INFO - Navegação bem-sucedida!
+2025-09-16 23:16:52,780 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:16:52,780 - INFO - Número de produtos encontrados na página: 15
+2025-09-16 23:16:52,781 - INFO - Coletando dados básicos do produto 1/15
+2025-09-16 23:16:53,108 - INFO - Produto coletado: Antipulgas Zoetis Simparic 20 mg para Cães 5,1 a 10Kg - 1 Comprimidos | Preço: R$ 110,99 | Tem variações: True
+2025-09-16 23:16:53,108 - INFO - Coletando dados básicos do produto 2/15
+2025-09-16 23:16:53,443 - INFO - Produto coletado: Antipulgas Zoetis Simparic 80 mg para Cães 20,1 a 40Kg - 1 Comprimido | Preço: R$ 151,99 | Tem variações: True
+2025-09-16 23:16:53,443 - INFO - Coletando dados básicos do produto 3/15
+2025-09-16 23:16:53,623 - INFO - Produto coletado: Antipulgas Zoetis Simparic 40 mg para Cães 10,1 a 20Kg - 1 Comprimido | Preço: R$ 133,99 | Tem variações: True
+2025-09-16 23:16:53,623 - INFO - Coletando dados básicos do produto 4/15
+2025-09-16 23:16:54,079 - INFO - Produto coletado: Antipulgas Zoetis Simparic 10 mg para Cães 2,6 a 5Kg - 1 Comprimido | Preço: R$ 98,99 | Tem variações: True
+2025-09-16 23:16:54,080 - INFO - Coletando dados básicos do produto 5/15
+2025-09-16 23:16:54,356 - INFO - Produto coletado: Antipulgas Zoetis Simparic 120 mg para Cães 40,1 á 60Kg - 1 Comprimido | Preço: R$ 159,99 | Tem variações: True
+2025-09-16 23:16:54,357 - INFO - Coletando dados básicos do produto 6/15
+2025-09-16 23:16:54,596 - INFO - Produto coletado: Antipulgas Zoetis Simparic 5 mg para Cães 1,3 a 2,5Kg - 1 Comprimido | Preço: R$ 98,99 | Tem variações: True
+2025-09-16 23:16:54,597 - INFO - Coletando dados básicos do produto 7/15
+2025-09-16 23:16:54,768 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 20 mg e Apoquel Dermatológico 3,6 mg - KIT | Preço: R$ 335,40 | Tem variações: False
+2025-09-16 23:16:54,769 - INFO - Coletando dados básicos do produto 8/15
+2025-09-16 23:16:55,005 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 20 mg e Apoquel Dermatológico 5,4 mg - KIT | Preço: R$ 352,73 | Tem variações: False
+2025-09-16 23:16:55,006 - INFO - Coletando dados básicos do produto 9/15
+2025-09-16 23:16:55,136 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 10 mg e Apoquel Dermatológico 3,6 mg - KIT | Preço: R$ 327,00 | Tem variações: False
+2025-09-16 23:16:55,137 - INFO - Coletando dados básicos do produto 10/15
+2025-09-16 23:16:55,315 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 40 mg e Apoquel Dermatológico 5,4 mg - KIT | Preço: R$ 372,73 | Tem variações: False
+2025-09-16 23:16:55,316 - INFO - Coletando dados básicos do produto 11/15
+2025-09-16 23:16:55,524 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 80 mg e Apoquel Dermatológico 16 mg - KIT | Preço: R$ 637,39 | Tem variações: False
+2025-09-16 23:16:55,525 - INFO - Coletando dados básicos do produto 12/15
+2025-09-16 23:16:55,708 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 40 mg e Apoquel Dermatológico 16 mg - KIT | Preço: R$ 621,39 | Tem variações: False
+2025-09-16 23:16:55,708 - INFO - Coletando dados básicos do produto 13/15
+2025-09-16 23:16:55,914 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 80 mg e Apoquel Dermatológico 5,4 mg - KIT | Preço: R$ 388,73 | Tem variações: False
+2025-09-16 23:16:55,914 - INFO - Coletando dados básicos do produto 14/15
+2025-09-16 23:16:56,107 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 120 mg e Apoquel Dermatológico 16 mg - KIT | Preço: R$ 644,23 | Tem variações: False
+2025-09-16 23:16:56,107 - INFO - Coletando dados básicos do produto 15/15
+2025-09-16 23:16:56,272 - INFO - Produto coletado: Atrativo Sanitário Sunny Pet Xixi no Lugar Certo para Cães - 120 mL | Preço: N/A | Tem variações: False
+2025-09-16 23:16:56,272 - INFO - Processando variações do produto 1/15
+2025-09-16 23:16:56,272 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-zoetis-simparic-20-mg-para-caes-5-1-a-10-kg/p?sku=3110173-2 (Tentativa 1)
+2025-09-16 23:17:00,406 - INFO - Navegação bem-sucedida!
+2025-09-16 23:17:02,447 - INFO - Popup de variações encontrado
+2025-09-16 23:17:02,466 - INFO - Encontradas 3 variações
+2025-09-16 23:17:02,558 - INFO - Variação encontrada: 1 Comprimidos | Preço: R$110,99/uni
+2025-09-16 23:17:02,625 - INFO - Variação encontrada: 3 Comprimidos | Preço: R$97,33/uni
+2025-09-16 23:17:02,696 - INFO - Variação encontrada: 2 Unidades com 3 Comprimidos | Preço: R$89,16/uni
+2025-09-16 23:17:02,697 - INFO - Criando produto: Antipulgas Zoetis Simparic 20 mg para Cães 5,1 a 10Kg - 1 Comprimidos | Quantidade: 1 Comprimidos | Preço: R$110,99/uni
+2025-09-16 23:17:02,697 - INFO - Criando produto: Antipulgas Zoetis Simparic 20 mg para Cães 5,1 a 10Kg - 1 Comprimidos | Quantidade: 3 Comprimidos | Preço: R$97,33/uni
+2025-09-16 23:17:02,697 - INFO - Criando produto: Antipulgas Zoetis Simparic 20 mg para Cães 5,1 a 10Kg - 1 Comprimidos | Quantidade: 2 Unidades com 3 Comprimidos | Preço: R$89,16/uni
+2025-09-16 23:17:02,698 - INFO - Processando variações do produto 2/15
+2025-09-16 23:17:02,698 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-zoetis-simparic-80-mg-para-caes-20-1-a-40-kg/p?sku=3110176-2 (Tentativa 1)
+2025-09-16 23:17:08,987 - INFO - Navegação bem-sucedida!
+2025-09-16 23:17:11,003 - INFO - Popup de variações encontrado
+2025-09-16 23:17:11,017 - INFO - Encontradas 3 variações
+2025-09-16 23:17:11,174 - INFO - Variação encontrada: 3 Comprimidos | Preço: R$132,66/uni
+2025-09-16 23:17:11,253 - INFO - Variação encontrada: 1 Comprimido | Preço: R$151,99/uni
+2025-09-16 23:17:11,347 - INFO - Variação encontrada: 2 Unidades com 3 Comprimidos | Preço: R$120,70/uni
+2025-09-16 23:17:11,348 - INFO - Criando produto: Antipulgas Zoetis Simparic 80 mg para Cães 20,1 a 40Kg - 1 Comprimido | Quantidade: 3 Comprimidos | Preço: R$132,66/uni
+2025-09-16 23:17:11,348 - INFO - Criando produto: Antipulgas Zoetis Simparic 80 mg para Cães 20,1 a 40Kg - 1 Comprimido | Quantidade: 1 Comprimido | Preço: R$151,99/uni
+2025-09-16 23:17:11,348 - INFO - Criando produto: Antipulgas Zoetis Simparic 80 mg para Cães 20,1 a 40Kg - 1 Comprimido | Quantidade: 2 Unidades com 3 Comprimidos | Preço: R$120,70/uni
+2025-09-16 23:17:11,348 - INFO - Processando variações do produto 3/15
+2025-09-16 23:17:11,349 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-zoetis-simparic-40-mg-para-caes-10-1-a-20-kg/p?sku=3110174-2 (Tentativa 1)
+2025-09-16 23:17:15,902 - INFO - Navegação bem-sucedida!
+2025-09-16 23:17:17,929 - INFO - Popup de variações encontrado
+2025-09-16 23:17:17,945 - INFO - Encontradas 3 variações
+2025-09-16 23:17:18,056 - INFO - Variação encontrada: 3 Comprimidos | Preço: R$112,66/uni
+2025-09-16 23:17:18,258 - INFO - Variação encontrada: 1 Comprimido | Preço: R$133,99/uni
+2025-09-16 23:17:18,315 - INFO - Variação encontrada: 2 Unidades com 3 Comprimidos | Preço: R$103,26/uni
+2025-09-16 23:17:18,315 - INFO - Criando produto: Antipulgas Zoetis Simparic 40 mg para Cães 10,1 a 20Kg - 1 Comprimido | Quantidade: 3 Comprimidos | Preço: R$112,66/uni
+2025-09-16 23:17:18,315 - INFO - Criando produto: Antipulgas Zoetis Simparic 40 mg para Cães 10,1 a 20Kg - 1 Comprimido | Quantidade: 1 Comprimido | Preço: R$133,99/uni
+2025-09-16 23:17:18,315 - INFO - Criando produto: Antipulgas Zoetis Simparic 40 mg para Cães 10,1 a 20Kg - 1 Comprimido | Quantidade: 2 Unidades com 3 Comprimidos | Preço: R$103,26/uni
+2025-09-16 23:17:18,316 - INFO - Processando variações do produto 4/15
+2025-09-16 23:17:18,316 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-zoetis-simparic-10-mg-para-caes-2-6-a-5-kg/p?sku=3110172-2 (Tentativa 1)
+2025-09-16 23:17:22,611 - INFO - Navegação bem-sucedida!
+2025-09-16 23:17:24,640 - INFO - Popup de variações encontrado
+2025-09-16 23:17:24,654 - INFO - Encontradas 3 variações
+2025-09-16 23:17:24,747 - INFO - Variação encontrada: 3 Comprimidos | Preço: R$87,33/uni
+2025-09-16 23:17:24,836 - INFO - Variação encontrada: 1 Comprimido | Preço: R$98,99/uni
+2025-09-16 23:17:24,909 - INFO - Variação encontrada: 2 Unidades com 3 Comprimidos | Preço: R$80,16/uni
+2025-09-16 23:17:24,910 - INFO - Criando produto: Antipulgas Zoetis Simparic 10 mg para Cães 2,6 a 5Kg - 1 Comprimido | Quantidade: 3 Comprimidos | Preço: R$87,33/uni
+2025-09-16 23:17:24,910 - INFO - Criando produto: Antipulgas Zoetis Simparic 10 mg para Cães 2,6 a 5Kg - 1 Comprimido | Quantidade: 1 Comprimido | Preço: R$98,99/uni
+2025-09-16 23:17:24,911 - INFO - Criando produto: Antipulgas Zoetis Simparic 10 mg para Cães 2,6 a 5Kg - 1 Comprimido | Quantidade: 2 Unidades com 3 Comprimidos | Preço: R$80,16/uni
+2025-09-16 23:17:24,911 - INFO - Processando variações do produto 5/15
+2025-09-16 23:17:24,911 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-zoetis-simparic-120-mg-para-caes-40-1-a-60-kg/p?sku=3110177-2 (Tentativa 1)
+2025-09-16 23:17:29,581 - INFO - Navegação bem-sucedida!
+2025-09-16 23:17:31,601 - INFO - Popup de variações encontrado
+2025-09-16 23:17:31,618 - INFO - Encontradas 3 variações
+2025-09-16 23:17:31,707 - INFO - Variação encontrada: 3 Comprimidos | Preço: R$135,33/uni
+2025-09-16 23:17:31,774 - INFO - Variação encontrada: 1 Comprimido | Preço: R$159,99/uni
+2025-09-16 23:17:31,825 - INFO - Variação encontrada: 2 Unidades com 3 Comprimidos | Preço: R$126,50/uni
+2025-09-16 23:17:31,826 - INFO - Criando produto: Antipulgas Zoetis Simparic 120 mg para Cães 40,1 á 60Kg - 1 Comprimido | Quantidade: 3 Comprimidos | Preço: R$135,33/uni
+2025-09-16 23:17:31,826 - INFO - Criando produto: Antipulgas Zoetis Simparic 120 mg para Cães 40,1 á 60Kg - 1 Comprimido | Quantidade: 1 Comprimido | Preço: R$159,99/uni
+2025-09-16 23:17:31,826 - INFO - Criando produto: Antipulgas Zoetis Simparic 120 mg para Cães 40,1 á 60Kg - 1 Comprimido | Quantidade: 2 Unidades com 3 Comprimidos | Preço: R$126,50/uni
+2025-09-16 23:17:31,826 - INFO - Processando variações do produto 6/15
+2025-09-16 23:17:31,826 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-zoetis-simparic-5-mg-para-caes-1-3-a-2-5-kg/p?sku=3110171-2 (Tentativa 1)
+2025-09-16 23:17:36,040 - INFO - Navegação bem-sucedida!
+2025-09-16 23:17:38,064 - INFO - Popup de variações encontrado
+2025-09-16 23:17:38,081 - INFO - Encontradas 3 variações
+2025-09-16 23:17:38,177 - INFO - Variação encontrada: 3 Comprimidos | Preço: R$86,33/uni
+2025-09-16 23:17:38,243 - INFO - Variação encontrada: 1 Comprimido | Preço: R$98,99/uni
+2025-09-16 23:17:38,325 - INFO - Variação encontrada: 2 Unidades com 3 Comprimidos | Preço: R$75,20/uni
+2025-09-16 23:17:38,326 - INFO - Criando produto: Antipulgas Zoetis Simparic 5 mg para Cães 1,3 a 2,5Kg - 1 Comprimido | Quantidade: 3 Comprimidos | Preço: R$86,33/uni
+2025-09-16 23:17:38,326 - INFO - Criando produto: Antipulgas Zoetis Simparic 5 mg para Cães 1,3 a 2,5Kg - 1 Comprimido | Quantidade: 1 Comprimido | Preço: R$98,99/uni
+2025-09-16 23:17:38,326 - INFO - Criando produto: Antipulgas Zoetis Simparic 5 mg para Cães 1,3 a 2,5Kg - 1 Comprimido | Quantidade: 2 Unidades com 3 Comprimidos | Preço: R$75,20/uni
+2025-09-16 23:17:38,326 - INFO - Processando variações do produto 7/15
+2025-09-16 23:17:38,326 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 20 mg e Apoquel Dermatológico 3,6 mg - KIT | Quantidade: KIT | Preço: R$ 335,40
+2025-09-16 23:17:38,326 - INFO - Processando variações do produto 8/15
+2025-09-16 23:17:38,326 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 20 mg e Apoquel Dermatológico 5,4 mg - KIT | Quantidade: KIT | Preço: R$ 352,73
+2025-09-16 23:17:38,327 - INFO - Processando variações do produto 9/15
+2025-09-16 23:17:38,327 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 10 mg e Apoquel Dermatológico 3,6 mg - KIT | Quantidade: KIT | Preço: R$ 327,00
+2025-09-16 23:17:38,327 - INFO - Processando variações do produto 10/15
+2025-09-16 23:17:38,328 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 40 mg e Apoquel Dermatológico 5,4 mg - KIT | Quantidade: KIT | Preço: R$ 372,73
+2025-09-16 23:17:38,328 - INFO - Processando variações do produto 11/15
+2025-09-16 23:17:38,329 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 80 mg e Apoquel Dermatológico 16 mg - KIT | Quantidade: KIT | Preço: R$ 637,39
+2025-09-16 23:17:38,329 - INFO - Processando variações do produto 12/15
+2025-09-16 23:17:38,329 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 40 mg e Apoquel Dermatológico 16 mg - KIT | Quantidade: KIT | Preço: R$ 621,39
+2025-09-16 23:17:38,329 - INFO - Processando variações do produto 13/15
+2025-09-16 23:17:38,330 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 80 mg e Apoquel Dermatológico 5,4 mg - KIT | Quantidade: KIT | Preço: R$ 388,73
+2025-09-16 23:17:38,330 - INFO - Processando variações do produto 14/15
+2025-09-16 23:17:38,330 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 120 mg e Apoquel Dermatológico 16 mg - KIT | Quantidade: KIT | Preço: R$ 644,23
+2025-09-16 23:17:38,331 - INFO - Processando variações do produto 15/15
+2025-09-16 23:17:38,331 - INFO - Criando produto: Atrativo Sanitário Sunny Pet Xixi no Lugar Certo para Cães - 120 mL | Quantidade: N/A | Preço: N/A
+2025-09-16 23:17:38,331 - INFO - Encontrados 27 produtos para Simparic
+2025-09-16 23:17:38,332 - INFO - Aguardando 2.9s...
+2025-09-16 23:17:41,275 - INFO - Processando Revolution (2/20)
+2025-09-16 23:17:41,276 - INFO - Buscando Revolution na Petlove...
+2025-09-16 23:19:25,997 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Revolution (Tentativa 1)
+2025-09-16 23:19:30,661 - INFO - Navegação bem-sucedida!
+2025-09-16 23:19:30,698 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:19:30,698 - INFO - Número de produtos encontrados na página: 17
+2025-09-16 23:19:30,699 - INFO - Coletando dados básicos do produto 1/17
+2025-09-16 23:19:30,975 - INFO - Produto coletado: Antipulgas e Carrapatos Zoetis Revolution 6% para Gatos de 2,5 a 7,5Kg - 3 Ampolas de 0,75 mL | Preço: R$ 232,99 | Tem variações: True
+2025-09-16 23:19:30,975 - INFO - Coletando dados básicos do produto 2/17
+2025-09-16 23:19:31,255 - INFO - Produto coletado: Antipulgas e Carrapatos Zoetis Revolution 6% para Cães e Gatos até 2,5Kg - 1 Ampola de 0,25 mL | Preço: R$ 103,99 | Tem variações: True
+2025-09-16 23:19:31,255 - INFO - Coletando dados básicos do produto 3/17
+2025-09-16 23:19:31,521 - INFO - Produto coletado: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 5 a 10Kg - 1 Ampola de 0,5 mL | Preço: R$ 119,99 | Tem variações: True
+2025-09-16 23:19:31,522 - INFO - Coletando dados básicos do produto 4/17
+2025-09-16 23:19:31,840 - INFO - Produto coletado: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 2,6 a 5Kg - 1 Ampola de 0,25 mL | Preço: R$ 103,99 | Tem variações: True
+2025-09-16 23:19:31,841 - INFO - Coletando dados básicos do produto 5/17
+2025-09-16 23:19:32,069 - INFO - Produto coletado: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 10 a 20Kg - 3 Ampolas de 1,0 mL | Preço: R$ 318,99 | Tem variações: True
+2025-09-16 23:19:32,070 - INFO - Coletando dados básicos do produto 6/17
+2025-09-16 23:19:32,277 - INFO - Produto coletado: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 20 a 40Kg - 3 Ampolas de 2,0 mL | Preço: R$ 367,99 | Tem variações: True
+2025-09-16 23:19:32,278 - INFO - Coletando dados básicos do produto 7/17
+2025-09-16 23:19:32,436 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 3,6 mg para Cães de 5 a 10Kg - KIT | Preço: R$ 339,58 | Tem variações: False
+2025-09-16 23:19:32,436 - INFO - Coletando dados básicos do produto 8/17
+2025-09-16 23:19:32,601 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 16 mg para Cães de 20 a 40Kg - KIT | Preço: R$ 639,39 | Tem variações: False
+2025-09-16 23:19:32,601 - INFO - Coletando dados básicos do produto 9/17
+2025-09-16 23:19:32,859 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 20 a 40Kg - KIT | Preço: R$ 390,73 | Tem variações: False
+2025-09-16 23:19:32,860 - INFO - Coletando dados básicos do produto 10/17
+2025-09-16 23:19:33,144 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 16 mg para Cães de 10 a 20Kg - KIT | Preço: R$ 780,74 | Tem variações: False
+2025-09-16 23:19:33,145 - INFO - Coletando dados básicos do produto 11/17
+2025-09-16 23:19:33,335 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 10 a 20Kg - KIT | Preço: R$ 371,11 | Tem variações: False
+2025-09-16 23:19:33,336 - INFO - Coletando dados básicos do produto 12/17
+2025-09-16 23:19:33,493 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 5 a 10Kg - KIT | Preço: R$ 356,91 | Tem variações: False
+2025-09-16 23:19:33,493 - INFO - Coletando dados básicos do produto 13/17
+2025-09-16 23:19:33,621 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 3,6 mg para Cães de 2,6 a 5Kg - KIT | Preço: R$ 326,70 | Tem variações: False
+2025-09-16 23:19:33,621 - INFO - Coletando dados básicos do produto 14/17
+2025-09-16 23:19:33,734 - INFO - Produto coletado: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único | Preço: N/A | Tem variações: False
+2025-09-16 23:19:33,734 - INFO - Coletando dados básicos do produto 15/17
+2025-09-16 23:19:33,917 - INFO - Produto coletado: Casa Pet Jet Dog House Evolution Black - N°2 | Preço: R$ 69,90 | Tem variações: True
+2025-09-16 23:19:33,917 - INFO - Coletando dados básicos do produto 16/17
+2025-09-16 23:19:34,020 - INFO - Produto coletado: Casa Pet Injet Prime Colors Dog House Evolution Vermelha - Tam. 03 | Preço: N/A | Tem variações: False
+2025-09-16 23:19:34,020 - INFO - Coletando dados básicos do produto 17/17
+2025-09-16 23:19:34,133 - INFO - Produto coletado: Casa Pet Injet Prime Colors Dog House Evolution Azul - Tam. 03 | Preço: N/A | Tem variações: False
+2025-09-16 23:19:34,133 - INFO - Processando variações do produto 1/17
+2025-09-16 23:19:34,133 - INFO - Navegando para: https://www.petlove.com.br/revolution-gatos-de-25-a-75kg-pfizer-saude-animal-103103/p?sku=3103103-2 (Tentativa 1)
+2025-09-16 23:19:38,354 - INFO - Navegação bem-sucedida!
+2025-09-16 23:19:40,380 - INFO - Popup de variações encontrado
+2025-09-16 23:19:40,396 - INFO - Encontradas 3 variações
+2025-09-16 23:19:40,497 - INFO - Variação encontrada: 1 Ampola de 0,75 mL | Preço: Consultar
+2025-09-16 23:19:40,563 - INFO - Variação encontrada: 3 Ampolas de 0,75 mL | Preço: R$77,66/uni
+2025-09-16 23:19:40,643 - INFO - Variação encontrada: 2 Unidades com 3 Ampolas | Preço: R$465,40
+2025-09-16 23:19:40,643 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 6% para Gatos de 2,5 a 7,5Kg - 3 Ampolas de 0,75 mL | Quantidade: 1 Ampola de 0,75 mL | Preço: Consultar
+2025-09-16 23:19:40,644 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 6% para Gatos de 2,5 a 7,5Kg - 3 Ampolas de 0,75 mL | Quantidade: 3 Ampolas de 0,75 mL | Preço: R$77,66/uni
+2025-09-16 23:19:40,644 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 6% para Gatos de 2,5 a 7,5Kg - 3 Ampolas de 0,75 mL | Quantidade: 2 Unidades com 3 Ampolas | Preço: R$465,40
+2025-09-16 23:19:40,644 - INFO - Processando variações do produto 2/17
+2025-09-16 23:19:40,644 - INFO - Navegando para: https://www.petlove.com.br/revolution-caes-e-gatos-ate-25kg-pfizer-saude-animal-103101/p?sku=3103101-1 (Tentativa 1)
+2025-09-16 23:19:44,168 - INFO - Navegação bem-sucedida!
+2025-09-16 23:19:46,221 - INFO - Popup de variações encontrado
+2025-09-16 23:19:46,233 - INFO - Encontradas 3 variações
+2025-09-16 23:19:46,327 - INFO - Variação encontrada: 1 Ampola de 0,25 mL | Preço: R$103,99/uni
+2025-09-16 23:19:46,409 - INFO - Variação encontrada: 3 Ampolas de 0,25 mL | Preço: R$75,99/uni
+2025-09-16 23:19:46,506 - INFO - Variação encontrada: 2 Unidades com 3 Ampolas | Preço: R$455,60
+2025-09-16 23:19:46,507 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 6% para Cães e Gatos até 2,5Kg - 1 Ampola de 0,25 mL | Quantidade: 1 Ampola de 0,25 mL | Preço: R$103,99/uni
+2025-09-16 23:19:46,507 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 6% para Cães e Gatos até 2,5Kg - 1 Ampola de 0,25 mL | Quantidade: 3 Ampolas de 0,25 mL | Preço: R$75,99/uni
+2025-09-16 23:19:46,507 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 6% para Cães e Gatos até 2,5Kg - 1 Ampola de 0,25 mL | Quantidade: 2 Unidades com 3 Ampolas | Preço: R$455,60
+2025-09-16 23:19:46,508 - INFO - Processando variações do produto 3/17
+2025-09-16 23:19:46,508 - INFO - Navegando para: https://www.petlove.com.br/revolution-caes-de-5-a-10-quilos--caixa-com-3-ampolas--103099-1/p?sku=3103099-1 (Tentativa 1)
+2025-09-16 23:19:52,662 - INFO - Navegação bem-sucedida!
+2025-09-16 23:19:54,699 - INFO - Popup de variações encontrado
+2025-09-16 23:19:54,714 - INFO - Encontradas 3 variações
+2025-09-16 23:19:54,812 - INFO - Variação encontrada: 1 Ampola de 0,5 mL | Preço: R$119,99/uni
+2025-09-16 23:19:54,900 - INFO - Variação encontrada: 3 Ampolas de 0,5 mL | Preço: R$89,33/uni
+2025-09-16 23:19:54,979 - INFO - Variação encontrada: 2 Unidades com 3 Ampolas | Preço: R$487,80
+2025-09-16 23:19:54,979 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 5 a 10Kg - 1 Ampola de 0,5 mL | Quantidade: 1 Ampola de 0,5 mL | Preço: R$119,99/uni
+2025-09-16 23:19:54,979 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 5 a 10Kg - 1 Ampola de 0,5 mL | Quantidade: 3 Ampolas de 0,5 mL | Preço: R$89,33/uni
+2025-09-16 23:19:54,979 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 5 a 10Kg - 1 Ampola de 0,5 mL | Quantidade: 2 Unidades com 3 Ampolas | Preço: R$487,80
+2025-09-16 23:19:54,979 - INFO - Processando variações do produto 4/17
+2025-09-16 23:19:54,979 - INFO - Navegando para: https://www.petlove.com.br/revolution-caes-de-26-a-5-quilos-pfizer-saude-animal-103090/p?sku=3103090-1 (Tentativa 1)
+2025-09-16 23:19:59,353 - INFO - Navegação bem-sucedida!
+2025-09-16 23:20:01,378 - INFO - Popup de variações encontrado
+2025-09-16 23:20:01,395 - INFO - Encontradas 3 variações
+2025-09-16 23:20:01,475 - INFO - Variação encontrada: 1 Ampola de 0,25 mL | Preço: R$103,99/uni
+2025-09-16 23:20:01,562 - INFO - Variação encontrada: 3 Ampolas de 0,25 mL | Preço: R$83,99/uni
+2025-09-16 23:20:01,634 - INFO - Variação encontrada: 2 Unidades com 3 Ampolas | Preço: R$456,70
+2025-09-16 23:20:01,635 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 2,6 a 5Kg - 1 Ampola de 0,25 mL | Quantidade: 1 Ampola de 0,25 mL | Preço: R$103,99/uni
+2025-09-16 23:20:01,635 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 2,6 a 5Kg - 1 Ampola de 0,25 mL | Quantidade: 3 Ampolas de 0,25 mL | Preço: R$83,99/uni
+2025-09-16 23:20:01,636 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 2,6 a 5Kg - 1 Ampola de 0,25 mL | Quantidade: 2 Unidades com 3 Ampolas | Preço: R$456,70
+2025-09-16 23:20:01,636 - INFO - Processando variações do produto 5/17
+2025-09-16 23:20:01,636 - INFO - Navegando para: https://www.petlove.com.br/revolution-caes-de-10-a-20-quilos-pfizer-saude-animal-103087/p?sku=3103087-2 (Tentativa 1)
+2025-09-16 23:20:06,401 - INFO - Navegação bem-sucedida!
+2025-09-16 23:20:08,431 - INFO - Popup de variações encontrado
+2025-09-16 23:20:08,449 - INFO - Encontradas 3 variações
+2025-09-16 23:20:08,520 - INFO - Variação encontrada: 1 Ampola de 1,0 mL | Preço: R$137,99/uni
+2025-09-16 23:20:08,625 - INFO - Variação encontrada: 3 Ampolas de 1,0 mL | Preço: R$106,33/uni
+2025-09-16 23:20:08,717 - INFO - Variação encontrada: 2 Unidades com 3 Ampolas | Preço: R$562,50
+2025-09-16 23:20:08,718 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 10 a 20Kg - 3 Ampolas de 1,0 mL | Quantidade: 1 Ampola de 1,0 mL | Preço: R$137,99/uni
+2025-09-16 23:20:08,718 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 10 a 20Kg - 3 Ampolas de 1,0 mL | Quantidade: 3 Ampolas de 1,0 mL | Preço: R$106,33/uni
+2025-09-16 23:20:08,719 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 10 a 20Kg - 3 Ampolas de 1,0 mL | Quantidade: 2 Unidades com 3 Ampolas | Preço: R$562,50
+2025-09-16 23:20:08,719 - INFO - Processando variações do produto 6/17
+2025-09-16 23:20:08,720 - INFO - Navegando para: https://www.petlove.com.br/revolution-caes--caixa-com-3-ampolas--103093/p?sku=3103093-2 (Tentativa 1)
+2025-09-16 23:20:12,796 - INFO - Navegação bem-sucedida!
+2025-09-16 23:20:14,820 - INFO - Popup de variações encontrado
+2025-09-16 23:20:14,837 - INFO - Encontradas 3 variações
+2025-09-16 23:20:14,930 - INFO - Variação encontrada: 1 Ampola de 2,0 mL | Preço: R$158,99/uni
+2025-09-16 23:20:15,012 - INFO - Variação encontrada: 3 Ampolas de 2,0 mL | Preço: R$122,66/uni
+2025-09-16 23:20:15,071 - INFO - Variação encontrada: 2 Unidades com 3 Ampolas | Preço: R$649,80
+2025-09-16 23:20:15,072 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 20 a 40Kg - 3 Ampolas de 2,0 mL | Quantidade: 1 Ampola de 2,0 mL | Preço: R$158,99/uni
+2025-09-16 23:20:15,072 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 20 a 40Kg - 3 Ampolas de 2,0 mL | Quantidade: 3 Ampolas de 2,0 mL | Preço: R$122,66/uni
+2025-09-16 23:20:15,072 - INFO - Criando produto: Antipulgas e Carrapatos Zoetis Revolution 12% para Cães de 20 a 40Kg - 3 Ampolas de 2,0 mL | Quantidade: 2 Unidades com 3 Ampolas | Preço: R$649,80
+2025-09-16 23:20:15,072 - INFO - Processando variações do produto 7/17
+2025-09-16 23:20:15,072 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 3,6 mg para Cães de 5 a 10Kg - KIT | Quantidade: KIT | Preço: R$ 339,58
+2025-09-16 23:20:15,072 - INFO - Processando variações do produto 8/17
+2025-09-16 23:20:15,073 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 16 mg para Cães de 20 a 40Kg - KIT | Quantidade: KIT | Preço: R$ 639,39
+2025-09-16 23:20:15,073 - INFO - Processando variações do produto 9/17
+2025-09-16 23:20:15,073 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 20 a 40Kg - KIT | Quantidade: KIT | Preço: R$ 390,73
+2025-09-16 23:20:15,073 - INFO - Processando variações do produto 10/17
+2025-09-16 23:20:15,073 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 16 mg para Cães de 10 a 20Kg - KIT | Quantidade: KIT | Preço: R$ 780,74
+2025-09-16 23:20:15,073 - INFO - Processando variações do produto 11/17
+2025-09-16 23:20:15,073 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 10 a 20Kg - KIT | Quantidade: KIT | Preço: R$ 371,11
+2025-09-16 23:20:15,073 - INFO - Processando variações do produto 12/17
+2025-09-16 23:20:15,074 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 5 a 10Kg - KIT | Quantidade: KIT | Preço: R$ 356,91
+2025-09-16 23:20:15,074 - INFO - Processando variações do produto 13/17
+2025-09-16 23:20:15,074 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 3,6 mg para Cães de 2,6 a 5Kg - KIT | Quantidade: KIT | Preço: R$ 326,70
+2025-09-16 23:20:15,074 - INFO - Processando variações do produto 14/17
+2025-09-16 23:20:15,075 - INFO - Criando produto: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único | Quantidade: Tam. Único | Preço: N/A
+2025-09-16 23:20:15,075 - INFO - Processando variações do produto 15/17
+2025-09-16 23:20:15,075 - INFO - Navegando para: https://www.petlove.com.br/casa-pet-jet-dog-house-evolution-black/p?sku=31027548786 (Tentativa 1)
+2025-09-16 23:20:19,779 - INFO - Navegação bem-sucedida!
+2025-09-16 23:20:21,803 - INFO - Popup de variações encontrado
+2025-09-16 23:20:21,819 - INFO - Encontradas 3 variações
+2025-09-16 23:20:21,899 - INFO - Variação encontrada: N°1 | Preço: R$49,90
+2025-09-16 23:20:21,958 - INFO - Variação encontrada: N°2 | Preço: R$69,90
+2025-09-16 23:20:22,029 - INFO - Variação encontrada: N°3 | Preço: R$146,90
+2025-09-16 23:20:22,029 - INFO - Criando produto: Casa Pet Jet Dog House Evolution Black - N°2 | Quantidade: N°1 | Preço: R$49,90
+2025-09-16 23:20:22,030 - INFO - Criando produto: Casa Pet Jet Dog House Evolution Black - N°2 | Quantidade: N°2 | Preço: R$69,90
+2025-09-16 23:20:22,030 - INFO - Criando produto: Casa Pet Jet Dog House Evolution Black - N°2 | Quantidade: N°3 | Preço: R$146,90
+2025-09-16 23:20:22,030 - INFO - Processando variações do produto 16/17
+2025-09-16 23:20:22,030 - INFO - Criando produto: Casa Pet Injet Prime Colors Dog House Evolution Vermelha - Tam. 03 | Quantidade: N/A | Preço: N/A
+2025-09-16 23:20:22,030 - INFO - Processando variações do produto 17/17
+2025-09-16 23:20:22,030 - INFO - Criando produto: Casa Pet Injet Prime Colors Dog House Evolution Azul - Tam. 03 | Quantidade: N/A | Preço: N/A
+2025-09-16 23:20:22,030 - INFO - Encontrados 31 produtos para Revolution
+2025-09-16 23:20:22,031 - INFO - Aguardando 1.9s...
+2025-09-16 23:20:23,915 - INFO - Processando NexGard (3/20)
+2025-09-16 23:20:23,916 - INFO - Buscando NexGard na Petlove...
+2025-09-16 23:22:10,386 - INFO - Navegando para: https://www.petlove.com.br/busca?q=NexGard (Tentativa 1)
+2025-09-16 23:22:14,519 - INFO - Navegação bem-sucedida!
+2025-09-16 23:22:14,568 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:22:14,568 - INFO - Número de produtos encontrados na página: 11
+2025-09-16 23:22:14,568 - INFO - Coletando dados básicos do produto 1/11
+2025-09-16 23:22:14,881 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard 28,3 mg para Cães de 4,1 a 10Kg - 1 Tablete | Preço: R$ 105,00 | Tem variações: True
+2025-09-16 23:22:14,882 - INFO - Coletando dados básicos do produto 2/11
+2025-09-16 23:22:15,228 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard 68 mg para Cães de 10,1 a 25Kg - 1 Tablete | Preço: R$ 126,00 | Tem variações: True
+2025-09-16 23:22:15,228 - INFO - Coletando dados básicos do produto 3/11
+2025-09-16 23:22:15,525 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard 136 mg para Cães de 25,1 a 50Kg - 1 Tablete | Preço: R$ 145,00 | Tem variações: True
+2025-09-16 23:22:15,525 - INFO - Coletando dados básicos do produto 4/11
+2025-09-16 23:22:15,752 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard 11,3 mg para Cães de 2 a 4Kg - 1 Tablete | Preço: R$ 96,00 | Tem variações: True
+2025-09-16 23:22:15,752 - INFO - Coletando dados básicos do produto 5/11
+2025-09-16 23:22:15,986 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15Kg - 1 Tablete | Preço: R$ 130,99 | Tem variações: True
+2025-09-16 23:22:15,986 - INFO - Coletando dados básicos do produto 6/11
+2025-09-16 23:22:16,225 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg - 1 Tablete | Preço: R$ 156,99 | Tem variações: True
+2025-09-16 23:22:16,225 - INFO - Coletando dados básicos do produto 7/11
+2025-09-16 23:22:16,438 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5Kg - 1 Tablete | Preço: R$ 115,99 | Tem variações: True
+2025-09-16 23:22:16,438 - INFO - Coletando dados básicos do produto 8/11
+2025-09-16 23:22:16,653 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 30,1 a 60Kg - 1 Tablete | Preço: R$ 180,99 | Tem variações: True
+2025-09-16 23:22:16,653 - INFO - Coletando dados básicos do produto 9/11
+2025-09-16 23:22:16,905 - INFO - Produto coletado: Antiparasitário Nexgard Combo para Gatos de 2,5Kg a 7,5Kg - 3 Aplicadores | Preço: R$ 257,00 | Tem variações: True
+2025-09-16 23:22:16,906 - INFO - Coletando dados básicos do produto 10/11
+2025-09-16 23:22:17,110 - INFO - Produto coletado: Antiparasitário Nexgard Combo para Gatos de 0,8Kg a 2,5Kg - 1 Pipeta | Preço: R$ 110,00 | Tem variações: True
+2025-09-16 23:22:17,110 - INFO - Coletando dados básicos do produto 11/11
+2025-09-16 23:22:17,275 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5Kg - 1 Tablete | Preço: R$ 103,99 | Tem variações: True
+2025-09-16 23:22:17,275 - INFO - Processando variações do produto 1/11
+2025-09-16 23:22:17,276 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-283-mg---caes-de-41-a-10-kg-3105746/p?sku=3105746 (Tentativa 1)
+2025-09-16 23:22:21,783 - INFO - Navegação bem-sucedida!
+2025-09-16 23:22:23,818 - INFO - Popup de variações encontrado
+2025-09-16 23:22:23,844 - INFO - Encontradas 3 variações
+2025-09-16 23:22:23,945 - INFO - Variação encontrada: 1 Tablete | Preço: R$105,00/uni
+2025-09-16 23:22:24,016 - INFO - Variação encontrada: 3 Tabletes | Preço: R$92,66/uni
+2025-09-16 23:22:24,087 - INFO - Variação encontrada: 2 Unidades com 3 Tabletes | Preço: R$84,33/uni
+2025-09-16 23:22:24,087 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 28,3 mg para Cães de 4,1 a 10Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$105,00/uni
+2025-09-16 23:22:24,088 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 28,3 mg para Cães de 4,1 a 10Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$92,66/uni
+2025-09-16 23:22:24,088 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 28,3 mg para Cães de 4,1 a 10Kg - 1 Tablete | Quantidade: 2 Unidades com 3 Tabletes | Preço: R$84,33/uni
+2025-09-16 23:22:24,088 - INFO - Processando variações do produto 2/11
+2025-09-16 23:22:24,088 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-68-mg---caes-de-101-a-25-kg-3105747/p?sku=3105747 (Tentativa 1)
+2025-09-16 23:22:29,251 - INFO - Navegação bem-sucedida!
+2025-09-16 23:22:31,270 - INFO - Popup de variações encontrado
+2025-09-16 23:22:31,289 - INFO - Encontradas 3 variações
+2025-09-16 23:22:31,368 - INFO - Variação encontrada: 1 Tablete | Preço: R$126,00/uni
+2025-09-16 23:22:31,464 - INFO - Variação encontrada: 3 Tabletes | Preço: R$324,00
+2025-09-16 23:22:31,553 - INFO - Variação encontrada: 2 Unidades com 3 Tabletes | Preço: R$97,66/uni
+2025-09-16 23:22:31,554 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 68 mg para Cães de 10,1 a 25Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$126,00/uni
+2025-09-16 23:22:31,554 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 68 mg para Cães de 10,1 a 25Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$324,00
+2025-09-16 23:22:31,554 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 68 mg para Cães de 10,1 a 25Kg - 1 Tablete | Quantidade: 2 Unidades com 3 Tabletes | Preço: R$97,66/uni
+2025-09-16 23:22:31,554 - INFO - Processando variações do produto 3/11
+2025-09-16 23:22:31,555 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-136-mg---caes-de-251-a-50-kg-3105748/p?sku=3105748 (Tentativa 1)
+2025-09-16 23:22:36,207 - INFO - Navegação bem-sucedida!
+2025-09-16 23:22:38,234 - INFO - Popup de variações encontrado
+2025-09-16 23:22:38,250 - INFO - Encontradas 3 variações
+2025-09-16 23:22:38,340 - INFO - Variação encontrada: 3 Tabletes | Preço: R$127,00/uni
+2025-09-16 23:22:38,443 - INFO - Variação encontrada: 1 Tablete | Preço: R$145,00/uni
+2025-09-16 23:22:38,543 - INFO - Variação encontrada: 2 Unidades com 3 Tabletes | Preço: R$116,00/uni
+2025-09-16 23:22:38,544 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 136 mg para Cães de 25,1 a 50Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$127,00/uni
+2025-09-16 23:22:38,544 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 136 mg para Cães de 25,1 a 50Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$145,00/uni
+2025-09-16 23:22:38,544 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 136 mg para Cães de 25,1 a 50Kg - 1 Tablete | Quantidade: 2 Unidades com 3 Tabletes | Preço: R$116,00/uni
+2025-09-16 23:22:38,545 - INFO - Processando variações do produto 4/11
+2025-09-16 23:22:38,545 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-113-mg---caes-de-2-a-4-kg-3105745/p?sku=3105745 (Tentativa 1)
+2025-09-16 23:22:44,783 - INFO - Navegação bem-sucedida!
+2025-09-16 23:22:46,813 - INFO - Popup de variações encontrado
+2025-09-16 23:22:46,833 - INFO - Encontradas 3 variações
+2025-09-16 23:22:46,923 - INFO - Variação encontrada: 3 Tabletes | Preço: R$83,33/uni
+2025-09-16 23:22:46,992 - INFO - Variação encontrada: 1 Tablete | Preço: R$96,00/uni
+2025-09-16 23:22:47,060 - INFO - Variação encontrada: 2 Unidades com 3 Tabletes | Preço: R$76,00/uni
+2025-09-16 23:22:47,060 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 11,3 mg para Cães de 2 a 4Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$83,33/uni
+2025-09-16 23:22:47,060 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 11,3 mg para Cães de 2 a 4Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$96,00/uni
+2025-09-16 23:22:47,061 - INFO - Criando produto: Antipulgas e Carrapatos NexGard 11,3 mg para Cães de 2 a 4Kg - 1 Tablete | Quantidade: 2 Unidades com 3 Tabletes | Preço: R$76,00/uni
+2025-09-16 23:22:47,061 - INFO - Processando variações do produto 5/11
+2025-09-16 23:22:47,061 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-7-6-a-15-kg/p?sku=2659016 (Tentativa 1)
+2025-09-16 23:22:51,342 - INFO - Navegação bem-sucedida!
+2025-09-16 23:22:53,365 - INFO - Popup de variações encontrado
+2025-09-16 23:22:53,375 - INFO - Encontradas 3 variações
+2025-09-16 23:22:53,479 - INFO - Variação encontrada: 1 Tablete | Preço: R$130,99
+2025-09-16 23:22:53,558 - INFO - Variação encontrada: 3 Tabletes | Preço: R$116,99/uni
+2025-09-16 23:22:53,625 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$97,33/uni
+2025-09-16 23:22:53,625 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$130,99
+2025-09-16 23:22:53,626 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$116,99/uni
+2025-09-16 23:22:53,626 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$97,33/uni
+2025-09-16 23:22:53,626 - INFO - Processando variações do produto 6/11
+2025-09-16 23:22:53,626 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-15-1-a-30-kg/p?sku=2659028 (Tentativa 1)
+2025-09-16 23:22:58,473 - INFO - Navegação bem-sucedida!
+2025-09-16 23:23:00,503 - INFO - Popup de variações encontrado
+2025-09-16 23:23:00,520 - INFO - Encontradas 3 variações
+2025-09-16 23:23:00,619 - INFO - Variação encontrada: 1 Tablete | Preço: R$156,99
+2025-09-16 23:23:00,719 - INFO - Variação encontrada: 3 Tabletes | Preço: R$140,99/uni
+2025-09-16 23:23:00,814 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$125,33/uni
+2025-09-16 23:23:00,814 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$156,99
+2025-09-16 23:23:00,815 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$140,99/uni
+2025-09-16 23:23:00,815 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$125,33/uni
+2025-09-16 23:23:00,815 - INFO - Processando variações do produto 7/11
+2025-09-16 23:23:00,815 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-3-6-a-7-5-kg/p?sku=2659014 (Tentativa 1)
+2025-09-16 23:23:06,164 - INFO - Navegação bem-sucedida!
+2025-09-16 23:23:08,186 - INFO - Popup de variações encontrado
+2025-09-16 23:23:08,204 - INFO - Encontradas 3 variações
+2025-09-16 23:23:08,335 - INFO - Variação encontrada: 1 Tablete | Preço: R$115,99
+2025-09-16 23:23:08,432 - INFO - Variação encontrada: 3 Tabletes | Preço: R$103,33/uni
+2025-09-16 23:23:08,525 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$91,33/uni
+2025-09-16 23:23:08,526 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$115,99
+2025-09-16 23:23:08,526 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$103,33/uni
+2025-09-16 23:23:08,526 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$91,33/uni
+2025-09-16 23:23:08,526 - INFO - Processando variações do produto 8/11
+2025-09-16 23:23:08,526 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-30-1-a-60-kg/p?sku=2659031 (Tentativa 1)
+2025-09-16 23:23:13,082 - INFO - Navegação bem-sucedida!
+2025-09-16 23:23:15,104 - INFO - Popup de variações encontrado
+2025-09-16 23:23:15,124 - INFO - Encontradas 3 variações
+2025-09-16 23:23:15,230 - INFO - Variação encontrada: 1 Tablete | Preço: R$180,99
+2025-09-16 23:23:15,335 - INFO - Variação encontrada: 3 Tabletes | Preço: R$162,66/uni
+2025-09-16 23:23:15,414 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$145,33/uni
+2025-09-16 23:23:15,414 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 30,1 a 60Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$180,99
+2025-09-16 23:23:15,415 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 30,1 a 60Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$162,66/uni
+2025-09-16 23:23:15,415 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 30,1 a 60Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$145,33/uni
+2025-09-16 23:23:15,415 - INFO - Processando variações do produto 9/11
+2025-09-16 23:23:15,415 - INFO - Navegando para: https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-2-5-kg-a-7-5-kg/p?sku=31027541855 (Tentativa 1)
+2025-09-16 23:23:19,144 - INFO - Navegação bem-sucedida!
+2025-09-16 23:23:21,174 - INFO - Popup de variações encontrado
+2025-09-16 23:23:21,194 - INFO - Encontradas 2 variações
+2025-09-16 23:23:21,299 - INFO - Variação encontrada: 1 Aplicador | Preço: R$113,00/uni
+2025-09-16 23:23:21,377 - INFO - Variação encontrada: 3 Aplicadores | Preço: R$85,66/uni
+2025-09-16 23:23:21,377 - INFO - Criando produto: Antiparasitário Nexgard Combo para Gatos de 2,5Kg a 7,5Kg - 3 Aplicadores | Quantidade: 1 Aplicador | Preço: R$113,00/uni
+2025-09-16 23:23:21,378 - INFO - Criando produto: Antiparasitário Nexgard Combo para Gatos de 2,5Kg a 7,5Kg - 3 Aplicadores | Quantidade: 3 Aplicadores | Preço: R$85,66/uni
+2025-09-16 23:23:21,378 - INFO - Processando variações do produto 10/11
+2025-09-16 23:23:21,378 - INFO - Navegando para: https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-0-8-kg-a-2-5-kg/p?sku=31027541850 (Tentativa 1)
+2025-09-16 23:23:25,297 - INFO - Navegação bem-sucedida!
+2025-09-16 23:23:27,315 - INFO - Popup de variações encontrado
+2025-09-16 23:23:27,348 - INFO - Encontradas 2 variações
+2025-09-16 23:23:27,443 - INFO - Variação encontrada: 1 Pipeta | Preço: R$110,00
+2025-09-16 23:23:27,532 - INFO - Variação encontrada: 3 Pipetas | Preço: R$250,00
+2025-09-16 23:23:27,532 - INFO - Criando produto: Antiparasitário Nexgard Combo para Gatos de 0,8Kg a 2,5Kg - 1 Pipeta | Quantidade: 1 Pipeta | Preço: R$110,00
+2025-09-16 23:23:27,532 - INFO - Criando produto: Antiparasitário Nexgard Combo para Gatos de 0,8Kg a 2,5Kg - 1 Pipeta | Quantidade: 3 Pipetas | Preço: R$250,00
+2025-09-16 23:23:27,533 - INFO - Processando variações do produto 11/11
+2025-09-16 23:23:27,533 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-2-a-3-5-kg/p?sku=2659012 (Tentativa 1)
+2025-09-16 23:23:32,197 - INFO - Navegação bem-sucedida!
+2025-09-16 23:23:34,225 - INFO - Popup de variações encontrado
+2025-09-16 23:23:34,242 - INFO - Encontradas 3 variações
+2025-09-16 23:23:34,335 - INFO - Variação encontrada: 1 Tablete | Preço: R$103,99
+2025-09-16 23:23:34,404 - INFO - Variação encontrada: 3 Tabletes | Preço: R$92,99/uni
+2025-09-16 23:23:34,460 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$80,99/uni
+2025-09-16 23:23:34,460 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$103,99
+2025-09-16 23:23:34,460 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$92,99/uni
+2025-09-16 23:23:34,460 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$80,99/uni
+2025-09-16 23:23:34,461 - INFO - Encontrados 31 produtos para NexGard
+2025-09-16 23:23:34,461 - INFO - Aguardando 1.7s...
+2025-09-16 23:23:36,190 - INFO - Processando NexGard Spectra (4/20)
+2025-09-16 23:23:36,195 - INFO - Buscando NexGard Spectra na Petlove...
+2025-09-16 23:25:21,707 - INFO - Navegando para: https://www.petlove.com.br/busca?q=NexGard Spectra (Tentativa 1)
+2025-09-16 23:25:24,908 - INFO - Navegação bem-sucedida!
+2025-09-16 23:25:24,960 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:25:24,960 - INFO - Número de produtos encontrados na página: 5
+2025-09-16 23:25:24,960 - INFO - Coletando dados básicos do produto 1/5
+2025-09-16 23:25:25,208 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15Kg - 1 Tablete | Preço: R$ 130,99 | Tem variações: True
+2025-09-16 23:25:25,209 - INFO - Coletando dados básicos do produto 2/5
+2025-09-16 23:25:25,419 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg - 1 Tablete | Preço: R$ 156,99 | Tem variações: True
+2025-09-16 23:25:25,419 - INFO - Coletando dados básicos do produto 3/5
+2025-09-16 23:25:25,667 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5Kg - 1 Tablete | Preço: R$ 115,99 | Tem variações: True
+2025-09-16 23:25:25,668 - INFO - Coletando dados básicos do produto 4/5
+2025-09-16 23:25:25,903 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 30,1 a 60Kg - 1 Tablete | Preço: R$ 180,99 | Tem variações: True
+2025-09-16 23:25:25,903 - INFO - Coletando dados básicos do produto 5/5
+2025-09-16 23:25:26,103 - INFO - Produto coletado: Antipulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5Kg - 1 Tablete | Preço: R$ 103,99 | Tem variações: True
+2025-09-16 23:25:26,104 - INFO - Processando variações do produto 1/5
+2025-09-16 23:25:26,104 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-7-6-a-15-kg/p?sku=2659016 (Tentativa 1)
+2025-09-16 23:25:28,827 - INFO - Navegação bem-sucedida!
+2025-09-16 23:25:30,846 - INFO - Popup de variações encontrado
+2025-09-16 23:25:30,865 - INFO - Encontradas 3 variações
+2025-09-16 23:25:30,960 - INFO - Variação encontrada: 1 Tablete | Preço: R$130,99
+2025-09-16 23:25:31,067 - INFO - Variação encontrada: 3 Tabletes | Preço: R$116,99/uni
+2025-09-16 23:25:31,164 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$97,33/uni
+2025-09-16 23:25:31,165 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$130,99
+2025-09-16 23:25:31,165 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$116,99/uni
+2025-09-16 23:25:31,165 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$97,33/uni
+2025-09-16 23:25:31,165 - INFO - Processando variações do produto 2/5
+2025-09-16 23:25:31,166 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-15-1-a-30-kg/p?sku=2659028 (Tentativa 1)
+2025-09-16 23:25:54,232 - INFO - Navegação bem-sucedida!
+2025-09-16 23:25:56,251 - INFO - Popup de variações encontrado
+2025-09-16 23:25:56,265 - INFO - Encontradas 3 variações
+2025-09-16 23:25:56,368 - INFO - Variação encontrada: 1 Tablete | Preço: R$156,99
+2025-09-16 23:25:56,460 - INFO - Variação encontrada: 3 Tabletes | Preço: R$140,99/uni
+2025-09-16 23:25:56,560 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$125,33/uni
+2025-09-16 23:25:56,561 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$156,99
+2025-09-16 23:25:56,561 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$140,99/uni
+2025-09-16 23:25:56,562 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$125,33/uni
+2025-09-16 23:25:56,562 - INFO - Processando variações do produto 3/5
+2025-09-16 23:25:56,562 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-3-6-a-7-5-kg/p?sku=2659014 (Tentativa 1)
+2025-09-16 23:25:58,229 - INFO - Navegação bem-sucedida!
+2025-09-16 23:26:00,258 - INFO - Popup de variações encontrado
+2025-09-16 23:26:00,271 - INFO - Encontradas 3 variações
+2025-09-16 23:26:00,377 - INFO - Variação encontrada: 1 Tablete | Preço: R$115,99
+2025-09-16 23:26:00,477 - INFO - Variação encontrada: 3 Tabletes | Preço: R$103,33/uni
+2025-09-16 23:26:00,577 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$91,33/uni
+2025-09-16 23:26:00,578 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$115,99
+2025-09-16 23:26:00,578 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$103,33/uni
+2025-09-16 23:26:00,578 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 3,6 a 7,5Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$91,33/uni
+2025-09-16 23:26:00,579 - INFO - Processando variações do produto 4/5
+2025-09-16 23:26:00,579 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-30-1-a-60-kg/p?sku=2659031 (Tentativa 1)
+2025-09-16 23:26:03,810 - INFO - Navegação bem-sucedida!
+2025-09-16 23:26:05,839 - INFO - Popup de variações encontrado
+2025-09-16 23:26:05,859 - INFO - Encontradas 3 variações
+2025-09-16 23:26:05,958 - INFO - Variação encontrada: 1 Tablete | Preço: R$180,99
+2025-09-16 23:26:06,044 - INFO - Variação encontrada: 3 Tabletes | Preço: R$162,66/uni
+2025-09-16 23:26:06,108 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$145,33/uni
+2025-09-16 23:26:06,108 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 30,1 a 60Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$180,99
+2025-09-16 23:26:06,109 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 30,1 a 60Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$162,66/uni
+2025-09-16 23:26:06,109 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 30,1 a 60Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$145,33/uni
+2025-09-16 23:26:06,109 - INFO - Processando variações do produto 5/5
+2025-09-16 23:26:06,110 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-2-a-3-5-kg/p?sku=2659012 (Tentativa 1)
+2025-09-16 23:26:08,587 - INFO - Navegação bem-sucedida!
+2025-09-16 23:26:10,615 - INFO - Popup de variações encontrado
+2025-09-16 23:26:10,632 - INFO - Encontradas 3 variações
+2025-09-16 23:26:10,712 - INFO - Variação encontrada: 1 Tablete | Preço: R$103,99
+2025-09-16 23:26:10,784 - INFO - Variação encontrada: 3 Tabletes | Preço: R$92,99/uni
+2025-09-16 23:26:10,867 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$80,99/uni
+2025-09-16 23:26:10,868 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5Kg - 1 Tablete | Quantidade: 1 Tablete | Preço: R$103,99
+2025-09-16 23:26:10,868 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5Kg - 1 Tablete | Quantidade: 3 Tabletes | Preço: R$92,99/uni
+2025-09-16 23:26:10,868 - INFO - Criando produto: Antipulgas e Carrapatos NexGard Spectra para Cães de 2 a 3,5Kg - 1 Tablete | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$80,99/uni
+2025-09-16 23:26:10,869 - INFO - Encontrados 15 produtos para NexGard Spectra
+2025-09-16 23:26:10,869 - INFO - Aguardando 2.6s...
+2025-09-16 23:26:13,466 - INFO - Processando NexGard Combo (5/20)
+2025-09-16 23:26:13,467 - INFO - Buscando NexGard Combo na Petlove...
+2025-09-16 23:28:00,763 - INFO - Navegando para: https://www.petlove.com.br/busca?q=NexGard Combo (Tentativa 1)
+2025-09-16 23:28:03,724 - INFO - Navegação bem-sucedida!
+2025-09-16 23:28:03,757 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:28:03,758 - INFO - Número de produtos encontrados na página: 2
+2025-09-16 23:28:03,758 - INFO - Coletando dados básicos do produto 1/2
+2025-09-16 23:28:04,024 - INFO - Produto coletado: Antiparasitário Nexgard Combo para Gatos de 2,5Kg a 7,5Kg - 3 Aplicadores | Preço: R$ 257,00 | Tem variações: True
+2025-09-16 23:28:04,024 - INFO - Coletando dados básicos do produto 2/2
+2025-09-16 23:28:04,292 - INFO - Produto coletado: Antiparasitário Nexgard Combo para Gatos de 0,8Kg a 2,5Kg - 1 Pipeta | Preço: R$ 110,00 | Tem variações: True
+2025-09-16 23:28:04,292 - INFO - Processando variações do produto 1/2
+2025-09-16 23:28:04,292 - INFO - Navegando para: https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-2-5-kg-a-7-5-kg/p?sku=31027541855 (Tentativa 1)
+2025-09-16 23:28:07,608 - INFO - Navegação bem-sucedida!
+2025-09-16 23:28:09,661 - INFO - Popup de variações encontrado
+2025-09-16 23:28:09,679 - INFO - Encontradas 2 variações
+2025-09-16 23:28:09,763 - INFO - Variação encontrada: 1 Aplicador | Preço: R$113,00/uni
+2025-09-16 23:28:09,827 - INFO - Variação encontrada: 3 Aplicadores | Preço: R$85,66/uni
+2025-09-16 23:28:09,827 - INFO - Criando produto: Antiparasitário Nexgard Combo para Gatos de 2,5Kg a 7,5Kg - 3 Aplicadores | Quantidade: 1 Aplicador | Preço: R$113,00/uni
+2025-09-16 23:28:09,827 - INFO - Criando produto: Antiparasitário Nexgard Combo para Gatos de 2,5Kg a 7,5Kg - 3 Aplicadores | Quantidade: 3 Aplicadores | Preço: R$85,66/uni
+2025-09-16 23:28:09,828 - INFO - Processando variações do produto 2/2
+2025-09-16 23:28:09,828 - INFO - Navegando para: https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-0-8-kg-a-2-5-kg/p?sku=31027541850 (Tentativa 1)
+2025-09-16 23:28:11,305 - INFO - Navegação bem-sucedida!
+2025-09-16 23:28:13,535 - INFO - Popup de variações encontrado
+2025-09-16 23:28:13,548 - INFO - Encontradas 2 variações
+2025-09-16 23:28:13,626 - INFO - Variação encontrada: 1 Pipeta | Preço: R$110,00
+2025-09-16 23:28:13,734 - INFO - Variação encontrada: 3 Pipetas | Preço: R$250,00
+2025-09-16 23:28:13,734 - INFO - Criando produto: Antiparasitário Nexgard Combo para Gatos de 0,8Kg a 2,5Kg - 1 Pipeta | Quantidade: 1 Pipeta | Preço: R$110,00
+2025-09-16 23:28:13,735 - INFO - Criando produto: Antiparasitário Nexgard Combo para Gatos de 0,8Kg a 2,5Kg - 1 Pipeta | Quantidade: 3 Pipetas | Preço: R$250,00
+2025-09-16 23:28:13,735 - INFO - Encontrados 4 produtos para NexGard Combo
+2025-09-16 23:28:13,735 - INFO - Aguardando 2.4s...
+2025-09-16 23:28:16,176 - INFO - Processando Bravecto (6/20)
+2025-09-16 23:28:16,176 - INFO - Buscando Bravecto na Petlove...
+2025-09-16 23:30:02,340 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Bravecto (Tentativa 1)
+2025-09-16 23:30:05,927 - INFO - Navegação bem-sucedida!
+2025-09-16 23:30:05,963 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:30:05,963 - INFO - Número de produtos encontrados na página: 22
+2025-09-16 23:30:05,963 - INFO - Coletando dados básicos do produto 1/22
+2025-09-16 23:30:06,251 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto para Cães de 10 a 20Kg - 500 mg | Preço: R$ 280,50 | Tem variações: True
+2025-09-16 23:30:06,251 - INFO - Coletando dados básicos do produto 2/22
+2025-09-16 23:30:06,490 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto para Cães de 20 a 40Kg - 1000 mg | Preço: R$ 323,00 | Tem variações: True
+2025-09-16 23:30:06,490 - INFO - Coletando dados básicos do produto 3/22
+2025-09-16 23:30:06,859 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto para Cães de 2 a 4,5Kg - 112,5 mg | Preço: R$ 197,90 | Tem variações: True
+2025-09-16 23:30:06,859 - INFO - Coletando dados básicos do produto 4/22
+2025-09-16 23:30:07,426 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto para Cães de 40 a 56Kg - 1400 mg | Preço: R$ 352,90 | Tem variações: True
+2025-09-16 23:30:07,427 - INFO - Coletando dados básicos do produto 5/22
+2025-09-16 23:30:07,752 - INFO - Produto coletado: Antipulgas MSD Bravecto Transdermal para Gatos de 2,8 a 6,25Kg - 250 mg | Preço: R$ 178,93 | Tem variações: True
+2025-09-16 23:30:07,752 - INFO - Coletando dados básicos do produto 6/22
+2025-09-16 23:30:07,996 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto para Cães de 4,5 a 10Kg - 250 mg | Preço: R$ 238,50 | Tem variações: True
+2025-09-16 23:30:07,997 - INFO - Coletando dados básicos do produto 7/22
+2025-09-16 23:30:08,198 - INFO - Produto coletado: Antipulgas MSD Bravecto Transdermal para Gatos de 6,25 a 12,5Kg - 500 mg | Preço: R$ 250,00 | Tem variações: True
+2025-09-16 23:30:08,198 - INFO - Coletando dados básicos do produto 8/22
+2025-09-16 23:30:08,349 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 4,5 a 10Kg - 250 mg | Preço: R$ 238,50 | Tem variações: False
+2025-09-16 23:30:08,349 - INFO - Coletando dados básicos do produto 9/22
+2025-09-16 23:30:08,532 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 10 a 20Kg - 500 mg | Preço: R$ 280,50 | Tem variações: False
+2025-09-16 23:30:08,533 - INFO - Coletando dados básicos do produto 10/22
+2025-09-16 23:30:08,710 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 20 a 40Kg - 1000 mg | Preço: R$ 323,00 | Tem variações: False
+2025-09-16 23:30:08,710 - INFO - Coletando dados básicos do produto 11/22
+2025-09-16 23:30:08,877 - INFO - Produto coletado: Antipulgas MSD Bravecto Transdermal para Gatos de 1,2Kg a 2,8Kg - 112,5 mg | Preço: R$ 187,50 | Tem variações: False
+2025-09-16 23:30:08,877 - INFO - Coletando dados básicos do produto 12/22
+2025-09-16 23:30:09,058 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 40 a 56Kg - 1400 mg | Preço: R$ 352,90 | Tem variações: False
+2025-09-16 23:30:09,059 - INFO - Coletando dados básicos do produto 13/22
+2025-09-16 23:30:09,195 - INFO - Produto coletado: Antipulgas MSD Bravecto 500 mg para Gatos de 6,25 a 12,5Kg - 1 Pipeta | Preço: R$ 250,00 | Tem variações: False
+2025-09-16 23:30:09,195 - INFO - Coletando dados básicos do produto 14/22
+2025-09-16 23:30:09,370 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 10 a 20Kg - 500 mg | Preço: N/A | Tem variações: True
+2025-09-16 23:30:09,370 - INFO - Coletando dados básicos do produto 15/22
+2025-09-16 23:30:09,508 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 20 a 40Kg - 1000 mg | Preço: N/A | Tem variações: True
+2025-09-16 23:30:09,508 - INFO - Coletando dados básicos do produto 16/22
+2025-09-16 23:30:09,704 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 40 a 56Kg - 1400 mg | Preço: N/A | Tem variações: True
+2025-09-16 23:30:09,705 - INFO - Coletando dados básicos do produto 17/22
+2025-09-16 23:30:09,877 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 4,5 a 10Kg - 250 mg | Preço: R$ 238,50 | Tem variações: True
+2025-09-16 23:30:09,878 - INFO - Coletando dados básicos do produto 18/22
+2025-09-16 23:30:10,005 - INFO - Produto coletado: Antipulgas MSD Bravecto Transdermal Plus para Gatos de 2,8 a 6,25Kg - 1 Pipeta (2 Unidades) | Preço: N/A | Tem variações: False
+2025-09-16 23:30:10,005 - INFO - Coletando dados básicos do produto 19/22
+2025-09-16 23:30:10,154 - INFO - Produto coletado: Antipulgas MSD Bravecto Transdermal para Gatos de 1,2 a 2,8Kg - 112,5 mg (2 Unidades) | Preço: N/A | Tem variações: False
+2025-09-16 23:30:10,154 - INFO - Coletando dados básicos do produto 20/22
+2025-09-16 23:30:10,281 - INFO - Produto coletado: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 2 a 4,5Kg - 112,5 mg (2 Unidades) | Preço: N/A | Tem variações: False
+2025-09-16 23:30:10,282 - INFO - Coletando dados básicos do produto 21/22
+2025-09-16 23:30:10,433 - INFO - Produto coletado: Antipulgas MSD Bravecto Transdermal Plus para Gatos de 1,2 a 2,8Kg - 1 Pipeta (2 Unidades) | Preço: N/A | Tem variações: False
+2025-09-16 23:30:10,433 - INFO - Coletando dados básicos do produto 22/22
+2025-09-16 23:30:10,574 - INFO - Produto coletado: Antipulgas MSD Bravecto Transdermal Plus para Gatos de 6,25 a 12,5Kg - 1 Pipeta | Preço: N/A | Tem variações: False
+2025-09-16 23:30:10,575 - INFO - Processando variações do produto 1/22
+2025-09-16 23:30:10,575 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-10-a-20kg---500-mg-3104948/p?sku=3104948 (Tentativa 1)
+2025-09-16 23:30:14,541 - INFO - Navegação bem-sucedida!
+2025-09-16 23:30:16,570 - INFO - Popup de variações encontrado
+2025-09-16 23:30:16,596 - INFO - Encontradas 2 variações
+2025-09-16 23:30:16,691 - INFO - Variação encontrada: 500 mg | Preço: R$280,50/uni
+2025-09-16 23:30:16,766 - INFO - Variação encontrada: 2 Unidades | Preço: R$281,00/uni
+2025-09-16 23:30:16,766 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 10 a 20Kg - 500 mg | Quantidade: 500 mg | Preço: R$280,50/uni
+2025-09-16 23:30:16,767 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 10 a 20Kg - 500 mg | Quantidade: 2 Unidades | Preço: R$281,00/uni
+2025-09-16 23:30:16,767 - INFO - Processando variações do produto 2/22
+2025-09-16 23:30:16,767 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-20-a-40kg---1000-mg-3104949/p?sku=3104949 (Tentativa 1)
+2025-09-16 23:30:20,525 - INFO - Navegação bem-sucedida!
+2025-09-16 23:30:22,733 - INFO - Popup de variações encontrado
+2025-09-16 23:30:22,756 - INFO - Encontradas 2 variações
+2025-09-16 23:30:22,844 - INFO - Variação encontrada: 1000 mg | Preço: R$323,00
+2025-09-16 23:30:22,905 - INFO - Variação encontrada: 2 Unidades | Preço: R$323,00/uni
+2025-09-16 23:30:22,905 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 20 a 40Kg - 1000 mg | Quantidade: 1000 mg | Preço: R$323,00
+2025-09-16 23:30:22,905 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 20 a 40Kg - 1000 mg | Quantidade: 2 Unidades | Preço: R$323,00/uni
+2025-09-16 23:30:22,906 - INFO - Processando variações do produto 3/22
+2025-09-16 23:30:22,906 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-2-a-45kg---1125-mg-3104946/p?sku=3104946 (Tentativa 1)
+2025-09-16 23:30:26,747 - INFO - Navegação bem-sucedida!
+2025-09-16 23:30:28,766 - INFO - Popup de variações encontrado
+2025-09-16 23:30:28,777 - INFO - Encontradas 2 variações
+2025-09-16 23:30:28,846 - INFO - Variação encontrada: 112,5 mg | Preço: R$197,90
+2025-09-16 23:30:28,933 - INFO - Variação encontrada: 2 Unidades | Preço: R$198,00/uni
+2025-09-16 23:30:28,933 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 2 a 4,5Kg - 112,5 mg | Quantidade: 112,5 mg | Preço: R$197,90
+2025-09-16 23:30:28,934 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 2 a 4,5Kg - 112,5 mg | Quantidade: 2 Unidades | Preço: R$198,00/uni
+2025-09-16 23:30:28,934 - INFO - Processando variações do produto 4/22
+2025-09-16 23:30:28,934 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-40-a-56kg---1400-mg-3104950/p?sku=3104950 (Tentativa 1)
+2025-09-16 23:30:32,900 - INFO - Navegação bem-sucedida!
+2025-09-16 23:30:34,929 - INFO - Popup de variações encontrado
+2025-09-16 23:30:34,945 - INFO - Encontradas 2 variações
+2025-09-16 23:30:35,061 - INFO - Variação encontrada: 1400 mg | Preço: R$352,90
+2025-09-16 23:30:35,151 - INFO - Variação encontrada: 2 Unidades | Preço: R$353,00/uni
+2025-09-16 23:30:35,151 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 40 a 56Kg - 1400 mg | Quantidade: 1400 mg | Preço: R$352,90
+2025-09-16 23:30:35,152 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 40 a 56Kg - 1400 mg | Quantidade: 2 Unidades | Preço: R$353,00/uni
+2025-09-16 23:30:35,152 - INFO - Processando variações do produto 5/22
+2025-09-16 23:30:35,152 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-msd-bravecto-transdermal-para-gatos-de-2-8-a-6-25-kg/p?sku=2184267 (Tentativa 1)
+2025-09-16 23:30:39,536 - INFO - Navegação bem-sucedida!
+2025-09-16 23:30:41,565 - INFO - Popup de variações encontrado
+2025-09-16 23:30:41,600 - INFO - Encontradas 2 variações
+2025-09-16 23:30:41,680 - INFO - Variação encontrada: 250 mg | Preço: R$178,93
+2025-09-16 23:30:41,748 - INFO - Variação encontrada: 250 mg (2 Unidades) | Preço: R$211,00/uni
+2025-09-16 23:30:41,748 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal para Gatos de 2,8 a 6,25Kg - 250 mg | Quantidade: 250 mg | Preço: R$178,93
+2025-09-16 23:30:41,748 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal para Gatos de 2,8 a 6,25Kg - 250 mg | Quantidade: 250 mg (2 Unidades) | Preço: R$211,00/uni
+2025-09-16 23:30:41,748 - INFO - Processando variações do produto 6/22
+2025-09-16 23:30:41,749 - INFO - Navegando para: https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-45-a-10kg---250-mg-3104947/p?sku=3104947 (Tentativa 1)
+2025-09-16 23:30:45,669 - INFO - Navegação bem-sucedida!
+2025-09-16 23:30:47,779 - INFO - Popup de variações encontrado
+2025-09-16 23:30:47,789 - INFO - Encontradas 2 variações
+2025-09-16 23:30:47,870 - INFO - Variação encontrada: 250 mg | Preço: R$238,50
+2025-09-16 23:30:47,973 - INFO - Variação encontrada: 2 Unidades | Preço: R$238,00/uni
+2025-09-16 23:30:47,973 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 4,5 a 10Kg - 250 mg | Quantidade: 250 mg | Preço: R$238,50
+2025-09-16 23:30:47,974 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto para Cães de 4,5 a 10Kg - 250 mg | Quantidade: 2 Unidades | Preço: R$238,00/uni
+2025-09-16 23:30:47,974 - INFO - Processando variações do produto 7/22
+2025-09-16 23:30:47,974 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-msd-bravecto-transdermal-para-gatos-de-6-25-a-12-5-kg/p?sku=2184268 (Tentativa 1)
+2025-09-16 23:30:52,222 - INFO - Navegação bem-sucedida!
+2025-09-16 23:30:54,231 - INFO - Popup de variações encontrado
+2025-09-16 23:30:54,241 - INFO - Encontradas 2 variações
+2025-09-16 23:30:54,316 - INFO - Variação encontrada: 500 mg | Preço: R$250,00
+2025-09-16 23:30:54,399 - INFO - Variação encontrada: 500 mg (2 Unidades) | Preço: R$250,00/uni
+2025-09-16 23:30:54,399 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal para Gatos de 6,25 a 12,5Kg - 500 mg | Quantidade: 500 mg | Preço: R$250,00
+2025-09-16 23:30:54,400 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal para Gatos de 6,25 a 12,5Kg - 500 mg | Quantidade: 500 mg (2 Unidades) | Preço: R$250,00/uni
+2025-09-16 23:30:54,400 - INFO - Processando variações do produto 8/22
+2025-09-16 23:30:54,400 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 4,5 a 10Kg - 250 mg | Quantidade: 250 mg | Preço: R$ 238,50
+2025-09-16 23:30:54,400 - INFO - Processando variações do produto 9/22
+2025-09-16 23:30:54,400 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 10 a 20Kg - 500 mg | Quantidade: 500 mg | Preço: R$ 280,50
+2025-09-16 23:30:54,401 - INFO - Processando variações do produto 10/22
+2025-09-16 23:30:54,401 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 20 a 40Kg - 1000 mg | Quantidade: 1000 mg | Preço: R$ 323,00
+2025-09-16 23:30:54,401 - INFO - Processando variações do produto 11/22
+2025-09-16 23:30:54,401 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal para Gatos de 1,2Kg a 2,8Kg - 112,5 mg | Quantidade: 112,5 mg | Preço: R$ 187,50
+2025-09-16 23:30:54,401 - INFO - Processando variações do produto 12/22
+2025-09-16 23:30:54,401 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 40 a 56Kg - 1400 mg | Quantidade: 1400 mg | Preço: R$ 352,90
+2025-09-16 23:30:54,402 - INFO - Processando variações do produto 13/22
+2025-09-16 23:30:54,402 - INFO - Criando produto: Antipulgas MSD Bravecto 500 mg para Gatos de 6,25 a 12,5Kg - 1 Pipeta | Quantidade: 1 Pipeta | Preço: R$ 250,00
+2025-09-16 23:30:54,402 - INFO - Processando variações do produto 14/22
+2025-09-16 23:30:54,402 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-msd-bravecto-transdermal-para-caes-de-10-a-20-kg/p?sku=2184304 (Tentativa 1)
+2025-09-16 23:30:59,597 - INFO - Navegação bem-sucedida!
+2025-09-16 23:31:01,659 - INFO - Popup de variações encontrado
+2025-09-16 23:31:01,677 - INFO - Encontradas 2 variações
+2025-09-16 23:31:01,768 - INFO - Variação encontrada: 500 mg | Preço: Consultar
+2025-09-16 23:31:01,869 - INFO - Variação encontrada: 500 mg (2 Unidades) | Preço: Consultar
+2025-09-16 23:31:01,869 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 10 a 20Kg - 500 mg | Quantidade: 500 mg | Preço: Consultar
+2025-09-16 23:31:01,870 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 10 a 20Kg - 500 mg | Quantidade: 500 mg (2 Unidades) | Preço: Consultar
+2025-09-16 23:31:01,870 - INFO - Processando variações do produto 15/22
+2025-09-16 23:31:01,870 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-msd-bravecto-transdermal-para-caes-de-20-a-40-kg/p?sku=2184306 (Tentativa 1)
+2025-09-16 23:31:05,216 - INFO - Navegação bem-sucedida!
+2025-09-16 23:31:07,234 - INFO - Popup de variações encontrado
+2025-09-16 23:31:07,246 - INFO - Encontradas 2 variações
+2025-09-16 23:31:07,326 - INFO - Variação encontrada: 1000 mg | Preço: Consultar
+2025-09-16 23:31:07,400 - INFO - Variação encontrada: 1000 mg (2 Unidades) | Preço: Avise-me
+2025-09-16 23:31:07,400 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 20 a 40Kg - 1000 mg | Quantidade: 1000 mg | Preço: Consultar
+2025-09-16 23:31:07,401 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 20 a 40Kg - 1000 mg | Quantidade: 1000 mg (2 Unidades) | Preço: Avise-me
+2025-09-16 23:31:07,401 - INFO - Processando variações do produto 16/22
+2025-09-16 23:31:07,401 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-msd-bravecto-transdermal-para-caes-de-40-a-56-kg/p?sku=2184311 (Tentativa 1)
+2025-09-16 23:31:10,524 - INFO - Navegação bem-sucedida!
+2025-09-16 23:31:12,539 - INFO - Popup de variações encontrado
+2025-09-16 23:31:12,550 - INFO - Encontradas 2 variações
+2025-09-16 23:31:12,629 - INFO - Variação encontrada: 1400 mg | Preço: Consultar
+2025-09-16 23:31:12,715 - INFO - Variação encontrada: 1400 mg (2 Unidades) | Preço: Avise-me
+2025-09-16 23:31:12,715 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 40 a 56Kg - 1400 mg | Quantidade: 1400 mg | Preço: Consultar
+2025-09-16 23:31:12,716 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 40 a 56Kg - 1400 mg | Quantidade: 1400 mg (2 Unidades) | Preço: Avise-me
+2025-09-16 23:31:12,716 - INFO - Processando variações do produto 17/22
+2025-09-16 23:31:12,716 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-msd-bravecto-transdermal-para-caes-de-4-5-a-10-kg/p?sku=2184303 (Tentativa 1)
+2025-09-16 23:31:15,906 - INFO - Navegação bem-sucedida!
+2025-09-16 23:31:17,926 - INFO - Popup de variações encontrado
+2025-09-16 23:31:17,964 - INFO - Encontradas 2 variações
+2025-09-16 23:31:18,047 - INFO - Variação encontrada: 250 mg | Preço: Consultar
+2025-09-16 23:31:18,128 - INFO - Variação encontrada: 250 mg (2 Unidades) | Preço: Avise-me
+2025-09-16 23:31:18,128 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 4,5 a 10Kg - 250 mg | Quantidade: 250 mg | Preço: Consultar
+2025-09-16 23:31:18,128 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 4,5 a 10Kg - 250 mg | Quantidade: 250 mg (2 Unidades) | Preço: Avise-me
+2025-09-16 23:31:18,129 - INFO - Processando variações do produto 18/22
+2025-09-16 23:31:18,129 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal Plus para Gatos de 2,8 a 6,25Kg - 1 Pipeta (2 Unidades) | Quantidade: N/A | Preço: N/A
+2025-09-16 23:31:18,129 - INFO - Processando variações do produto 19/22
+2025-09-16 23:31:18,129 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal para Gatos de 1,2 a 2,8Kg - 112,5 mg (2 Unidades) | Quantidade: N/A | Preço: N/A
+2025-09-16 23:31:18,130 - INFO - Processando variações do produto 20/22
+2025-09-16 23:31:18,130 - INFO - Criando produto: Antipulgas e Carrapatos MSD Bravecto Transdermal para Cães de 2 a 4,5Kg - 112,5 mg (2 Unidades) | Quantidade: N/A | Preço: N/A
+2025-09-16 23:31:18,130 - INFO - Processando variações do produto 21/22
+2025-09-16 23:31:18,131 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal Plus para Gatos de 1,2 a 2,8Kg - 1 Pipeta (2 Unidades) | Quantidade: N/A | Preço: N/A
+2025-09-16 23:31:18,131 - INFO - Processando variações do produto 22/22
+2025-09-16 23:31:18,131 - INFO - Criando produto: Antipulgas MSD Bravecto Transdermal Plus para Gatos de 6,25 a 12,5Kg - 1 Pipeta | Quantidade: N/A | Preço: N/A
+2025-09-16 23:31:18,132 - INFO - Encontrados 33 produtos para Bravecto
+2025-09-16 23:31:18,132 - INFO - Aguardando 2.3s...
+2025-09-16 23:31:20,398 - INFO - Processando Frontline (7/20)
+2025-09-16 23:31:20,399 - INFO - Buscando Frontline na Petlove...
+2025-09-16 23:33:09,537 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Frontline (Tentativa 1)
+2025-09-16 23:33:12,936 - INFO - Navegação bem-sucedida!
+2025-09-16 23:33:12,972 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:33:12,973 - INFO - Número de produtos encontrados na página: 11
+2025-09-16 23:33:12,973 - INFO - Coletando dados básicos do produto 1/11
+2025-09-16 23:33:13,184 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Plus para Cães de 1 a 10Kg - 1 Unidade | Preço: R$ 61,00 | Tem variações: False
+2025-09-16 23:33:13,184 - INFO - Coletando dados básicos do produto 2/11
+2025-09-16 23:33:13,352 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Plus para Gatos - 1 Unidade | Preço: R$ 57,00 | Tem variações: False
+2025-09-16 23:33:13,353 - INFO - Coletando dados básicos do produto 3/11
+2025-09-16 23:33:13,523 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Top Spot para Cães de 1 a 10Kg - 1 Unidade | Preço: R$ 37,00 | Tem variações: False
+2025-09-16 23:33:13,523 - INFO - Coletando dados básicos do produto 4/11
+2025-09-16 23:33:14,040 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Spray para Cães e Gatos - 250 mL | Preço: R$ 249,00 | Tem variações: False
+2025-09-16 23:33:14,040 - INFO - Coletando dados básicos do produto 5/11
+2025-09-16 23:33:14,336 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Plus - Cães de 20 até 40Kg | Preço: R$ 80,00 | Tem variações: False
+2025-09-16 23:33:14,336 - INFO - Coletando dados básicos do produto 6/11
+2025-09-16 23:33:14,555 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Plus para Cães de 10 a 20Kg - 1 Unidade | Preço: R$ 70,00 | Tem variações: False
+2025-09-16 23:33:14,555 - INFO - Coletando dados básicos do produto 7/11
+2025-09-16 23:33:14,711 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Top Spot para Cães de 10 a 20Kg - 1 Unidade | Preço: R$ 41,00 | Tem variações: False
+2025-09-16 23:33:14,712 - INFO - Coletando dados básicos do produto 8/11
+2025-09-16 23:33:14,917 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Top Spot - Cães de 20 até 40Kg | Preço: R$ 46,50 | Tem variações: False
+2025-09-16 23:33:14,918 - INFO - Coletando dados básicos do produto 9/11
+2025-09-16 23:33:15,114 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Plus - Cães de 40 até 60Kg | Preço: R$ 90,00 | Tem variações: False
+2025-09-16 23:33:15,114 - INFO - Coletando dados básicos do produto 10/11
+2025-09-16 23:33:15,252 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Spray para Cães e Gatos - 100 mL | Preço: N/A | Tem variações: False
+2025-09-16 23:33:15,252 - INFO - Coletando dados básicos do produto 11/11
+2025-09-16 23:33:15,398 - INFO - Produto coletado: Antipulgas e Carrapatos Frontline Top Spot para Gatos - 1 Unidade | Preço: N/A | Tem variações: False
+2025-09-16 23:33:15,399 - INFO - Processando variações do produto 1/11
+2025-09-16 23:33:15,399 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Plus para Cães de 1 a 10Kg - 1 Unidade | Quantidade: 1 Unidade | Preço: R$ 61,00
+2025-09-16 23:33:15,399 - INFO - Processando variações do produto 2/11
+2025-09-16 23:33:15,400 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Plus para Gatos - 1 Unidade | Quantidade: 1 Unidade | Preço: R$ 57,00
+2025-09-16 23:33:15,400 - INFO - Processando variações do produto 3/11
+2025-09-16 23:33:15,400 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Top Spot para Cães de 1 a 10Kg - 1 Unidade | Quantidade: 1 Unidade | Preço: R$ 37,00
+2025-09-16 23:33:15,400 - INFO - Processando variações do produto 4/11
+2025-09-16 23:33:15,400 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Spray para Cães e Gatos - 250 mL | Quantidade: 250 mL | Preço: R$ 249,00
+2025-09-16 23:33:15,400 - INFO - Processando variações do produto 5/11
+2025-09-16 23:33:15,401 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Plus - Cães de 20 até 40Kg | Quantidade: Cães de 20 até 40 Kg | Preço: R$ 80,00
+2025-09-16 23:33:15,401 - INFO - Processando variações do produto 6/11
+2025-09-16 23:33:15,401 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Plus para Cães de 10 a 20Kg - 1 Unidade | Quantidade: 1 Unidade | Preço: R$ 70,00
+2025-09-16 23:33:15,401 - INFO - Processando variações do produto 7/11
+2025-09-16 23:33:15,401 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Top Spot para Cães de 10 a 20Kg - 1 Unidade | Quantidade: 1 Unidade | Preço: R$ 41,00
+2025-09-16 23:33:15,401 - INFO - Processando variações do produto 8/11
+2025-09-16 23:33:15,402 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Top Spot - Cães de 20 até 40Kg | Quantidade: Cães de 20 até 40 Kg | Preço: R$ 46,50
+2025-09-16 23:33:15,402 - INFO - Processando variações do produto 9/11
+2025-09-16 23:33:15,402 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Plus - Cães de 40 até 60Kg | Quantidade: Cães de 40 até 60 Kg | Preço: R$ 90,00
+2025-09-16 23:33:15,402 - INFO - Processando variações do produto 10/11
+2025-09-16 23:33:15,402 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Spray para Cães e Gatos - 100 mL | Quantidade: 100 mL | Preço: N/A
+2025-09-16 23:33:15,402 - INFO - Processando variações do produto 11/11
+2025-09-16 23:33:15,402 - INFO - Criando produto: Antipulgas e Carrapatos Frontline Top Spot para Gatos - 1 Unidade | Quantidade: 1 Unidade | Preço: N/A
+2025-09-16 23:33:15,403 - INFO - Encontrados 11 produtos para Frontline
+2025-09-16 23:33:15,403 - INFO - Aguardando 2.6s...
+2025-09-16 23:33:17,963 - INFO - Processando Advocate (8/20)
+2025-09-16 23:33:17,963 - INFO - Buscando Advocate na Petlove...
+2025-09-16 23:35:04,705 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Advocate (Tentativa 1)
+2025-09-16 23:35:07,796 - INFO - Navegação bem-sucedida!
+2025-09-16 23:35:07,820 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:35:07,820 - INFO - Número de produtos encontrados na página: 10
+2025-09-16 23:35:07,821 - INFO - Coletando dados básicos do produto 1/10
+2025-09-16 23:35:08,038 - INFO - Produto coletado: Antipulgas e Vermicida Advocate Elanco para Gatos de 4 a 8Kg - 0,8 mL | Preço: R$ 220,50 | Tem variações: False
+2025-09-16 23:35:08,039 - INFO - Coletando dados básicos do produto 2/10
+2025-09-16 23:35:08,367 - INFO - Produto coletado: Antipulgas e Vermicida Advocate para Gatos até 4Kg - 3 Bisnagas | Preço: R$ 201,50 | Tem variações: True
+2025-09-16 23:35:08,368 - INFO - Coletando dados básicos do produto 3/10
+2025-09-16 23:35:08,753 - INFO - Produto coletado: Antipulgas e Vermicida Advocate para Cães de 25Kg até 40Kg (4 ml) - 1 Bisnaga | Preço: R$ 146,50 | Tem variações: False
+2025-09-16 23:35:08,753 - INFO - Coletando dados básicos do produto 4/10
+2025-09-16 23:35:09,001 - INFO - Produto coletado: Antipulgas e Vermicida Advocate Elanco para Gatos de 4 a 8Kg - 0,8 mL | Preço: R$ 116,90 | Tem variações: False
+2025-09-16 23:35:09,001 - INFO - Coletando dados básicos do produto 5/10
+2025-09-16 23:35:09,201 - INFO - Produto coletado: Antipulgas e Vermicida Advocate para Cães entre 10Kg e 25Kg - 1 Bisnaga | Preço: R$ 125,50 | Tem variações: False
+2025-09-16 23:35:09,202 - INFO - Coletando dados básicos do produto 6/10
+2025-09-16 23:35:09,475 - INFO - Produto coletado: Antipulgas e Vermicida Advocate para Cães de 4Kg até 10Kg - 3 Bisnagas | Preço: R$ 233,50 | Tem variações: True
+2025-09-16 23:35:09,475 - INFO - Coletando dados básicos do produto 7/10
+2025-09-16 23:35:09,753 - INFO - Produto coletado: Antipulgas e Vermicida Advocate para Cães de até 4Kg (0,4 ml) - 1 Bisnaga | Preço: R$ 93,90 | Tem variações: True
+2025-09-16 23:35:09,754 - INFO - Coletando dados básicos do produto 8/10
+2025-09-16 23:35:09,906 - INFO - Produto coletado: Antipulgas Elanco Advocate para Gatos até 4Kg - 1 Bisnaga | Preço: N/A | Tem variações: False
+2025-09-16 23:35:09,906 - INFO - Coletando dados básicos do produto 9/10
+2025-09-16 23:35:10,047 - INFO - Produto coletado: Advocate para Cães de 25 a 40Kg 4,0 mL - 1 Bisnaga | Preço: N/A | Tem variações: False
+2025-09-16 23:35:10,047 - INFO - Coletando dados básicos do produto 10/10
+2025-09-16 23:35:10,151 - INFO - Produto coletado: Brinquedo Mordedor Jambo Avocatinip para Gatos - Tam. Único | Preço: N/A | Tem variações: False
+2025-09-16 23:35:10,152 - INFO - Processando variações do produto 1/10
+2025-09-16 23:35:10,152 - INFO - Criando produto: Antipulgas e Vermicida Advocate Elanco para Gatos de 4 a 8Kg - 0,8 mL | Quantidade: 0,8 mL | Preço: R$ 220,50
+2025-09-16 23:35:10,152 - INFO - Processando variações do produto 2/10
+2025-09-16 23:35:10,152 - INFO - Navegando para: https://www.petlove.com.br/vermifugo-advocate-para-gatos-ate-4-kg/p?sku=31027542590 (Tentativa 1)
+2025-09-16 23:35:13,598 - INFO - Navegação bem-sucedida!
+2025-09-16 23:35:15,632 - INFO - Popup de variações encontrado
+2025-09-16 23:35:15,659 - INFO - Encontradas 2 variações
+2025-09-16 23:35:15,785 - INFO - Variação encontrada: 1 Bisnaga | Preço: R$105,50/uni
+2025-09-16 23:35:15,884 - INFO - Variação encontrada: 3 Bisnagas | Preço: R$67,16/uni
+2025-09-16 23:35:15,884 - INFO - Criando produto: Antipulgas e Vermicida Advocate para Gatos até 4Kg - 3 Bisnagas | Quantidade: 1 Bisnaga | Preço: R$105,50/uni
+2025-09-16 23:35:15,884 - INFO - Criando produto: Antipulgas e Vermicida Advocate para Gatos até 4Kg - 3 Bisnagas | Quantidade: 3 Bisnagas | Preço: R$67,16/uni
+2025-09-16 23:35:15,884 - INFO - Processando variações do produto 3/10
+2025-09-16 23:35:15,885 - INFO - Criando produto: Antipulgas e Vermicida Advocate para Cães de 25Kg até 40Kg (4 ml) - 1 Bisnaga | Quantidade: 1 Bisnaga | Preço: R$ 146,50
+2025-09-16 23:35:15,885 - INFO - Processando variações do produto 4/10
+2025-09-16 23:35:15,885 - INFO - Criando produto: Antipulgas e Vermicida Advocate Elanco para Gatos de 4 a 8Kg - 0,8 mL | Quantidade: 0,8 mL | Preço: R$ 116,90
+2025-09-16 23:35:15,885 - INFO - Processando variações do produto 5/10
+2025-09-16 23:35:15,886 - INFO - Criando produto: Antipulgas e Vermicida Advocate para Cães entre 10Kg e 25Kg - 1 Bisnaga | Quantidade: 1 Bisnaga | Preço: R$ 125,50
+2025-09-16 23:35:15,886 - INFO - Processando variações do produto 6/10
+2025-09-16 23:35:15,886 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-vermicida-advocate-para-caes-de-4-kg-ate-10-kg/p?sku=31027519587 (Tentativa 1)
+2025-09-16 23:35:19,096 - INFO - Navegação bem-sucedida!
+2025-09-16 23:35:21,126 - INFO - Popup de variações encontrado
+2025-09-16 23:35:21,144 - INFO - Encontradas 2 variações
+2025-09-16 23:35:21,439 - INFO - Variação encontrada: 3 Bisnagas | Preço: R$233,50
+2025-09-16 23:35:21,557 - INFO - Variação encontrada: 1 Bisnaga | Preço: R$105,50
+2025-09-16 23:35:21,558 - INFO - Criando produto: Antipulgas e Vermicida Advocate para Cães de 4Kg até 10Kg - 3 Bisnagas | Quantidade: 3 Bisnagas | Preço: R$233,50
+2025-09-16 23:35:21,558 - INFO - Criando produto: Antipulgas e Vermicida Advocate para Cães de 4Kg até 10Kg - 3 Bisnagas | Quantidade: 1 Bisnaga | Preço: R$105,50
+2025-09-16 23:35:21,558 - INFO - Processando variações do produto 7/10
+2025-09-16 23:35:21,558 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-vermicida-advocate-para-caes-de-ate-4-kg-0-4-ml-31027528697/p?sku=31027538535 (Tentativa 1)
+2025-09-16 23:35:24,633 - INFO - Navegação bem-sucedida!
+2025-09-16 23:35:26,855 - INFO - Popup de variações encontrado
+2025-09-16 23:35:26,869 - INFO - Encontradas 2 variações
+2025-09-16 23:35:26,929 - INFO - Variação encontrada: 3 Bisnagas | Preço: R$209,50
+2025-09-16 23:35:26,995 - INFO - Variação encontrada: 1 Bisnaga | Preço: R$93,90
+2025-09-16 23:35:26,995 - INFO - Criando produto: Antipulgas e Vermicida Advocate para Cães de até 4Kg (0,4 ml) - 1 Bisnaga | Quantidade: 3 Bisnagas | Preço: R$209,50
+2025-09-16 23:35:26,995 - INFO - Criando produto: Antipulgas e Vermicida Advocate para Cães de até 4Kg (0,4 ml) - 1 Bisnaga | Quantidade: 1 Bisnaga | Preço: R$93,90
+2025-09-16 23:35:26,996 - INFO - Processando variações do produto 8/10
+2025-09-16 23:35:26,996 - INFO - Criando produto: Antipulgas Elanco Advocate para Gatos até 4Kg - 1 Bisnaga | Quantidade: N/A | Preço: N/A
+2025-09-16 23:35:26,996 - INFO - Processando variações do produto 9/10
+2025-09-16 23:35:26,996 - INFO - Criando produto: Advocate para Cães de 25 a 40Kg 4,0 mL - 1 Bisnaga | Quantidade: N/A | Preço: N/A
+2025-09-16 23:35:26,996 - INFO - Processando variações do produto 10/10
+2025-09-16 23:35:26,996 - INFO - Criando produto: Brinquedo Mordedor Jambo Avocatinip para Gatos - Tam. Único | Quantidade: N/A | Preço: N/A
+2025-09-16 23:35:26,997 - INFO - Encontrados 13 produtos para Advocate
+2025-09-16 23:35:26,997 - INFO - Aguardando 2.5s...
+2025-09-16 23:35:29,496 - INFO - Processando Drontal (9/20)
+2025-09-16 23:35:29,497 - INFO - Buscando Drontal na Petlove...
+2025-09-16 23:37:16,254 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Drontal (Tentativa 1)
+2025-09-16 23:37:20,306 - INFO - Navegação bem-sucedida!
+2025-09-16 23:37:20,383 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:37:20,383 - INFO - Número de produtos encontrados na página: 36
+2025-09-16 23:37:20,384 - INFO - Coletando dados básicos do produto 1/36
+2025-09-16 23:37:20,585 - INFO - Produto coletado: Vermífugo Drontal Puppy para Cães Filhotes - 20 mL | Preço: R$ 81,60 | Tem variações: False
+2025-09-16 23:37:20,586 - INFO - Coletando dados básicos do produto 2/36
+2025-09-16 23:37:20,742 - INFO - Produto coletado: Vermifugo Elanco Drontal para Gatos Até 4Kg - 4 Comprimidos | Preço: R$ 66,50 | Tem variações: False
+2025-09-16 23:37:20,742 - INFO - Coletando dados básicos do produto 3/36
+2025-09-16 23:37:20,911 - INFO - Produto coletado: Vermífugo Drontal SpotOn para Gatos de 0,5Kg a 2,5Kg - 1 Bisnaga | Preço: R$ 77,50 | Tem variações: False
+2025-09-16 23:37:20,911 - INFO - Coletando dados básicos do produto 4/36
+2025-09-16 23:37:21,114 - INFO - Produto coletado: Vermífugo Elanco Drontal Plus Sabor Carne para Cães 10Kg - 4 Comprimidos | Preço: R$ 84,50 | Tem variações: True
+2025-09-16 23:37:21,114 - INFO - Coletando dados básicos do produto 5/36
+2025-09-16 23:37:21,310 - INFO - Produto coletado: Vermífugo Elanco Drontal Plus Sabor Carne para Cães 35Kg - 2 Comprimidos | Preço: R$ 127,50 | Tem variações: False
+2025-09-16 23:37:21,310 - INFO - Coletando dados básicos do produto 6/36
+2025-09-16 23:37:21,511 - INFO - Produto coletado: Vermífugo Drontal SpotOn para Gatos de 2,5Kg a 5Kg - 1 Bisnaga | Preço: R$ 86,90 | Tem variações: False
+2025-09-16 23:37:21,512 - INFO - Coletando dados básicos do produto 7/36
+2025-09-16 23:37:21,712 - INFO - Produto coletado: Vermífugo Drontal SpotOn para Gatos de 5Kg a 8Kg - 1 Bisnaga | Preço: R$ 95,50 | Tem variações: False
+2025-09-16 23:37:21,712 - INFO - Coletando dados básicos do produto 8/36
+2025-09-16 23:37:21,815 - INFO - Produto coletado: Kit Elanco Antipulgas e Carrapato Credelli 56,25 mg e Vermífugo Drontal Puppy 20 mL para Cães Filhotes - KIT | Preço: R$ 256,40 | Tem variações: False
+2025-09-16 23:37:21,815 - INFO - Coletando dados básicos do produto 9/36
+2025-09-16 23:37:21,916 - INFO - Produto coletado: Kit Elanco Antipulgas e Carrapato Credelli 112,5 mg e Vermífugo Drontal Puppy 20 mL para Cães Filhotes - KIT | Preço: R$ 272,00 | Tem variações: False
+2025-09-16 23:37:21,916 - INFO - Coletando dados básicos do produto 10/36
+2025-09-16 23:37:22,083 - INFO - Produto coletado: Bolsa de Transporte São Pet Frontal para Pets Preta - N2 | Preço: R$ 109,90 | Tem variações: True
+2025-09-16 23:37:22,083 - INFO - Coletando dados básicos do produto 11/36
+2025-09-16 23:37:22,258 - INFO - Produto coletado: Bolsa de Transporte São Pet Frontal para Pets Azul - N1 | Preço: R$ 89,90 | Tem variações: True
+2025-09-16 23:37:22,258 - INFO - Coletando dados básicos do produto 12/36
+2025-09-16 23:37:22,434 - INFO - Produto coletado: Bolsa de Transporte São Pet Frontal para Pets Rosa - N1 | Preço: R$ 89,90 | Tem variações: True
+2025-09-16 23:37:22,434 - INFO - Coletando dados básicos do produto 13/36
+2025-09-16 23:37:22,595 - INFO - Produto coletado: Bolsa de Transporte São Pet Frontal Atenas Nylon 600 Rosa - N2 | Preço: R$ 335,50 | Tem variações: False
+2025-09-16 23:37:22,596 - INFO - Coletando dados básicos do produto 14/36
+2025-09-16 23:37:22,804 - INFO - Produto coletado: Bolsa de Transporte São Pet Frontal para Pets Vermelha - N2 | Preço: R$ 109,90 | Tem variações: True
+2025-09-16 23:37:22,804 - INFO - Coletando dados básicos do produto 15/36
+2025-09-16 23:37:22,980 - INFO - Produto coletado: Arnês Suporte Frontal e Pélvico Help Em' Up - Tam. GG | Preço: R$ 1.845,90 | Tem variações: True
+2025-09-16 23:37:22,981 - INFO - Coletando dados básicos do produto 16/36
+2025-09-16 23:37:23,117 - INFO - Produto coletado: Alça de mão para Arnês Suporte Frontal e Pélvico Help Em' Up - Tamanho Único | Preço: R$ 385,90 | Tem variações: False
+2025-09-16 23:37:23,117 - INFO - Coletando dados básicos do produto 17/36
+2025-09-16 23:37:23,277 - INFO - Produto coletado: Alças de Ombro para Arnês Suporte Frontal e Pélvico Help Em' Up 2em1 - Tam GG | Preço: R$ 506,90 | Tem variações: True
+2025-09-16 23:37:23,278 - INFO - Coletando dados básicos do produto 18/36
+2025-09-16 23:37:23,459 - INFO - Produto coletado: Alças Duplas para Arnês Suporte Frontal e Pélvico Help 'Em Up Loop - Tam. G | Preço: R$ 351,90 | Tem variações: True
+2025-09-16 23:37:23,459 - INFO - Coletando dados básicos do produto 19/36
+2025-09-16 23:37:23,617 - INFO - Produto coletado: Conjunto Peitoral Toh Antipuxão e Guia Laguna - Tam. P | Preço: R$ 85,17 | Tem variações: True
+2025-09-16 23:37:23,618 - INFO - Coletando dados básicos do produto 20/36
+2025-09-16 23:37:23,812 - INFO - Produto coletado: Peitoral H Pop Bordo Caqui - Tam. P | Preço: R$ 43,99 | Tem variações: True
+2025-09-16 23:37:23,812 - INFO - Coletando dados básicos do produto 21/36
+2025-09-16 23:37:23,991 - INFO - Produto coletado: Peitoral Antipuxão Future Pet La Casa de Papel Preta para Cães - Tam. G | Preço: R$ 126,90 | Tem variações: True
+2025-09-16 23:37:23,991 - INFO - Coletando dados básicos do produto 22/36
+2025-09-16 23:37:24,137 - INFO - Produto coletado: Caixa de Areia Classic Front com Pá Meau Cinza para Gatos - Tam. Único | Preço: R$ 87,92 | Tem variações: False
+2025-09-16 23:37:24,137 - INFO - Coletando dados básicos do produto 23/36
+2025-09-16 23:37:24,295 - INFO - Produto coletado: Conjunto Peitoral Antipuxão e Guia Lilás - Tam. M | Preço: R$ 109,99 | Tem variações: True
+2025-09-16 23:37:24,296 - INFO - Coletando dados básicos do produto 24/36
+2025-09-16 23:37:24,460 - INFO - Produto coletado: Conjunto Peitoral Antipuxão e Guia Azul - Tam. M | Preço: R$ 109,99 | Tem variações: True
+2025-09-16 23:37:24,460 - INFO - Coletando dados básicos do produto 25/36
+2025-09-16 23:37:24,611 - INFO - Produto coletado: Kit Antipuxão meuAuAu New Pink - Tam. G | Preço: R$ 129,90 | Tem variações: True
+2025-09-16 23:37:24,611 - INFO - Coletando dados básicos do produto 26/36
+2025-09-16 23:37:24,788 - INFO - Produto coletado: Peitoral H Pop Preto Caqui - Tam. M | Preço: R$ 53,99 | Tem variações: True
+2025-09-16 23:37:24,788 - INFO - Coletando dados básicos do produto 27/36
+2025-09-16 23:37:24,963 - INFO - Produto coletado: Cama Pickorruchos Aspen Dupla Face Rosa - G | Preço: R$ 231,84 | Tem variações: True
+2025-09-16 23:37:24,963 - INFO - Coletando dados básicos do produto 28/36
+2025-09-16 23:37:25,172 - INFO - Produto coletado: Kit Antipuxão meuAuAu New Blue - Tam. P | Preço: R$ 129,90 | Tem variações: True
+2025-09-16 23:37:25,173 - INFO - Coletando dados básicos do produto 29/36
+2025-09-16 23:37:25,363 - INFO - Produto coletado: Peitoral H Pop Marinho Caqui - Tam. M | Preço: R$ 53,99 | Tem variações: True
+2025-09-16 23:37:25,363 - INFO - Coletando dados básicos do produto 30/36
+2025-09-16 23:37:25,566 - INFO - Produto coletado: Cama Pickorruchos Aspen Dupla Face Marfim - G | Preço: R$ 231,84 | Tem variações: True
+2025-09-16 23:37:25,566 - INFO - Coletando dados básicos do produto 31/36
+2025-09-16 23:37:25,741 - INFO - Produto coletado: Cama Pickorruchos Aspen Dupla Face Mint - G | Preço: R$ 231,84 | Tem variações: True
+2025-09-16 23:37:25,742 - INFO - Coletando dados básicos do produto 32/36
+2025-09-16 23:37:25,891 - INFO - Produto coletado: Peitoral Antipuxão Bob e Marley para Cães - Tam. M | Preço: N/A | Tem variações: True
+2025-09-16 23:37:25,891 - INFO - Coletando dados básicos do produto 33/36
+2025-09-16 23:37:26,027 - INFO - Produto coletado: Peitoral Antipuxão T-Mutts para Cães - Tam. G | Preço: N/A | Tem variações: True
+2025-09-16 23:37:26,028 - INFO - Coletando dados básicos do produto 34/36
+2025-09-16 23:37:26,169 - INFO - Produto coletado: Peitoral Antipuxão Olívia para Cães - Tam. M | Preço: N/A | Tem variações: True
+2025-09-16 23:37:26,170 - INFO - Coletando dados básicos do produto 35/36
+2025-09-16 23:37:26,313 - INFO - Produto coletado: Peitoral Antipuxão Camuflado Cinza para Cães - Tam. M | Preço: N/A | Tem variações: True
+2025-09-16 23:37:26,313 - INFO - Coletando dados básicos do produto 36/36
+2025-09-16 23:37:26,509 - INFO - Produto coletado: Peitoral Antipuxão Outdoor para Cães -Tam. G | Preço: N/A | Tem variações: True
+2025-09-16 23:37:26,509 - INFO - Processando variações do produto 1/36
+2025-09-16 23:37:26,509 - INFO - Criando produto: Vermífugo Drontal Puppy para Cães Filhotes - 20 mL | Quantidade: 20 mL | Preço: R$ 81,60
+2025-09-16 23:37:26,509 - INFO - Processando variações do produto 2/36
+2025-09-16 23:37:26,510 - INFO - Criando produto: Vermifugo Elanco Drontal para Gatos Até 4Kg - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 66,50
+2025-09-16 23:37:26,510 - INFO - Processando variações do produto 3/36
+2025-09-16 23:37:26,510 - INFO - Criando produto: Vermífugo Drontal SpotOn para Gatos de 0,5Kg a 2,5Kg - 1 Bisnaga | Quantidade: 1 Bisnaga | Preço: R$ 77,50
+2025-09-16 23:37:26,510 - INFO - Processando variações do produto 4/36
+2025-09-16 23:37:26,510 - INFO - Navegando para: https://www.petlove.com.br/vermifugo-elanco-drontal-plus-sabor-para-carne-caes-10-kg/p?sku=31027552387 (Tentativa 1)
+2025-09-16 23:37:29,820 - INFO - Navegação bem-sucedida!
+2025-09-16 23:37:31,843 - INFO - Popup de variações encontrado
+2025-09-16 23:37:31,866 - INFO - Encontradas 2 variações
+2025-09-16 23:37:32,236 - INFO - Variação encontrada: 2 Comprimidos | Preço: R$55,90
+2025-09-16 23:37:32,315 - INFO - Variação encontrada: 4 Comprimidos | Preço: R$84,50
+2025-09-16 23:37:32,315 - INFO - Criando produto: Vermífugo Elanco Drontal Plus Sabor Carne para Cães 10Kg - 4 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$55,90
+2025-09-16 23:37:32,316 - INFO - Criando produto: Vermífugo Elanco Drontal Plus Sabor Carne para Cães 10Kg - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$84,50
+2025-09-16 23:37:32,316 - INFO - Processando variações do produto 5/36
+2025-09-16 23:37:32,316 - INFO - Criando produto: Vermífugo Elanco Drontal Plus Sabor Carne para Cães 35Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 127,50
+2025-09-16 23:37:32,316 - INFO - Processando variações do produto 6/36
+2025-09-16 23:37:32,316 - INFO - Criando produto: Vermífugo Drontal SpotOn para Gatos de 2,5Kg a 5Kg - 1 Bisnaga | Quantidade: 1 Bisnaga | Preço: R$ 86,90
+2025-09-16 23:37:32,317 - INFO - Processando variações do produto 7/36
+2025-09-16 23:37:32,317 - INFO - Criando produto: Vermífugo Drontal SpotOn para Gatos de 5Kg a 8Kg - 1 Bisnaga | Quantidade: 1 Bisnaga | Preço: R$ 95,50
+2025-09-16 23:37:32,317 - INFO - Processando variações do produto 8/36
+2025-09-16 23:37:32,317 - INFO - Criando produto: Kit Elanco Antipulgas e Carrapato Credelli 56,25 mg e Vermífugo Drontal Puppy 20 mL para Cães Filhotes - KIT | Quantidade: N/A | Preço: R$ 256,40
+2025-09-16 23:37:32,318 - INFO - Processando variações do produto 9/36
+2025-09-16 23:37:32,318 - INFO - Criando produto: Kit Elanco Antipulgas e Carrapato Credelli 112,5 mg e Vermífugo Drontal Puppy 20 mL para Cães Filhotes - KIT | Quantidade: N/A | Preço: R$ 272,00
+2025-09-16 23:37:32,318 - INFO - Processando variações do produto 10/36
+2025-09-16 23:37:32,319 - INFO - Navegando para: https://www.petlove.com.br/bolsa-de-transporte-sao-pet-frontal-para-pets-preta/p?sku=31027547278 (Tentativa 1)
+2025-09-16 23:37:35,279 - INFO - Navegação bem-sucedida!
+2025-09-16 23:37:37,294 - INFO - Popup de variações encontrado
+2025-09-16 23:37:37,309 - INFO - Encontradas 2 variações
+2025-09-16 23:37:37,682 - INFO - Variação encontrada: N1 | Preço: R$89,90
+2025-09-16 23:37:37,784 - INFO - Variação encontrada: N2 | Preço: R$109,90
+2025-09-16 23:37:37,784 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal para Pets Preta - N2 | Quantidade: N1 | Preço: R$89,90
+2025-09-16 23:37:37,784 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal para Pets Preta - N2 | Quantidade: N2 | Preço: R$109,90
+2025-09-16 23:37:37,785 - INFO - Processando variações do produto 11/36
+2025-09-16 23:37:37,785 - INFO - Navegando para: https://www.petlove.com.br/bolsa-de-transporte-sao-pet-frontal-para-pets-azul/p?sku=31027547283 (Tentativa 1)
+2025-09-16 23:37:41,229 - INFO - Navegação bem-sucedida!
+2025-09-16 23:37:43,255 - INFO - Popup de variações encontrado
+2025-09-16 23:37:43,264 - INFO - Encontradas 2 variações
+2025-09-16 23:37:43,345 - INFO - Variação encontrada: N1 | Preço: R$89,90
+2025-09-16 23:37:43,432 - INFO - Variação encontrada: N2 | Preço: R$109,90
+2025-09-16 23:37:43,432 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal para Pets Azul - N1 | Quantidade: N1 | Preço: R$89,90
+2025-09-16 23:37:43,432 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal para Pets Azul - N1 | Quantidade: N2 | Preço: R$109,90
+2025-09-16 23:37:43,433 - INFO - Processando variações do produto 12/36
+2025-09-16 23:37:43,433 - INFO - Navegando para: https://www.petlove.com.br/bolsa-de-transporte-sao-pet-frontal-para-pets-rosa/p?sku=31027547274 (Tentativa 1)
+2025-09-16 23:37:46,328 - INFO - Navegação bem-sucedida!
+2025-09-16 23:37:48,353 - INFO - Popup de variações encontrado
+2025-09-16 23:37:48,364 - INFO - Encontradas 2 variações
+2025-09-16 23:37:48,451 - INFO - Variação encontrada: N1 | Preço: R$89,90
+2025-09-16 23:37:48,553 - INFO - Variação encontrada: N2 | Preço: R$109,90
+2025-09-16 23:37:48,554 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal para Pets Rosa - N1 | Quantidade: N1 | Preço: R$89,90
+2025-09-16 23:37:48,554 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal para Pets Rosa - N1 | Quantidade: N2 | Preço: R$109,90
+2025-09-16 23:37:48,554 - INFO - Processando variações do produto 13/36
+2025-09-16 23:37:48,555 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal Atenas Nylon 600 Rosa - N2 | Quantidade: N2 | Preço: R$ 335,50
+2025-09-16 23:37:48,555 - INFO - Processando variações do produto 14/36
+2025-09-16 23:37:48,555 - INFO - Navegando para: https://www.petlove.com.br/bolsa-de-transporte-sao-pet-frontal-para-pets-vermelha/p?sku=31027547271 (Tentativa 1)
+2025-09-16 23:37:51,787 - INFO - Navegação bem-sucedida!
+2025-09-16 23:37:53,828 - INFO - Popup de variações encontrado
+2025-09-16 23:37:53,948 - INFO - Encontradas 2 variações
+2025-09-16 23:37:54,084 - INFO - Variação encontrada: N1 | Preço: R$89,90
+2025-09-16 23:37:54,175 - INFO - Variação encontrada: N2 | Preço: R$109,90
+2025-09-16 23:37:54,176 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal para Pets Vermelha - N2 | Quantidade: N1 | Preço: R$89,90
+2025-09-16 23:37:54,176 - INFO - Criando produto: Bolsa de Transporte São Pet Frontal para Pets Vermelha - N2 | Quantidade: N2 | Preço: R$109,90
+2025-09-16 23:37:54,176 - INFO - Processando variações do produto 15/36
+2025-09-16 23:37:54,176 - INFO - Navegando para: https://www.petlove.com.br/arnes-suporte-frontal-e-pelvico-help-em-up/p?sku=31027542364 (Tentativa 1)
+2025-09-16 23:37:58,038 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:00,051 - INFO - Popup de variações encontrado
+2025-09-16 23:38:00,067 - INFO - Encontradas 1 variações
+2025-09-16 23:38:00,162 - INFO - Variação encontrada: Tam. GG | Preço: R$1845,90
+2025-09-16 23:38:00,162 - INFO - Criando produto: Arnês Suporte Frontal e Pélvico Help Em' Up - Tam. GG | Quantidade: Tam. GG | Preço: R$1845,90
+2025-09-16 23:38:00,163 - INFO - Processando variações do produto 16/36
+2025-09-16 23:38:00,163 - INFO - Criando produto: Alça de mão para Arnês Suporte Frontal e Pélvico Help Em' Up - Tamanho Único | Quantidade: Tamanho Único | Preço: R$ 385,90
+2025-09-16 23:38:00,164 - INFO - Processando variações do produto 17/36
+2025-09-16 23:38:00,164 - INFO - Navegando para: https://www.petlove.com.br/alcas-de-ombro-para-arnes-suporte-frontal-e-pelvico-help-em-up-2em1/p?sku=31027542310 (Tentativa 1)
+2025-09-16 23:38:03,494 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:05,514 - INFO - Popup de variações encontrado
+2025-09-16 23:38:05,531 - INFO - Encontradas 2 variações
+2025-09-16 23:38:05,629 - INFO - Variação encontrada: Tam GG | Preço: R$506,90
+2025-09-16 23:38:05,730 - INFO - Variação encontrada: Tam G | Preço: R$431,90
+2025-09-16 23:38:05,730 - INFO - Criando produto: Alças de Ombro para Arnês Suporte Frontal e Pélvico Help Em' Up 2em1 - Tam GG | Quantidade: Tam GG | Preço: R$506,90
+2025-09-16 23:38:05,730 - INFO - Criando produto: Alças de Ombro para Arnês Suporte Frontal e Pélvico Help Em' Up 2em1 - Tam GG | Quantidade: Tam G | Preço: R$431,90
+2025-09-16 23:38:05,731 - INFO - Processando variações do produto 18/36
+2025-09-16 23:38:05,731 - INFO - Navegando para: https://www.petlove.com.br/alcas-duplas-para-arnes-suporte-frontal-e-pelvico-help-em-up-loop/p?sku=31027542306 (Tentativa 1)
+2025-09-16 23:38:08,852 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:10,880 - INFO - Popup de variações encontrado
+2025-09-16 23:38:10,899 - INFO - Encontradas 2 variações
+2025-09-16 23:38:10,983 - INFO - Variação encontrada: Tam. M | Preço: R$305,90
+2025-09-16 23:38:11,046 - INFO - Variação encontrada: Tam. G | Preço: R$351,90
+2025-09-16 23:38:11,047 - INFO - Criando produto: Alças Duplas para Arnês Suporte Frontal e Pélvico Help 'Em Up Loop - Tam. G | Quantidade: Tam. M | Preço: R$305,90
+2025-09-16 23:38:11,047 - INFO - Criando produto: Alças Duplas para Arnês Suporte Frontal e Pélvico Help 'Em Up Loop - Tam. G | Quantidade: Tam. G | Preço: R$351,90
+2025-09-16 23:38:11,047 - INFO - Processando variações do produto 19/36
+2025-09-16 23:38:11,048 - INFO - Navegando para: https://www.petlove.com.br/conjunto-peitoral-toh-anti-puxao-e-guia-laguna/p?sku=2500830 (Tentativa 1)
+2025-09-16 23:38:14,752 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:16,782 - INFO - Popup de variações encontrado
+2025-09-16 23:38:16,799 - INFO - Encontradas 2 variações
+2025-09-16 23:38:16,898 - INFO - Variação encontrada: Tam. P | Preço: R$85,17
+2025-09-16 23:38:17,001 - INFO - Variação encontrada: Tam. M | Preço: Consultar
+2025-09-16 23:38:17,002 - INFO - Criando produto: Conjunto Peitoral Toh Antipuxão e Guia Laguna - Tam. P | Quantidade: Tam. P | Preço: R$85,17
+2025-09-16 23:38:17,002 - INFO - Criando produto: Conjunto Peitoral Toh Antipuxão e Guia Laguna - Tam. P | Quantidade: Tam. M | Preço: Consultar
+2025-09-16 23:38:17,002 - INFO - Processando variações do produto 20/36
+2025-09-16 23:38:17,002 - INFO - Navegando para: https://www.petlove.com.br/peitoral-h-pop-bordo-caqui/p?sku=31027532693 (Tentativa 1)
+2025-09-16 23:38:20,268 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:22,414 - INFO - Popup de variações encontrado
+2025-09-16 23:38:22,425 - INFO - Encontradas 3 variações
+2025-09-16 23:38:22,510 - INFO - Variação encontrada: Tam. P | Preço: R$43,99
+2025-09-16 23:38:22,623 - INFO - Variação encontrada: Tam. M | Preço: R$53,99
+2025-09-16 23:38:22,721 - INFO - Variação encontrada: Tam. G | Preço: Consultar
+2025-09-16 23:38:22,722 - INFO - Criando produto: Peitoral H Pop Bordo Caqui - Tam. P | Quantidade: Tam. P | Preço: R$43,99
+2025-09-16 23:38:22,722 - INFO - Criando produto: Peitoral H Pop Bordo Caqui - Tam. P | Quantidade: Tam. M | Preço: R$53,99
+2025-09-16 23:38:22,723 - INFO - Criando produto: Peitoral H Pop Bordo Caqui - Tam. P | Quantidade: Tam. G | Preço: Consultar
+2025-09-16 23:38:22,723 - INFO - Processando variações do produto 21/36
+2025-09-16 23:38:22,724 - INFO - Navegando para: https://www.petlove.com.br/peitoral-antipuxao-future-pet-la-casa-de-papel-preta-para-caes/p?sku=2785315 (Tentativa 1)
+2025-09-16 23:38:27,034 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:29,056 - INFO - Popup de variações encontrado
+2025-09-16 23:38:29,065 - INFO - Encontradas 3 variações
+2025-09-16 23:38:29,159 - INFO - Variação encontrada: Tam. P | Preço: Consultar
+2025-09-16 23:38:29,243 - INFO - Variação encontrada: Tam. M | Preço: Consultar
+2025-09-16 23:38:29,293 - INFO - Variação encontrada: Tam. G | Preço: R$126,90
+2025-09-16 23:38:29,293 - INFO - Criando produto: Peitoral Antipuxão Future Pet La Casa de Papel Preta para Cães - Tam. G | Quantidade: Tam. P | Preço: Consultar
+2025-09-16 23:38:29,293 - INFO - Criando produto: Peitoral Antipuxão Future Pet La Casa de Papel Preta para Cães - Tam. G | Quantidade: Tam. M | Preço: Consultar
+2025-09-16 23:38:29,294 - INFO - Criando produto: Peitoral Antipuxão Future Pet La Casa de Papel Preta para Cães - Tam. G | Quantidade: Tam. G | Preço: R$126,90
+2025-09-16 23:38:29,294 - INFO - Processando variações do produto 22/36
+2025-09-16 23:38:29,294 - INFO - Criando produto: Caixa de Areia Classic Front com Pá Meau Cinza para Gatos - Tam. Único | Quantidade: Tam. Único | Preço: R$ 87,92
+2025-09-16 23:38:29,294 - INFO - Processando variações do produto 23/36
+2025-09-16 23:38:29,294 - INFO - Navegando para: https://www.petlove.com.br/conjunto-peitoral-antipuxao-e-guia-lilas/p?sku=31027532674 (Tentativa 1)
+2025-09-16 23:38:32,497 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:34,824 - INFO - Popup de variações encontrado
+2025-09-16 23:38:34,875 - INFO - Encontradas 3 variações
+2025-09-16 23:38:34,976 - INFO - Variação encontrada: Tam. P | Preço: R$87,99
+2025-09-16 23:38:35,080 - INFO - Variação encontrada: Tam. M | Preço: R$109,99
+2025-09-16 23:38:35,162 - INFO - Variação encontrada: Tam. G | Preço: R$129,99
+2025-09-16 23:38:35,163 - INFO - Criando produto: Conjunto Peitoral Antipuxão e Guia Lilás - Tam. M | Quantidade: Tam. P | Preço: R$87,99
+2025-09-16 23:38:35,163 - INFO - Criando produto: Conjunto Peitoral Antipuxão e Guia Lilás - Tam. M | Quantidade: Tam. M | Preço: R$109,99
+2025-09-16 23:38:35,163 - INFO - Criando produto: Conjunto Peitoral Antipuxão e Guia Lilás - Tam. M | Quantidade: Tam. G | Preço: R$129,99
+2025-09-16 23:38:35,163 - INFO - Processando variações do produto 24/36
+2025-09-16 23:38:35,164 - INFO - Navegando para: https://www.petlove.com.br/conjunto-peitoral-antipuxao-e-guia-azul/p?sku=31027532679 (Tentativa 1)
+2025-09-16 23:38:38,071 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:40,099 - INFO - Popup de variações encontrado
+2025-09-16 23:38:40,114 - INFO - Encontradas 2 variações
+2025-09-16 23:38:40,197 - INFO - Variação encontrada: Tam. P | Preço: R$87,99
+2025-09-16 23:38:40,311 - INFO - Variação encontrada: Tam. M | Preço: R$109,99
+2025-09-16 23:38:40,312 - INFO - Criando produto: Conjunto Peitoral Antipuxão e Guia Azul - Tam. M | Quantidade: Tam. P | Preço: R$87,99
+2025-09-16 23:38:40,312 - INFO - Criando produto: Conjunto Peitoral Antipuxão e Guia Azul - Tam. M | Quantidade: Tam. M | Preço: R$109,99
+2025-09-16 23:38:40,312 - INFO - Processando variações do produto 25/36
+2025-09-16 23:38:40,312 - INFO - Navegando para: https://www.petlove.com.br/kit-antipuxao-meuauau-new-pink/p?sku=31027545088 (Tentativa 1)
+2025-09-16 23:38:43,260 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:45,429 - INFO - Popup de variações encontrado
+2025-09-16 23:38:45,470 - INFO - Encontradas 3 variações
+2025-09-16 23:38:45,623 - INFO - Variação encontrada: Tam. P | Preço: R$129,90
+2025-09-16 23:38:45,727 - INFO - Variação encontrada: Tam. M | Preço: R$129,90
+2025-09-16 23:38:45,826 - INFO - Variação encontrada: Tam. G | Preço: R$129,90
+2025-09-16 23:38:45,827 - INFO - Criando produto: Kit Antipuxão meuAuAu New Pink - Tam. G | Quantidade: Tam. P | Preço: R$129,90
+2025-09-16 23:38:45,827 - INFO - Criando produto: Kit Antipuxão meuAuAu New Pink - Tam. G | Quantidade: Tam. M | Preço: R$129,90
+2025-09-16 23:38:45,827 - INFO - Criando produto: Kit Antipuxão meuAuAu New Pink - Tam. G | Quantidade: Tam. G | Preço: R$129,90
+2025-09-16 23:38:45,827 - INFO - Processando variações do produto 26/36
+2025-09-16 23:38:45,828 - INFO - Navegando para: https://www.petlove.com.br/peitoral-h-pop-preto-caqui/p?sku=31027532684 (Tentativa 1)
+2025-09-16 23:38:48,666 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:50,724 - INFO - Popup de variações encontrado
+2025-09-16 23:38:50,732 - INFO - Encontradas 3 variações
+2025-09-16 23:38:50,821 - INFO - Variação encontrada: Tam. P | Preço: R$43,99
+2025-09-16 23:38:50,906 - INFO - Variação encontrada: Tam. M | Preço: R$53,99
+2025-09-16 23:38:50,959 - INFO - Variação encontrada: Tam. G | Preço: Consultar
+2025-09-16 23:38:50,960 - INFO - Criando produto: Peitoral H Pop Preto Caqui - Tam. M | Quantidade: Tam. P | Preço: R$43,99
+2025-09-16 23:38:50,960 - INFO - Criando produto: Peitoral H Pop Preto Caqui - Tam. M | Quantidade: Tam. M | Preço: R$53,99
+2025-09-16 23:38:50,960 - INFO - Criando produto: Peitoral H Pop Preto Caqui - Tam. M | Quantidade: Tam. G | Preço: Consultar
+2025-09-16 23:38:50,960 - INFO - Processando variações do produto 27/36
+2025-09-16 23:38:50,960 - INFO - Navegando para: https://www.petlove.com.br/cama-pickorruchos-aspen-dupla-face-rosa/p?sku=31027551544 (Tentativa 1)
+2025-09-16 23:38:54,156 - INFO - Navegação bem-sucedida!
+2025-09-16 23:38:56,297 - INFO - Popup de variações encontrado
+2025-09-16 23:38:56,309 - INFO - Encontradas 3 variações
+2025-09-16 23:38:56,368 - INFO - Variação encontrada: P | Preço: R$143,84
+2025-09-16 23:38:56,426 - INFO - Variação encontrada: M | Preço: R$229,80
+2025-09-16 23:38:56,518 - INFO - Variação encontrada: G | Preço: R$231,84
+2025-09-16 23:38:56,519 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Rosa - G | Quantidade: P | Preço: R$143,84
+2025-09-16 23:38:56,519 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Rosa - G | Quantidade: M | Preço: R$229,80
+2025-09-16 23:38:56,519 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Rosa - G | Quantidade: G | Preço: R$231,84
+2025-09-16 23:38:56,520 - INFO - Processando variações do produto 28/36
+2025-09-16 23:38:56,520 - INFO - Navegando para: https://www.petlove.com.br/kit-antipuxao-meuauau-new-blue/p?sku=31027545091 (Tentativa 1)
+2025-09-16 23:38:59,650 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:01,683 - INFO - Popup de variações encontrado
+2025-09-16 23:39:01,697 - INFO - Encontradas 3 variações
+2025-09-16 23:39:01,776 - INFO - Variação encontrada: Tam. P | Preço: R$129,90
+2025-09-16 23:39:01,868 - INFO - Variação encontrada: Tam. M | Preço: R$129,90
+2025-09-16 23:39:01,943 - INFO - Variação encontrada: Tam. G | Preço: Consultar
+2025-09-16 23:39:01,943 - INFO - Criando produto: Kit Antipuxão meuAuAu New Blue - Tam. P | Quantidade: Tam. P | Preço: R$129,90
+2025-09-16 23:39:01,944 - INFO - Criando produto: Kit Antipuxão meuAuAu New Blue - Tam. P | Quantidade: Tam. M | Preço: R$129,90
+2025-09-16 23:39:01,944 - INFO - Criando produto: Kit Antipuxão meuAuAu New Blue - Tam. P | Quantidade: Tam. G | Preço: Consultar
+2025-09-16 23:39:01,944 - INFO - Processando variações do produto 29/36
+2025-09-16 23:39:01,944 - INFO - Navegando para: https://www.petlove.com.br/peitoral-h-pop-marinho-caqui/p?sku=31027532689 (Tentativa 1)
+2025-09-16 23:39:04,770 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:06,798 - INFO - Popup de variações encontrado
+2025-09-16 23:39:06,812 - INFO - Encontradas 3 variações
+2025-09-16 23:39:06,902 - INFO - Variação encontrada: Tam. P | Preço: R$43,99
+2025-09-16 23:39:06,994 - INFO - Variação encontrada: Tam. G | Preço: R$69,99
+2025-09-16 23:39:07,074 - INFO - Variação encontrada: Tam. M | Preço: R$53,99
+2025-09-16 23:39:07,075 - INFO - Criando produto: Peitoral H Pop Marinho Caqui - Tam. M | Quantidade: Tam. P | Preço: R$43,99
+2025-09-16 23:39:07,075 - INFO - Criando produto: Peitoral H Pop Marinho Caqui - Tam. M | Quantidade: Tam. G | Preço: R$69,99
+2025-09-16 23:39:07,075 - INFO - Criando produto: Peitoral H Pop Marinho Caqui - Tam. M | Quantidade: Tam. M | Preço: R$53,99
+2025-09-16 23:39:07,075 - INFO - Processando variações do produto 30/36
+2025-09-16 23:39:07,076 - INFO - Navegando para: https://www.petlove.com.br/cama-pickorruchos-aspen-dupla-face-marfim/p?sku=31027551554 (Tentativa 1)
+2025-09-16 23:39:09,962 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:11,987 - INFO - Popup de variações encontrado
+2025-09-16 23:39:11,997 - INFO - Encontradas 3 variações
+2025-09-16 23:39:12,087 - INFO - Variação encontrada: P | Preço: R$143,84
+2025-09-16 23:39:12,156 - INFO - Variação encontrada: M | Preço: R$183,84
+2025-09-16 23:39:12,224 - INFO - Variação encontrada: G | Preço: R$231,84
+2025-09-16 23:39:12,225 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Marfim - G | Quantidade: P | Preço: R$143,84
+2025-09-16 23:39:12,225 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Marfim - G | Quantidade: M | Preço: R$183,84
+2025-09-16 23:39:12,225 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Marfim - G | Quantidade: G | Preço: R$231,84
+2025-09-16 23:39:12,225 - INFO - Processando variações do produto 31/36
+2025-09-16 23:39:12,226 - INFO - Navegando para: https://www.petlove.com.br/cama-pickorruchos-aspen-dupla-face-mint/p?sku=31027551549 (Tentativa 1)
+2025-09-16 23:39:15,194 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:17,222 - INFO - Popup de variações encontrado
+2025-09-16 23:39:17,243 - INFO - Encontradas 3 variações
+2025-09-16 23:39:17,327 - INFO - Variação encontrada: P | Preço: R$143,84
+2025-09-16 23:39:17,425 - INFO - Variação encontrada: M | Preço: R$183,84
+2025-09-16 23:39:17,493 - INFO - Variação encontrada: G | Preço: R$231,84
+2025-09-16 23:39:17,493 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Mint - G | Quantidade: P | Preço: R$143,84
+2025-09-16 23:39:17,494 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Mint - G | Quantidade: M | Preço: R$183,84
+2025-09-16 23:39:17,494 - INFO - Criando produto: Cama Pickorruchos Aspen Dupla Face Mint - G | Quantidade: G | Preço: R$231,84
+2025-09-16 23:39:17,494 - INFO - Processando variações do produto 32/36
+2025-09-16 23:39:17,495 - INFO - Navegando para: https://www.petlove.com.br/peitoral-antipuxao-bob-marley-para-caes/p?sku=2537392 (Tentativa 1)
+2025-09-16 23:39:20,659 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:22,682 - INFO - Popup de variações encontrado
+2025-09-16 23:39:22,692 - INFO - Encontradas 3 variações
+2025-09-16 23:39:22,775 - INFO - Variação encontrada: Tam. P | Preço: Consultar
+2025-09-16 23:39:22,857 - INFO - Variação encontrada: Tam. M | Preço: Consultar
+2025-09-16 23:39:22,914 - INFO - Variação encontrada: Tam. G | Preço: Consultar
+2025-09-16 23:39:22,915 - INFO - Criando produto: Peitoral Antipuxão Bob e Marley para Cães - Tam. M | Quantidade: Tam. P | Preço: Consultar
+2025-09-16 23:39:22,915 - INFO - Criando produto: Peitoral Antipuxão Bob e Marley para Cães - Tam. M | Quantidade: Tam. M | Preço: Consultar
+2025-09-16 23:39:22,915 - INFO - Criando produto: Peitoral Antipuxão Bob e Marley para Cães - Tam. M | Quantidade: Tam. G | Preço: Consultar
+2025-09-16 23:39:22,916 - INFO - Processando variações do produto 33/36
+2025-09-16 23:39:22,916 - INFO - Navegando para: https://www.petlove.com.br/peitoral-antipuxao-t-mutts-para-caes/p?sku=2537402 (Tentativa 1)
+2025-09-16 23:39:25,969 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:27,997 - INFO - Popup de variações encontrado
+2025-09-16 23:39:28,012 - INFO - Encontradas 3 variações
+2025-09-16 23:39:28,087 - INFO - Variação encontrada: Tam. P | Preço: Consultar
+2025-09-16 23:39:28,150 - INFO - Variação encontrada: Tam. M | Preço: Consultar
+2025-09-16 23:39:28,216 - INFO - Variação encontrada: Tam. G | Preço: Consultar
+2025-09-16 23:39:28,216 - INFO - Criando produto: Peitoral Antipuxão T-Mutts para Cães - Tam. G | Quantidade: Tam. P | Preço: Consultar
+2025-09-16 23:39:28,217 - INFO - Criando produto: Peitoral Antipuxão T-Mutts para Cães - Tam. G | Quantidade: Tam. M | Preço: Consultar
+2025-09-16 23:39:28,217 - INFO - Criando produto: Peitoral Antipuxão T-Mutts para Cães - Tam. G | Quantidade: Tam. G | Preço: Consultar
+2025-09-16 23:39:28,217 - INFO - Processando variações do produto 34/36
+2025-09-16 23:39:28,217 - INFO - Navegando para: https://www.petlove.com.br/peitoral-antipuxao-olivia-para-caes/p?sku=2537395 (Tentativa 1)
+2025-09-16 23:39:31,220 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:33,241 - INFO - Popup de variações encontrado
+2025-09-16 23:39:33,258 - INFO - Encontradas 3 variações
+2025-09-16 23:39:33,347 - INFO - Variação encontrada: Tam. P | Preço: Consultar
+2025-09-16 23:39:33,430 - INFO - Variação encontrada: Tam. M | Preço: Consultar
+2025-09-16 23:39:33,495 - INFO - Variação encontrada: Tam. G | Preço: Consultar
+2025-09-16 23:39:33,496 - INFO - Criando produto: Peitoral Antipuxão Olívia para Cães - Tam. M | Quantidade: Tam. P | Preço: Consultar
+2025-09-16 23:39:33,496 - INFO - Criando produto: Peitoral Antipuxão Olívia para Cães - Tam. M | Quantidade: Tam. M | Preço: Consultar
+2025-09-16 23:39:33,496 - INFO - Criando produto: Peitoral Antipuxão Olívia para Cães - Tam. M | Quantidade: Tam. G | Preço: Consultar
+2025-09-16 23:39:33,496 - INFO - Processando variações do produto 35/36
+2025-09-16 23:39:33,496 - INFO - Navegando para: https://www.petlove.com.br/peitoral-antipuxao-camuflado-cinza-para-caes/p?sku=2537410 (Tentativa 1)
+2025-09-16 23:39:36,667 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:38,687 - INFO - Popup de variações encontrado
+2025-09-16 23:39:38,704 - INFO - Encontradas 2 variações
+2025-09-16 23:39:38,790 - INFO - Variação encontrada: Tam. P | Preço: Consultar
+2025-09-16 23:39:38,845 - INFO - Variação encontrada: Tam. M | Preço: Consultar
+2025-09-16 23:39:38,846 - INFO - Criando produto: Peitoral Antipuxão Camuflado Cinza para Cães - Tam. M | Quantidade: Tam. P | Preço: Consultar
+2025-09-16 23:39:38,846 - INFO - Criando produto: Peitoral Antipuxão Camuflado Cinza para Cães - Tam. M | Quantidade: Tam. M | Preço: Consultar
+2025-09-16 23:39:38,846 - INFO - Processando variações do produto 36/36
+2025-09-16 23:39:38,846 - INFO - Navegando para: https://www.petlove.com.br/peitoral-antipuxao-outdoor-para-caes/p?sku=2537405 (Tentativa 1)
+2025-09-16 23:39:41,954 - INFO - Navegação bem-sucedida!
+2025-09-16 23:39:43,981 - INFO - Popup de variações encontrado
+2025-09-16 23:39:43,998 - INFO - Encontradas 3 variações
+2025-09-16 23:39:44,076 - INFO - Variação encontrada: Tam. P | Preço: Consultar
+2025-09-16 23:39:44,156 - INFO - Variação encontrada: Tam. M | Preço: Consultar
+2025-09-16 23:39:44,230 - INFO - Variação encontrada: Tam. G | Preço: Consultar
+2025-09-16 23:39:44,231 - INFO - Criando produto: Peitoral Antipuxão Outdoor para Cães -Tam. G | Quantidade: Tam. P | Preço: Consultar
+2025-09-16 23:39:44,231 - INFO - Criando produto: Peitoral Antipuxão Outdoor para Cães -Tam. G | Quantidade: Tam. M | Preço: Consultar
+2025-09-16 23:39:44,231 - INFO - Criando produto: Peitoral Antipuxão Outdoor para Cães -Tam. G | Quantidade: Tam. G | Preço: Consultar
+2025-09-16 23:39:44,232 - INFO - Encontrados 74 produtos para Drontal
+2025-09-16 23:39:44,232 - INFO - Aguardando 2.8s...
+2025-09-16 23:39:47,035 - INFO - Processando Milbemax (10/20)
+2025-09-16 23:39:47,036 - INFO - Buscando Milbemax na Petlove...
+2025-09-16 23:41:32,998 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Milbemax (Tentativa 1)
+2025-09-16 23:41:36,347 - INFO - Navegação bem-sucedida!
+2025-09-16 23:41:36,394 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:41:36,395 - INFO - Número de produtos encontrados na página: 4
+2025-09-16 23:41:36,395 - INFO - Coletando dados básicos do produto 1/4
+2025-09-16 23:41:36,728 - INFO - Produto coletado: Vermifugo Elanco Milbemax FC para Gatos de 2Kg a 8Kg - 2 Comprimidos | Preço: R$ 53,90 | Tem variações: False
+2025-09-16 23:41:36,728 - INFO - Coletando dados básicos do produto 2/4
+2025-09-16 23:41:37,005 - INFO - Produto coletado: Vermífugo Milbemax C para Cães de 5 a 25Kg - 2 Comprimidos | Preço: R$ 78,50 | Tem variações: False
+2025-09-16 23:41:37,005 - INFO - Coletando dados básicos do produto 3/4
+2025-09-16 23:41:37,248 - INFO - Produto coletado: Vermifugo Elanco Milbemax FC para Gatos até 2Kg - 2 Comprimidos | Preço: R$ 33,90 | Tem variações: False
+2025-09-16 23:41:37,248 - INFO - Coletando dados básicos do produto 4/4
+2025-09-16 23:41:37,478 - INFO - Produto coletado: Vermífugo Elanco Milbemax C para Cães até 5Kg - 2 Comprimidos | Preço: R$ 39,50 | Tem variações: False
+2025-09-16 23:41:37,479 - INFO - Processando variações do produto 1/4
+2025-09-16 23:41:37,479 - INFO - Criando produto: Vermifugo Elanco Milbemax FC para Gatos de 2Kg a 8Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 53,90
+2025-09-16 23:41:37,479 - INFO - Processando variações do produto 2/4
+2025-09-16 23:41:37,480 - INFO - Criando produto: Vermífugo Milbemax C para Cães de 5 a 25Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 78,50
+2025-09-16 23:41:37,480 - INFO - Processando variações do produto 3/4
+2025-09-16 23:41:37,480 - INFO - Criando produto: Vermifugo Elanco Milbemax FC para Gatos até 2Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 33,90
+2025-09-16 23:41:37,480 - INFO - Processando variações do produto 4/4
+2025-09-16 23:41:37,480 - INFO - Criando produto: Vermífugo Elanco Milbemax C para Cães até 5Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 39,50
+2025-09-16 23:41:37,481 - INFO - Encontrados 4 produtos para Milbemax
+2025-09-16 23:41:37,481 - INFO - Aguardando 1.6s...
+2025-09-16 23:41:39,098 - INFO - Processando Vermivet (11/20)
+2025-09-16 23:41:39,099 - INFO - Buscando Vermivet na Petlove...
+2025-09-16 23:43:25,898 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Vermivet (Tentativa 1)
+2025-09-16 23:43:30,929 - INFO - Navegação bem-sucedida!
+2025-09-16 23:43:30,974 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:43:30,974 - INFO - Número de produtos encontrados na página: 36
+2025-09-16 23:43:30,974 - INFO - Coletando dados básicos do produto 1/36
+2025-09-16 23:43:31,275 - INFO - Produto coletado: Vermífugo Biovet Vermivet Composto 600 mg para Cães - 4 comprimidos | Preço: R$ 12,90 | Tem variações: False
+2025-09-16 23:43:31,275 - INFO - Coletando dados básicos do produto 2/36
+2025-09-16 23:43:31,577 - INFO - Produto coletado: Vermífugo Biovet Vermivet Filhotes para Cães e Gatos - 20 mL | Preço: R$ 51,90 | Tem variações: False
+2025-09-16 23:43:31,577 - INFO - Coletando dados básicos do produto 3/36
+2025-09-16 23:43:31,850 - INFO - Produto coletado: Vermífugo Biovet Vermivet Plus 660 mg para Cães - 4 Comprimidos | Preço: R$ 39,90 | Tem variações: False
+2025-09-16 23:43:31,851 - INFO - Coletando dados básicos do produto 4/36
+2025-09-16 23:43:32,092 - INFO - Produto coletado: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 15,1 a 30Kg - 3 Tabletes | Preço: R$ 422,99 | Tem variações: True
+2025-09-16 23:43:32,092 - INFO - Coletando dados básicos do produto 5/36
+2025-09-16 23:43:32,246 - INFO - Produto coletado: Vermífugo Biovet Vermivet Plus 2,0 g para Cães - 2 Comprimidos | Preço: R$ 60,90 | Tem variações: False
+2025-09-16 23:43:32,247 - INFO - Coletando dados básicos do produto 6/36
+2025-09-16 23:43:32,417 - INFO - Produto coletado: Vermífugo Biovet Vermivet 300 mg para Gatos - 4 Comprimidos | Preço: R$ 45,90 | Tem variações: False
+2025-09-16 23:43:32,418 - INFO - Coletando dados básicos do produto 7/36
+2025-09-16 23:43:32,566 - INFO - Produto coletado: Kit Biovet Vermífugo Vermivet 300 mg e Antipulgas Defend Pro para Gatos - KIT | Preço: R$ 61,05 | Tem variações: False
+2025-09-16 23:43:32,566 - INFO - Coletando dados básicos do produto 8/36
+2025-09-16 23:43:32,821 - INFO - Produto coletado: Vermífugo Virbac Endogard para Cães até 10Kg - 2 Comprimidos | Preço: R$ 55,90 | Tem variações: True
+2025-09-16 23:43:32,822 - INFO - Coletando dados básicos do produto 9/36
+2025-09-16 23:43:33,022 - INFO - Produto coletado: Vermifugo Ceva Canex Composto para Cães - 4 Comprimidos | Preço: R$ 17,91 | Tem variações: False
+2025-09-16 23:43:33,023 - INFO - Coletando dados básicos do produto 10/36
+2025-09-16 23:43:33,178 - INFO - Produto coletado: Vermifugo Ouro Fino Top Dog para Cães de até 10Kg - 4 Comprimidos | Preço: R$ 74,50 | Tem variações: False
+2025-09-16 23:43:33,178 - INFO - Coletando dados básicos do produto 11/36
+2025-09-16 23:43:33,356 - INFO - Produto coletado: Vermífugo Vetnil Vetmax Plus 700mg - 4 Comprimidos | Preço: R$ 57,79 | Tem variações: False
+2025-09-16 23:43:33,356 - INFO - Coletando dados básicos do produto 12/36
+2025-09-16 23:43:33,509 - INFO - Produto coletado: Vermífugo Virbac Endogard para Cães até 30Kg - 2 comprimidos | Preço: R$ 151,90 | Tem variações: True
+2025-09-16 23:43:33,510 - INFO - Coletando dados básicos do produto 13/36
+2025-09-16 23:43:33,692 - INFO - Produto coletado: Vermifugo Elanco Milbemax FC para Gatos de 2Kg a 8Kg - 2 Comprimidos | Preço: R$ 53,90 | Tem variações: False
+2025-09-16 23:43:33,693 - INFO - Coletando dados básicos do produto 14/36
+2025-09-16 23:43:33,948 - INFO - Produto coletado: Antipulgas, Carrapatos e Vermifugo NexGard Spectra para Cães de 7,6 a 15Kg - 3 Tabletes | Preço: R$ 350,99 | Tem variações: True
+2025-09-16 23:43:33,949 - INFO - Coletando dados básicos do produto 15/36
+2025-09-16 23:43:34,094 - INFO - Produto coletado: Vermífugo Univet Vetmax Plus Suspensão - 30 mL | Preço: R$ 72,37 | Tem variações: False
+2025-09-16 23:43:34,094 - INFO - Coletando dados básicos do produto 16/36
+2025-09-16 23:43:34,184 - INFO - Produto coletado: Vermifugo Ouro Fino Top Dog para Cães de até 30kg - 2 Comprimidos | Preço: R$ 91,50 | Tem variações: False
+2025-09-16 23:43:34,184 - INFO - Coletando dados básicos do produto 17/36
+2025-09-16 23:43:34,274 - INFO - Produto coletado: Vermifugo Ceva Petzi para Gatos - 4 Comprimidos | Preço: R$ 58,29 | Tem variações: False
+2025-09-16 23:43:34,275 - INFO - Coletando dados básicos do produto 18/36
+2025-09-16 23:43:34,402 - INFO - Produto coletado: Vermífugo Duprat Duprantel Comprimidos para Cães e Gatos - 4 Comprimidos | Preço: R$ 16,00 | Tem variações: False
+2025-09-16 23:43:34,402 - INFO - Coletando dados básicos do produto 19/36
+2025-09-16 23:43:34,540 - INFO - Produto coletado: Vermifugo Canex Premium 900 mg para Cães até 10Kg - 4 Comprimidos | Preço: R$ 104,49 | Tem variações: False
+2025-09-16 23:43:34,540 - INFO - Coletando dados básicos do produto 20/36
+2025-09-16 23:43:34,749 - INFO - Produto coletado: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 3,6 a 7,5Kg - 3 Tabletes | Preço: R$ 309,99 | Tem variações: True
+2025-09-16 23:43:34,750 - INFO - Coletando dados básicos do produto 21/36
+2025-09-16 23:43:34,950 - INFO - Produto coletado: Vermífugo Virbac Endogard para Cães até 2,5Kg - 2 comprimidos | Preço: R$ 26,90 | Tem variações: True
+2025-09-16 23:43:34,950 - INFO - Coletando dados básicos do produto 22/36
+2025-09-16 23:43:35,130 - INFO - Produto coletado: Vermífugo Duprat Duprantel Gatos - 4 Comprimidos | Preço: R$ 30,90 | Tem variações: False
+2025-09-16 23:43:35,130 - INFO - Coletando dados básicos do produto 23/36
+2025-09-16 23:43:35,330 - INFO - Produto coletado: Vermífugo World Veterinária VermiCanis Plus para Cães de 30Kg - 2 Comprimidos | Preço: R$ 25,99 | Tem variações: False
+2025-09-16 23:43:35,331 - INFO - Coletando dados básicos do produto 24/36
+2025-09-16 23:43:35,480 - INFO - Produto coletado: Vermífugo Plus World Veterinária Vermicanis Cartucho para Cães de 10Kg - 4 Comprimidos | Preço: R$ 15,29 | Tem variações: False
+2025-09-16 23:43:35,480 - INFO - Coletando dados básicos do produto 25/36
+2025-09-16 23:43:35,652 - INFO - Produto coletado: Vermífugo World Veterinária VermiCats para Gatos de 3Kg - 4 Comprimidos | Preço: R$ 13,25 | Tem variações: False
+2025-09-16 23:43:35,652 - INFO - Coletando dados básicos do produto 26/36
+2025-09-16 23:43:35,834 - INFO - Produto coletado: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 30,1 a 60Kg - 3 Tabletes | Preço: R$ 487,99 | Tem variações: True
+2025-09-16 23:43:35,835 - INFO - Coletando dados básicos do produto 27/36
+2025-09-16 23:43:35,982 - INFO - Produto coletado: Vermifugo Ouro Fino Top Dog para Cães de até 2.5kg - 4 Comprimidos | Preço: R$ 38,50 | Tem variações: False
+2025-09-16 23:43:35,982 - INFO - Coletando dados básicos do produto 28/36
+2025-09-16 23:43:36,143 - INFO - Produto coletado: Vermífugo Vetnil Mebendazole 150 mg para Cães e Gatos - 10 Comprimidos | Preço: R$ 13,12 | Tem variações: False
+2025-09-16 23:43:36,143 - INFO - Coletando dados básicos do produto 29/36
+2025-09-16 23:43:36,277 - INFO - Produto coletado: Vermífugo Milbemax C para Cães de 5 a 25Kg - 2 Comprimidos | Preço: R$ 78,50 | Tem variações: False
+2025-09-16 23:43:36,277 - INFO - Coletando dados básicos do produto 30/36
+2025-09-16 23:43:36,436 - INFO - Produto coletado: Vermifugo Ceva Canex Premium 3,6 g para Cães até 40Kg - 2 Comprimidos | Preço: R$ 158,39 | Tem variações: False
+2025-09-16 23:43:36,437 - INFO - Coletando dados básicos do produto 31/36
+2025-09-16 23:43:36,581 - INFO - Produto coletado: Vermífugo Duprat Duprantel Plus para Cães - 4 Comprimidos | Preço: R$ 38,90 | Tem variações: False
+2025-09-16 23:43:36,582 - INFO - Coletando dados básicos do produto 32/36
+2025-09-16 23:43:36,765 - INFO - Produto coletado: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 2 a 3,5Kg - 3 Tabletes | Preço: R$ 278,99 | Tem variações: True
+2025-09-16 23:43:36,765 - INFO - Coletando dados básicos do produto 33/36
+2025-09-16 23:43:36,891 - INFO - Produto coletado: VermÍfugo Coveli Bulvermin Plus 4 Comprimidos para Cães - 30 Blister | Preço: R$ 711,36 | Tem variações: False
+2025-09-16 23:43:36,892 - INFO - Coletando dados básicos do produto 34/36
+2025-09-16 23:43:37,048 - INFO - Produto coletado: Vermífugo Coveli Blu para Cães e Gatos - 4 Comprimidos | Preço: R$ 55,54 | Tem variações: False
+2025-09-16 23:43:37,048 - INFO - Coletando dados básicos do produto 35/36
+2025-09-16 23:43:37,195 - INFO - Produto coletado: Vermifugo Coveli Prapi - 4 Comprimidos | Preço: R$ 26,49 | Tem variações: False
+2025-09-16 23:43:37,195 - INFO - Coletando dados básicos do produto 36/36
+2025-09-16 23:43:37,415 - INFO - Produto coletado: Vermífugo ProvetS Simões Provex para Cães - 4 Comprimidos | Preço: R$ 12,90 | Tem variações: False
+2025-09-16 23:43:37,416 - INFO - Processando variações do produto 1/36
+2025-09-16 23:43:37,416 - INFO - Criando produto: Vermífugo Biovet Vermivet Composto 600 mg para Cães - 4 comprimidos | Quantidade: 4 comprimidos | Preço: R$ 12,90
+2025-09-16 23:43:37,417 - INFO - Processando variações do produto 2/36
+2025-09-16 23:43:37,417 - INFO - Criando produto: Vermífugo Biovet Vermivet Filhotes para Cães e Gatos - 20 mL | Quantidade: 20 mL | Preço: R$ 51,90
+2025-09-16 23:43:37,417 - INFO - Processando variações do produto 3/36
+2025-09-16 23:43:37,417 - INFO - Criando produto: Vermífugo Biovet Vermivet Plus 660 mg para Cães - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 39,90
+2025-09-16 23:43:37,417 - INFO - Processando variações do produto 4/36
+2025-09-16 23:43:37,417 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-15-1-a-30-kg/p?sku=31027527252 (Tentativa 1)
+2025-09-16 23:43:40,874 - INFO - Navegação bem-sucedida!
+2025-09-16 23:43:43,015 - INFO - Popup de variações encontrado
+2025-09-16 23:43:43,032 - INFO - Encontradas 3 variações
+2025-09-16 23:43:43,127 - INFO - Variação encontrada: 1 Tablete | Preço: R$156,99
+2025-09-16 23:43:43,239 - INFO - Variação encontrada: 3 Tabletes | Preço: R$140,99/uni
+2025-09-16 23:43:43,329 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$125,33/uni
+2025-09-16 23:43:43,329 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 15,1 a 30Kg - 3 Tabletes | Quantidade: 1 Tablete | Preço: R$156,99
+2025-09-16 23:43:43,330 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 15,1 a 30Kg - 3 Tabletes | Quantidade: 3 Tabletes | Preço: R$140,99/uni
+2025-09-16 23:43:43,330 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 15,1 a 30Kg - 3 Tabletes | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$125,33/uni
+2025-09-16 23:43:43,330 - INFO - Processando variações do produto 5/36
+2025-09-16 23:43:43,331 - INFO - Criando produto: Vermífugo Biovet Vermivet Plus 2,0 g para Cães - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 60,90
+2025-09-16 23:43:43,331 - INFO - Processando variações do produto 6/36
+2025-09-16 23:43:43,331 - INFO - Criando produto: Vermífugo Biovet Vermivet 300 mg para Gatos - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 45,90
+2025-09-16 23:43:43,331 - INFO - Processando variações do produto 7/36
+2025-09-16 23:43:43,331 - INFO - Criando produto: Kit Biovet Vermífugo Vermivet 300 mg e Antipulgas Defend Pro para Gatos - KIT | Quantidade: N/A | Preço: R$ 61,05
+2025-09-16 23:43:43,332 - INFO - Processando variações do produto 8/36
+2025-09-16 23:43:43,332 - INFO - Navegando para: https://www.petlove.com.br/endogard-10-virbac-para-caesate-10kg-blister-103452/p?sku=3103452-2 (Tentativa 1)
+2025-09-16 23:43:47,061 - INFO - Navegação bem-sucedida!
+2025-09-16 23:43:49,082 - INFO - Popup de variações encontrado
+2025-09-16 23:43:49,094 - INFO - Encontradas 2 variações
+2025-09-16 23:43:49,203 - INFO - Variação encontrada: 2 Comprimidos | Preço: R$27,95/uni
+2025-09-16 23:43:49,296 - INFO - Variação encontrada: 6 Comprimidos | Preço: R$25,31/uni
+2025-09-16 23:43:49,296 - INFO - Criando produto: Vermífugo Virbac Endogard para Cães até 10Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$27,95/uni
+2025-09-16 23:43:49,297 - INFO - Criando produto: Vermífugo Virbac Endogard para Cães até 10Kg - 2 Comprimidos | Quantidade: 6 Comprimidos | Preço: R$25,31/uni
+2025-09-16 23:43:49,297 - INFO - Processando variações do produto 9/36
+2025-09-16 23:43:49,297 - INFO - Criando produto: Vermifugo Ceva Canex Composto para Cães - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 17,91
+2025-09-16 23:43:49,298 - INFO - Processando variações do produto 10/36
+2025-09-16 23:43:49,298 - INFO - Criando produto: Vermifugo Ouro Fino Top Dog para Cães de até 10Kg - 4 Comprimidos | Quantidade: N/A | Preço: R$ 74,50
+2025-09-16 23:43:49,298 - INFO - Processando variações do produto 11/36
+2025-09-16 23:43:49,298 - INFO - Criando produto: Vermífugo Vetnil Vetmax Plus 700mg - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 57,79
+2025-09-16 23:43:49,298 - INFO - Processando variações do produto 12/36
+2025-09-16 23:43:49,298 - INFO - Navegando para: https://www.petlove.com.br/endogard-30-virbac-para-caesate-30kg-blister-1019152/p?sku=31019152-1 (Tentativa 1)
+2025-09-16 23:43:52,877 - INFO - Navegação bem-sucedida!
+2025-09-16 23:43:54,894 - INFO - Popup de variações encontrado
+2025-09-16 23:43:54,904 - INFO - Encontradas 2 variações
+2025-09-16 23:43:55,020 - INFO - Variação encontrada: 2 comprimidos | Preço: R$75,95/uni
+2025-09-16 23:43:55,120 - INFO - Variação encontrada: 6 comprimidos | Preço: R$60,81/uni
+2025-09-16 23:43:55,121 - INFO - Criando produto: Vermífugo Virbac Endogard para Cães até 30Kg - 2 comprimidos | Quantidade: 2 comprimidos | Preço: R$75,95/uni
+2025-09-16 23:43:55,121 - INFO - Criando produto: Vermífugo Virbac Endogard para Cães até 30Kg - 2 comprimidos | Quantidade: 6 comprimidos | Preço: R$60,81/uni
+2025-09-16 23:43:55,122 - INFO - Processando variações do produto 13/36
+2025-09-16 23:43:55,122 - INFO - Criando produto: Vermifugo Elanco Milbemax FC para Gatos de 2Kg a 8Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 53,90
+2025-09-16 23:43:55,123 - INFO - Processando variações do produto 14/36
+2025-09-16 23:43:55,123 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-7-6-a-15-kg/p?sku=31027527249 (Tentativa 1)
+2025-09-16 23:43:58,691 - INFO - Navegação bem-sucedida!
+2025-09-16 23:44:00,901 - INFO - Popup de variações encontrado
+2025-09-16 23:44:00,911 - INFO - Encontradas 3 variações
+2025-09-16 23:44:00,983 - INFO - Variação encontrada: 1 Tablete | Preço: R$130,99
+2025-09-16 23:44:01,063 - INFO - Variação encontrada: 3 Tabletes | Preço: R$116,99/uni
+2025-09-16 23:44:01,170 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$97,33/uni
+2025-09-16 23:44:01,171 - INFO - Criando produto: Antipulgas, Carrapatos e Vermifugo NexGard Spectra para Cães de 7,6 a 15Kg - 3 Tabletes | Quantidade: 1 Tablete | Preço: R$130,99
+2025-09-16 23:44:01,171 - INFO - Criando produto: Antipulgas, Carrapatos e Vermifugo NexGard Spectra para Cães de 7,6 a 15Kg - 3 Tabletes | Quantidade: 3 Tabletes | Preço: R$116,99/uni
+2025-09-16 23:44:01,171 - INFO - Criando produto: Antipulgas, Carrapatos e Vermifugo NexGard Spectra para Cães de 7,6 a 15Kg - 3 Tabletes | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$97,33/uni
+2025-09-16 23:44:01,171 - INFO - Processando variações do produto 15/36
+2025-09-16 23:44:01,172 - INFO - Criando produto: Vermífugo Univet Vetmax Plus Suspensão - 30 mL | Quantidade: 30 mL | Preço: R$ 72,37
+2025-09-16 23:44:01,172 - INFO - Processando variações do produto 16/36
+2025-09-16 23:44:01,172 - INFO - Criando produto: Vermifugo Ouro Fino Top Dog para Cães de até 30kg - 2 Comprimidos | Quantidade: N/A | Preço: R$ 91,50
+2025-09-16 23:44:01,173 - INFO - Processando variações do produto 17/36
+2025-09-16 23:44:01,173 - INFO - Criando produto: Vermifugo Ceva Petzi para Gatos - 4 Comprimidos | Quantidade: N/A | Preço: R$ 58,29
+2025-09-16 23:44:01,173 - INFO - Processando variações do produto 18/36
+2025-09-16 23:44:01,173 - INFO - Criando produto: Vermífugo Duprat Duprantel Comprimidos para Cães e Gatos - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 16,00
+2025-09-16 23:44:01,173 - INFO - Processando variações do produto 19/36
+2025-09-16 23:44:01,173 - INFO - Criando produto: Vermifugo Canex Premium 900 mg para Cães até 10Kg - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 104,49
+2025-09-16 23:44:01,174 - INFO - Processando variações do produto 20/36
+2025-09-16 23:44:01,174 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-3-6-a-7-5-kg/p?sku=31027527246 (Tentativa 1)
+2025-09-16 23:44:04,682 - INFO - Navegação bem-sucedida!
+2025-09-16 23:44:06,704 - INFO - Popup de variações encontrado
+2025-09-16 23:44:06,723 - INFO - Encontradas 3 variações
+2025-09-16 23:44:06,839 - INFO - Variação encontrada: 1 Tablete | Preço: R$115,99
+2025-09-16 23:44:06,928 - INFO - Variação encontrada: 3 Tabletes | Preço: R$103,33/uni
+2025-09-16 23:44:07,006 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$91,33/uni
+2025-09-16 23:44:07,007 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 3,6 a 7,5Kg - 3 Tabletes | Quantidade: 1 Tablete | Preço: R$115,99
+2025-09-16 23:44:07,007 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 3,6 a 7,5Kg - 3 Tabletes | Quantidade: 3 Tabletes | Preço: R$103,33/uni
+2025-09-16 23:44:07,007 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 3,6 a 7,5Kg - 3 Tabletes | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$91,33/uni
+2025-09-16 23:44:07,008 - INFO - Processando variações do produto 21/36
+2025-09-16 23:44:07,008 - INFO - Navegando para: https://www.petlove.com.br/endogard-virbac-para-caes-comprimidos-1019149/p?sku=31019149-1 (Tentativa 1)
+2025-09-16 23:44:10,971 - INFO - Navegação bem-sucedida!
+2025-09-16 23:44:12,992 - INFO - Popup de variações encontrado
+2025-09-16 23:44:13,010 - INFO - Encontradas 2 variações
+2025-09-16 23:44:13,110 - INFO - Variação encontrada: 2 comprimidos | Preço: R$13,45/uni
+2025-09-16 23:44:13,210 - INFO - Variação encontrada: 6 comprimidos | Preço: R$12,15/uni
+2025-09-16 23:44:13,211 - INFO - Criando produto: Vermífugo Virbac Endogard para Cães até 2,5Kg - 2 comprimidos | Quantidade: 2 comprimidos | Preço: R$13,45/uni
+2025-09-16 23:44:13,211 - INFO - Criando produto: Vermífugo Virbac Endogard para Cães até 2,5Kg - 2 comprimidos | Quantidade: 6 comprimidos | Preço: R$12,15/uni
+2025-09-16 23:44:13,211 - INFO - Processando variações do produto 22/36
+2025-09-16 23:44:13,211 - INFO - Criando produto: Vermífugo Duprat Duprantel Gatos - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 30,90
+2025-09-16 23:44:13,212 - INFO - Processando variações do produto 23/36
+2025-09-16 23:44:13,212 - INFO - Criando produto: Vermífugo World Veterinária VermiCanis Plus para Cães de 30Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 25,99
+2025-09-16 23:44:13,212 - INFO - Processando variações do produto 24/36
+2025-09-16 23:44:13,212 - INFO - Criando produto: Vermífugo Plus World Veterinária Vermicanis Cartucho para Cães de 10Kg - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 15,29
+2025-09-16 23:44:13,212 - INFO - Processando variações do produto 25/36
+2025-09-16 23:44:13,213 - INFO - Criando produto: Vermífugo World Veterinária VermiCats para Gatos de 3Kg - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 13,25
+2025-09-16 23:44:13,213 - INFO - Processando variações do produto 26/36
+2025-09-16 23:44:13,213 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-30-1-a-60-kg/p?sku=31027527255 (Tentativa 1)
+2025-09-16 23:44:16,904 - INFO - Navegação bem-sucedida!
+2025-09-16 23:44:18,925 - INFO - Popup de variações encontrado
+2025-09-16 23:44:18,945 - INFO - Encontradas 3 variações
+2025-09-16 23:44:19,052 - INFO - Variação encontrada: 1 Tablete | Preço: R$180,99
+2025-09-16 23:44:19,135 - INFO - Variação encontrada: 3 Tabletes | Preço: R$162,66/uni
+2025-09-16 23:44:19,219 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$145,33/uni
+2025-09-16 23:44:19,219 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 30,1 a 60Kg - 3 Tabletes | Quantidade: 1 Tablete | Preço: R$180,99
+2025-09-16 23:44:19,219 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 30,1 a 60Kg - 3 Tabletes | Quantidade: 3 Tabletes | Preço: R$162,66/uni
+2025-09-16 23:44:19,219 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 30,1 a 60Kg - 3 Tabletes | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$145,33/uni
+2025-09-16 23:44:19,220 - INFO - Processando variações do produto 27/36
+2025-09-16 23:44:19,220 - INFO - Criando produto: Vermifugo Ouro Fino Top Dog para Cães de até 2.5kg - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 38,50
+2025-09-16 23:44:19,220 - INFO - Processando variações do produto 28/36
+2025-09-16 23:44:19,221 - INFO - Criando produto: Vermífugo Vetnil Mebendazole 150 mg para Cães e Gatos - 10 Comprimidos | Quantidade: 10 Comprimidos | Preço: R$ 13,12
+2025-09-16 23:44:19,221 - INFO - Processando variações do produto 29/36
+2025-09-16 23:44:19,221 - INFO - Criando produto: Vermífugo Milbemax C para Cães de 5 a 25Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 78,50
+2025-09-16 23:44:19,221 - INFO - Processando variações do produto 30/36
+2025-09-16 23:44:19,222 - INFO - Criando produto: Vermifugo Ceva Canex Premium 3,6 g para Cães até 40Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 158,39
+2025-09-16 23:44:19,222 - INFO - Processando variações do produto 31/36
+2025-09-16 23:44:19,222 - INFO - Criando produto: Vermífugo Duprat Duprantel Plus para Cães - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 38,90
+2025-09-16 23:44:19,222 - INFO - Processando variações do produto 32/36
+2025-09-16 23:44:19,222 - INFO - Navegando para: https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-2-a-3-5-kg/p?sku=31027527243 (Tentativa 1)
+2025-09-16 23:44:22,699 - INFO - Navegação bem-sucedida!
+2025-09-16 23:44:24,713 - INFO - Popup de variações encontrado
+2025-09-16 23:44:24,723 - INFO - Encontradas 3 variações
+2025-09-16 23:44:24,841 - INFO - Variação encontrada: 1 Tablete | Preço: R$103,99
+2025-09-16 23:44:24,938 - INFO - Variação encontrada: 3 Tabletes | Preço: R$92,99/uni
+2025-09-16 23:44:25,032 - INFO - Variação encontrada: 2 Unidades (6 Tabletes) | Preço: R$80,99/uni
+2025-09-16 23:44:25,032 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 2 a 3,5Kg - 3 Tabletes | Quantidade: 1 Tablete | Preço: R$103,99
+2025-09-16 23:44:25,033 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 2 a 3,5Kg - 3 Tabletes | Quantidade: 3 Tabletes | Preço: R$92,99/uni
+2025-09-16 23:44:25,033 - INFO - Criando produto: Antipulgas, Carrapatos e Vermífugo NexGard Spectra para Cães de 2 a 3,5Kg - 3 Tabletes | Quantidade: 2 Unidades (6 Tabletes) | Preço: R$80,99/uni
+2025-09-16 23:44:25,033 - INFO - Processando variações do produto 33/36
+2025-09-16 23:44:25,033 - INFO - Criando produto: VermÍfugo Coveli Bulvermin Plus 4 Comprimidos para Cães - 30 Blister | Quantidade: 30 Blister | Preço: R$ 711,36
+2025-09-16 23:44:25,033 - INFO - Processando variações do produto 34/36
+2025-09-16 23:44:25,033 - INFO - Criando produto: Vermífugo Coveli Blu para Cães e Gatos - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 55,54
+2025-09-16 23:44:25,034 - INFO - Processando variações do produto 35/36
+2025-09-16 23:44:25,034 - INFO - Criando produto: Vermifugo Coveli Prapi - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 26,49
+2025-09-16 23:44:25,034 - INFO - Processando variações do produto 36/36
+2025-09-16 23:44:25,034 - INFO - Criando produto: Vermífugo ProvetS Simões Provex para Cães - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 12,90
+2025-09-16 23:44:25,034 - INFO - Encontrados 49 produtos para Vermivet
+2025-09-16 23:44:25,034 - INFO - Aguardando 1.9s...
+2025-09-16 23:44:26,983 - INFO - Processando Rimadyl (12/20)
+2025-09-16 23:44:26,984 - INFO - Buscando Rimadyl na Petlove...
+2025-09-16 23:46:11,471 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Rimadyl (Tentativa 1)
+2025-09-16 23:46:14,314 - INFO - Navegação bem-sucedida!
+2025-09-16 23:46:14,346 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:46:14,346 - INFO - Número de produtos encontrados na página: 1
+2025-09-16 23:46:14,346 - INFO - Coletando dados básicos do produto 1/1
+2025-09-16 23:46:14,623 - INFO - Produto coletado: Anti-Inflamatório Zoetis Rimadyl de 14 Comprimidos - 25 mg | Preço: R$ 82,90 | Tem variações: True
+2025-09-16 23:46:14,623 - INFO - Processando variações do produto 1/1
+2025-09-16 23:46:14,624 - INFO - Navegando para: https://www.petlove.com.br/anti-inflamatorio-zoetis-rimadyl-de-14-comprimidos/p?sku=2507300 (Tentativa 1)
+2025-09-16 23:46:19,175 - INFO - Navegação bem-sucedida!
+2025-09-16 23:46:21,204 - INFO - Popup de variações encontrado
+2025-09-16 23:46:21,228 - INFO - Encontradas 3 variações
+2025-09-16 23:46:21,320 - INFO - Variação encontrada: 25 mg | Preço: R$82,90
+2025-09-16 23:46:21,405 - INFO - Variação encontrada: 75 mg | Preço: R$115,90
+2025-09-16 23:46:21,485 - INFO - Variação encontrada: 100 mg | Preço: R$136,90
+2025-09-16 23:46:21,485 - INFO - Criando produto: Anti-Inflamatório Zoetis Rimadyl de 14 Comprimidos - 25 mg | Quantidade: 25 mg | Preço: R$82,90
+2025-09-16 23:46:21,485 - INFO - Criando produto: Anti-Inflamatório Zoetis Rimadyl de 14 Comprimidos - 25 mg | Quantidade: 75 mg | Preço: R$115,90
+2025-09-16 23:46:21,486 - INFO - Criando produto: Anti-Inflamatório Zoetis Rimadyl de 14 Comprimidos - 25 mg | Quantidade: 100 mg | Preço: R$136,90
+2025-09-16 23:46:21,486 - INFO - Encontrados 3 produtos para Rimadyl
+2025-09-16 23:46:21,486 - INFO - Aguardando 1.8s...
+2025-09-16 23:46:23,284 - INFO - Processando Onsior (13/20)
+2025-09-16 23:46:23,285 - INFO - Buscando Onsior na Petlove...
+2025-09-16 23:48:11,534 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Onsior (Tentativa 1)
+2025-09-16 23:48:15,106 - INFO - Navegação bem-sucedida!
+2025-09-16 23:48:15,142 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:48:15,143 - INFO - Número de produtos encontrados na página: 4
+2025-09-16 23:48:15,143 - INFO - Coletando dados básicos do produto 1/4
+2025-09-16 23:48:15,364 - INFO - Produto coletado: Anti-Inflamatório Elanco Onsior para Gatos acima de 2,5Kg - 6 mg | Preço: R$ 82,90 | Tem variações: False
+2025-09-16 23:48:15,364 - INFO - Coletando dados básicos do produto 2/4
+2025-09-16 23:48:15,585 - INFO - Produto coletado: Anti-inflamatórios Elanco Onsior para Cães 5 a 10Kg - 10 mg | Preço: R$ 78,50 | Tem variações: False
+2025-09-16 23:48:15,586 - INFO - Coletando dados básicos do produto 3/4
+2025-09-16 23:48:15,738 - INFO - Produto coletado: Anti-inflamatórios Elanco Onsior para Cães de 10 a 20Kg - 20 mg | Preço: R$ 105,90 | Tem variações: False
+2025-09-16 23:48:15,739 - INFO - Coletando dados básicos do produto 4/4
+2025-09-16 23:48:16,056 - INFO - Produto coletado: Anti-inflamatórios Elanco Onsior para Cães acima de 20Kg - 40 mg | Preço: R$ 150,50 | Tem variações: False
+2025-09-16 23:48:16,057 - INFO - Processando variações do produto 1/4
+2025-09-16 23:48:16,057 - INFO - Criando produto: Anti-Inflamatório Elanco Onsior para Gatos acima de 2,5Kg - 6 mg | Quantidade: 6 mg | Preço: R$ 82,90
+2025-09-16 23:48:16,057 - INFO - Processando variações do produto 2/4
+2025-09-16 23:48:16,058 - INFO - Criando produto: Anti-inflamatórios Elanco Onsior para Cães 5 a 10Kg - 10 mg | Quantidade: 10 mg | Preço: R$ 78,50
+2025-09-16 23:48:16,058 - INFO - Processando variações do produto 3/4
+2025-09-16 23:48:16,058 - INFO - Criando produto: Anti-inflamatórios Elanco Onsior para Cães de 10 a 20Kg - 20 mg | Quantidade: 20 mg | Preço: R$ 105,90
+2025-09-16 23:48:16,058 - INFO - Processando variações do produto 4/4
+2025-09-16 23:48:16,058 - INFO - Criando produto: Anti-inflamatórios Elanco Onsior para Cães acima de 20Kg - 40 mg | Quantidade: 40 mg | Preço: R$ 150,50
+2025-09-16 23:48:16,059 - INFO - Encontrados 4 produtos para Onsior
+2025-09-16 23:48:16,059 - INFO - Aguardando 2.1s...
+2025-09-16 23:48:18,207 - INFO - Processando Maxicam (14/20)
+2025-09-16 23:48:18,209 - INFO - Buscando Maxicam na Petlove...
+2025-09-16 23:50:04,979 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Maxicam (Tentativa 1)
+2025-09-16 23:50:07,837 - INFO - Navegação bem-sucedida!
+2025-09-16 23:50:07,874 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:50:07,875 - INFO - Número de produtos encontrados na página: 4
+2025-09-16 23:50:07,875 - INFO - Coletando dados básicos do produto 1/4
+2025-09-16 23:50:08,128 - INFO - Produto coletado: Anti-inflamatório Ourofino Maxicam de 10 Comprimidos - 0,5 mg | Preço: R$ 32,29 | Tem variações: True
+2025-09-16 23:50:08,128 - INFO - Coletando dados básicos do produto 2/4
+2025-09-16 23:50:08,318 - INFO - Produto coletado: Anti-inflamatório Ourofino Maxicam Plus de 8 Comprimidos - 0,5 mg | Preço: R$ 64,50 | Tem variações: True
+2025-09-16 23:50:08,318 - INFO - Coletando dados básicos do produto 3/4
+2025-09-16 23:50:08,443 - INFO - Produto coletado: Anti-Inflamatório Ourofino Maxicam 0,2% Solução Injetável para Cães - 20 mL | Preço: R$ 76,90 | Tem variações: False
+2025-09-16 23:50:08,444 - INFO - Coletando dados básicos do produto 4/4
+2025-09-16 23:50:08,593 - INFO - Produto coletado: Anti-Inflamatório Ourofino Maxicam Solução Oral para Cães e Gatos - 15 mL | Preço: N/A | Tem variações: False
+2025-09-16 23:50:08,593 - INFO - Processando variações do produto 1/4
+2025-09-16 23:50:08,593 - INFO - Navegando para: https://www.petlove.com.br/maxicam-ourofino-pet-coop-10-comprimidos-102740/p?sku=3102740-1 (Tentativa 1)
+2025-09-16 23:50:13,073 - INFO - Navegação bem-sucedida!
+2025-09-16 23:50:15,095 - INFO - Popup de variações encontrado
+2025-09-16 23:50:15,114 - INFO - Encontradas 2 variações
+2025-09-16 23:50:15,213 - INFO - Variação encontrada: 0,5 mg | Preço: R$32,29
+2025-09-16 23:50:15,291 - INFO - Variação encontrada: 2 mg | Preço: R$57,90
+2025-09-16 23:50:15,291 - INFO - Criando produto: Anti-inflamatório Ourofino Maxicam de 10 Comprimidos - 0,5 mg | Quantidade: 0,5 mg | Preço: R$32,29
+2025-09-16 23:50:15,291 - INFO - Criando produto: Anti-inflamatório Ourofino Maxicam de 10 Comprimidos - 0,5 mg | Quantidade: 2 mg | Preço: R$57,90
+2025-09-16 23:50:15,291 - INFO - Processando variações do produto 2/4
+2025-09-16 23:50:15,292 - INFO - Navegando para: https://www.petlove.com.br/maxicam-plus-ourofino-pet-coop-8-comprimidos-102742/p?sku=3102742-1 (Tentativa 1)
+2025-09-16 23:50:18,837 - INFO - Navegação bem-sucedida!
+2025-09-16 23:50:20,850 - INFO - Popup de variações encontrado
+2025-09-16 23:50:20,861 - INFO - Encontradas 2 variações
+2025-09-16 23:50:20,938 - INFO - Variação encontrada: 0,5 mg | Preço: R$64,50
+2025-09-16 23:50:21,024 - INFO - Variação encontrada: 2 mg | Preço: Consultar
+2025-09-16 23:50:21,025 - INFO - Criando produto: Anti-inflamatório Ourofino Maxicam Plus de 8 Comprimidos - 0,5 mg | Quantidade: 0,5 mg | Preço: R$64,50
+2025-09-16 23:50:21,025 - INFO - Criando produto: Anti-inflamatório Ourofino Maxicam Plus de 8 Comprimidos - 0,5 mg | Quantidade: 2 mg | Preço: Consultar
+2025-09-16 23:50:21,026 - INFO - Processando variações do produto 3/4
+2025-09-16 23:50:21,026 - INFO - Criando produto: Anti-Inflamatório Ourofino Maxicam 0,2% Solução Injetável para Cães - 20 mL | Quantidade: 20 mL | Preço: R$ 76,90
+2025-09-16 23:50:21,026 - INFO - Processando variações do produto 4/4
+2025-09-16 23:50:21,026 - INFO - Criando produto: Anti-Inflamatório Ourofino Maxicam Solução Oral para Cães e Gatos - 15 mL | Quantidade: N/A | Preço: N/A
+2025-09-16 23:50:21,027 - INFO - Encontrados 6 produtos para Maxicam
+2025-09-16 23:50:21,027 - INFO - Aguardando 1.8s...
+2025-09-16 23:50:22,823 - INFO - Processando Carproflan (15/20)
+2025-09-16 23:50:22,824 - INFO - Buscando Carproflan na Petlove...
+2025-09-16 23:52:09,634 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Carproflan (Tentativa 1)
+2025-09-16 23:52:12,688 - INFO - Navegação bem-sucedida!
+2025-09-16 23:52:12,729 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:52:12,729 - INFO - Número de produtos encontrados na página: 7
+2025-09-16 23:52:12,730 - INFO - Coletando dados básicos do produto 1/7
+2025-09-16 23:52:12,987 - INFO - Produto coletado: Anti-inflamatório Agener União Carproflan 75 mg - 14 Comprimidos | Preço: R$ 102,90 | Tem variações: False
+2025-09-16 23:52:12,988 - INFO - Coletando dados básicos do produto 2/7
+2025-09-16 23:52:13,221 - INFO - Produto coletado: Anti-inflamatório Agener União Carproflan 100 mg - 14 Comprimidos | Preço: R$ 122,90 | Tem variações: False
+2025-09-16 23:52:13,221 - INFO - Coletando dados básicos do produto 3/7
+2025-09-16 23:52:13,604 - INFO - Produto coletado: Anti-inflamatório Agener União Carproflan 25 mg - 14 Comprimidos | Preço: R$ 74,90 | Tem variações: False
+2025-09-16 23:52:13,606 - INFO - Coletando dados básicos do produto 4/7
+2025-09-16 23:52:13,822 - INFO - Produto coletado: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT | Preço: R$ 216,80 | Tem variações: False
+2025-09-16 23:52:13,822 - INFO - Coletando dados básicos do produto 5/7
+2025-09-16 23:52:14,033 - INFO - Produto coletado: Anti-Inflamatório Mundo Animal Carproflex 44 mg para Cães - 14 Comprimidos | Preço: N/A | Tem variações: False
+2025-09-16 23:52:14,034 - INFO - Coletando dados básicos do produto 6/7
+2025-09-16 23:52:14,333 - INFO - Produto coletado: Anti-inflamatório Ibasa Carprofeno para Cães - 100 mg | Preço: N/A | Tem variações: False
+2025-09-16 23:52:14,333 - INFO - Coletando dados básicos do produto 7/7
+2025-09-16 23:52:14,487 - INFO - Produto coletado: Anti-Inflamatório Ceva Carprodyl para Cães - 75 mg | Preço: N/A | Tem variações: False
+2025-09-16 23:52:14,487 - INFO - Processando variações do produto 1/7
+2025-09-16 23:52:14,487 - INFO - Criando produto: Anti-inflamatório Agener União Carproflan 75 mg - 14 Comprimidos | Quantidade: 14 Comprimidos | Preço: R$ 102,90
+2025-09-16 23:52:14,488 - INFO - Processando variações do produto 2/7
+2025-09-16 23:52:14,488 - INFO - Criando produto: Anti-inflamatório Agener União Carproflan 100 mg - 14 Comprimidos | Quantidade: 14 Comprimidos | Preço: R$ 122,90
+2025-09-16 23:52:14,488 - INFO - Processando variações do produto 3/7
+2025-09-16 23:52:14,488 - INFO - Criando produto: Anti-inflamatório Agener União Carproflan 25 mg - 14 Comprimidos | Quantidade: 14 Comprimidos | Preço: R$ 74,90
+2025-09-16 23:52:14,488 - INFO - Processando variações do produto 4/7
+2025-09-16 23:52:14,488 - INFO - Criando produto: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT | Quantidade: N/A | Preço: R$ 216,80
+2025-09-16 23:52:14,489 - INFO - Processando variações do produto 5/7
+2025-09-16 23:52:14,489 - INFO - Criando produto: Anti-Inflamatório Mundo Animal Carproflex 44 mg para Cães - 14 Comprimidos | Quantidade: N/A | Preço: N/A
+2025-09-16 23:52:14,489 - INFO - Processando variações do produto 6/7
+2025-09-16 23:52:14,489 - INFO - Criando produto: Anti-inflamatório Ibasa Carprofeno para Cães - 100 mg | Quantidade: N/A | Preço: N/A
+2025-09-16 23:52:14,489 - INFO - Processando variações do produto 7/7
+2025-09-16 23:52:14,489 - INFO - Criando produto: Anti-Inflamatório Ceva Carprodyl para Cães - 75 mg | Quantidade: N/A | Preço: N/A
+2025-09-16 23:52:14,489 - INFO - Encontrados 7 produtos para Carproflan
+2025-09-16 23:52:14,490 - INFO - Aguardando 2.6s...
+2025-09-16 23:52:17,084 - INFO - Processando Previcox (16/20)
+2025-09-16 23:52:17,087 - INFO - Buscando Previcox na Petlove...
+2025-09-16 23:54:05,097 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Previcox (Tentativa 1)
+2025-09-16 23:54:09,158 - INFO - Navegação bem-sucedida!
+2025-09-16 23:54:09,203 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:54:09,204 - INFO - Número de produtos encontrados na página: 12
+2025-09-16 23:54:09,204 - INFO - Coletando dados básicos do produto 1/12
+2025-09-16 23:54:09,420 - INFO - Produto coletado: Anti-Inflamatório Previcox 57 mg para Cães - 10 comprimidos | Preço: R$ 185,00 | Tem variações: False
+2025-09-16 23:54:09,420 - INFO - Coletando dados básicos do produto 2/12
+2025-09-16 23:54:09,582 - INFO - Produto coletado: Anti-Inflamatório Previcox 227 mg para Cães - 10 Comprimidos | Preço: R$ 270,00 | Tem variações: False
+2025-09-16 23:54:09,582 - INFO - Coletando dados básicos do produto 3/12
+2025-09-16 23:54:09,779 - INFO - Produto coletado: Basken Suspensão - 20 mL | Preço: R$ 48,46 | Tem variações: False
+2025-09-16 23:54:09,779 - INFO - Coletando dados básicos do produto 4/12
+2025-09-16 23:54:10,151 - INFO - Produto coletado: Vermífugo Plus Mundo Animal Mectal para Cães 4 Comprimidos - 660 mg | Preço: R$ 31,92 | Tem variações: True
+2025-09-16 23:54:10,152 - INFO - Coletando dados básicos do produto 5/12
+2025-09-16 23:54:10,332 - INFO - Produto coletado: Vermífugo Drontal Puppy para Cães Filhotes - 20 mL | Preço: R$ 81,60 | Tem variações: False
+2025-09-16 23:54:10,333 - INFO - Coletando dados básicos do produto 6/12
+2025-09-16 23:54:10,470 - INFO - Produto coletado: Vermifugo Elanco Drontal para Gatos Até 4Kg - 4 Comprimidos | Preço: R$ 66,50 | Tem variações: False
+2025-09-16 23:54:10,470 - INFO - Coletando dados básicos do produto 7/12
+2025-09-16 23:54:10,587 - INFO - Produto coletado: Kit Elanco Antipulgas e Carrapato Credelli 56,25 mg e Vermífugo Drontal Puppy 20 mL para Cães Filhotes - KIT | Preço: R$ 256,40 | Tem variações: False
+2025-09-16 23:54:10,588 - INFO - Coletando dados básicos do produto 8/12
+2025-09-16 23:54:10,722 - INFO - Produto coletado: Kit Elanco Antipulgas e Carrapato Credelli 112,5 mg e Vermífugo Drontal Puppy 20 mL para Cães Filhotes - KIT | Preço: R$ 272,00 | Tem variações: False
+2025-09-16 23:54:10,723 - INFO - Coletando dados básicos do produto 9/12
+2025-09-16 23:54:10,844 - INFO - Produto coletado: Anti-Inflamatório Merial Previcox 227 mg- 10 Comprimidos | Preço: N/A | Tem variações: False
+2025-09-16 23:54:10,845 - INFO - Coletando dados básicos do produto 10/12
+2025-09-16 23:54:10,953 - INFO - Produto coletado: Previcox 57mg - 10 comprimidos | Preço: N/A | Tem variações: False
+2025-09-16 23:54:10,953 - INFO - Coletando dados básicos do produto 11/12
+2025-09-16 23:54:11,091 - INFO - Produto coletado: Vermífugo Elanco Drontal Plus Sabor Carne Cães 35Kg - 2 Comprimidos | Preço: R$ 127,50 | Tem variações: False
+2025-09-16 23:54:11,092 - INFO - Coletando dados básicos do produto 12/12
+2025-09-16 23:54:11,275 - INFO - Produto coletado: Vermífugo Drontal Puppy - 100 mL | Preço: N/A | Tem variações: False
+2025-09-16 23:54:11,276 - INFO - Processando variações do produto 1/12
+2025-09-16 23:54:11,276 - INFO - Criando produto: Anti-Inflamatório Previcox 57 mg para Cães - 10 comprimidos | Quantidade: 10 comprimidos | Preço: R$ 185,00
+2025-09-16 23:54:11,276 - INFO - Processando variações do produto 2/12
+2025-09-16 23:54:11,277 - INFO - Criando produto: Anti-Inflamatório Previcox 227 mg para Cães - 10 Comprimidos | Quantidade: 10 Comprimidos | Preço: R$ 270,00
+2025-09-16 23:54:11,277 - INFO - Processando variações do produto 3/12
+2025-09-16 23:54:11,277 - INFO - Criando produto: Basken Suspensão - 20 mL | Quantidade: 20 mL | Preço: R$ 48,46
+2025-09-16 23:54:11,277 - INFO - Processando variações do produto 4/12
+2025-09-16 23:54:11,277 - INFO - Navegando para: https://www.petlove.com.br/vermifugo-plus-mundo-animal-mectal-para-caes/p?sku=311906-1 (Tentativa 1)
+2025-09-16 23:54:14,753 - INFO - Navegação bem-sucedida!
+2025-09-16 23:54:16,995 - INFO - Popup de variações encontrado
+2025-09-16 23:54:17,015 - INFO - Encontradas 2 variações
+2025-09-16 23:54:17,133 - INFO - Variação encontrada: 660 mg | Preço: R$31,92
+2025-09-16 23:54:17,231 - INFO - Variação encontrada: 1.980 mg | Preço: R$68,72
+2025-09-16 23:54:17,232 - INFO - Criando produto: Vermífugo Plus Mundo Animal Mectal para Cães 4 Comprimidos - 660 mg | Quantidade: 660 mg | Preço: R$31,92
+2025-09-16 23:54:17,233 - INFO - Criando produto: Vermífugo Plus Mundo Animal Mectal para Cães 4 Comprimidos - 660 mg | Quantidade: 1.980 mg | Preço: R$68,72
+2025-09-16 23:54:17,233 - INFO - Processando variações do produto 5/12
+2025-09-16 23:54:17,233 - INFO - Criando produto: Vermífugo Drontal Puppy para Cães Filhotes - 20 mL | Quantidade: 20 mL | Preço: R$ 81,60
+2025-09-16 23:54:17,233 - INFO - Processando variações do produto 6/12
+2025-09-16 23:54:17,233 - INFO - Criando produto: Vermifugo Elanco Drontal para Gatos Até 4Kg - 4 Comprimidos | Quantidade: 4 Comprimidos | Preço: R$ 66,50
+2025-09-16 23:54:17,234 - INFO - Processando variações do produto 7/12
+2025-09-16 23:54:17,234 - INFO - Criando produto: Kit Elanco Antipulgas e Carrapato Credelli 56,25 mg e Vermífugo Drontal Puppy 20 mL para Cães Filhotes - KIT | Quantidade: N/A | Preço: R$ 256,40
+2025-09-16 23:54:17,234 - INFO - Processando variações do produto 8/12
+2025-09-16 23:54:17,234 - INFO - Criando produto: Kit Elanco Antipulgas e Carrapato Credelli 112,5 mg e Vermífugo Drontal Puppy 20 mL para Cães Filhotes - KIT | Quantidade: N/A | Preço: R$ 272,00
+2025-09-16 23:54:17,235 - INFO - Processando variações do produto 9/12
+2025-09-16 23:54:17,235 - INFO - Criando produto: Anti-Inflamatório Merial Previcox 227 mg- 10 Comprimidos | Quantidade: N/A | Preço: N/A
+2025-09-16 23:54:17,235 - INFO - Processando variações do produto 10/12
+2025-09-16 23:54:17,235 - INFO - Criando produto: Previcox 57mg - 10 comprimidos | Quantidade: N/A | Preço: N/A
+2025-09-16 23:54:17,236 - INFO - Processando variações do produto 11/12
+2025-09-16 23:54:17,236 - INFO - Criando produto: Vermífugo Elanco Drontal Plus Sabor Carne Cães 35Kg - 2 Comprimidos | Quantidade: 2 Comprimidos | Preço: R$ 127,50
+2025-09-16 23:54:17,236 - INFO - Processando variações do produto 12/12
+2025-09-16 23:54:17,237 - INFO - Criando produto: Vermífugo Drontal Puppy - 100 mL | Quantidade: N/A | Preço: N/A
+2025-09-16 23:54:17,238 - INFO - Encontrados 13 produtos para Previcox
+2025-09-16 23:54:17,240 - INFO - Aguardando 2.5s...
+2025-09-16 23:54:19,785 - INFO - Processando Apoquel (17/20)
+2025-09-16 23:54:19,786 - INFO - Buscando Apoquel na Petlove...
+2025-09-16 23:56:06,767 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Apoquel (Tentativa 1)
+2025-09-16 23:56:10,286 - INFO - Navegação bem-sucedida!
+2025-09-16 23:56:10,342 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:56:10,342 - INFO - Número de produtos encontrados na página: 16
+2025-09-16 23:56:10,343 - INFO - Coletando dados básicos do produto 1/16
+2025-09-16 23:56:10,580 - INFO - Produto coletado: Apoquel Dermatológico Zoetis para Cães - 5,4 mg | Preço: N/A | Tem variações: True
+2025-09-16 23:56:10,581 - INFO - Coletando dados básicos do produto 2/16
+2025-09-16 23:56:10,846 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 20 mg e Apoquel Dermatológico 3,6 mg - KIT | Preço: R$ 335,40 | Tem variações: False
+2025-09-16 23:56:10,846 - INFO - Coletando dados básicos do produto 3/16
+2025-09-16 23:56:11,284 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 20 mg e Apoquel Dermatológico 5,4 mg - KIT | Preço: R$ 352,73 | Tem variações: False
+2025-09-16 23:56:11,284 - INFO - Coletando dados básicos do produto 4/16
+2025-09-16 23:56:11,545 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 10 mg e Apoquel Dermatológico 3,6 mg - KIT | Preço: R$ 327,00 | Tem variações: False
+2025-09-16 23:56:11,546 - INFO - Coletando dados básicos do produto 5/16
+2025-09-16 23:56:11,883 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 40 mg e Apoquel Dermatológico 5,4 mg - KIT | Preço: R$ 372,73 | Tem variações: False
+2025-09-16 23:56:11,883 - INFO - Coletando dados básicos do produto 6/16
+2025-09-16 23:56:12,131 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 80 mg e Apoquel Dermatológico 16 mg - KIT | Preço: R$ 637,39 | Tem variações: False
+2025-09-16 23:56:12,131 - INFO - Coletando dados básicos do produto 7/16
+2025-09-16 23:56:12,363 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 40 mg e Apoquel Dermatológico 16 mg - KIT | Preço: R$ 621,39 | Tem variações: False
+2025-09-16 23:56:12,363 - INFO - Coletando dados básicos do produto 8/16
+2025-09-16 23:56:12,591 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 80 mg e Apoquel Dermatológico 5,4 mg - KIT | Preço: R$ 388,73 | Tem variações: False
+2025-09-16 23:56:12,592 - INFO - Coletando dados básicos do produto 9/16
+2025-09-16 23:56:12,793 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 3,6 mg para Cães de 5 a 10Kg - KIT | Preço: R$ 339,58 | Tem variações: False
+2025-09-16 23:56:12,794 - INFO - Coletando dados básicos do produto 10/16
+2025-09-16 23:56:12,985 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 16 mg para Cães de 20 a 40Kg - KIT | Preço: R$ 639,39 | Tem variações: False
+2025-09-16 23:56:12,985 - INFO - Coletando dados básicos do produto 11/16
+2025-09-16 23:56:13,179 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 20 a 40Kg - KIT | Preço: R$ 390,73 | Tem variações: False
+2025-09-16 23:56:13,180 - INFO - Coletando dados básicos do produto 12/16
+2025-09-16 23:56:13,368 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 16 mg para Cães de 10 a 20Kg - KIT | Preço: R$ 780,74 | Tem variações: False
+2025-09-16 23:56:13,369 - INFO - Coletando dados básicos do produto 13/16
+2025-09-16 23:56:13,517 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 10 a 20Kg - KIT | Preço: R$ 371,11 | Tem variações: False
+2025-09-16 23:56:13,517 - INFO - Coletando dados básicos do produto 14/16
+2025-09-16 23:56:13,675 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 5 a 10Kg - KIT | Preço: R$ 356,91 | Tem variações: False
+2025-09-16 23:56:13,675 - INFO - Coletando dados básicos do produto 15/16
+2025-09-16 23:56:13,854 - INFO - Produto coletado: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 3,6 mg para Cães de 2,6 a 5Kg - KIT | Preço: R$ 326,70 | Tem variações: False
+2025-09-16 23:56:13,855 - INFO - Coletando dados básicos do produto 16/16
+2025-09-16 23:56:14,047 - INFO - Produto coletado: Kit Zoetis Antipulgas Simparic 120 mg e Apoquel Dermatológico 16 mg - KIT | Preço: R$ 644,23 | Tem variações: False
+2025-09-16 23:56:14,047 - INFO - Processando variações do produto 1/16
+2025-09-16 23:56:14,048 - INFO - Navegando para: https://www.petlove.com.br/apoquel-dermatologico-zoetis-para-caes/p?sku=31153-2 (Tentativa 1)
+2025-09-16 23:56:18,545 - INFO - Navegação bem-sucedida!
+2025-09-16 23:56:20,580 - INFO - Popup de variações encontrado
+2025-09-16 23:56:20,607 - INFO - Encontradas 3 variações
+2025-09-16 23:56:20,697 - INFO - Variação encontrada: 3,6 mg | Preço: R$172,50
+2025-09-16 23:56:20,778 - INFO - Variação encontrada: 5,4 mg | Preço: R$184,90
+2025-09-16 23:56:20,853 - INFO - Variação encontrada: 16 mg | Preço: R$369,50
+2025-09-16 23:56:20,854 - INFO - Criando produto: Apoquel Dermatológico Zoetis para Cães - 5,4 mg | Quantidade: 3,6 mg | Preço: R$172,50
+2025-09-16 23:56:20,854 - INFO - Criando produto: Apoquel Dermatológico Zoetis para Cães - 5,4 mg | Quantidade: 5,4 mg | Preço: R$184,90
+2025-09-16 23:56:20,854 - INFO - Criando produto: Apoquel Dermatológico Zoetis para Cães - 5,4 mg | Quantidade: 16 mg | Preço: R$369,50
+2025-09-16 23:56:20,855 - INFO - Processando variações do produto 2/16
+2025-09-16 23:56:20,855 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 20 mg e Apoquel Dermatológico 3,6 mg - KIT | Quantidade: KIT | Preço: R$ 335,40
+2025-09-16 23:56:20,855 - INFO - Processando variações do produto 3/16
+2025-09-16 23:56:20,855 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 20 mg e Apoquel Dermatológico 5,4 mg - KIT | Quantidade: KIT | Preço: R$ 352,73
+2025-09-16 23:56:20,856 - INFO - Processando variações do produto 4/16
+2025-09-16 23:56:20,856 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 10 mg e Apoquel Dermatológico 3,6 mg - KIT | Quantidade: KIT | Preço: R$ 327,00
+2025-09-16 23:56:20,856 - INFO - Processando variações do produto 5/16
+2025-09-16 23:56:20,856 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 40 mg e Apoquel Dermatológico 5,4 mg - KIT | Quantidade: KIT | Preço: R$ 372,73
+2025-09-16 23:56:20,857 - INFO - Processando variações do produto 6/16
+2025-09-16 23:56:20,857 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 80 mg e Apoquel Dermatológico 16 mg - KIT | Quantidade: KIT | Preço: R$ 637,39
+2025-09-16 23:56:20,857 - INFO - Processando variações do produto 7/16
+2025-09-16 23:56:20,858 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 40 mg e Apoquel Dermatológico 16 mg - KIT | Quantidade: KIT | Preço: R$ 621,39
+2025-09-16 23:56:20,858 - INFO - Processando variações do produto 8/16
+2025-09-16 23:56:20,858 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 80 mg e Apoquel Dermatológico 5,4 mg - KIT | Quantidade: KIT | Preço: R$ 388,73
+2025-09-16 23:56:20,859 - INFO - Processando variações do produto 9/16
+2025-09-16 23:56:20,859 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 3,6 mg para Cães de 5 a 10Kg - KIT | Quantidade: KIT | Preço: R$ 339,58
+2025-09-16 23:56:20,859 - INFO - Processando variações do produto 10/16
+2025-09-16 23:56:20,860 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 16 mg para Cães de 20 a 40Kg - KIT | Quantidade: KIT | Preço: R$ 639,39
+2025-09-16 23:56:20,860 - INFO - Processando variações do produto 11/16
+2025-09-16 23:56:20,860 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 20 a 40Kg - KIT | Quantidade: KIT | Preço: R$ 390,73
+2025-09-16 23:56:20,861 - INFO - Processando variações do produto 12/16
+2025-09-16 23:56:20,861 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 16 mg para Cães de 10 a 20Kg - KIT | Quantidade: KIT | Preço: R$ 780,74
+2025-09-16 23:56:20,862 - INFO - Processando variações do produto 13/16
+2025-09-16 23:56:20,862 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 10 a 20Kg - KIT | Quantidade: KIT | Preço: R$ 371,11
+2025-09-16 23:56:20,862 - INFO - Processando variações do produto 14/16
+2025-09-16 23:56:20,863 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 5,4 mg para Cães de 5 a 10Kg - KIT | Quantidade: KIT | Preço: R$ 356,91
+2025-09-16 23:56:20,863 - INFO - Processando variações do produto 15/16
+2025-09-16 23:56:20,863 - INFO - Criando produto: Kit Zoetis Antipulgas e Carrapatos Revolution 12% e Apoquel Dermatológico 3,6 mg para Cães de 2,6 a 5Kg - KIT | Quantidade: KIT | Preço: R$ 326,70
+2025-09-16 23:56:20,864 - INFO - Processando variações do produto 16/16
+2025-09-16 23:56:20,864 - INFO - Criando produto: Kit Zoetis Antipulgas Simparic 120 mg e Apoquel Dermatológico 16 mg - KIT | Quantidade: KIT | Preço: R$ 644,23
+2025-09-16 23:56:20,864 - INFO - Encontrados 18 produtos para Apoquel
+2025-09-16 23:56:20,864 - INFO - Aguardando 1.6s...
+2025-09-16 23:56:22,510 - INFO - Processando Zenrelia (18/20)
+2025-09-16 23:56:22,511 - INFO - Buscando Zenrelia na Petlove...
+2025-09-16 23:58:08,120 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Zenrelia (Tentativa 1)
+2025-09-16 23:58:11,358 - INFO - Navegação bem-sucedida!
+2025-09-16 23:58:11,396 - INFO - Elementos de produto carregados: Sim
+2025-09-16 23:58:11,397 - INFO - Número de produtos encontrados na página: 4
+2025-09-16 23:58:11,397 - INFO - Coletando dados básicos do produto 1/4
+2025-09-16 23:58:11,630 - INFO - Produto coletado: Tratamento Dermatológico Elanco Zenrelia 6,4 mg para Cães - 30 Comprimidos | Preço: R$ 272,50 | Tem variações: False
+2025-09-16 23:58:11,631 - INFO - Coletando dados básicos do produto 2/4
+2025-09-16 23:58:11,869 - INFO - Produto coletado: Tratamento Dermatológico Elanco Zenrelia 8,5 mg para Cães - 30 Comprimidos | Preço: R$ 286,90 | Tem variações: False
+2025-09-16 23:58:11,870 - INFO - Coletando dados básicos do produto 3/4
+2025-09-16 23:58:12,087 - INFO - Produto coletado: Tratamento Dermatológico Elanco Zenrelia 15 mg para Cães - 30 Comprimidos | Preço: R$ 456,90 | Tem variações: False
+2025-09-16 23:58:12,087 - INFO - Coletando dados básicos do produto 4/4
+2025-09-16 23:58:12,254 - INFO - Produto coletado: Tratamento Dermatológico Elanco Zenrelia 4,8 mg para Cães - 30 Comprimidos | Preço: N/A | Tem variações: False
+2025-09-16 23:58:12,254 - INFO - Processando variações do produto 1/4
+2025-09-16 23:58:12,255 - INFO - Criando produto: Tratamento Dermatológico Elanco Zenrelia 6,4 mg para Cães - 30 Comprimidos | Quantidade: 30 Comprimidos | Preço: R$ 272,50
+2025-09-16 23:58:12,255 - INFO - Processando variações do produto 2/4
+2025-09-16 23:58:12,255 - INFO - Criando produto: Tratamento Dermatológico Elanco Zenrelia 8,5 mg para Cães - 30 Comprimidos | Quantidade: 30 Comprimidos | Preço: R$ 286,90
+2025-09-16 23:58:12,255 - INFO - Processando variações do produto 3/4
+2025-09-16 23:58:12,255 - INFO - Criando produto: Tratamento Dermatológico Elanco Zenrelia 15 mg para Cães - 30 Comprimidos | Quantidade: 30 Comprimidos | Preço: R$ 456,90
+2025-09-16 23:58:12,256 - INFO - Processando variações do produto 4/4
+2025-09-16 23:58:12,256 - INFO - Criando produto: Tratamento Dermatológico Elanco Zenrelia 4,8 mg para Cães - 30 Comprimidos | Quantidade: 30 Comprimidos | Preço: N/A
+2025-09-16 23:58:12,256 - INFO - Encontrados 4 produtos para Zenrelia
+2025-09-16 23:58:12,256 - INFO - Aguardando 1.9s...
+2025-09-16 23:58:14,195 - INFO - Processando Synulox (19/20)
+2025-09-16 23:58:14,195 - INFO - Buscando Synulox na Petlove...
+2025-09-17 00:00:01,258 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Synulox (Tentativa 1)
+2025-09-17 00:00:06,225 - INFO - Navegação bem-sucedida!
+2025-09-17 00:00:06,262 - INFO - Elementos de produto carregados: Sim
+2025-09-17 00:00:06,262 - INFO - Número de produtos encontrados na página: 1
+2025-09-17 00:00:06,262 - INFO - Coletando dados básicos do produto 1/1
+2025-09-17 00:00:06,652 - INFO - Produto coletado: Antibiótico Zoetis Synulox 10 Comprimidos - 50 mg | Preço: R$ 88,90 | Tem variações: True
+2025-09-17 00:00:06,652 - INFO - Processando variações do produto 1/1
+2025-09-17 00:00:06,653 - INFO - Navegando para: https://www.petlove.com.br/synulox-50mg-10-comprimidos-palataveis-pfizer-saude-animal-102887/p?sku=3102887 (Tentativa 1)
+2025-09-17 00:00:10,597 - INFO - Navegação bem-sucedida!
+2025-09-17 00:00:12,622 - INFO - Popup de variações encontrado
+2025-09-17 00:00:12,645 - INFO - Encontradas 2 variações
+2025-09-17 00:00:12,763 - INFO - Variação encontrada: 50 mg | Preço: R$88,90
+2025-09-17 00:00:12,853 - INFO - Variação encontrada: 250 mg | Preço: R$138,54
+2025-09-17 00:00:12,853 - INFO - Criando produto: Antibiótico Zoetis Synulox 10 Comprimidos - 50 mg | Quantidade: 50 mg | Preço: R$88,90
+2025-09-17 00:00:12,854 - INFO - Criando produto: Antibiótico Zoetis Synulox 10 Comprimidos - 50 mg | Quantidade: 250 mg | Preço: R$138,54
+2025-09-17 00:00:12,854 - INFO - Encontrados 2 produtos para Synulox
+2025-09-17 00:00:12,854 - INFO - Aguardando 2.8s...
+2025-09-17 00:00:15,616 - INFO - Processando Baytril (20/20)
+2025-09-17 00:00:15,617 - INFO - Buscando Baytril na Petlove...
+2025-09-17 00:02:00,684 - INFO - Navegando para: https://www.petlove.com.br/busca?q=Baytril (Tentativa 1)
+2025-09-17 00:02:04,041 - INFO - Navegação bem-sucedida!
+2025-09-17 00:02:04,097 - INFO - Elementos de produto carregados: Sim
+2025-09-17 00:02:04,097 - INFO - Número de produtos encontrados na página: 5
+2025-09-17 00:02:04,097 - INFO - Coletando dados básicos do produto 1/5
+2025-09-17 00:02:04,272 - INFO - Produto coletado: Antibiótico Elanco Baytril Flavour 15mg - 10 comprimidos | Preço: R$ 37,90 | Tem variações: False
+2025-09-17 00:02:04,273 - INFO - Coletando dados básicos do produto 2/5
+2025-09-17 00:02:04,455 - INFO - Produto coletado: Antibiótico Elanco Baytril Flavour 150mg - 10 comprimidos | Preço: R$ 103,90 | Tem variações: False
+2025-09-17 00:02:04,455 - INFO - Coletando dados básicos do produto 3/5
+2025-09-17 00:02:04,683 - INFO - Produto coletado: Antibiótico Elanco Baytril Flavour 50 mg para Cães e Gatos de até 10Kg - 10 Comprimidos | Preço: R$ 51,90 | Tem variações: False
+2025-09-17 00:02:04,683 - INFO - Coletando dados básicos do produto 4/5
+2025-09-17 00:02:04,969 - INFO - Produto coletado: Antibiótico Elanco Baytril Flavour 50mg - 10 comprimidos | Preço: N/A | Tem variações: False
+2025-09-17 00:02:04,970 - INFO - Coletando dados básicos do produto 5/5
+2025-09-17 00:02:05,159 - INFO - Produto coletado: Antibiótico Elanco Baytril Flavour 250 mg - 06 Comprimidos | Preço: N/A | Tem variações: False
+2025-09-17 00:02:05,159 - INFO - Processando variações do produto 1/5
+2025-09-17 00:02:05,159 - INFO - Criando produto: Antibiótico Elanco Baytril Flavour 15mg - 10 comprimidos | Quantidade: N/A | Preço: R$ 37,90
+2025-09-17 00:02:05,160 - INFO - Processando variações do produto 2/5
+2025-09-17 00:02:05,160 - INFO - Criando produto: Antibiótico Elanco Baytril Flavour 150mg - 10 comprimidos | Quantidade: N/A | Preço: R$ 103,90
+2025-09-17 00:02:05,160 - INFO - Processando variações do produto 3/5
+2025-09-17 00:02:05,160 - INFO - Criando produto: Antibiótico Elanco Baytril Flavour 50 mg para Cães e Gatos de até 10Kg - 10 Comprimidos | Quantidade: 10 Comprimidos | Preço: R$ 51,90
+2025-09-17 00:02:05,161 - INFO - Processando variações do produto 4/5
+2025-09-17 00:02:05,161 - INFO - Criando produto: Antibiótico Elanco Baytril Flavour 50mg - 10 comprimidos | Quantidade: N/A | Preço: N/A
+2025-09-17 00:02:05,161 - INFO - Processando variações do produto 5/5
+2025-09-17 00:02:05,161 - INFO - Criando produto: Antibiótico Elanco Baytril Flavour 250 mg - 06 Comprimidos | Quantidade: N/A | Preço: N/A
+2025-09-17 00:02:05,162 - INFO - Encontrados 5 produtos para Baytril
+2025-09-17 00:02:05,162 - INFO - Petlove: 354 produtos coletados no total
+2025-09-17 00:02:05,579 - INFO - Dados salvos: dados_coletados\petlove_20250917_000205.xlsx (354 produtos)
+2025-09-17 00:02:05,579 - INFO - Petlove: 354 produtos salvos em petlove_20250917_000205.xlsx
+2025-09-17 00:02:05,580 - INFO - Arquivo salvo na pasta: dados_coletados/
+2025-09-17 00:02:39,781 - INFO - Navegador fechado com sucesso
