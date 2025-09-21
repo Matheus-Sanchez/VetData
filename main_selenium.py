@@ -1138,9 +1138,12 @@ class ScraperPetz(ScraperBase):
                         elementos_meta[0] if elementos_meta else None, "content"
                     )
 
+                    logger.debug(f"elementos_meta encontrados: {elementos_meta} | link_produto: {link_produto}")
+
                     # Dados do JSON
                     try:
                         produto_json = json.loads(elementos_meta.get_text(strip=True))
+                        logger.debug(f"Conteúdo JSON bruto: {elementos_meta.get_text(strip=True)}")
                         nome = produto_json.get('name', 'N/A').strip()
                         preco_base = produto_json.get('price', 'N/A')
                     except:
