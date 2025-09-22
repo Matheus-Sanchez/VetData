@@ -1118,8 +1118,8 @@ class ScraperPetz(ScraperBase):
             
             # Buscar elementos de produto na página
             elementos_produto = self.selenium_handler.encontrar_elementos_seguro(
-                By.CSS_SELECTOR, 
-                'li.card-product'
+                By.TAG_NAME, 
+                'product-card'
             )
             
             # Limitar em modo teste
@@ -1128,180 +1128,85 @@ class ScraperPetz(ScraperBase):
                 logger.info("Modo teste: limitando a 1 produto")
             
             info_base = self.data_manager.obter_info_medicamento(medicamento)
-            
-            # Processar cada produto
+
+            # logger.info(f"Elementos de produto carregados: {elementos_produto}")
+            logger.info(f"Número de produtos encontrados na página: {len(elementos_produto)}")
+
             for elemento_produto in elementos_produto:
                 try:
-                    # Extrair URL do produto
-                    elementos_meta = elemento_produto.find_elements(By.CSS_SELECTOR, 'meta[itemprop="url"]')
-                    link_produto = self.selenium_handler.obter_atributo_seguro(
-                        elementos_meta[0] if elementos_meta else None, "content"
-                    )
+                    detalhes_produto = elemento_produto.get_attribute('product-details')
+                    # logger.info(f"elemento_produto (raw): {raw_attr[:200]}...")
 
-                    logger.debug(f"elementos_meta encontrados: {elementos_meta} | link_produto: {link_produto}")
+                    if not detalhes_produto:
+                        logger.warning("Atributo 'product-details' vazio ou None")
+                        continue
 
-                    # Dados do JSON
+                    # Corrigir aspas simples se necessário
+                    elementos_meta = detalhes_produto.strip().replace("'", '"')
+
+                    # logger.debug(f"elementos_meta len: {len(elementos_meta)} | type: {type(elementos_meta)}")
+
                     try:
-                        produto_json = json.loads(elementos_meta.get_text(strip=True))
-                        logger.debug(f"Conteúdo JSON bruto: {elementos_meta.get_text(strip=True)}")
-                        nome = produto_json.get('name', 'N/A').strip()
-                        preco_base = produto_json.get('price', 'N/A')
-                    except:
-                        nome = "N/A"
-                        preco_base = "N/A"
+                        produto_json = json.loads(elementos_meta)
+                        variacoes = produto_json.get('variations', [])
+                        logger.info(f"Variações de {produto_json.get('name', 'N/A')} encontradas Count: {len(variacoes)}")
+                        
+                        if len(variacoes) == 0:
+                            # Se não tem variações, criar uma variação padrão
+                            variacoes = [{
+                                "name": produto_json.get('variationAbreviation', 'N/A'),
+                                "price": produto_json.get('price', 'N/A'),
+                                "promotionalPrice": produto_json.get('promotional_price', produto_json.get('price', 'N/A')),
+                                "discountPercentage": produto_json.get('discountPercentage', 0),
+                                "sku": produto_json.get('sku', 'N/A'),
+                                "availability": produto_json.get('availability', 'UNKNOWN'),
+                                "id": produto_json.get('id', 'N/A'),
+                            }]
+                            
 
-                    logger.debug(f"Produto JSON: {produto_json}")
-                    logger.debug(f"Nome: {nome}, Preço Base: {preco_base}")
-                    
-                    # Tentar extrair dados do JSON incorporado primeiro
-                    # nome = "N/A"
-                    # preco_base = "N/A"
-                    
-                    # try:
-                    #     # Buscar script com dados JSON do produto
-                    #     elementos_script = elemento_produto.find_elements(By.TAG_NAME, 'script')
-                    #     for script in elementos_script:
-                    #         conteudo_script = self.selenium_handler.obter_texto_seguro(script)
-                    #         if conteudo_script and conteudo_script != "N/A":
-                    #             try:
-                    #                 produto_json = json.loads(conteudo_script)
-                    #                 nome = produto_json.get('name', 'N/A').strip()
-                    #                 preco_base = produto_json.get('price', 'N/A')
-                    #                 break
-                    #             except json.JSONDecodeError:
-                    #                 continue
-                    # except Exception:
-                    # Fallback para extração HTML
-                    # elementos_nome = elemento_produto.find_elements(By.CSS_SELECTOR, 'h3, h2, .product-name')
-                    # nome = self.selenium_handler.obter_texto_seguro(
-                    #     elementos_nome[0] if elementos_nome else None
-                    # )
-                    
-                    # elementos_preco = elemento_produto.find_elements(By.CSS_SELECTOR, '.price, .valor')
-                    # preco_base = self.selenium_handler.obter_texto_seguro(
-                    #     elementos_preco[0] if elementos_preco else None
-                    # )
-                    
-                    # Buscar variações do produto
-                    variacoes = self._obter_variacoes(link_produto) if link_produto != "N/A" else []
-                    
-                    # Se não há variações, usar dados básicos
-                    if not variacoes:
-                        variacoes = [{"quantidade": "N/A", "preco": preco_base}]
-                    
-                    # Criar produto para cada variação
-                    for variacao in variacoes:
-                        produto = InfoProduto(
-                            categoria=info_base.categoria,
-                            marca=medicamento,
-                            produto=nome,
-                            quantidade=variacao.get("quantidade", "N/A"),
-                            preco=variacao.get("preco", preco_base),
-                            site=self.url_site,
-                            url=link_produto if link_produto != "N/A" else "N/A",
-                            data_coleta=datetime.now().strftime("%Y-%m-%d"),
-                            metodo="selenium"
-                        )
-                        produtos.append(produto)
-                
+                        for variacao in variacoes:
+                            try:
+                                quantidade = variacao.get('name', 'N/A')
+                                preco = variacao.get('price', 'N/A')
+                                promotionalPrice = variacao.get('promotionalPrice', preco)
+                                discountPercentage = variacao.get('discountPercentage', 0)
+                                availability=produto_json.get('availability', 'UNKNOWN')
+                                produto_id = produto_json.get('id', 'N/A')
+                                sku = variacao.get('sku', 'N/A')
+                                
+                                produto = InfoProduto(
+                                    categoria=info_base.categoria,
+                                    marca=medicamento,
+                                    produto=produto_json.get('name', 'N/A'),
+                                    quantidade=quantidade,
+                                    preco=f"R$ {promotionalPrice}",
+                                    preco_antigo=f"R$ {preco}",
+                                    desconto=f"{discountPercentage}%" if discountPercentage else "0%",
+                                    disponibilidade=availability,
+                                    site=self.url_site,
+                                    produto_id=produto_id,
+                                    sku_id=sku,
+                                    url=produto_json.get('url', 'N/A'),
+                                    data_coleta=datetime.now().strftime("%Y-%m-%d"),
+                                    metodo="selenium_petz"
+                                )
+                                produtos.append(produto)
+                            except Exception as e:
+                                logger.error(f"Erro ao processar variação Petz: {e}")
+                                continue
+                        # logger.info(f"Produto JSON carregado: {produto_json.get('name', 'N/A')} | Preço: {produto_json.get('price', 'N/A')}")
+                    except json.JSONDecodeError as je:
+                        logger.error(f"Falha ao decodificar JSON: {je}")
+                        continue
+
                 except Exception as e:
-                    logger.error(f"Erro ao processar produto Petz: {e}")
+                    logger.error(f"Erro inesperado no processamento de produto: {e}")
                     continue
         
         except Exception as e:
             logger.error(f"Erro geral no scraping Petz para {medicamento}: {e}")
         
         return produtos
-    
-    def _obter_variacoes(self, url: str) -> List[Dict]:
-        """
-        Busca variações de quantidade/tamanho na página do produto
-        
-        Args:
-            url: URL do produto para buscar variações
-            
-        Returns:
-            List[Dict]: Lista de variações com quantidade e preço
-        """
-        variacoes = []
-        
-        if not url or url == "N/A":
-            return variacoes
-        
-        try:
-            # Navegar para página do produto
-            if not self.selenium_handler.navegar_para_url(url):
-                return variacoes
-            
-            # Aguardar carregamento
-            time.sleep(2)
-            
-            # MÉTODO 1: Buscar popup de variações
-            elementos_popup = self.selenium_handler.encontrar_elementos_seguro(
-                By.ID, 
-                'popupVariacoes'
-            )
-            
-            if elementos_popup:
-                # Buscar itens de variação
-                elementos_variacao = elementos_popup[0].find_elements(
-                    By.CSS_SELECTOR, 
-                    'div.variacao-item'
-                )
-                
-                for item in elementos_variacao:
-                    try:
-                        # Extrair nome da variação
-                        elementos_nome = item.find_elements(By.CSS_SELECTOR, 'div.item-name')
-                        quantidade = self.selenium_handler.obter_texto_seguro(
-                            elementos_nome[0] if elementos_nome else None
-                        )
-                        if quantidade == "N/A":
-                            quantidade = "Único"
-                        
-                        # Extrair preço da variação
-                        elementos_preco = item.find_elements(By.TAG_NAME, 'b')
-                        preco = self.selenium_handler.obter_texto_seguro(
-                            elementos_preco[0] if elementos_preco else None
-                        )
-                        
-                        variacoes.append({"quantidade": quantidade, "preco": preco})
-                        
-                    except Exception as e:
-                        logger.error(f"Erro ao processar variação Petz: {e}")
-                        continue
-            
-            # MÉTODO 2: Fallback - buscar variação atual na página
-            if not variacoes:
-                elementos_nome_var = self.selenium_handler.encontrar_elementos_seguro(
-                    By.CSS_SELECTOR, 
-                    'div.nome-variacao'
-                )
-                
-                if elementos_nome_var:
-                    # Extrair quantidade
-                    elementos_qtd = elementos_nome_var[0].find_elements(By.TAG_NAME, 'b')
-                    quantidade = self.selenium_handler.obter_texto_seguro(
-                        elementos_qtd[0] if elementos_qtd else None
-                    )
-                    if quantidade == "N/A":
-                        quantidade = "Único"
-                    
-                    # Buscar preço na página
-                    elementos_preco = self.selenium_handler.encontrar_elementos_seguro(
-                        By.CSS_SELECTOR, 
-                        'span.price, div.preco'
-                    )
-                    preco = self.selenium_handler.obter_texto_seguro(
-                        elementos_preco[0] if elementos_preco else None
-                    )
-                    
-                    variacoes.append({"quantidade": quantidade, "preco": preco})
-                    
-        except Exception as e:
-            logger.error(f"Erro ao buscar variações Petz: {e}")
-            
-        return variacoes
 
 # ==========================================
 # GERENCIADOR PRINCIPAL
@@ -1349,8 +1254,8 @@ class GerenciadorScraperMedicamentos:
         if sucesso:
             # Inicializar scrapers após driver estar pronto
             self.scrapers = [
-                ScraperCobasi(self.selenium_handler, self.data_manager, self.test_mode),
-                ScraperPetlove(self.selenium_handler, self.data_manager, self.test_mode),
+                # ScraperCobasi(self.selenium_handler, self.data_manager, self.test_mode),
+                # ScraperPetlove(self.selenium_handler, self.data_manager, self.test_mode),
                 ScraperPetz(self.selenium_handler, self.data_manager, self.test_mode)
             ]
             logger.info("Driver e scrapers inicializados com sucesso!")
