@@ -1254,8 +1254,8 @@ class GerenciadorScraperMedicamentos:
         if sucesso:
             # Inicializar scrapers após driver estar pronto
             self.scrapers = [
-                # ScraperCobasi(self.selenium_handler, self.data_manager, self.test_mode),
-                # ScraperPetlove(self.selenium_handler, self.data_manager, self.test_mode),
+                ScraperCobasi(self.selenium_handler, self.data_manager, self.test_mode),
+                ScraperPetlove(self.selenium_handler, self.data_manager, self.test_mode),
                 ScraperPetz(self.selenium_handler, self.data_manager, self.test_mode)
             ]
             logger.info("Driver e scrapers inicializados com sucesso!")
