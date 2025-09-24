@@ -1,0 +1,963 @@
+2025-09-23 00:32:08,122 - INFO - Gerenciador híbrido inicializado - Modo: TESTE
+2025-09-23 00:32:08,123 - INFO - ======================================================================
+2025-09-23 00:32:08,123 - INFO - INICIANDO SCRAPING HÍBRIDO COMPLETO - Modo: TESTE
+2025-09-23 00:32:08,125 - INFO - Método: BeautifulSoup (primário) + Selenium (fallback)
+2025-09-23 00:32:08,126 - INFO - ======================================================================
+2025-09-23 00:32:08,126 - INFO - 
+>>> Processando site 1/3: Cobasi
+2025-09-23 00:32:08,127 - INFO - Iniciando scraping híbrido para Cobasi...
+2025-09-23 00:32:08,127 - INFO - Iniciando scraping completo híbrido para Cobasi...
+2025-09-23 00:32:08,128 - INFO - Processando Simparic (1/20)
+2025-09-23 00:32:08,128 - INFO - Buscando Simparic em Cobasi (método híbrido)...
+2025-09-23 00:32:08,129 - INFO - Tentando método BeautifulSoup para Simparic
+2025-09-23 00:32:09,699 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:11,802 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Simparic
+2025-09-23 00:32:11,862 - INFO - Encontrado script JSON para Simparic na Cobasi
+2025-09-23 00:32:11,863 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:11,864 - INFO - BeautifulSoup bem-sucedido: 2 produtos para Simparic
+2025-09-23 00:32:11,864 - INFO - Encontrados 2 produtos para Simparic
+2025-09-23 00:32:11,864 - INFO - Aguardando 1.9s...
+2025-09-23 00:32:13,785 - INFO - Processando Revolution (2/20)
+2025-09-23 00:32:13,787 - INFO - Buscando Revolution em Cobasi (método híbrido)...
+2025-09-23 00:32:13,788 - INFO - Tentando método BeautifulSoup para Revolution
+2025-09-23 00:32:14,504 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:16,824 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Revolution
+2025-09-23 00:32:16,881 - INFO - Encontrado script JSON para Revolution na Cobasi
+2025-09-23 00:32:16,882 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:16,883 - INFO - BeautifulSoup bem-sucedido: 2 produtos para Revolution
+2025-09-23 00:32:16,883 - INFO - Encontrados 2 produtos para Revolution
+2025-09-23 00:32:16,883 - INFO - Aguardando 1.2s...
+2025-09-23 00:32:18,075 - INFO - Processando NexGard (3/20)
+2025-09-23 00:32:18,075 - INFO - Buscando NexGard em Cobasi (método híbrido)...
+2025-09-23 00:32:18,075 - INFO - Tentando método BeautifulSoup para NexGard
+2025-09-23 00:32:19,195 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:21,538 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=NexGard
+2025-09-23 00:32:21,611 - INFO - Encontrado script JSON para NexGard na Cobasi
+2025-09-23 00:32:21,612 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:21,612 - INFO - BeautifulSoup bem-sucedido: 2 produtos para NexGard
+2025-09-23 00:32:21,613 - INFO - Encontrados 2 produtos para NexGard
+2025-09-23 00:32:21,613 - INFO - Aguardando 2.2s...
+2025-09-23 00:32:23,824 - INFO - Processando NexGard Spectra (4/20)
+2025-09-23 00:32:23,826 - INFO - Buscando NexGard Spectra em Cobasi (método híbrido)...
+2025-09-23 00:32:23,826 - INFO - Tentando método BeautifulSoup para NexGard Spectra
+2025-09-23 00:32:24,634 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:26,557 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=NexGard Spectra
+2025-09-23 00:32:26,613 - INFO - Encontrado script JSON para NexGard Spectra na Cobasi
+2025-09-23 00:32:26,613 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:26,613 - INFO - BeautifulSoup bem-sucedido: 2 produtos para NexGard Spectra
+2025-09-23 00:32:26,614 - INFO - Encontrados 2 produtos para NexGard Spectra
+2025-09-23 00:32:26,614 - INFO - Aguardando 1.5s...
+2025-09-23 00:32:28,143 - INFO - Processando NexGard Combo (5/20)
+2025-09-23 00:32:28,145 - INFO - Buscando NexGard Combo em Cobasi (método híbrido)...
+2025-09-23 00:32:28,146 - INFO - Tentando método BeautifulSoup para NexGard Combo
+2025-09-23 00:32:29,038 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:30,545 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=NexGard Combo
+2025-09-23 00:32:30,589 - INFO - Encontrado script JSON para NexGard Combo na Cobasi
+2025-09-23 00:32:30,590 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:30,590 - INFO - BeautifulSoup bem-sucedido: 2 produtos para NexGard Combo
+2025-09-23 00:32:30,590 - INFO - Encontrados 2 produtos para NexGard Combo
+2025-09-23 00:32:30,590 - INFO - Aguardando 1.9s...
+2025-09-23 00:32:32,522 - INFO - Processando Bravecto (6/20)
+2025-09-23 00:32:32,523 - INFO - Buscando Bravecto em Cobasi (método híbrido)...
+2025-09-23 00:32:32,523 - INFO - Tentando método BeautifulSoup para Bravecto
+2025-09-23 00:32:33,237 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:37,502 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Bravecto
+2025-09-23 00:32:37,582 - INFO - Encontrado script JSON para Bravecto na Cobasi
+2025-09-23 00:32:37,583 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:37,583 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Bravecto
+2025-09-23 00:32:37,584 - INFO - Encontrados 1 produtos para Bravecto
+2025-09-23 00:32:37,584 - INFO - Aguardando 1.6s...
+2025-09-23 00:32:39,152 - INFO - Processando Frontline (7/20)
+2025-09-23 00:32:39,154 - INFO - Buscando Frontline em Cobasi (método híbrido)...
+2025-09-23 00:32:39,154 - INFO - Tentando método BeautifulSoup para Frontline
+2025-09-23 00:32:40,387 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:42,933 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Frontline
+2025-09-23 00:32:42,994 - INFO - Encontrado script JSON para Frontline na Cobasi
+2025-09-23 00:32:42,995 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:42,995 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Frontline
+2025-09-23 00:32:42,995 - INFO - Encontrados 1 produtos para Frontline
+2025-09-23 00:32:42,996 - INFO - Aguardando 1.4s...
+2025-09-23 00:32:44,412 - INFO - Processando Advocate (8/20)
+2025-09-23 00:32:44,414 - INFO - Buscando Advocate em Cobasi (método híbrido)...
+2025-09-23 00:32:44,415 - INFO - Tentando método BeautifulSoup para Advocate
+2025-09-23 00:32:45,201 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:48,262 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Advocate
+2025-09-23 00:32:48,319 - INFO - Encontrado script JSON para Advocate na Cobasi
+2025-09-23 00:32:48,320 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:48,320 - INFO - BeautifulSoup bem-sucedido: 2 produtos para Advocate
+2025-09-23 00:32:48,321 - INFO - Encontrados 2 produtos para Advocate
+2025-09-23 00:32:48,321 - INFO - Aguardando 1.7s...
+2025-09-23 00:32:50,035 - INFO - Processando Drontal (9/20)
+2025-09-23 00:32:50,038 - INFO - Buscando Drontal em Cobasi (método híbrido)...
+2025-09-23 00:32:50,039 - INFO - Tentando método BeautifulSoup para Drontal
+2025-09-23 00:32:50,839 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:53,179 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Drontal
+2025-09-23 00:32:53,239 - INFO - Encontrado script JSON para Drontal na Cobasi
+2025-09-23 00:32:53,239 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:53,240 - INFO - BeautifulSoup bem-sucedido: 2 produtos para Drontal
+2025-09-23 00:32:53,240 - INFO - Encontrados 2 produtos para Drontal
+2025-09-23 00:32:53,240 - INFO - Aguardando 2.1s...
+2025-09-23 00:32:55,386 - INFO - Processando Milbemax (10/20)
+2025-09-23 00:32:55,390 - INFO - Buscando Milbemax em Cobasi (método híbrido)...
+2025-09-23 00:32:55,391 - INFO - Tentando método BeautifulSoup para Milbemax
+2025-09-23 00:32:56,162 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:32:57,992 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Milbemax
+2025-09-23 00:32:58,042 - INFO - Encontrado script JSON para Milbemax na Cobasi
+2025-09-23 00:32:58,043 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:32:58,043 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Milbemax
+2025-09-23 00:32:58,044 - INFO - Encontrados 1 produtos para Milbemax
+2025-09-23 00:32:58,044 - INFO - Aguardando 1.6s...
+2025-09-23 00:32:59,679 - INFO - Processando Vermivet (11/20)
+2025-09-23 00:32:59,680 - INFO - Buscando Vermivet em Cobasi (método híbrido)...
+2025-09-23 00:32:59,680 - INFO - Tentando método BeautifulSoup para Vermivet
+2025-09-23 00:33:01,180 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:03,004 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Vermivet
+2025-09-23 00:33:03,061 - INFO - Encontrado script JSON para Vermivet na Cobasi
+2025-09-23 00:33:03,062 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:03,062 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Vermivet
+2025-09-23 00:33:03,063 - INFO - Encontrados 1 produtos para Vermivet
+2025-09-23 00:33:03,063 - INFO - Aguardando 1.8s...
+2025-09-23 00:33:04,870 - INFO - Processando Rimadyl (12/20)
+2025-09-23 00:33:04,871 - INFO - Buscando Rimadyl em Cobasi (método híbrido)...
+2025-09-23 00:33:04,872 - INFO - Tentando método BeautifulSoup para Rimadyl
+2025-09-23 00:33:06,094 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:08,234 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Rimadyl
+2025-09-23 00:33:08,280 - INFO - Encontrado script JSON para Rimadyl na Cobasi
+2025-09-23 00:33:08,281 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:08,281 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Rimadyl
+2025-09-23 00:33:08,282 - INFO - Encontrados 1 produtos para Rimadyl
+2025-09-23 00:33:08,282 - INFO - Aguardando 2.1s...
+2025-09-23 00:33:10,415 - INFO - Processando Onsior (13/20)
+2025-09-23 00:33:10,417 - INFO - Buscando Onsior em Cobasi (método híbrido)...
+2025-09-23 00:33:10,417 - INFO - Tentando método BeautifulSoup para Onsior
+2025-09-23 00:33:11,307 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:13,657 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Onsior
+2025-09-23 00:33:13,705 - INFO - Encontrado script JSON para Onsior na Cobasi
+2025-09-23 00:33:13,706 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:13,706 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Onsior
+2025-09-23 00:33:13,706 - INFO - Encontrados 1 produtos para Onsior
+2025-09-23 00:33:13,706 - INFO - Aguardando 2.3s...
+2025-09-23 00:33:15,978 - INFO - Processando Maxicam (14/20)
+2025-09-23 00:33:15,978 - INFO - Buscando Maxicam em Cobasi (método híbrido)...
+2025-09-23 00:33:15,979 - INFO - Tentando método BeautifulSoup para Maxicam
+2025-09-23 00:33:16,746 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:21,852 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Maxicam
+2025-09-23 00:33:21,975 - INFO - Encontrado script JSON para Maxicam na Cobasi
+2025-09-23 00:33:21,977 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:21,977 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Maxicam
+2025-09-23 00:33:21,978 - INFO - Encontrados 1 produtos para Maxicam
+2025-09-23 00:33:21,978 - INFO - Aguardando 2.5s...
+2025-09-23 00:33:24,479 - INFO - Processando Carproflan (15/20)
+2025-09-23 00:33:24,482 - INFO - Buscando Carproflan em Cobasi (método híbrido)...
+2025-09-23 00:33:24,483 - INFO - Tentando método BeautifulSoup para Carproflan
+2025-09-23 00:33:25,549 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:27,603 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Carproflan
+2025-09-23 00:33:27,652 - INFO - Encontrado script JSON para Carproflan na Cobasi
+2025-09-23 00:33:27,653 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:27,653 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Carproflan
+2025-09-23 00:33:27,653 - INFO - Encontrados 1 produtos para Carproflan
+2025-09-23 00:33:27,654 - INFO - Aguardando 1.2s...
+2025-09-23 00:33:28,838 - INFO - Processando Previcox (16/20)
+2025-09-23 00:33:28,839 - INFO - Buscando Previcox em Cobasi (método híbrido)...
+2025-09-23 00:33:28,841 - INFO - Tentando método BeautifulSoup para Previcox
+2025-09-23 00:33:29,656 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:31,387 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Previcox
+2025-09-23 00:33:31,438 - INFO - Encontrado script JSON para Previcox na Cobasi
+2025-09-23 00:33:31,439 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:31,439 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Previcox
+2025-09-23 00:33:31,439 - INFO - Encontrados 1 produtos para Previcox
+2025-09-23 00:33:31,440 - INFO - Aguardando 2.0s...
+2025-09-23 00:33:33,467 - INFO - Processando Apoquel (17/20)
+2025-09-23 00:33:33,468 - INFO - Buscando Apoquel em Cobasi (método híbrido)...
+2025-09-23 00:33:33,469 - INFO - Tentando método BeautifulSoup para Apoquel
+2025-09-23 00:33:34,248 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:35,882 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Apoquel
+2025-09-23 00:33:35,937 - INFO - Encontrado script JSON para Apoquel na Cobasi
+2025-09-23 00:33:35,938 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:35,938 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Apoquel
+2025-09-23 00:33:35,939 - INFO - Encontrados 1 produtos para Apoquel
+2025-09-23 00:33:35,939 - INFO - Aguardando 1.2s...
+2025-09-23 00:33:37,110 - INFO - Processando Zenrelia (18/20)
+2025-09-23 00:33:37,111 - INFO - Buscando Zenrelia em Cobasi (método híbrido)...
+2025-09-23 00:33:37,112 - INFO - Tentando método BeautifulSoup para Zenrelia
+2025-09-23 00:33:37,836 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:39,859 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Zenrelia
+2025-09-23 00:33:39,911 - INFO - Encontrado script JSON para Zenrelia na Cobasi
+2025-09-23 00:33:39,912 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:39,912 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Zenrelia
+2025-09-23 00:33:39,912 - INFO - Encontrados 1 produtos para Zenrelia
+2025-09-23 00:33:39,913 - INFO - Aguardando 1.3s...
+2025-09-23 00:33:41,244 - INFO - Processando Synulox (19/20)
+2025-09-23 00:33:41,246 - INFO - Buscando Synulox em Cobasi (método híbrido)...
+2025-09-23 00:33:41,247 - INFO - Tentando método BeautifulSoup para Synulox
+2025-09-23 00:33:42,348 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:43,864 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Synulox
+2025-09-23 00:33:43,913 - INFO - Encontrado script JSON para Synulox na Cobasi
+2025-09-23 00:33:43,913 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:43,913 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Synulox
+2025-09-23 00:33:43,914 - INFO - Encontrados 1 produtos para Synulox
+2025-09-23 00:33:43,914 - INFO - Aguardando 1.6s...
+2025-09-23 00:33:45,481 - INFO - Processando Baytril (20/20)
+2025-09-23 00:33:45,482 - INFO - Buscando Baytril em Cobasi (método híbrido)...
+2025-09-23 00:33:45,482 - INFO - Tentando método BeautifulSoup para Baytril
+2025-09-23 00:33:46,074 - INFO - Cookies aceitos automaticamente de cobasi.com.br
+2025-09-23 00:33:48,496 - INFO - Status 200 para https://www.cobasi.com.br/pesquisa?terms=Baytril
+2025-09-23 00:33:48,550 - INFO - Encontrado script JSON para Baytril na Cobasi
+2025-09-23 00:33:48,551 - INFO - Modo teste Cobasi: limitando a 1 produto
+2025-09-23 00:33:48,551 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Baytril
+2025-09-23 00:33:48,551 - INFO - Encontrados 1 produtos para Baytril
+2025-09-23 00:33:48,552 - INFO - Cobasi: 27 produtos coletados no total
+2025-09-23 00:33:48,738 - INFO - Dados salvos: dados_coletados\cobasi_hibrido_20250923_003348.xlsx (27 produtos)
+2025-09-23 00:33:48,739 - INFO - Cobasi: 27 produtos salvos em cobasi_hibrido_20250923_003348.xlsx
+2025-09-23 00:33:48,739 - INFO - Métodos utilizados no Cobasi: {'beautifulsoup': 27}
+2025-09-23 00:33:48,740 - INFO - Aguardando 2.4s antes do próximo site...
+2025-09-23 00:33:51,162 - INFO - 
+>>> Processando site 2/3: Petlove
+2025-09-23 00:33:51,162 - INFO - Iniciando scraping híbrido para Petlove...
+2025-09-23 00:33:51,163 - INFO - Iniciando scraping completo híbrido para Petlove...
+2025-09-23 00:33:51,163 - INFO - Processando Simparic (1/20)
+2025-09-23 00:33:51,163 - INFO - Buscando Simparic em Petlove (método híbrido)...
+2025-09-23 00:33:51,163 - INFO - Tentando método BeautifulSoup para Simparic
+2025-09-23 00:33:51,947 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Simparic
+2025-09-23 00:33:51,948 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:33:51,949 - INFO - Aguardando 4.96s antes da tentativa 2
+2025-09-23 00:33:57,279 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Simparic
+2025-09-23 00:33:57,279 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:33:57,280 - INFO - Aguardando 6.69s antes da tentativa 3
+2025-09-23 00:34:04,375 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Simparic
+2025-09-23 00:34:04,375 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:34:04,376 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Simparic
+2025-09-23 00:34:04,377 - WARNING - Requisição falhou com status: None
+2025-09-23 00:34:04,377 - INFO - Usando Selenium como fallback para Simparic
+2025-09-23 00:34:04,377 - INFO - Inicializando Selenium como fallback...
+2025-09-23 00:34:04,378 - INFO - ====== WebDriver manager ======
+2025-09-23 00:34:06,353 - INFO - WebDriver version 140.0.7339.185 selected
+2025-09-23 00:34:06,357 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip
+2025-09-23 00:34:06,358 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip
+2025-09-23 00:34:06,812 - INFO - Driver downloading response is 200
+2025-09-23 00:34:09,214 - INFO - Driver has been saved in cache [C:\Users\gipal\.wdm\drivers\chromedriver\win64\140.0.7339]
+2025-09-23 00:34:10,653 - INFO - Selenium inicializado com sucesso!
+2025-09-23 00:34:10,653 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Simparic (Tentativa 1)
+2025-09-23 00:34:17,998 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:34:34,193 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-zoetis-simparic-20-mg-para-caes-5-1-a-10-kg/p?sku=3110173-2
+2025-09-23 00:34:34,195 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:34:34,195 - INFO - Aguardando 4.96s antes da tentativa 2
+2025-09-23 00:34:39,518 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-zoetis-simparic-20-mg-para-caes-5-1-a-10-kg/p?sku=3110173-2
+2025-09-23 00:34:39,518 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:34:39,519 - INFO - Aguardando 7.02s antes da tentativa 3
+2025-09-23 00:34:47,126 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-zoetis-simparic-20-mg-para-caes-5-1-a-10-kg/p?sku=3110173-2
+2025-09-23 00:34:47,127 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:34:47,127 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/anti-pulgas-zoetis-simparic-20-mg-para-caes-5-1-a-10-kg/p?sku=3110173-2
+2025-09-23 00:34:47,128 - INFO - Selenium bem-sucedido: 1 produtos para Simparic
+2025-09-23 00:34:47,129 - INFO - Encontrados 1 produtos para Simparic
+2025-09-23 00:34:47,130 - INFO - Aguardando 2.9s...
+2025-09-23 00:34:50,025 - INFO - Processando Revolution (2/20)
+2025-09-23 00:34:50,027 - INFO - Buscando Revolution em Petlove (método híbrido)...
+2025-09-23 00:34:50,027 - INFO - Tentando método BeautifulSoup para Revolution
+2025-09-23 00:34:50,790 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Revolution
+2025-09-23 00:34:50,791 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:34:50,793 - INFO - Aguardando 4.63s antes da tentativa 2
+2025-09-23 00:34:55,876 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Revolution
+2025-09-23 00:34:55,878 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:34:55,878 - INFO - Aguardando 6.66s antes da tentativa 3
+2025-09-23 00:35:03,077 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Revolution
+2025-09-23 00:35:03,078 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:35:03,078 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Revolution
+2025-09-23 00:35:03,079 - WARNING - Requisição falhou com status: None
+2025-09-23 00:35:03,079 - INFO - Usando Selenium como fallback para Revolution
+2025-09-23 00:35:03,079 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Revolution (Tentativa 1)
+2025-09-23 00:35:06,893 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:35:22,995 - INFO - Status 403 para https://www.petlove.com.br/revolution-caes-de-26-a-5-quilos-pfizer-saude-animal-103090/p?sku=3103090-1
+2025-09-23 00:35:22,997 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:35:22,997 - INFO - Aguardando 5.62s antes da tentativa 2
+2025-09-23 00:35:28,990 - INFO - Status 403 para https://www.petlove.com.br/revolution-caes-de-26-a-5-quilos-pfizer-saude-animal-103090/p?sku=3103090-1
+2025-09-23 00:35:28,991 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:35:28,991 - INFO - Aguardando 6.91s antes da tentativa 3
+2025-09-23 00:35:36,275 - INFO - Status 403 para https://www.petlove.com.br/revolution-caes-de-26-a-5-quilos-pfizer-saude-animal-103090/p?sku=3103090-1
+2025-09-23 00:35:36,275 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:35:36,276 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/revolution-caes-de-26-a-5-quilos-pfizer-saude-animal-103090/p?sku=3103090-1
+2025-09-23 00:35:36,277 - INFO - Selenium bem-sucedido: 1 produtos para Revolution
+2025-09-23 00:35:36,278 - INFO - Encontrados 1 produtos para Revolution
+2025-09-23 00:35:36,279 - INFO - Aguardando 2.4s...
+2025-09-23 00:35:38,664 - INFO - Processando NexGard (3/20)
+2025-09-23 00:35:38,665 - INFO - Buscando NexGard em Petlove (método híbrido)...
+2025-09-23 00:35:38,666 - INFO - Tentando método BeautifulSoup para NexGard
+2025-09-23 00:35:39,413 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard
+2025-09-23 00:35:39,414 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:35:39,416 - INFO - Aguardando 5.66s antes da tentativa 2
+2025-09-23 00:35:45,447 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard
+2025-09-23 00:35:45,448 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:35:45,448 - INFO - Aguardando 7.34s antes da tentativa 3
+2025-09-23 00:35:53,169 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard
+2025-09-23 00:35:53,169 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:35:53,170 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=NexGard
+2025-09-23 00:35:53,171 - WARNING - Requisição falhou com status: None
+2025-09-23 00:35:53,172 - INFO - Usando Selenium como fallback para NexGard
+2025-09-23 00:35:53,172 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=NexGard (Tentativa 1)
+2025-09-23 00:35:57,673 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:36:13,891 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-68-mg---caes-de-101-a-25-kg-3105747/p?sku=3105747
+2025-09-23 00:36:13,892 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:36:13,893 - INFO - Aguardando 4.14s antes da tentativa 2
+2025-09-23 00:36:18,423 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-68-mg---caes-de-101-a-25-kg-3105747/p?sku=3105747
+2025-09-23 00:36:18,423 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:36:18,424 - INFO - Aguardando 8.59s antes da tentativa 3
+2025-09-23 00:36:27,389 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-68-mg---caes-de-101-a-25-kg-3105747/p?sku=3105747
+2025-09-23 00:36:27,389 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:36:27,390 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/anti-pulgas-e-carrapatos-merial-nexgard-68-mg---caes-de-101-a-25-kg-3105747/p?sku=3105747
+2025-09-23 00:36:27,392 - INFO - Selenium bem-sucedido: 1 produtos para NexGard
+2025-09-23 00:36:27,392 - INFO - Encontrados 1 produtos para NexGard
+2025-09-23 00:36:27,393 - INFO - Aguardando 1.4s...
+2025-09-23 00:36:28,800 - INFO - Processando NexGard Spectra (4/20)
+2025-09-23 00:36:28,800 - INFO - Buscando NexGard Spectra em Petlove (método híbrido)...
+2025-09-23 00:36:28,801 - INFO - Tentando método BeautifulSoup para NexGard Spectra
+2025-09-23 00:36:29,538 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard Spectra
+2025-09-23 00:36:29,539 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:36:29,540 - INFO - Aguardando 4.88s antes da tentativa 2
+2025-09-23 00:36:34,898 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard Spectra
+2025-09-23 00:36:34,899 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:36:34,899 - INFO - Aguardando 7.41s antes da tentativa 3
+2025-09-23 00:36:42,688 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard Spectra
+2025-09-23 00:36:42,688 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:36:42,689 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=NexGard Spectra
+2025-09-23 00:36:42,690 - WARNING - Requisição falhou com status: None
+2025-09-23 00:36:42,691 - INFO - Usando Selenium como fallback para NexGard Spectra
+2025-09-23 00:36:42,691 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=NexGard Spectra (Tentativa 1)
+2025-09-23 00:36:45,561 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:37:01,662 - INFO - Status 403 para https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-7-6-a-15-kg/p?sku=2659016
+2025-09-23 00:37:01,663 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:37:01,663 - INFO - Aguardando 4.56s antes da tentativa 2
+2025-09-23 00:37:06,609 - INFO - Status 403 para https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-7-6-a-15-kg/p?sku=2659016
+2025-09-23 00:37:06,610 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:37:06,610 - INFO - Aguardando 7.41s antes da tentativa 3
+2025-09-23 00:37:14,401 - INFO - Status 403 para https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-7-6-a-15-kg/p?sku=2659016
+2025-09-23 00:37:14,402 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:37:14,402 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-7-6-a-15-kg/p?sku=2659016
+2025-09-23 00:37:14,404 - INFO - Selenium bem-sucedido: 1 produtos para NexGard Spectra
+2025-09-23 00:37:14,405 - INFO - Encontrados 1 produtos para NexGard Spectra
+2025-09-23 00:37:14,405 - INFO - Aguardando 2.1s...
+2025-09-23 00:37:16,457 - INFO - Processando NexGard Combo (5/20)
+2025-09-23 00:37:16,458 - INFO - Buscando NexGard Combo em Petlove (método híbrido)...
+2025-09-23 00:37:16,458 - INFO - Tentando método BeautifulSoup para NexGard Combo
+2025-09-23 00:37:17,233 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard Combo
+2025-09-23 00:37:17,233 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:37:17,234 - INFO - Aguardando 4.46s antes da tentativa 2
+2025-09-23 00:37:22,063 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard Combo
+2025-09-23 00:37:22,064 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:37:22,064 - INFO - Aguardando 7.38s antes da tentativa 3
+2025-09-23 00:37:29,861 - INFO - Status 403 para https://www.petlove.com.br/busca?q=NexGard Combo
+2025-09-23 00:37:29,862 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:37:29,863 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=NexGard Combo
+2025-09-23 00:37:29,864 - WARNING - Requisição falhou com status: None
+2025-09-23 00:37:29,865 - INFO - Usando Selenium como fallback para NexGard Combo
+2025-09-23 00:37:29,865 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=NexGard Combo (Tentativa 1)
+2025-09-23 00:37:32,433 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:37:48,526 - INFO - Status 403 para https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-2-5-kg-a-7-5-kg/p?sku=31027541855
+2025-09-23 00:37:48,527 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:37:48,529 - INFO - Aguardando 6.00s antes da tentativa 2
+2025-09-23 00:37:54,904 - INFO - Status 403 para https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-2-5-kg-a-7-5-kg/p?sku=31027541855
+2025-09-23 00:37:54,905 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:37:54,905 - INFO - Aguardando 7.84s antes da tentativa 3
+2025-09-23 00:38:03,116 - INFO - Status 403 para https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-2-5-kg-a-7-5-kg/p?sku=31027541855
+2025-09-23 00:38:03,117 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:38:03,118 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/antiparasitario-nexgard-combo-para-gatos-de-2-5-kg-a-7-5-kg/p?sku=31027541855
+2025-09-23 00:38:03,119 - INFO - Selenium bem-sucedido: 1 produtos para NexGard Combo
+2025-09-23 00:38:03,120 - INFO - Encontrados 1 produtos para NexGard Combo
+2025-09-23 00:38:03,120 - INFO - Aguardando 1.7s...
+2025-09-23 00:38:04,862 - INFO - Processando Bravecto (6/20)
+2025-09-23 00:38:04,864 - INFO - Buscando Bravecto em Petlove (método híbrido)...
+2025-09-23 00:38:04,865 - INFO - Tentando método BeautifulSoup para Bravecto
+2025-09-23 00:38:05,614 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Bravecto
+2025-09-23 00:38:05,615 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:38:05,615 - INFO - Aguardando 4.60s antes da tentativa 2
+2025-09-23 00:38:10,741 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Bravecto
+2025-09-23 00:38:10,742 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:38:10,742 - INFO - Aguardando 8.93s antes da tentativa 3
+2025-09-23 00:38:20,257 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Bravecto
+2025-09-23 00:38:20,258 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:38:20,258 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Bravecto
+2025-09-23 00:38:20,259 - WARNING - Requisição falhou com status: None
+2025-09-23 00:38:20,260 - INFO - Usando Selenium como fallback para Bravecto
+2025-09-23 00:38:20,260 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Bravecto (Tentativa 1)
+2025-09-23 00:38:23,869 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:38:40,317 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-10-a-20kg---500-mg-3104948/p?sku=3104948
+2025-09-23 00:38:40,317 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:38:40,318 - INFO - Aguardando 5.15s antes da tentativa 2
+2025-09-23 00:38:46,274 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-10-a-20kg---500-mg-3104948/p?sku=3104948
+2025-09-23 00:38:46,275 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:38:46,276 - INFO - Aguardando 7.03s antes da tentativa 3
+2025-09-23 00:38:53,952 - INFO - Status 403 para https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-10-a-20kg---500-mg-3104948/p?sku=3104948
+2025-09-23 00:38:53,952 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:38:53,953 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/anti-pulgas-e-carrapatos-msd-bravecto-para-caes-de-10-a-20kg---500-mg-3104948/p?sku=3104948
+2025-09-23 00:38:53,955 - INFO - Selenium bem-sucedido: 1 produtos para Bravecto
+2025-09-23 00:38:53,955 - INFO - Encontrados 1 produtos para Bravecto
+2025-09-23 00:38:53,956 - INFO - Aguardando 1.5s...
+2025-09-23 00:38:55,421 - INFO - Processando Frontline (7/20)
+2025-09-23 00:38:55,424 - INFO - Buscando Frontline em Petlove (método híbrido)...
+2025-09-23 00:38:55,426 - INFO - Tentando método BeautifulSoup para Frontline
+2025-09-23 00:38:56,228 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Frontline
+2025-09-23 00:38:56,229 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:38:56,230 - INFO - Aguardando 4.58s antes da tentativa 2
+2025-09-23 00:39:01,202 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Frontline
+2025-09-23 00:39:01,203 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:39:01,204 - INFO - Aguardando 7.31s antes da tentativa 3
+2025-09-23 00:39:08,916 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Frontline
+2025-09-23 00:39:08,917 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:39:08,917 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Frontline
+2025-09-23 00:39:08,918 - WARNING - Requisição falhou com status: None
+2025-09-23 00:39:08,919 - INFO - Usando Selenium como fallback para Frontline
+2025-09-23 00:39:08,919 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Frontline (Tentativa 1)
+2025-09-23 00:39:13,405 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:39:29,470 - INFO - Status 403 para https://www.petlove.com.br/frontline-plus-para-gato-103035/p?sku=3103035
+2025-09-23 00:39:29,470 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:39:29,470 - INFO - Aguardando 4.96s antes da tentativa 2
+2025-09-23 00:39:34,859 - INFO - Status 403 para https://www.petlove.com.br/frontline-plus-para-gato-103035/p?sku=3103035
+2025-09-23 00:39:34,860 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:39:34,860 - INFO - Aguardando 7.39s antes da tentativa 3
+2025-09-23 00:39:42,616 - INFO - Status 403 para https://www.petlove.com.br/frontline-plus-para-gato-103035/p?sku=3103035
+2025-09-23 00:39:42,616 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:39:42,617 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/frontline-plus-para-gato-103035/p?sku=3103035
+2025-09-23 00:39:42,618 - INFO - Selenium bem-sucedido: 1 produtos para Frontline
+2025-09-23 00:39:42,618 - INFO - Encontrados 1 produtos para Frontline
+2025-09-23 00:39:42,619 - INFO - Aguardando 2.2s...
+2025-09-23 00:39:44,854 - INFO - Processando Advocate (8/20)
+2025-09-23 00:39:44,855 - INFO - Buscando Advocate em Petlove (método híbrido)...
+2025-09-23 00:39:44,855 - INFO - Tentando método BeautifulSoup para Advocate
+2025-09-23 00:39:45,597 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Advocate
+2025-09-23 00:39:45,598 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:39:45,598 - INFO - Aguardando 6.96s antes da tentativa 2
+2025-09-23 00:39:52,948 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Advocate
+2025-09-23 00:39:52,949 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:39:52,949 - INFO - Aguardando 6.80s antes da tentativa 3
+2025-09-23 00:40:00,259 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Advocate
+2025-09-23 00:40:00,260 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:40:00,260 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Advocate
+2025-09-23 00:40:00,261 - WARNING - Requisição falhou com status: None
+2025-09-23 00:40:00,261 - INFO - Usando Selenium como fallback para Advocate
+2025-09-23 00:40:00,262 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Advocate (Tentativa 1)
+2025-09-23 00:40:04,956 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:40:21,055 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-advocate-para-gatos-ate-4-kg/p?sku=31027542590
+2025-09-23 00:40:21,056 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:40:21,057 - INFO - Aguardando 4.19s antes da tentativa 2
+2025-09-23 00:40:25,629 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-advocate-para-gatos-ate-4-kg/p?sku=31027542590
+2025-09-23 00:40:25,630 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:40:25,631 - INFO - Aguardando 6.14s antes da tentativa 3
+2025-09-23 00:40:32,162 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-advocate-para-gatos-ate-4-kg/p?sku=31027542590
+2025-09-23 00:40:32,163 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:40:32,163 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/vermifugo-advocate-para-gatos-ate-4-kg/p?sku=31027542590
+2025-09-23 00:40:32,164 - INFO - Selenium bem-sucedido: 1 produtos para Advocate
+2025-09-23 00:40:32,165 - INFO - Encontrados 1 produtos para Advocate
+2025-09-23 00:40:32,166 - INFO - Aguardando 2.5s...
+2025-09-23 00:40:34,624 - INFO - Processando Drontal (9/20)
+2025-09-23 00:40:34,625 - INFO - Buscando Drontal em Petlove (método híbrido)...
+2025-09-23 00:40:34,625 - INFO - Tentando método BeautifulSoup para Drontal
+2025-09-23 00:40:35,559 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Drontal
+2025-09-23 00:40:35,560 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:40:35,561 - INFO - Aguardando 6.90s antes da tentativa 2
+2025-09-23 00:40:42,851 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Drontal
+2025-09-23 00:40:42,851 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:40:42,852 - INFO - Aguardando 7.15s antes da tentativa 3
+2025-09-23 00:40:50,431 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Drontal
+2025-09-23 00:40:50,434 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:40:50,434 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Drontal
+2025-09-23 00:40:50,435 - WARNING - Requisição falhou com status: None
+2025-09-23 00:40:50,436 - INFO - Usando Selenium como fallback para Drontal
+2025-09-23 00:40:50,436 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Drontal (Tentativa 1)
+2025-09-23 00:40:55,403 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:41:11,557 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-biovet-vermivet-300-mg-para-gatos/p?sku=2805189
+2025-09-23 00:41:11,558 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:41:11,558 - INFO - Aguardando 5.24s antes da tentativa 2
+2025-09-23 00:41:17,201 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-biovet-vermivet-300-mg-para-gatos/p?sku=2805189
+2025-09-23 00:41:17,202 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:41:17,202 - INFO - Aguardando 6.34s antes da tentativa 3
+2025-09-23 00:41:24,450 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-biovet-vermivet-300-mg-para-gatos/p?sku=2805189
+2025-09-23 00:41:24,451 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:41:24,452 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/vermifugo-biovet-vermivet-300-mg-para-gatos/p?sku=2805189
+2025-09-23 00:41:24,454 - INFO - Selenium bem-sucedido: 1 produtos para Drontal
+2025-09-23 00:41:24,455 - INFO - Encontrados 1 produtos para Drontal
+2025-09-23 00:41:24,455 - INFO - Aguardando 2.1s...
+2025-09-23 00:41:26,588 - INFO - Processando Milbemax (10/20)
+2025-09-23 00:41:26,589 - INFO - Buscando Milbemax em Petlove (método híbrido)...
+2025-09-23 00:41:26,589 - INFO - Tentando método BeautifulSoup para Milbemax
+2025-09-23 00:41:27,346 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Milbemax
+2025-09-23 00:41:27,346 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:41:27,348 - INFO - Aguardando 6.59s antes da tentativa 2
+2025-09-23 00:41:34,324 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Milbemax
+2025-09-23 00:41:34,324 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:41:34,325 - INFO - Aguardando 6.69s antes da tentativa 3
+2025-09-23 00:41:41,405 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Milbemax
+2025-09-23 00:41:41,406 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:41:41,406 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Milbemax
+2025-09-23 00:41:41,408 - WARNING - Requisição falhou com status: None
+2025-09-23 00:41:41,408 - INFO - Usando Selenium como fallback para Milbemax
+2025-09-23 00:41:41,408 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Milbemax (Tentativa 1)
+2025-09-23 00:41:44,496 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:42:00,621 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-elanco-milbemax-fc-para-gatos-2318236/p?sku=2261657
+2025-09-23 00:42:00,621 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:42:00,622 - INFO - Aguardando 5.20s antes da tentativa 2
+2025-09-23 00:42:06,232 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-elanco-milbemax-fc-para-gatos-2318236/p?sku=2261657
+2025-09-23 00:42:06,233 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:42:06,234 - INFO - Aguardando 6.56s antes da tentativa 3
+2025-09-23 00:42:13,180 - INFO - Status 403 para https://www.petlove.com.br/vermifugo-elanco-milbemax-fc-para-gatos-2318236/p?sku=2261657
+2025-09-23 00:42:13,180 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:42:13,181 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/vermifugo-elanco-milbemax-fc-para-gatos-2318236/p?sku=2261657
+2025-09-23 00:42:13,182 - INFO - Selenium bem-sucedido: 1 produtos para Milbemax
+2025-09-23 00:42:13,183 - INFO - Encontrados 1 produtos para Milbemax
+2025-09-23 00:42:13,183 - INFO - Aguardando 1.8s...
+2025-09-23 00:42:14,968 - INFO - Processando Vermivet (11/20)
+2025-09-23 00:42:14,972 - INFO - Buscando Vermivet em Petlove (método híbrido)...
+2025-09-23 00:42:14,973 - INFO - Tentando método BeautifulSoup para Vermivet
+2025-09-23 00:42:15,739 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Vermivet
+2025-09-23 00:42:15,739 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:42:15,739 - INFO - Aguardando 4.67s antes da tentativa 2
+2025-09-23 00:42:20,780 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Vermivet
+2025-09-23 00:42:20,781 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:42:20,781 - INFO - Aguardando 6.07s antes da tentativa 3
+2025-09-23 00:42:27,275 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Vermivet
+2025-09-23 00:42:27,275 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:42:27,276 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Vermivet
+2025-09-23 00:42:27,277 - WARNING - Requisição falhou com status: None
+2025-09-23 00:42:27,278 - INFO - Usando Selenium como fallback para Vermivet
+2025-09-23 00:42:27,278 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Vermivet (Tentativa 1)
+2025-09-23 00:42:31,202 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:42:47,333 - INFO - Status 403 para https://www.petlove.com.br/vermivet-composto-600mg-para-caes-caixa-com-4-comprimidos-biovet-1017917/p?sku=31017917
+2025-09-23 00:42:47,335 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:42:47,336 - INFO - Aguardando 5.79s antes da tentativa 2
+2025-09-23 00:42:53,581 - INFO - Status 403 para https://www.petlove.com.br/vermivet-composto-600mg-para-caes-caixa-com-4-comprimidos-biovet-1017917/p?sku=31017917
+2025-09-23 00:42:53,582 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:42:53,582 - INFO - Aguardando 8.48s antes da tentativa 3
+2025-09-23 00:43:02,525 - INFO - Status 403 para https://www.petlove.com.br/vermivet-composto-600mg-para-caes-caixa-com-4-comprimidos-biovet-1017917/p?sku=31017917
+2025-09-23 00:43:02,525 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:43:02,526 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/vermivet-composto-600mg-para-caes-caixa-com-4-comprimidos-biovet-1017917/p?sku=31017917
+2025-09-23 00:43:02,527 - INFO - Selenium bem-sucedido: 1 produtos para Vermivet
+2025-09-23 00:43:02,528 - INFO - Encontrados 1 produtos para Vermivet
+2025-09-23 00:43:02,528 - INFO - Aguardando 2.0s...
+2025-09-23 00:43:04,533 - INFO - Processando Rimadyl (12/20)
+2025-09-23 00:43:04,534 - INFO - Buscando Rimadyl em Petlove (método híbrido)...
+2025-09-23 00:43:04,535 - INFO - Tentando método BeautifulSoup para Rimadyl
+2025-09-23 00:43:05,275 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Rimadyl
+2025-09-23 00:43:05,275 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:43:05,276 - INFO - Aguardando 4.42s antes da tentativa 2
+2025-09-23 00:43:10,129 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Rimadyl
+2025-09-23 00:43:10,130 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:43:10,130 - INFO - Aguardando 6.25s antes da tentativa 3
+2025-09-23 00:43:16,758 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Rimadyl
+2025-09-23 00:43:16,759 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:43:16,760 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Rimadyl
+2025-09-23 00:43:16,761 - WARNING - Requisição falhou com status: None
+2025-09-23 00:43:16,761 - INFO - Usando Selenium como fallback para Rimadyl
+2025-09-23 00:43:16,762 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Rimadyl (Tentativa 1)
+2025-09-23 00:43:20,650 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:43:36,806 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorio-zoetis-rimadyl-de-14-comprimidos/p?sku=2507300
+2025-09-23 00:43:36,807 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:43:36,808 - INFO - Aguardando 5.62s antes da tentativa 2
+2025-09-23 00:43:42,812 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorio-zoetis-rimadyl-de-14-comprimidos/p?sku=2507300
+2025-09-23 00:43:42,813 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:43:42,813 - INFO - Aguardando 6.23s antes da tentativa 3
+2025-09-23 00:43:49,464 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorio-zoetis-rimadyl-de-14-comprimidos/p?sku=2507300
+2025-09-23 00:43:49,465 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:43:49,465 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/anti-inflamatorio-zoetis-rimadyl-de-14-comprimidos/p?sku=2507300
+2025-09-23 00:43:49,467 - INFO - Selenium bem-sucedido: 1 produtos para Rimadyl
+2025-09-23 00:43:49,468 - INFO - Encontrados 1 produtos para Rimadyl
+2025-09-23 00:43:49,469 - INFO - Aguardando 2.1s...
+2025-09-23 00:43:51,606 - INFO - Processando Onsior (13/20)
+2025-09-23 00:43:51,607 - INFO - Buscando Onsior em Petlove (método híbrido)...
+2025-09-23 00:43:51,608 - INFO - Tentando método BeautifulSoup para Onsior
+2025-09-23 00:43:52,408 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Onsior
+2025-09-23 00:43:52,422 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:43:52,422 - INFO - Aguardando 4.36s antes da tentativa 2
+2025-09-23 00:43:57,182 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Onsior
+2025-09-23 00:43:57,184 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:43:57,185 - INFO - Aguardando 8.67s antes da tentativa 3
+2025-09-23 00:44:06,243 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Onsior
+2025-09-23 00:44:06,243 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:44:06,243 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Onsior
+2025-09-23 00:44:06,245 - WARNING - Requisição falhou com status: None
+2025-09-23 00:44:06,245 - INFO - Usando Selenium como fallback para Onsior
+2025-09-23 00:44:06,245 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Onsior (Tentativa 1)
+2025-09-23 00:44:08,779 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:44:24,949 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorios-elanco-onsior-para-caes/p?sku=2261653
+2025-09-23 00:44:24,949 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:44:24,951 - INFO - Aguardando 5.41s antes da tentativa 2
+2025-09-23 00:44:30,737 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorios-elanco-onsior-para-caes/p?sku=2261653
+2025-09-23 00:44:30,738 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:44:30,738 - INFO - Aguardando 8.34s antes da tentativa 3
+2025-09-23 00:44:39,474 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorios-elanco-onsior-para-caes/p?sku=2261653
+2025-09-23 00:44:39,474 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:44:39,475 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/anti-inflamatorios-elanco-onsior-para-caes/p?sku=2261653
+2025-09-23 00:44:39,476 - INFO - Selenium bem-sucedido: 1 produtos para Onsior
+2025-09-23 00:44:39,476 - INFO - Encontrados 1 produtos para Onsior
+2025-09-23 00:44:39,476 - INFO - Aguardando 2.7s...
+2025-09-23 00:44:42,157 - INFO - Processando Maxicam (14/20)
+2025-09-23 00:44:42,157 - INFO - Buscando Maxicam em Petlove (método híbrido)...
+2025-09-23 00:44:42,158 - INFO - Tentando método BeautifulSoup para Maxicam
+2025-09-23 00:44:43,384 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Maxicam
+2025-09-23 00:44:43,385 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:44:43,385 - INFO - Aguardando 4.51s antes da tentativa 2
+2025-09-23 00:44:48,532 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Maxicam
+2025-09-23 00:44:48,532 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:44:48,533 - INFO - Aguardando 8.85s antes da tentativa 3
+2025-09-23 00:44:58,000 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Maxicam
+2025-09-23 00:44:58,001 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:44:58,001 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Maxicam
+2025-09-23 00:44:58,003 - WARNING - Requisição falhou com status: None
+2025-09-23 00:44:58,003 - INFO - Usando Selenium como fallback para Maxicam
+2025-09-23 00:44:58,004 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Maxicam (Tentativa 1)
+2025-09-23 00:45:01,290 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:45:17,540 - INFO - Status 403 para https://www.petlove.com.br/maxicam-ourofino-pet-coop-10-comprimidos-102740/p?sku=3102740-1
+2025-09-23 00:45:17,541 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:45:17,541 - INFO - Aguardando 5.17s antes da tentativa 2
+2025-09-23 00:45:23,499 - INFO - Status 403 para https://www.petlove.com.br/maxicam-ourofino-pet-coop-10-comprimidos-102740/p?sku=3102740-1
+2025-09-23 00:45:23,500 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:45:23,500 - INFO - Aguardando 7.09s antes da tentativa 3
+2025-09-23 00:45:31,196 - INFO - Status 403 para https://www.petlove.com.br/maxicam-ourofino-pet-coop-10-comprimidos-102740/p?sku=3102740-1
+2025-09-23 00:45:31,196 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:45:31,196 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/maxicam-ourofino-pet-coop-10-comprimidos-102740/p?sku=3102740-1
+2025-09-23 00:45:31,198 - INFO - Selenium bem-sucedido: 1 produtos para Maxicam
+2025-09-23 00:45:31,199 - INFO - Encontrados 1 produtos para Maxicam
+2025-09-23 00:45:31,199 - INFO - Aguardando 1.0s...
+2025-09-23 00:45:32,204 - INFO - Processando Carproflan (15/20)
+2025-09-23 00:45:32,205 - INFO - Buscando Carproflan em Petlove (método híbrido)...
+2025-09-23 00:45:32,206 - INFO - Tentando método BeautifulSoup para Carproflan
+2025-09-23 00:45:33,506 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Carproflan
+2025-09-23 00:45:33,508 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:45:33,509 - INFO - Aguardando 4.15s antes da tentativa 2
+2025-09-23 00:45:38,303 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Carproflan
+2025-09-23 00:45:38,303 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:45:38,304 - INFO - Aguardando 7.58s antes da tentativa 3
+2025-09-23 00:45:46,484 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Carproflan
+2025-09-23 00:45:46,484 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:45:46,485 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Carproflan
+2025-09-23 00:45:46,486 - WARNING - Requisição falhou com status: None
+2025-09-23 00:45:46,487 - INFO - Usando Selenium como fallback para Carproflan
+2025-09-23 00:45:46,487 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Carproflan (Tentativa 1)
+2025-09-23 00:45:50,075 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:46:06,438 - INFO - Status 403 para https://www.petlove.com.br/carproflan-100mg-14-comprimidos-102516-1/p?sku=31026953
+2025-09-23 00:46:06,438 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:46:06,439 - INFO - Aguardando 6.38s antes da tentativa 2
+2025-09-23 00:46:13,426 - INFO - Status 403 para https://www.petlove.com.br/carproflan-100mg-14-comprimidos-102516-1/p?sku=31026953
+2025-09-23 00:46:13,427 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:46:13,428 - INFO - Aguardando 7.99s antes da tentativa 3
+2025-09-23 00:46:22,035 - INFO - Status 403 para https://www.petlove.com.br/carproflan-100mg-14-comprimidos-102516-1/p?sku=31026953
+2025-09-23 00:46:22,036 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:46:22,036 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/carproflan-100mg-14-comprimidos-102516-1/p?sku=31026953
+2025-09-23 00:46:22,038 - INFO - Selenium bem-sucedido: 1 produtos para Carproflan
+2025-09-23 00:46:22,038 - INFO - Encontrados 1 produtos para Carproflan
+2025-09-23 00:46:22,039 - INFO - Aguardando 1.3s...
+2025-09-23 00:46:23,313 - INFO - Processando Previcox (16/20)
+2025-09-23 00:46:23,314 - INFO - Buscando Previcox em Petlove (método híbrido)...
+2025-09-23 00:46:23,315 - INFO - Tentando método BeautifulSoup para Previcox
+2025-09-23 00:46:24,665 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Previcox
+2025-09-23 00:46:24,668 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:46:24,669 - INFO - Aguardando 4.62s antes da tentativa 2
+2025-09-23 00:46:29,903 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Previcox
+2025-09-23 00:46:29,903 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:46:29,904 - INFO - Aguardando 8.91s antes da tentativa 3
+2025-09-23 00:46:39,455 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Previcox
+2025-09-23 00:46:39,455 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:46:39,456 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Previcox
+2025-09-23 00:46:39,457 - WARNING - Requisição falhou com status: None
+2025-09-23 00:46:39,458 - INFO - Usando Selenium como fallback para Previcox
+2025-09-23 00:46:39,458 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Previcox (Tentativa 1)
+2025-09-23 00:46:42,224 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:46:58,650 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorio-previcox-57-mg-para-caes/p?sku=31027531228
+2025-09-23 00:46:58,652 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:46:58,652 - INFO - Aguardando 4.94s antes da tentativa 2
+2025-09-23 00:47:04,230 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorio-previcox-57-mg-para-caes/p?sku=31027531228
+2025-09-23 00:47:04,231 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:47:04,233 - INFO - Aguardando 8.55s antes da tentativa 3
+2025-09-23 00:47:13,453 - INFO - Status 403 para https://www.petlove.com.br/anti-inflamatorio-previcox-57-mg-para-caes/p?sku=31027531228
+2025-09-23 00:47:13,454 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:47:13,454 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/anti-inflamatorio-previcox-57-mg-para-caes/p?sku=31027531228
+2025-09-23 00:47:13,456 - INFO - Selenium bem-sucedido: 1 produtos para Previcox
+2025-09-23 00:47:13,457 - INFO - Encontrados 1 produtos para Previcox
+2025-09-23 00:47:13,457 - INFO - Aguardando 1.7s...
+2025-09-23 00:47:15,160 - INFO - Processando Apoquel (17/20)
+2025-09-23 00:47:15,161 - INFO - Buscando Apoquel em Petlove (método híbrido)...
+2025-09-23 00:47:15,163 - INFO - Tentando método BeautifulSoup para Apoquel
+2025-09-23 00:47:16,444 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Apoquel
+2025-09-23 00:47:16,445 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:47:16,446 - INFO - Aguardando 4.84s antes da tentativa 2
+2025-09-23 00:47:21,898 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Apoquel
+2025-09-23 00:47:21,898 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:47:21,899 - INFO - Aguardando 7.14s antes da tentativa 3
+2025-09-23 00:47:29,658 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Apoquel
+2025-09-23 00:47:29,659 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:47:29,659 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Apoquel
+2025-09-23 00:47:29,661 - WARNING - Requisição falhou com status: None
+2025-09-23 00:47:29,661 - INFO - Usando Selenium como fallback para Apoquel
+2025-09-23 00:47:29,662 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Apoquel (Tentativa 1)
+2025-09-23 00:47:32,517 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:47:48,956 - INFO - Status 403 para https://www.petlove.com.br/apoquel-dermatologico-zoetis-para-caes/p?sku=31153-2
+2025-09-23 00:47:48,957 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:47:48,958 - INFO - Aguardando 5.79s antes da tentativa 2
+2025-09-23 00:47:55,374 - INFO - Status 403 para https://www.petlove.com.br/apoquel-dermatologico-zoetis-para-caes/p?sku=31153-2
+2025-09-23 00:47:55,374 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:47:55,375 - INFO - Aguardando 6.41s antes da tentativa 3
+2025-09-23 00:48:02,382 - INFO - Status 403 para https://www.petlove.com.br/apoquel-dermatologico-zoetis-para-caes/p?sku=31153-2
+2025-09-23 00:48:02,383 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:48:02,383 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/apoquel-dermatologico-zoetis-para-caes/p?sku=31153-2
+2025-09-23 00:48:02,385 - INFO - Selenium bem-sucedido: 1 produtos para Apoquel
+2025-09-23 00:48:02,386 - INFO - Encontrados 1 produtos para Apoquel
+2025-09-23 00:48:02,387 - INFO - Aguardando 2.3s...
+2025-09-23 00:48:04,671 - INFO - Processando Zenrelia (18/20)
+2025-09-23 00:48:04,672 - INFO - Buscando Zenrelia em Petlove (método híbrido)...
+2025-09-23 00:48:04,672 - INFO - Tentando método BeautifulSoup para Zenrelia
+2025-09-23 00:48:05,905 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Zenrelia
+2025-09-23 00:48:05,906 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:48:05,907 - INFO - Aguardando 6.62s antes da tentativa 2
+2025-09-23 00:48:13,131 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Zenrelia
+2025-09-23 00:48:13,134 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:48:13,135 - INFO - Aguardando 8.30s antes da tentativa 3
+2025-09-23 00:48:22,042 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Zenrelia
+2025-09-23 00:48:22,043 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:48:22,043 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Zenrelia
+2025-09-23 00:48:22,045 - WARNING - Requisição falhou com status: None
+2025-09-23 00:48:22,046 - INFO - Usando Selenium como fallback para Zenrelia
+2025-09-23 00:48:22,046 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Zenrelia (Tentativa 1)
+2025-09-23 00:48:25,639 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:48:42,188 - INFO - Status 403 para https://www.petlove.com.br/tratamento-dermatologico-elanco-zenrelia-6-4-mg-para-caes/p?sku=31027542131
+2025-09-23 00:48:42,188 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:48:42,189 - INFO - Aguardando 5.00s antes da tentativa 2
+2025-09-23 00:48:47,880 - INFO - Status 403 para https://www.petlove.com.br/tratamento-dermatologico-elanco-zenrelia-6-4-mg-para-caes/p?sku=31027542131
+2025-09-23 00:48:47,881 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:48:47,881 - INFO - Aguardando 8.90s antes da tentativa 3
+2025-09-23 00:48:57,445 - INFO - Status 403 para https://www.petlove.com.br/tratamento-dermatologico-elanco-zenrelia-6-4-mg-para-caes/p?sku=31027542131
+2025-09-23 00:48:57,446 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:48:57,446 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/tratamento-dermatologico-elanco-zenrelia-6-4-mg-para-caes/p?sku=31027542131
+2025-09-23 00:48:57,448 - INFO - Selenium bem-sucedido: 1 produtos para Zenrelia
+2025-09-23 00:48:57,449 - INFO - Encontrados 1 produtos para Zenrelia
+2025-09-23 00:48:57,449 - INFO - Aguardando 1.4s...
+2025-09-23 00:48:58,827 - INFO - Processando Synulox (19/20)
+2025-09-23 00:48:58,829 - INFO - Buscando Synulox em Petlove (método híbrido)...
+2025-09-23 00:48:58,829 - INFO - Tentando método BeautifulSoup para Synulox
+2025-09-23 00:49:00,320 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Synulox
+2025-09-23 00:49:00,321 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:49:00,322 - INFO - Aguardando 4.07s antes da tentativa 2
+2025-09-23 00:49:05,142 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Synulox
+2025-09-23 00:49:05,144 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:49:05,144 - INFO - Aguardando 6.84s antes da tentativa 3
+2025-09-23 00:49:12,615 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Synulox
+2025-09-23 00:49:12,615 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:49:12,616 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Synulox
+2025-09-23 00:49:12,618 - WARNING - Requisição falhou com status: None
+2025-09-23 00:49:12,618 - INFO - Usando Selenium como fallback para Synulox
+2025-09-23 00:49:12,618 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Synulox (Tentativa 1)
+2025-09-23 00:49:15,703 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:49:32,269 - INFO - Status 403 para https://www.petlove.com.br/synulox-50mg-10-comprimidos-palataveis-pfizer-saude-animal-102887/p?sku=3102887
+2025-09-23 00:49:32,269 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:49:32,270 - INFO - Aguardando 4.72s antes da tentativa 2
+2025-09-23 00:49:37,593 - INFO - Status 403 para https://www.petlove.com.br/synulox-50mg-10-comprimidos-palataveis-pfizer-saude-animal-102887/p?sku=3102887
+2025-09-23 00:49:37,594 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:49:37,594 - INFO - Aguardando 7.81s antes da tentativa 3
+2025-09-23 00:49:46,013 - INFO - Status 403 para https://www.petlove.com.br/synulox-50mg-10-comprimidos-palataveis-pfizer-saude-animal-102887/p?sku=3102887
+2025-09-23 00:49:46,016 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:49:46,016 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/synulox-50mg-10-comprimidos-palataveis-pfizer-saude-animal-102887/p?sku=3102887
+2025-09-23 00:49:46,018 - INFO - Selenium bem-sucedido: 1 produtos para Synulox
+2025-09-23 00:49:46,019 - INFO - Encontrados 1 produtos para Synulox
+2025-09-23 00:49:46,022 - INFO - Aguardando 2.9s...
+2025-09-23 00:49:48,898 - INFO - Processando Baytril (20/20)
+2025-09-23 00:49:48,899 - INFO - Buscando Baytril em Petlove (método híbrido)...
+2025-09-23 00:49:48,899 - INFO - Tentando método BeautifulSoup para Baytril
+2025-09-23 00:49:50,159 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Baytril
+2025-09-23 00:49:50,161 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:49:50,162 - INFO - Aguardando 5.60s antes da tentativa 2
+2025-09-23 00:49:56,377 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Baytril
+2025-09-23 00:49:56,378 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:49:56,378 - INFO - Aguardando 7.06s antes da tentativa 3
+2025-09-23 00:50:04,051 - INFO - Status 403 para https://www.petlove.com.br/busca?q=Baytril
+2025-09-23 00:50:04,051 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:50:04,052 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/busca?q=Baytril
+2025-09-23 00:50:04,053 - WARNING - Requisição falhou com status: None
+2025-09-23 00:50:04,054 - INFO - Usando Selenium como fallback para Baytril
+2025-09-23 00:50:04,054 - INFO - Navegando via Selenium para: https://www.petlove.com.br/busca?q=Baytril (Tentativa 1)
+2025-09-23 00:50:07,430 - INFO - Navegação Selenium bem-sucedida!
+2025-09-23 00:50:24,022 - INFO - Status 403 para https://www.petlove.com.br/baytril-flavour-15mg-10-comprimidos-102824-2/p?sku=3102824-2
+2025-09-23 00:50:24,034 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 1)
+2025-09-23 00:50:24,058 - INFO - Aguardando 5.76s antes da tentativa 2
+2025-09-23 00:50:30,459 - INFO - Status 403 para https://www.petlove.com.br/baytril-flavour-15mg-10-comprimidos-102824-2/p?sku=3102824-2
+2025-09-23 00:50:30,459 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 2)
+2025-09-23 00:50:30,460 - INFO - Aguardando 6.52s antes da tentativa 3
+2025-09-23 00:50:37,597 - INFO - Status 403 para https://www.petlove.com.br/baytril-flavour-15mg-10-comprimidos-102824-2/p?sku=3102824-2
+2025-09-23 00:50:37,599 - WARNING - 403 Forbidden - Site pode estar bloqueando bots (tentativa 3)
+2025-09-23 00:50:37,599 - ERROR - Todas as tentativas falharam para https://www.petlove.com.br/baytril-flavour-15mg-10-comprimidos-102824-2/p?sku=3102824-2
+2025-09-23 00:50:37,601 - INFO - Selenium bem-sucedido: 1 produtos para Baytril
+2025-09-23 00:50:37,602 - INFO - Encontrados 1 produtos para Baytril
+2025-09-23 00:50:37,602 - INFO - Petlove: 20 produtos coletados no total
+2025-09-23 00:50:37,634 - INFO - Dados salvos: dados_coletados\petlove_hibrido_20250923_005037.xlsx (20 produtos)
+2025-09-23 00:50:37,636 - INFO - Petlove: 20 produtos salvos em petlove_hibrido_20250923_005037.xlsx
+2025-09-23 00:50:37,637 - INFO - Métodos utilizados no Petlove: {'selenium_fallback': 20}
+2025-09-23 00:50:37,637 - INFO - Aguardando 2.1s antes do próximo site...
+2025-09-23 00:50:39,708 - INFO - 
+>>> Processando site 3/3: Petz
+2025-09-23 00:50:39,710 - INFO - Iniciando scraping híbrido para Petz...
+2025-09-23 00:50:39,710 - INFO - Iniciando scraping completo híbrido para Petz...
+2025-09-23 00:50:39,711 - INFO - Processando Simparic (1/20)
+2025-09-23 00:50:39,711 - INFO - Buscando Simparic em Petz (método híbrido)...
+2025-09-23 00:50:39,712 - INFO - Tentando método BeautifulSoup para Simparic
+2025-09-23 00:50:41,605 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:50:41,900 - INFO - Status 200 para https://www.petz.com.br/busca?q=Simparic
+2025-09-23 00:50:41,958 - INFO - BeautifulSoup bem-sucedido: 2 produtos para Simparic
+2025-09-23 00:50:41,959 - INFO - Encontrados 2 produtos para Simparic
+2025-09-23 00:50:41,960 - INFO - Aguardando 1.1s...
+2025-09-23 00:50:43,014 - INFO - Processando Revolution (2/20)
+2025-09-23 00:50:43,015 - INFO - Buscando Revolution em Petz (método híbrido)...
+2025-09-23 00:50:43,015 - INFO - Tentando método BeautifulSoup para Revolution
+2025-09-23 00:50:43,435 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:50:43,875 - INFO - Status 200 para https://www.petz.com.br/busca?q=Revolution
+2025-09-23 00:50:43,949 - INFO - BeautifulSoup bem-sucedido: 2 produtos para Revolution
+2025-09-23 00:50:43,950 - INFO - Encontrados 2 produtos para Revolution
+2025-09-23 00:50:43,950 - INFO - Aguardando 2.1s...
+2025-09-23 00:50:46,048 - INFO - Processando NexGard (3/20)
+2025-09-23 00:50:46,050 - INFO - Buscando NexGard em Petz (método híbrido)...
+2025-09-23 00:50:46,050 - INFO - Tentando método BeautifulSoup para NexGard
+2025-09-23 00:50:46,291 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:50:46,721 - INFO - Status 200 para https://www.petz.com.br/busca?q=NexGard
+2025-09-23 00:50:46,778 - INFO - BeautifulSoup bem-sucedido: 2 produtos para NexGard
+2025-09-23 00:50:46,779 - INFO - Encontrados 2 produtos para NexGard
+2025-09-23 00:50:46,780 - INFO - Aguardando 1.4s...
+2025-09-23 00:50:48,186 - INFO - Processando NexGard Spectra (4/20)
+2025-09-23 00:50:48,187 - INFO - Buscando NexGard Spectra em Petz (método híbrido)...
+2025-09-23 00:50:48,188 - INFO - Tentando método BeautifulSoup para NexGard Spectra
+2025-09-23 00:50:48,660 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:50:48,983 - INFO - Status 200 para https://www.petz.com.br/busca?q=NexGard Spectra
+2025-09-23 00:50:49,036 - INFO - BeautifulSoup bem-sucedido: 2 produtos para NexGard Spectra
+2025-09-23 00:50:49,036 - INFO - Encontrados 2 produtos para NexGard Spectra
+2025-09-23 00:50:49,037 - INFO - Aguardando 2.8s...
+2025-09-23 00:50:51,816 - INFO - Processando NexGard Combo (5/20)
+2025-09-23 00:50:51,818 - INFO - Buscando NexGard Combo em Petz (método híbrido)...
+2025-09-23 00:50:51,819 - INFO - Tentando método BeautifulSoup para NexGard Combo
+2025-09-23 00:50:52,134 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:50:52,352 - INFO - Status 200 para https://www.petz.com.br/busca?q=NexGard Combo
+2025-09-23 00:50:52,398 - INFO - BeautifulSoup bem-sucedido: 2 produtos para NexGard Combo
+2025-09-23 00:50:52,399 - INFO - Encontrados 2 produtos para NexGard Combo
+2025-09-23 00:50:52,399 - INFO - Aguardando 2.1s...
+2025-09-23 00:50:54,517 - INFO - Processando Bravecto (6/20)
+2025-09-23 00:50:54,519 - INFO - Buscando Bravecto em Petz (método híbrido)...
+2025-09-23 00:50:54,520 - INFO - Tentando método BeautifulSoup para Bravecto
+2025-09-23 00:50:54,786 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:50:55,281 - INFO - Status 200 para https://www.petz.com.br/busca?q=Bravecto
+2025-09-23 00:50:55,453 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Bravecto
+2025-09-23 00:50:55,454 - INFO - Encontrados 1 produtos para Bravecto
+2025-09-23 00:50:55,455 - INFO - Aguardando 1.1s...
+2025-09-23 00:50:56,604 - INFO - Processando Frontline (7/20)
+2025-09-23 00:50:56,605 - INFO - Buscando Frontline em Petz (método híbrido)...
+2025-09-23 00:50:56,606 - INFO - Tentando método BeautifulSoup para Frontline
+2025-09-23 00:50:56,965 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:50:57,394 - INFO - Status 200 para https://www.petz.com.br/busca?q=Frontline
+2025-09-23 00:50:57,455 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Frontline
+2025-09-23 00:50:57,456 - INFO - Encontrados 1 produtos para Frontline
+2025-09-23 00:50:57,456 - INFO - Aguardando 2.8s...
+2025-09-23 00:51:00,252 - INFO - Processando Advocate (8/20)
+2025-09-23 00:51:00,253 - INFO - Buscando Advocate em Petz (método híbrido)...
+2025-09-23 00:51:00,254 - INFO - Tentando método BeautifulSoup para Advocate
+2025-09-23 00:51:00,664 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:01,082 - INFO - Status 200 para https://www.petz.com.br/busca?q=Advocate
+2025-09-23 00:51:01,134 - INFO - BeautifulSoup bem-sucedido: 2 produtos para Advocate
+2025-09-23 00:51:01,134 - INFO - Encontrados 2 produtos para Advocate
+2025-09-23 00:51:01,135 - INFO - Aguardando 1.4s...
+2025-09-23 00:51:02,565 - INFO - Processando Drontal (9/20)
+2025-09-23 00:51:02,566 - INFO - Buscando Drontal em Petz (método híbrido)...
+2025-09-23 00:51:02,566 - INFO - Tentando método BeautifulSoup para Drontal
+2025-09-23 00:51:02,983 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:03,711 - INFO - Status 200 para https://www.petz.com.br/busca?q=Drontal
+2025-09-23 00:51:03,900 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Drontal
+2025-09-23 00:51:03,901 - INFO - Encontrados 1 produtos para Drontal
+2025-09-23 00:51:03,902 - INFO - Aguardando 1.2s...
+2025-09-23 00:51:05,082 - INFO - Processando Milbemax (10/20)
+2025-09-23 00:51:05,084 - INFO - Buscando Milbemax em Petz (método híbrido)...
+2025-09-23 00:51:05,084 - INFO - Tentando método BeautifulSoup para Milbemax
+2025-09-23 00:51:05,581 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:05,831 - INFO - Status 200 para https://www.petz.com.br/busca?q=Milbemax
+2025-09-23 00:51:05,881 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Milbemax
+2025-09-23 00:51:05,881 - INFO - Encontrados 1 produtos para Milbemax
+2025-09-23 00:51:05,882 - INFO - Aguardando 2.6s...
+2025-09-23 00:51:08,464 - INFO - Processando Vermivet (11/20)
+2025-09-23 00:51:08,465 - INFO - Buscando Vermivet em Petz (método híbrido)...
+2025-09-23 00:51:08,466 - INFO - Tentando método BeautifulSoup para Vermivet
+2025-09-23 00:51:08,979 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:09,280 - INFO - Status 200 para https://www.petz.com.br/busca?q=Vermivet
+2025-09-23 00:51:09,331 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Vermivet
+2025-09-23 00:51:09,332 - INFO - Encontrados 1 produtos para Vermivet
+2025-09-23 00:51:09,333 - INFO - Aguardando 2.1s...
+2025-09-23 00:51:11,469 - INFO - Processando Rimadyl (12/20)
+2025-09-23 00:51:11,470 - INFO - Buscando Rimadyl em Petz (método híbrido)...
+2025-09-23 00:51:11,471 - INFO - Tentando método BeautifulSoup para Rimadyl
+2025-09-23 00:51:12,320 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:12,594 - INFO - Status 200 para https://www.petz.com.br/busca?q=Rimadyl
+2025-09-23 00:51:12,637 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Rimadyl
+2025-09-23 00:51:12,638 - INFO - Encontrados 1 produtos para Rimadyl
+2025-09-23 00:51:12,638 - INFO - Aguardando 1.3s...
+2025-09-23 00:51:13,968 - INFO - Processando Onsior (13/20)
+2025-09-23 00:51:13,968 - INFO - Buscando Onsior em Petz (método híbrido)...
+2025-09-23 00:51:13,969 - INFO - Tentando método BeautifulSoup para Onsior
+2025-09-23 00:51:14,482 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:14,758 - INFO - Status 200 para https://www.petz.com.br/busca?q=Onsior
+2025-09-23 00:51:14,814 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Onsior
+2025-09-23 00:51:14,815 - INFO - Encontrados 1 produtos para Onsior
+2025-09-23 00:51:14,816 - INFO - Aguardando 1.5s...
+2025-09-23 00:51:16,293 - INFO - Processando Maxicam (14/20)
+2025-09-23 00:51:16,295 - INFO - Buscando Maxicam em Petz (método híbrido)...
+2025-09-23 00:51:16,295 - INFO - Tentando método BeautifulSoup para Maxicam
+2025-09-23 00:51:16,758 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:17,402 - INFO - Status 200 para https://www.petz.com.br/busca?q=Maxicam
+2025-09-23 00:51:17,505 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Maxicam
+2025-09-23 00:51:17,506 - INFO - Encontrados 1 produtos para Maxicam
+2025-09-23 00:51:17,506 - INFO - Aguardando 2.9s...
+2025-09-23 00:51:20,361 - INFO - Processando Carproflan (15/20)
+2025-09-23 00:51:20,362 - INFO - Buscando Carproflan em Petz (método híbrido)...
+2025-09-23 00:51:20,362 - INFO - Tentando método BeautifulSoup para Carproflan
+2025-09-23 00:51:20,630 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:20,919 - INFO - Status 200 para https://www.petz.com.br/busca?q=Carproflan
+2025-09-23 00:51:20,968 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Carproflan
+2025-09-23 00:51:20,968 - INFO - Encontrados 1 produtos para Carproflan
+2025-09-23 00:51:20,969 - INFO - Aguardando 2.0s...
+2025-09-23 00:51:22,982 - INFO - Processando Previcox (16/20)
+2025-09-23 00:51:22,982 - INFO - Buscando Previcox em Petz (método híbrido)...
+2025-09-23 00:51:22,983 - INFO - Tentando método BeautifulSoup para Previcox
+2025-09-23 00:51:23,475 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:23,700 - INFO - Status 200 para https://www.petz.com.br/busca?q=Previcox
+2025-09-23 00:51:23,744 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Previcox
+2025-09-23 00:51:23,746 - INFO - Encontrados 1 produtos para Previcox
+2025-09-23 00:51:23,746 - INFO - Aguardando 1.5s...
+2025-09-23 00:51:25,243 - INFO - Processando Apoquel (17/20)
+2025-09-23 00:51:25,244 - INFO - Buscando Apoquel em Petz (método híbrido)...
+2025-09-23 00:51:25,245 - INFO - Tentando método BeautifulSoup para Apoquel
+2025-09-23 00:51:25,977 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:26,246 - INFO - Status 200 para https://www.petz.com.br/busca?q=Apoquel
+2025-09-23 00:51:26,287 - INFO - BeautifulSoup bem-sucedido: 3 produtos para Apoquel
+2025-09-23 00:51:26,288 - INFO - Encontrados 3 produtos para Apoquel
+2025-09-23 00:51:26,289 - INFO - Aguardando 2.9s...
+2025-09-23 00:51:29,170 - INFO - Processando Zenrelia (18/20)
+2025-09-23 00:51:29,171 - INFO - Buscando Zenrelia em Petz (método híbrido)...
+2025-09-23 00:51:29,172 - INFO - Tentando método BeautifulSoup para Zenrelia
+2025-09-23 00:51:29,569 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:29,831 - INFO - Status 200 para https://www.petz.com.br/busca?q=Zenrelia
+2025-09-23 00:51:29,888 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Zenrelia
+2025-09-23 00:51:29,888 - INFO - Encontrados 1 produtos para Zenrelia
+2025-09-23 00:51:29,889 - INFO - Aguardando 2.3s...
+2025-09-23 00:51:32,152 - INFO - Processando Synulox (19/20)
+2025-09-23 00:51:32,155 - INFO - Buscando Synulox em Petz (método híbrido)...
+2025-09-23 00:51:32,156 - INFO - Tentando método BeautifulSoup para Synulox
+2025-09-23 00:51:32,401 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:32,622 - INFO - Status 200 para https://www.petz.com.br/busca?q=Synulox
+2025-09-23 00:51:32,667 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Synulox
+2025-09-23 00:51:32,668 - INFO - Encontrados 1 produtos para Synulox
+2025-09-23 00:51:32,669 - INFO - Aguardando 2.4s...
+2025-09-23 00:51:35,058 - INFO - Processando Baytril (20/20)
+2025-09-23 00:51:35,059 - INFO - Buscando Baytril em Petz (método híbrido)...
+2025-09-23 00:51:35,060 - INFO - Tentando método BeautifulSoup para Baytril
+2025-09-23 00:51:35,570 - INFO - Cookies aceitos automaticamente de petz.com.br
+2025-09-23 00:51:35,967 - INFO - Status 200 para https://www.petz.com.br/busca?q=Baytril
+2025-09-23 00:51:36,036 - INFO - BeautifulSoup bem-sucedido: 1 produtos para Baytril
+2025-09-23 00:51:36,036 - INFO - Encontrados 1 produtos para Baytril
+2025-09-23 00:51:36,037 - INFO - Petz: 28 produtos coletados no total
+2025-09-23 00:51:36,070 - INFO - Dados salvos: dados_coletados\petz_hibrido_20250923_005136.xlsx (28 produtos)
+2025-09-23 00:51:36,070 - INFO - Petz: 28 produtos salvos em petz_hibrido_20250923_005136.xlsx
+2025-09-23 00:51:36,070 - INFO - Métodos utilizados no Petz: {'beautifulsoup': 28}
+2025-09-23 00:51:38,429 - INFO - Selenium fechado com sucesso
+2025-09-23 00:51:38,445 - INFO - ======================================================================
+2025-09-23 00:51:38,445 - INFO - SCRAPING HÍBRIDO FINALIZADO!
+2025-09-23 00:51:38,446 - INFO - Sites processados com sucesso: 3/3
+2025-09-23 00:51:38,446 - INFO - Arquivos Excel salvos na pasta: dados_teste/
+2025-09-23 00:51:38,446 - INFO - Cada arquivo contém informações sobre qual método foi usado para cada produto
+2025-09-23 00:51:38,446 - INFO - ======================================================================
