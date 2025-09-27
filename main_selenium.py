@@ -1135,7 +1135,6 @@ class ScraperPetz(ScraperBase):
             for elemento_produto in elementos_produto:
                 try:
                     detalhes_produto = elemento_produto.get_attribute('product-details')
-                    # logger.info(f"elemento_produto (raw): {raw_attr[:200]}...")
 
                     if not detalhes_produto:
                         logger.warning("Atributo 'product-details' vazio ou None")
