@@ -145,9 +145,19 @@ class ManipuladorSelenium:
             opcoes_chrome.add_experimental_option("excludeSwitches", ["enable-automation"])
             opcoes_chrome.add_experimental_option('useAutomationExtension', False)
             
-            # CONFIGURAÇÕES DE JANELA (menores para velocidade)
+            # CONFIGURAÇÕES DE JANELA
             opcoes_chrome.add_argument("--window-size=1024,768")
-            opcoes_chrome.add_argument("--headless=new")  # Modo headless para máxima velocidade
+            opcoes_chrome.add_argument("--headless=new")  # Modo headless
+
+            # MINIMIZAR LOGS DO CHROMEDRIVER
+            opcoes_chrome.add_argument("--log-level=3")  # Minimizar logs
+            opcoes_chrome.add_argument("--disable-gpu")
+            opcoes_chrome.add_argument("--disable-logging")
+            opcoes_chrome.add_argument("--disable-dev-shm-usage")
+            opcoes_chrome.add_argument("--disable-software-rasterizer")
+            opcoes_chrome.add_experimental_option('excludeSwitches', ['enable-logging'])  # remove handshake/usb warnings
+
+
             
             # Inicializar driver
             servico = Service(ChromeDriverManager().install())
@@ -176,6 +186,9 @@ class ManipuladorSelenium:
             tuple: (sucesso, conteudo_html ou erro)
         """
         try:
+            if self.driver is None or self.wait is None:
+                raise WebDriverException("Driver ou WebDriverWait não inicializado")
+            
             self.driver.get(url)
             
             # Aguardar carregamento básico

@@ -1,0 +1,146 @@
+{
+            "Simparic": {
+                "empresa": "Zoetis", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "35 dias"
+            },
+            "Revolution": {
+                "empresa": "Zoetis", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "NexGard": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "NexGard Spectra": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "NexGard Combo": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "Bravecto": {
+                "empresa": "MSD Saúde Animal", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "90 dias"
+            },
+            "Frontline": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+            "Advocate": {
+                "empresa": "Elanco", 
+                "categoria": "Antipulgas e Carrapatos",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "30 dias"
+            },
+
+            "Drontal": {
+                "empresa": "Elanco", 
+                "categoria": "Vermífugo",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "Dose única"
+            },
+            "Milbemax": {
+                "empresa": "Elanco", 
+                "categoria": "Vermífugo",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "Dose única"
+            },
+            "Vermivet": {
+                "empresa": "Agener União Química", 
+                "categoria": "Vermífugo",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "Dose única"
+            },
+            
+            "Rimadyl": {
+                "empresa": "Zoetis", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "12-24 horas"
+            },
+            "Onsior": {
+                "empresa": "Elanco", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
+            "Maxicam": {
+                "empresa": "Ourofino Saúde Animal", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
+            "Carproflan": {
+                "empresa": "Agener União Química", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
+            "Previcox": {
+                "empresa": "Boehringer Ingelheim", 
+                "categoria": "Anti-inflamatório",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
+            
+            "Apoquel": {
+                "empresa": "Zoetis", 
+                "categoria": "Dermatológico / Antialergico",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "12 horas"
+            },
+            "Zenrelia": {
+                "empresa": "Elanco", 
+                "categoria": "Dermatológico / Antialergico",
+                "animal": "Cães",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            },
+        
+            "Synulox": {
+                "empresa": "Zoetis", 
+                "categoria": "Antibiótico",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "12 horas"
+            },
+            "Baytril": {
+                "empresa": "Elanco", 
+                "categoria": "Antibiótico",
+                "animal": "Cães e Gatos",
+                "porte": "Todos os portes",
+                "eficacia": "24 horas"
+            }
+        }

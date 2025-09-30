@@ -1,0 +1,39 @@
+{
+  "cobasi": {
+    "sucesso": true,
+    "dados_exemplo": [
+      {
+        "nome": "R$ 67,60",
+        "preco": "R$ 84,50",
+        "link": "/drontal-plus-mais-sabor-caes-10kg-31170210/p?idsku=1170228"
+      },
+      {},
+      {}
+    ],
+    "timestamp": "2025-08-30T18:57:54.408061"
+  },
+  "petlove": {
+    "sucesso": true,
+    "dados_exemplo": [
+      {
+        "nome": "Vermifugo Ouro Fino Top Dog para Cães de até 10Kg - 4 Comprimidos"
+      },
+      {
+        "nome": "Vermifugo Ouro Fino Top Dog para Cães de até 30kg - 2 Comprimidos"
+      },
+      {
+        "nome": "Vermífugo Drontal Puppy para Cães Filhotes - 20 mL"
+      }
+    ],
+    "timestamp": "2025-08-30T18:57:55.605711"
+  },
+  "MerceariaDoAnimal": {
+    "sucesso": true,
+    "dados_exemplo": [
+      {},
+      {},
+      {}
+    ],
+    "timestamp": "2025-08-30T18:57:57.363562"
+  }
+}

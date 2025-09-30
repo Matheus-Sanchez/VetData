@@ -1,0 +1,39 @@
+{
+  "cobasi": {
+    "sucesso": true,
+    "dados_exemplo": [
+      {
+        "nome": "R$ 12,90",
+        "preco": "R$ 12,90",
+        "link": "/vermifugo-biovet-vermivet-composto-600-mg-3456764/p?idsku=456764"
+      },
+      {},
+      {}
+    ],
+    "timestamp": "2025-08-29T18:34:28.818531"
+  },
+  "petlove": {
+    "sucesso": true,
+    "dados_exemplo": [
+      {
+        "nome": "Vermifugo Ouro Fino Top Dog para Cães de até 10Kg - 4 Comprimidos"
+      },
+      {
+        "nome": "Vermifugo Ouro Fino Top Dog para Cães de até 30kg - 2 Comprimidos"
+      },
+      {
+        "nome": "Vermifugo Ouro Fino Top Dog para Cães de até 2.5kg - 4 Comprimidos"
+      }
+    ],
+    "timestamp": "2025-08-29T18:34:29.841241"
+  },
+  "MerceariaDoAnimal": {
+    "sucesso": true,
+    "dados_exemplo": [
+      {},
+      {},
+      {}
+    ],
+    "timestamp": "2025-08-29T18:34:31.490346"
+  }
+}

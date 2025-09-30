@@ -5,7 +5,7 @@ Implementa extração via JSON do atributo product-details
 
 import json
 import logging
-from typing import List, Dict
+from typing import List, Dict, Optional
 from datetime import datetime
 
 from scraper_base import ScraperBase
@@ -131,7 +131,7 @@ class ScraperPetz(ScraperBase):
         
         return produtos
     
-    def _criar_produto_da_variacao(self, produto_json: dict, variacao: dict, info_base, medicamento: str, metodo_usado: str) -> InfoProduto:
+    def _criar_produto_da_variacao(self, produto_json: dict, variacao: dict, info_base, medicamento: str, metodo_usado: str) -> Optional[InfoProduto]:
         """
         Cria objeto InfoProduto a partir de uma variação
         

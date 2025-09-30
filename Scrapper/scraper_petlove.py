@@ -6,6 +6,7 @@ Implementa extração de produtos com busca de variações
 import logging
 from typing import List, Dict
 from datetime import datetime
+from bs4 import Tag
 
 from scraper_base import ScraperBase
 from estruturas_dados import InfoProduto
@@ -170,29 +171,36 @@ class ScraperPetlove(ScraperBase):
             popup_variacoes = soup_produto.find('div', class_='variant-list')
             
             if popup_variacoes:
-                elementos_variacao = popup_variacoes.find_all(
-                    'div', class_='badge__container variant-selector__badge'
-                )
                 
-                for elemento in elementos_variacao:
-                    try:
-                        # Extrair nome da variação
-                        elemento_nome = elemento.find('span', class_='font-bold mb-2')
-                        quantidade = elemento_nome.get_text(strip=True) if elemento_nome else "Tamanho Único"
-                        
-                        # Extrair preço da variação
-                        elemento_preco = elemento.find('div', class_='font-body-s')
-                        preco = elemento_preco.get_text(strip=True) if elemento_preco else "Consultar"
-                        
-                        if preco and preco != "Consultar":
-                            variacoes.append({
-                                "quantidade": quantidade, 
-                                "preco": preco
-                            })
-                            
-                    except Exception as e:
-                        logger.warning(f"Petlove: Erro ao processar variação: {e}")
-                        continue
+                if isinstance(popup_variacoes, Tag):
+                    elementos_variacao = popup_variacoes.find_all(
+                        'div', class_='badge__container variant-selector__badge'
+                    )
+                    
+                    for elemento in elementos_variacao:
+                        try:
+                            # Extrair nome da variação
+                            if isinstance(elemento, Tag):
+                                elemento_nome = elemento.find('span', class_='font-bold mb-2')
+                                quantidade = elemento_nome.get_text(strip=True) if elemento_nome else "Tamanho Único"
+                                
+                                # Extrair preço da variação
+                                elemento_preco = elemento.find('div', class_='font-body-s')
+                                preco = elemento_preco.get_text(strip=True) if elemento_preco else "Consultar"
+                                
+                                if preco and preco != "Consultar":
+                                    variacoes.append({
+                                        "quantidade": quantidade, 
+                                        "preco": preco
+                                    })
+                            else:
+                                logger.warning("Petlove: elemento is not a Tag, skipping find.")
+                                
+                        except Exception as e:
+                            logger.warning(f"Petlove: Erro ao processar variação: {e}")
+                            continue
+                else:
+                    logger.warning("Petlove: popup_variacoes is not a Tag, skipping find_all.")
             
             # MÉTODO 2: Fallback para variações na página principal
             if not variacoes:
@@ -200,8 +208,11 @@ class ScraperPetlove(ScraperBase):
                 
                 for botao in botoes_variacao:
                     try:
-                        quantidade_elem = botao.find('b')
-                        quantidade = quantidade_elem.get_text(strip=True) if quantidade_elem else "Tamanho Único"
+                        if isinstance(botao, Tag):
+                            quantidade_elem = botao.find('b')
+                            quantidade = quantidade_elem.get_text(strip=True) if quantidade_elem else "Tamanho Único"
+                        else:
+                            quantidade = "Tamanho Único"
                         
                         # Para fallback, pegar preço principal da página
                         preco_elem = soup_produto.find('span', class_='price-value') or soup_produto.find('div', class_='price')
