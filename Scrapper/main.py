@@ -218,10 +218,10 @@ def main():
         print("📋 Verifique as dependências e tente novamente")
     
     # Aguardar antes de fechar (opcional)
-    try:
-        input("\nPressione Enter para sair...")
-    except:
-        pass
+    # try:
+    #     input("\nPressione Enter para sair...")
+    # except:
+    #     pass
 
 if __name__ == "__main__":
     main()

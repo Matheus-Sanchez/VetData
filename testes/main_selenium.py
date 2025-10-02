@@ -1492,7 +1492,7 @@ def main():
         print("📋 Verifique os logs para mais detalhes.")
     
     # Aguardar antes de fechar
-    input("\nPressione Enter para sair...")
+    # input("\nPressione Enter para sair...")
 
 # Verificação se o arquivo está sendo executado diretamente
 if __name__ == "__main__":
