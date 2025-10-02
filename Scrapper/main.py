@@ -191,16 +191,16 @@ def main():
         exibir_cabecalho()
         exibir_opcoes_execucao()
         
-        # Obter escolha do usuário
-        escolha = obter_escolha_usuario()
+        # # Obter escolha do usuário
+        # escolha = obter_escolha_usuario()
         
-        # Executar baseado na escolha
-        if escolha == "1":
-            executar_modo_teste()
-        elif escolha == "2":
-            executar_modo_completo()
-        elif escolha == "3":
-            executar_site_especifico()
+        # # Executar baseado na escolha
+        # if escolha == "1":
+        #     executar_modo_teste()
+        # elif escolha == "2":
+        executar_modo_completo()
+        # elif escolha == "3":
+        #     executar_site_especifico()
         
         # Mensagem final
         print("\n" + "="*50)
