@@ -102,9 +102,13 @@ class GerenciadorArquivos:
             bool: True se salvou com sucesso
         """
         try:
+            # Criar pasta se não existir
+            os.makedirs('dados_relatorios', exist_ok=True)
+
+            # Nome do arquivo com timestamp
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             nome_arquivo = f"relatorio_consolidado_{timestamp}.xlsx"
-            caminho_arquivo = os.path.join(self.pasta_destino, nome_arquivo)
+            caminho_arquivo = os.path.join('dados_relatorios', nome_arquivo)
             
             with pd.ExcelWriter(caminho_arquivo, engine='openpyxl') as escritor:
                 
