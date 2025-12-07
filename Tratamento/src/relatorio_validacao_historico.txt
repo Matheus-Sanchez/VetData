@@ -1,0 +1,50 @@
+================================================================================
+RELATÓRIO DE VALIDAÇÃO DE DADOS
+================================================================================
+
+📊 RESUMO GERAL
+--------------------------------------------------------------------------------
+Total de arquivos: 1
+Total de registros: 15724
+Registros válidos: 13881 (88.3%)
+Registros inválidos: 1843 (11.7%)
+Duplicatas exatas: 1886
+
+💊 DISTRIBUIÇÃO POR MEDICAMENTO
+--------------------------------------------------------------------------------
+  Nexgard                2855 registros
+  Simparic               1669 registros
+  Bravecto               1413 registros
+  Drontal                1291 registros
+  Revolution             1211 registros
+  Advocate                955 registros
+  Vermivet                814 registros
+  Frontline               739 registros
+  Maxicam                 725 registros
+  Baytril                 431 registros
+  Milbemax                296 registros
+  Zenrelia                269 registros
+  Onsior                  267 registros
+  Carproflan              221 registros
+  Rimadyl                 202 registros
+  Apoquel                 202 registros
+  Previcox                186 registros
+  Synulox                 135 registros
+
+📁 DETALHES POR ARQUIVO
+--------------------------------------------------------------------------------
+
+Consolidado_DadosAnteriores.xlsx
+  Total: 15724
+  Válidos: 13881
+  Inválidos: 1843
+  Duplicatas: 1886
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 3750: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
+     - Linha 3932: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
+     - Linha 4018: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
+     - Linha 4019: Casa Pet Injet Prime Colors Dog House Evolution Vermelha - Tam. 03 (Revolution)
+     - Linha 4020: Casa Pet Injet Prime Colors Dog House Evolution Vermelha - Tam. 03 (Revolution)
+     ... e mais 1838
+
+================================================================================

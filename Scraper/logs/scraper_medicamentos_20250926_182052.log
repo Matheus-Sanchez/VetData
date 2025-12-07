@@ -1,0 +1,113 @@
+2025-09-26 18:20:52,096 - configurador_logs - INFO - Sistema de logs configurado com sucesso
+2025-09-26 18:20:52,097 - configurador_logs - INFO - 🚀 Logs configurados para MODO PRODUÇÃO
+2025-09-26 18:20:52,097 - gerenciador_principal - INFO - Inicializando sistema - Modo: PRODUCAO
+2025-09-26 18:20:52,098 - gerenciador_arquivos - INFO - Pasta dados_coletados preparada
+2025-09-26 18:20:52,098 - gerenciador_principal - INFO - Sistema inicializado com 3 scrapers
+2025-09-26 18:20:52,099 - gerenciador_principal - INFO - Executando scraping específico para Cobasi
+2025-09-26 18:20:52,099 - gerenciador_principal - INFO - Iniciando scraping Cobasi
+2025-09-26 18:20:52,100 - scraper_base - INFO - 🚀 Iniciando scraping completo - Cobasi
+2025-09-26 18:20:52,851 - gerenciador_conexoes - INFO - Sessao estabelecida com cobasi.com.br
+2025-09-26 18:20:52,852 - scraper_base - INFO - 📋 20 medicamentos para processar
+2025-09-26 18:20:52,852 - scraper_base - INFO - 📦 [1/20] Processando Simparic
+2025-09-26 18:20:52,852 - scraper_base - INFO - 🔍 Cobasi: Buscando Simparic
+2025-09-26 18:20:55,166 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Simparic
+2025-09-26 18:20:55,167 - scraper_base - INFO - ✅ Cobasi: 12 produto(s) encontrado(s) para Simparic
+2025-09-26 18:20:57,275 - scraper_base - INFO - 📦 [2/20] Processando Revolution
+2025-09-26 18:20:57,276 - scraper_base - INFO - 🔍 Cobasi: Buscando Revolution
+2025-09-26 18:21:00,480 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Revolution
+2025-09-26 18:21:00,481 - scraper_base - INFO - ✅ Cobasi: 12 produto(s) encontrado(s) para Revolution
+2025-09-26 18:21:01,998 - scraper_base - INFO - 📦 [3/20] Processando NexGard
+2025-09-26 18:21:02,000 - scraper_base - INFO - 🔍 Cobasi: Buscando NexGard
+2025-09-26 18:21:04,466 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para NexGard
+2025-09-26 18:21:04,466 - scraper_base - INFO - ✅ Cobasi: 22 produto(s) encontrado(s) para NexGard
+2025-09-26 18:21:07,157 - scraper_base - INFO - 📦 [4/20] Processando NexGard Spectra
+2025-09-26 18:21:07,159 - scraper_base - INFO - 🔍 Cobasi: Buscando NexGard Spectra
+2025-09-26 18:21:08,835 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para NexGard Spectra
+2025-09-26 18:21:08,836 - scraper_base - INFO - ✅ Cobasi: 10 produto(s) encontrado(s) para NexGard Spectra
+2025-09-26 18:21:10,798 - scraper_base - INFO - 📦 [5/20] Processando NexGard Combo
+2025-09-26 18:21:10,798 - scraper_base - INFO - 🔍 Cobasi: Buscando NexGard Combo
+2025-09-26 18:21:12,184 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para NexGard Combo
+2025-09-26 18:21:12,184 - scraper_base - INFO - ✅ Cobasi: 4 produto(s) encontrado(s) para NexGard Combo
+2025-09-26 18:21:14,232 - scraper_base - INFO - 📦 [6/20] Processando Bravecto
+2025-09-26 18:21:14,232 - scraper_base - INFO - 🔍 Cobasi: Buscando Bravecto
+2025-09-26 18:21:16,474 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Bravecto
+2025-09-26 18:21:16,474 - scraper_base - INFO - ✅ Cobasi: 15 produto(s) encontrado(s) para Bravecto
+2025-09-26 18:21:17,905 - scraper_base - INFO - 📦 [7/20] Processando Frontline
+2025-09-26 18:21:17,906 - scraper_base - INFO - 🔍 Cobasi: Buscando Frontline
+2025-09-26 18:21:20,572 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Frontline
+2025-09-26 18:21:20,572 - scraper_base - INFO - ✅ Cobasi: 10 produto(s) encontrado(s) para Frontline
+2025-09-26 18:21:23,298 - scraper_base - INFO - 📦 [8/20] Processando Advocate
+2025-09-26 18:21:23,300 - scraper_base - INFO - 🔍 Cobasi: Buscando Advocate
+2025-09-26 18:21:26,542 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Advocate
+2025-09-26 18:21:26,542 - scraper_base - INFO - ✅ Cobasi: 12 produto(s) encontrado(s) para Advocate
+2025-09-26 18:21:29,194 - scraper_base - INFO - 📦 [9/20] Processando Drontal
+2025-09-26 18:21:29,194 - scraper_base - INFO - 🔍 Cobasi: Buscando Drontal
+2025-09-26 18:21:31,358 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Drontal
+2025-09-26 18:21:31,359 - scraper_base - INFO - ✅ Cobasi: 8 produto(s) encontrado(s) para Drontal
+2025-09-26 18:21:34,014 - scraper_base - INFO - 📦 [10/20] Processando Milbemax
+2025-09-26 18:21:34,016 - scraper_base - INFO - 🔍 Cobasi: Buscando Milbemax
+2025-09-26 18:21:35,651 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Milbemax
+2025-09-26 18:21:35,651 - scraper_base - INFO - ✅ Cobasi: 4 produto(s) encontrado(s) para Milbemax
+2025-09-26 18:21:36,996 - scraper_base - INFO - 📦 [11/20] Processando Vermivet
+2025-09-26 18:21:36,998 - scraper_base - INFO - 🔍 Cobasi: Buscando Vermivet
+2025-09-26 18:21:38,760 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Vermivet
+2025-09-26 18:21:38,760 - scraper_base - INFO - ✅ Cobasi: 5 produto(s) encontrado(s) para Vermivet
+2025-09-26 18:21:41,223 - scraper_base - INFO - 📦 [12/20] Processando Rimadyl
+2025-09-26 18:21:41,227 - scraper_base - INFO - 🔍 Cobasi: Buscando Rimadyl
+2025-09-26 18:21:43,667 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Rimadyl
+2025-09-26 18:21:43,668 - scraper_base - INFO - ✅ Cobasi: 3 produto(s) encontrado(s) para Rimadyl
+2025-09-26 18:21:44,824 - scraper_base - INFO - 📦 [13/20] Processando Onsior
+2025-09-26 18:21:44,826 - scraper_base - INFO - 🔍 Cobasi: Buscando Onsior
+2025-09-26 18:21:46,944 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Onsior
+2025-09-26 18:21:46,944 - scraper_base - INFO - ✅ Cobasi: 4 produto(s) encontrado(s) para Onsior
+2025-09-26 18:21:48,605 - scraper_base - INFO - 📦 [14/20] Processando Maxicam
+2025-09-26 18:21:48,606 - scraper_base - INFO - 🔍 Cobasi: Buscando Maxicam
+2025-09-26 18:21:48,821 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Maxicam
+2025-09-26 18:21:48,821 - scraper_base - INFO - ✅ Cobasi: 21 produto(s) encontrado(s) para Maxicam
+2025-09-26 18:21:51,528 - scraper_base - INFO - 📦 [15/20] Processando Carproflan
+2025-09-26 18:21:51,528 - scraper_base - INFO - 🔍 Cobasi: Buscando Carproflan
+2025-09-26 18:21:53,023 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Carproflan
+2025-09-26 18:21:53,024 - scraper_base - INFO - ✅ Cobasi: 3 produto(s) encontrado(s) para Carproflan
+2025-09-26 18:21:55,390 - scraper_base - INFO - 📦 [16/20] Processando Previcox
+2025-09-26 18:21:55,393 - scraper_base - INFO - 🔍 Cobasi: Buscando Previcox
+2025-09-26 18:21:57,073 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Previcox
+2025-09-26 18:21:57,073 - scraper_base - INFO - ✅ Cobasi: 2 produto(s) encontrado(s) para Previcox
+2025-09-26 18:21:59,376 - scraper_base - INFO - 📦 [17/20] Processando Apoquel
+2025-09-26 18:21:59,378 - scraper_base - INFO - 🔍 Cobasi: Buscando Apoquel
+2025-09-26 18:22:01,026 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Apoquel
+2025-09-26 18:22:01,026 - scraper_base - INFO - ✅ Cobasi: 3 produto(s) encontrado(s) para Apoquel
+2025-09-26 18:22:03,243 - scraper_base - INFO - 📦 [18/20] Processando Zenrelia
+2025-09-26 18:22:03,244 - scraper_base - INFO - 🔍 Cobasi: Buscando Zenrelia
+2025-09-26 18:22:03,695 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Zenrelia
+2025-09-26 18:22:03,696 - scraper_base - INFO - ✅ Cobasi: 4 produto(s) encontrado(s) para Zenrelia
+2025-09-26 18:22:05,876 - scraper_base - INFO - 📦 [19/20] Processando Synulox
+2025-09-26 18:22:05,877 - scraper_base - INFO - 🔍 Cobasi: Buscando Synulox
+2025-09-26 18:22:07,615 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Synulox
+2025-09-26 18:22:07,615 - scraper_base - INFO - ✅ Cobasi: 2 produto(s) encontrado(s) para Synulox
+2025-09-26 18:22:10,464 - scraper_base - INFO - 📦 [20/20] Processando Baytril
+2025-09-26 18:22:10,465 - scraper_base - INFO - 🔍 Cobasi: Buscando Baytril
+2025-09-26 18:22:12,882 - scraper_cobasi - INFO - Cobasi: Dados extraídos via JSON para Baytril
+2025-09-26 18:22:12,882 - scraper_base - INFO - ✅ Cobasi: 4 produto(s) encontrado(s) para Baytril
+2025-09-26 18:22:14,471 - scraper_base - INFO - 📊 Cobasi - Estatísticas finais:
+2025-09-26 18:22:14,473 - scraper_base - INFO -    • Medicamentos processados: 20
+2025-09-26 18:22:14,474 - scraper_base - INFO -    • Produtos encontrados: 160
+2025-09-26 18:22:14,475 - scraper_base - INFO -    • Medicamentos sem resultado: 0
+2025-09-26 18:22:14,476 - scraper_base - INFO -    • Tempo total: 82.4s
+2025-09-26 18:22:14,476 - scraper_base - INFO -    • Tempo médio por medicamento: 4.1s
+2025-09-26 18:22:15,472 - gerenciador_arquivos - INFO - Excel salvo: dados_coletados\cobasi_20250926_182214.xlsx (160 produtos)
+2025-09-26 18:22:15,472 - gerenciador_principal - INFO - Cobasi: 160 produtos salvos com sucesso
+2025-09-26 18:22:15,473 - gerenciador_conexoes - INFO - Métodos utilizados - Requests: 100.0%, Selenium: 0.0%, Falhas: 0.0%
+2025-09-26 18:22:15,473 - gerenciador_principal - INFO - ============================================================
+2025-09-26 18:22:15,473 - gerenciador_principal - INFO - RELATORIO FINAL DE EXECUÇÃO
+2025-09-26 18:22:15,473 - gerenciador_principal - INFO - ============================================================
+2025-09-26 18:22:15,473 - gerenciador_principal - INFO - Sites processados: 1
+2025-09-26 18:22:15,473 - gerenciador_principal - INFO - Sites com sucesso: 1
+2025-09-26 18:22:15,473 - gerenciador_principal - INFO - Total de produtos coletados: 160
+2025-09-26 18:22:15,474 - gerenciador_principal - INFO - Tempo total de execução: 83.4 segundos
+2025-09-26 18:22:15,474 - gerenciador_principal - INFO - Estatísticas de conexão:
+2025-09-26 18:22:15,474 - gerenciador_principal - INFO -   - Requests bem-sucedidos: 100.0%
+2025-09-26 18:22:15,474 - gerenciador_principal - INFO -   - Selenium fallback: 0.0%
+2025-09-26 18:22:15,474 - gerenciador_principal - INFO -   - Falhas totais: 0.0%
+2025-09-26 18:22:15,474 - gerenciador_principal - INFO - Arquivos salvos na pasta: dados_coletados
+2025-09-26 18:22:15,474 - gerenciador_principal - INFO - Total de arquivos: 1
+2025-09-26 18:22:15,474 - gerenciador_principal - INFO - ============================================================
