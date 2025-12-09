@@ -5,9 +5,9 @@ on:
     - cron: "0 20 * * *"   # 17h BRT = 20h UTC
   workflow_dispatch:
   push:
-    branches: [ "Main" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "Main" ]
+    branches: [ "main" ]
 
 permissions:
   contents: write   # necessário para dar push
@@ -20,7 +20,7 @@ jobs:
       - name: Baixar código da branch Analise
         uses: actions/checkout@v3
         with:
-          ref: Main
+          ref: main
 
       - name: Configurar Python
         uses: actions/setup-python@v4
@@ -48,4 +48,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git add .
           git commit -m "Coleta automática em $(date +'%d-%m-%Y %H:%M')" || echo "Sem alterações para commitar"
-          git push origin Main
+          git push origin main
