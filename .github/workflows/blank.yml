@@ -5,23 +5,22 @@ on:
     - cron: "0 20 * * *"   # 17h BRT = 20h UTC
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: [ "Analise" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "Analise" ]
 
 permissions:
-  contents: write
-  pull-requests: write   # necessário para criar PR
+  contents: write   # necessário para dar push
 
 jobs:
   run-code:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar código da branch main
+      - name: Baixar código da branch Analise
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: Analise
 
       - name: Configurar Python
         uses: actions/setup-python@v4
@@ -43,53 +42,10 @@ jobs:
         run: |
           python validador_dados.py
 
-      - name: Criar PR com as alterações
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commitar resultados
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Verificar se há alterações
-          if [[ -z $(git status -s) ]]; then
-            echo "Sem alterações para commitar"
-            exit 0
-          fi
-          
-          # Criar branch temporária
-          BRANCH_NAME="auto-coleta-$(date +'%Y%m%d-%H%M%S')"
-          git checkout -b $BRANCH_NAME
-          
-          # Commitar alterações
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Coleta automática em $(date +'%d-%m-%Y %H:%M')"
-          git push origin $BRANCH_NAME
-          
-          # Criar Pull Request
-          gh pr create \
-            --title "🤖 Coleta automática - $(date +'%d/%m/%Y %H:%M')" \
-            --body "Dados coletados e processados automaticamente pelo workflow scheduled." \
-            --base main \
-            --head $BRANCH_NAME
-
-      - name: Auto-merge do PR
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Aguardar um pouco para o PR ser criado
-          sleep 5
-          
-          # Pegar o número do último PR criado
-          PR_NUMBER=$(gh pr list --head auto-coleta-* --json number --jq '.[0].number')
-          
-          if [[ -n "$PR_NUMBER" ]]; then
-            # Aprovar o PR (necessário se houver regra de aprovação)
-            gh pr review $PR_NUMBER --approve
-            
-            # Fazer merge
-            gh pr merge $PR_NUMBER --squash --auto --delete-branch
-            
-            echo "✅ PR #$PR_NUMBER criado e merged automaticamente"
-          else
-            echo "Nenhum PR para fazer merge"
-          fi
+          git commit -m "Coleta automática em $(date +'%d-%m-%Y %H:%M')" || echo "Sem alterações para commitar"
+          git push origin Analise
