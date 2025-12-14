@@ -4,37 +4,43 @@ RELATÓRIO DE VALIDAÇÃO DE DADOS
 
 📊 RESUMO GERAL
 --------------------------------------------------------------------------------
-Total de arquivos: 216
-Total de registros: 41983
-Registros válidos: 38356 (91.4%)
-Registros inválidos: 3627 (8.6%)
-Duplicatas exatas: 5225
+Total de arquivos: 219
+Total de registros: 42554
+Registros válidos: 38874 (91.4%)
+Registros inválidos: 3680 (8.6%)
+Duplicatas exatas: 5280
 
 💊 DISTRIBUIÇÃO POR MEDICAMENTO
 --------------------------------------------------------------------------------
-  Nexgard                7134 registros
-  Simparic               4523 registros
-  Bravecto               3921 registros
-  Revolution             3527 registros
-  Drontal                3379 registros
-  Vermivet               2743 registros
-  Advocate               2500 registros
-  Frontline              2217 registros
-  Maxicam                2126 registros
-  Baytril                1091 registros
-  Milbemax                992 registros
-  Onsior                  853 registros
-  Zenrelia                806 registros
-  Carproflan              642 registros
-  Previcox                552 registros
-  Rimadyl                 508 registros
-  Apoquel                 505 registros
-  Synulox                 337 registros
+  Nexgard                7229 registros
+  Simparic               4569 registros
+  Bravecto               3976 registros
+  Revolution             3583 registros
+  Drontal                3420 registros
+  Vermivet               2781 registros
+  Advocate               2534 registros
+  Frontline              2249 registros
+  Maxicam                2153 registros
+  Baytril                1109 registros
+  Milbemax               1007 registros
+  Onsior                  866 registros
+  Zenrelia                818 registros
+  Carproflan              651 registros
+  Previcox                560 registros
+  Rimadyl                 515 registros
+  Apoquel                 512 registros
+  Synulox                 342 registros
 
 📁 DETALHES POR ARQUIVO
 --------------------------------------------------------------------------------
 
 cobasi_20251021_201253.xlsx
+  Total: 166
+  Válidos: 166
+  Inválidos: 0
+  Duplicatas: 15
+
+cobasi_20251214_201132.xlsx
   Total: 166
   Válidos: 166
   Inválidos: 0
@@ -406,6 +412,19 @@ petlove_20251102_201211.xlsx
      - Linha 29: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
      - Linha 104: Kit Drontal Plus Sabor Carne e Coleira Antipulgas e Carrapatos Elanco Seresto - KIT (Drontal)
      - Linha 160: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
+
+petz_20251214_201407.xlsx
+  Total: 213
+  Válidos: 164
+  Inválidos: 49
+  Duplicatas: 14
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 32: Casa Pet Injet Dog House Evolution Nude para Cães (Revolution)
+     - Linha 33: Casa Pet Injet Dog House Evolution Nude para Cães (Revolution)
+     - Linha 34: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 35: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 36: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     ... e mais 44
 
 petz_20251017_201450.xlsx
   Total: 209
@@ -1983,6 +2002,17 @@ petlove_20251001_170359.xlsx
   ⚠️  Produtos inválidos encontrados:
      - Linha 77: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
      - Linha 333: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
+
+petlove_20251214_201250.xlsx
+  Total: 192
+  Válidos: 188
+  Inválidos: 4
+  Duplicatas: 26
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 12: Brinquedo Pelúcia Kong Zazzle Laranja para Cachorros - Tam. Único (Simparic)
+     - Linha 30: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
+     - Linha 107: Kit Drontal Plus Sabor Carne e Coleira Antipulgas e Carrapatos Elanco Seresto - KIT (Drontal)
+     - Linha 163: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
 
 petlove_20251005_015530.xlsx
   Total: 56
