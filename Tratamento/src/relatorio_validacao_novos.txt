@@ -4,32 +4,32 @@ RELATÓRIO DE VALIDAÇÃO DE DADOS
 
 📊 RESUMO GERAL
 --------------------------------------------------------------------------------
-Total de arquivos: 279
-Total de registros: 53892
-Registros válidos: 49265 (91.4%)
-Registros inválidos: 4627 (8.6%)
-Duplicatas exatas: 6411
+Total de arquivos: 282
+Total de registros: 54504
+Registros válidos: 49804 (91.4%)
+Registros inválidos: 4700 (8.6%)
+Duplicatas exatas: 6471
 
 💊 DISTRIBUIÇÃO POR MEDICAMENTO
 --------------------------------------------------------------------------------
-  Nexgard                9128 registros
-  Simparic               5499 registros
-  Bravecto               5083 registros
-  Revolution             4705 registros
-  Drontal                4252 registros
-  Vermivet               3562 registros
-  Advocate               3198 registros
-  Frontline              2888 registros
-  Maxicam                2729 registros
-  Baytril                1439 registros
-  Milbemax               1309 registros
-  Onsior                 1118 registros
-  Zenrelia               1058 registros
-  Carproflan              831 registros
-  Previcox                722 registros
-  Rimadyl                 653 registros
-  Apoquel                 650 registros
-  Synulox                 441 registros
+  Nexgard                9228 registros
+  Simparic               5545 registros
+  Bravecto               5138 registros
+  Revolution             4761 registros
+  Drontal                4302 registros
+  Vermivet               3600 registros
+  Advocate               3231 registros
+  Frontline              2920 registros
+  Maxicam                2756 registros
+  Baytril                1456 registros
+  Milbemax               1329 registros
+  Onsior                 1131 registros
+  Zenrelia               1070 registros
+  Carproflan              843 registros
+  Previcox                730 registros
+  Rimadyl                 661 registros
+  Apoquel                 657 registros
+  Synulox                 446 registros
 
 📁 DETALHES POR ARQUIVO
 --------------------------------------------------------------------------------
@@ -278,6 +278,12 @@ petlove_20251115_201325.xlsx
      - Linha 24: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
      - Linha 105: Kit Drontal Plus Sabor Carne e Coleira Antipulgas e Carrapatos Elanco Seresto - KIT (Drontal)
      - Linha 161: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
+
+cobasi_20260105_201355.xlsx
+  Total: 166
+  Válidos: 166
+  Inválidos: 0
+  Duplicatas: 15
 
 petlove_20251223_201403.xlsx
   Total: 191
@@ -1607,6 +1613,19 @@ petz_20251221_201431.xlsx
      - Linha 36: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      ... e mais 43
 
+petz_20260105_201643.xlsx
+  Total: 213
+  Válidos: 167
+  Inválidos: 46
+  Duplicatas: 14
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 30: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 31: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 32: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 35: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 36: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     ... e mais 41
+
 cobasi_20260104_201222.xlsx
   Total: 167
   Válidos: 167
@@ -2346,6 +2365,19 @@ cobasi_20251103_201508.xlsx
   Válidos: 157
   Inválidos: 0
   Duplicatas: 14
+
+petlove_20260105_201522.xlsx
+  Total: 233
+  Válidos: 206
+  Inválidos: 27
+  Duplicatas: 31
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 16: Brinquedo Pelúcia Kong Zazzle Laranja para Cachorros - Tam. Único (Simparic)
+     - Linha 17: Coleira We Are Family Lila Lilás para Cães e Gatos - Tam. G (Simparic)
+     - Linha 18: Coleira We Are Family Milos Azul para Cães e Gatos - Tam. G (Simparic)
+     - Linha 19: Coleira We Are Family Mandarino Laranja para Cães e Gatos - Tam. G (Simparic)
+     - Linha 20: Coleira We Are Family Gema Amarela para Cães e Gatos - Tam. G (Simparic)
+     ... e mais 22
 
 cobasi_20251105_201257.xlsx
   Total: 165
