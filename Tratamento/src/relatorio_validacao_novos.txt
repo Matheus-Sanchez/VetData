@@ -4,32 +4,32 @@ RELATÓRIO DE VALIDAÇÃO DE DADOS
 
 📊 RESUMO GERAL
 --------------------------------------------------------------------------------
-Total de arquivos: 282
-Total de registros: 54504
-Registros válidos: 49804 (91.4%)
-Registros inválidos: 4700 (8.6%)
-Duplicatas exatas: 6471
+Total de arquivos: 285
+Total de registros: 55127
+Registros válidos: 50343 (91.3%)
+Registros inválidos: 4784 (8.7%)
+Duplicatas exatas: 6531
 
 💊 DISTRIBUIÇÃO POR MEDICAMENTO
 --------------------------------------------------------------------------------
-  Nexgard                9228 registros
-  Simparic               5545 registros
-  Bravecto               5138 registros
-  Revolution             4761 registros
-  Drontal                4302 registros
-  Vermivet               3600 registros
-  Advocate               3231 registros
-  Frontline              2920 registros
-  Maxicam                2756 registros
-  Baytril                1456 registros
-  Milbemax               1329 registros
-  Onsior                 1131 registros
-  Zenrelia               1070 registros
-  Carproflan              843 registros
-  Previcox                730 registros
-  Rimadyl                 661 registros
-  Apoquel                 657 registros
-  Synulox                 446 registros
+  Nexgard                9328 registros
+  Simparic               5591 registros
+  Bravecto               5193 registros
+  Revolution             4817 registros
+  Drontal                4352 registros
+  Vermivet               3638 registros
+  Advocate               3264 registros
+  Frontline              2952 registros
+  Maxicam                2783 registros
+  Baytril                1473 registros
+  Milbemax               1349 registros
+  Onsior                 1144 registros
+  Zenrelia               1082 registros
+  Carproflan              855 registros
+  Previcox                738 registros
+  Rimadyl                 669 registros
+  Apoquel                 664 registros
+  Synulox                 451 registros
 
 📁 DETALHES POR ARQUIVO
 --------------------------------------------------------------------------------
@@ -1093,6 +1093,12 @@ petlove_20251028_201425.xlsx
      - Linha 105: Kit Drontal Plus Sabor Carne e Coleira Antipulgas e Carrapatos Elanco Seresto - KIT (Drontal)
      - Linha 161: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
 
+cobasi_20260106_201247.xlsx
+  Total: 166
+  Válidos: 166
+  Inválidos: 0
+  Duplicatas: 15
+
 petlove_20251013_201345.xlsx
   Total: 283
   Válidos: 281
@@ -2150,6 +2156,19 @@ petz_20251115_201455.xlsx
      - Linha 30: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
      ... e mais 43
 
+petz_20260106_201523.xlsx
+  Total: 213
+  Válidos: 167
+  Inválidos: 46
+  Duplicatas: 14
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 30: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 31: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 32: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 35: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 36: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     ... e mais 41
+
 petlove_20251219_201350.xlsx
   Total: 192
   Válidos: 188
@@ -2661,6 +2680,19 @@ petz_20251031_201537.xlsx
      - Linha 29: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
      - Linha 30: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      ... e mais 42
+
+petlove_20260106_201405.xlsx
+  Total: 244
+  Válidos: 206
+  Inválidos: 38
+  Duplicatas: 31
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 16: Brinquedo Pelúcia Kong Zazzle Laranja para Cachorros - Tam. Único (Simparic)
+     - Linha 17: Coleira We Are Family Lila Lilás para Cães e Gatos - Tam. G (Simparic)
+     - Linha 18: Coleira We Are Family Gema Amarela para Cães e Gatos - Tam. M (Simparic)
+     - Linha 19: Coleira We Are Family Milos Azul para Cães e Gatos - Tam. G (Simparic)
+     - Linha 20: Coleira We Are Family Mandarino Laranja para Cães e Gatos - Tam. G (Simparic)
+     ... e mais 33
 
 petz_20251123_201444.xlsx
   Total: 206
