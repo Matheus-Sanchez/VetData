@@ -4,32 +4,32 @@ RELATÓRIO DE VALIDAÇÃO DE DADOS
 
 📊 RESUMO GERAL
 --------------------------------------------------------------------------------
-Total de arquivos: 364
-Total de registros: 71484
-Registros válidos: 64472 (90.2%)
-Registros inválidos: 7012 (9.8%)
-Duplicatas exatas: 8167
+Total de arquivos: 367
+Total de registros: 72042
+Registros válidos: 64967 (90.2%)
+Registros inválidos: 7075 (9.8%)
+Duplicatas exatas: 8206
 
 💊 DISTRIBUIÇÃO POR MEDICAMENTO
 --------------------------------------------------------------------------------
-  Nexgard               11942 registros
-  Simparic               6809 registros
-  Bravecto               6646 registros
-  Revolution             6286 registros
-  Drontal                5616 registros
-  Vermivet               4619 registros
-  Advocate               4152 registros
-  Frontline              3794 registros
-  Maxicam                3531 registros
-  Milbemax               1894 registros
-  Baytril                1892 registros
-  Onsior                 1464 registros
-  Zenrelia               1398 registros
-  Carproflan             1172 registros
-  Previcox                950 registros
-  Rimadyl                 879 registros
-  Apoquel                 846 registros
-  Synulox                 582 registros
+  Nexgard               12024 registros
+  Simparic               6841 registros
+  Bravecto               6701 registros
+  Revolution             6329 registros
+  Drontal                5669 registros
+  Vermivet               4652 registros
+  Advocate               4187 registros
+  Frontline              3826 registros
+  Maxicam                3559 registros
+  Milbemax               1916 registros
+  Baytril                1908 registros
+  Onsior                 1476 registros
+  Zenrelia               1410 registros
+  Carproflan             1184 registros
+  Previcox                958 registros
+  Rimadyl                 887 registros
+  Apoquel                 853 registros
+  Synulox                 587 registros
 
 📁 DETALHES POR ARQUIVO
 --------------------------------------------------------------------------------
@@ -522,6 +522,12 @@ petlove_20251114_201440.xlsx
      - Linha 161: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
 
 cobasi_20251218_201220.xlsx
+  Total: 167
+  Válidos: 167
+  Inválidos: 0
+  Duplicatas: 15
+
+cobasi_20260204_202149.xlsx
   Total: 167
   Válidos: 167
   Inválidos: 0
@@ -1684,6 +1690,19 @@ petz_20251009_201457.xlsx
      - Linha 65: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      - Linha 66: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      ... e mais 47
+
+petlove_20260204_202306.xlsx
+  Total: 180
+  Válidos: 165
+  Inválidos: 15
+  Duplicatas: 10
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 49: Brinquedo Mordedor Jambo Avocatinip para Gatos - Tam. Único (Advocate)
+     - Linha 66: Alça de mão para Arnês Suporte Frontal e Pélvico Help Em' Up - Tamanho Único (Drontal)
+     - Linha 67: Alças de Ombro para Arnês Suporte Frontal e Pélvico Help Em' Up 2em1 - Tam GG (Drontal)
+     - Linha 68: Alças Duplas para Arnês Suporte Frontal e Pélvico Help 'Em Up Loop - Tam. M (Drontal)
+     - Linha 75: Peitoral H Pop Bordo Caqui - Tam. P (Drontal)
+     ... e mais 10
 
 cobasi_20251220_201126.xlsx
   Total: 167
@@ -2983,6 +3002,19 @@ petlove_20251023_201315.xlsx
      - Linha 29: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
      - Linha 124: Kit Drontal Plus Sabor Carne e Coleira Antipulgas e Carrapatos Elanco Seresto - KIT (Drontal)
      - Linha 180: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
+
+petz_20260204_202426.xlsx
+  Total: 211
+  Válidos: 163
+  Inválidos: 48
+  Duplicatas: 14
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 32: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 33: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 34: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 35: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 36: Casa Pet Injet Dog House Evolution Nude para Cães (Revolution)
+     ... e mais 43
 
 petz_20251220_201414.xlsx
   Total: 211
