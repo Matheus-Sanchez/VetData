@@ -4,32 +4,32 @@ RELATÓRIO DE VALIDAÇÃO DE DADOS
 
 📊 RESUMO GERAL
 --------------------------------------------------------------------------------
-Total de arquivos: 372
-Total de registros: 73082
-Registros válidos: 65887 (90.2%)
-Registros inválidos: 7195 (9.8%)
-Duplicatas exatas: 8322
+Total de arquivos: 375
+Total de registros: 73706
+Registros válidos: 66428 (90.1%)
+Registros inválidos: 7278 (9.9%)
+Duplicatas exatas: 8387
 
 💊 DISTRIBUIÇÃO POR MEDICAMENTO
 --------------------------------------------------------------------------------
-  Nexgard               12184 registros
-  Simparic               6923 registros
-  Bravecto               6795 registros
-  Revolution             6429 registros
-  Drontal                5759 registros
-  Vermivet               4713 registros
-  Advocate               4245 registros
-  Frontline              3879 registros
-  Maxicam                3611 registros
-  Milbemax               1956 registros
-  Baytril                1932 registros
-  Onsior                 1496 registros
-  Zenrelia               1430 registros
-  Carproflan             1204 registros
-  Previcox                972 registros
-  Rimadyl                 900 registros
-  Apoquel                 864 registros
-  Synulox                 595 registros
+  Nexgard               12282 registros
+  Simparic               6970 registros
+  Bravecto               6850 registros
+  Revolution             6488 registros
+  Drontal                5811 registros
+  Vermivet               4746 registros
+  Advocate               4280 registros
+  Frontline              3911 registros
+  Maxicam                3639 registros
+  Milbemax               1978 registros
+  Baytril                1948 registros
+  Onsior                 1508 registros
+  Zenrelia               1442 registros
+  Carproflan             1216 registros
+  Previcox                980 registros
+  Rimadyl                 908 registros
+  Apoquel                 871 registros
+  Synulox                 600 registros
 
 📁 DETALHES POR ARQUIVO
 --------------------------------------------------------------------------------
@@ -161,6 +161,19 @@ petlove_20251014_201331.xlsx
   ⚠️  Produtos inválidos encontrados:
      - Linha 51: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
      - Linha 258: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
+
+petlove_20260207_201550.xlsx
+  Total: 248
+  Válidos: 212
+  Inválidos: 36
+  Duplicatas: 37
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 15: Brinquedo Pelúcia Kong Zazzle Laranja para Cachorros - Tam. Único (Simparic)
+     - Linha 18: Coleira We Are Family Milos Azul para Cães e Gatos - Tam. P (Simparic)
+     - Linha 19: Coleira We Are Family Lila Lilás para Cães e Gatos - Tam. G (Simparic)
+     - Linha 20: Coleira We Are Family Kurô Preta para Cães e Gatos - Tam. M (Simparic)
+     - Linha 21: Coleira We Are Family Gema Amarela para Cães e Gatos - Tam. G (Simparic)
+     ... e mais 31
 
 cobasi_20251112_201305.xlsx
   Total: 167
@@ -1421,6 +1434,19 @@ petz_20260112_201628.xlsx
      - Linha 36: Casa Pet Injet Dog House Evolution Rosa para Cães (Revolution)
      ... e mais 41
 
+petz_20260207_201716.xlsx
+  Total: 209
+  Válidos: 162
+  Inválidos: 47
+  Duplicatas: 14
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 32: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 33: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 34: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 35: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 36: Casa Pet Injet Dog House Evolution Nude para Cães (Revolution)
+     ... e mais 42
+
 petz_20251203_201608.xlsx
   Total: 212
   Válidos: 165
@@ -2005,6 +2031,12 @@ cobasi_20251230_201233.xlsx
   Válidos: 166
   Inválidos: 0
   Duplicatas: 15
+
+cobasi_20260207_201425.xlsx
+  Total: 167
+  Válidos: 167
+  Inválidos: 0
+  Duplicatas: 14
 
 petz_20260127_201956.xlsx
   Total: 210
