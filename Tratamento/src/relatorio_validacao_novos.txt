@@ -4,32 +4,32 @@ RELATÓRIO DE VALIDAÇÃO DE DADOS
 
 📊 RESUMO GERAL
 --------------------------------------------------------------------------------
-Total de arquivos: 375
-Total de registros: 73706
-Registros válidos: 66428 (90.1%)
-Registros inválidos: 7278 (9.9%)
-Duplicatas exatas: 8387
+Total de arquivos: 378
+Total de registros: 74277
+Registros válidos: 66939 (90.1%)
+Registros inválidos: 7338 (9.9%)
+Duplicatas exatas: 8438
 
 💊 DISTRIBUIÇÃO POR MEDICAMENTO
 --------------------------------------------------------------------------------
-  Nexgard               12282 registros
-  Simparic               6970 registros
-  Bravecto               6850 registros
-  Revolution             6488 registros
-  Drontal                5811 registros
-  Vermivet               4746 registros
-  Advocate               4280 registros
-  Frontline              3911 registros
-  Maxicam                3639 registros
-  Milbemax               1978 registros
-  Baytril                1948 registros
-  Onsior                 1508 registros
-  Zenrelia               1442 registros
-  Carproflan             1216 registros
-  Previcox                980 registros
-  Rimadyl                 908 registros
-  Apoquel                 871 registros
-  Synulox                 600 registros
+  Nexgard               12380 registros
+  Simparic               7002 registros
+  Bravecto               6905 registros
+  Revolution             6531 registros
+  Drontal                5864 registros
+  Vermivet               4779 registros
+  Advocate               4315 registros
+  Frontline              3943 registros
+  Maxicam                3667 registros
+  Milbemax               2000 registros
+  Baytril                1964 registros
+  Onsior                 1520 registros
+  Zenrelia               1454 registros
+  Carproflan             1228 registros
+  Previcox                988 registros
+  Rimadyl                 916 registros
+  Apoquel                 878 registros
+  Synulox                 605 registros
 
 📁 DETALHES POR ARQUIVO
 --------------------------------------------------------------------------------
@@ -491,6 +491,12 @@ petlove_20251020_202247.xlsx
      - Linha 124: Kit Drontal Plus Sabor Carne e Coleira Antipulgas e Carrapatos Elanco Seresto - KIT (Drontal)
      - Linha 180: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
 
+cobasi_20260208_201420.xlsx
+  Total: 167
+  Válidos: 167
+  Inválidos: 0
+  Duplicatas: 16
+
 petz_20251104_201559.xlsx
   Total: 209
   Válidos: 161
@@ -640,6 +646,19 @@ petz_20251017_201450.xlsx
      - Linha 29: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
      - Linha 30: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      ... e mais 44
+
+petz_20260208_201701.xlsx
+  Total: 208
+  Válidos: 163
+  Inválidos: 45
+  Duplicatas: 14
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 32: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 33: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 34: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 35: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 36: Casa Pet Injet Dog House Evolution Nude para Cães (Revolution)
+     ... e mais 40
 
 petlove_20260205_202236.xlsx
   Total: 248
@@ -2942,6 +2961,19 @@ petlove_20251104_201433.xlsx
      - Linha 29: Brinquedo Mordedor Germanhart Revolucionado para Cães - Tam. Único (Revolution)
      - Linha 104: Kit Drontal Plus Sabor Carne e Coleira Antipulgas e Carrapatos Elanco Seresto - KIT (Drontal)
      - Linha 160: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
+
+petlove_20260208_201541.xlsx
+  Total: 196
+  Válidos: 181
+  Inválidos: 15
+  Duplicatas: 21
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 65: Brinquedo Mordedor Jambo Avocatinip para Gatos - Tam. Único (Advocate)
+     - Linha 82: Alça de mão para Arnês Suporte Frontal e Pélvico Help Em' Up - Tamanho Único (Drontal)
+     - Linha 83: Alças de Ombro para Arnês Suporte Frontal e Pélvico Help Em' Up 2em1 - Tam GG (Drontal)
+     - Linha 84: Alças Duplas para Arnês Suporte Frontal e Pélvico Help 'Em Up Loop - Tam. M (Drontal)
+     - Linha 91: Peitoral H Pop Bordo Caqui - Tam. P (Drontal)
+     ... e mais 10
 
 petz_20251102_201330.xlsx
   Total: 210
