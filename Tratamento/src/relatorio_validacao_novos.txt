@@ -4,32 +4,32 @@ RELATÓRIO DE VALIDAÇÃO DE DADOS
 
 📊 RESUMO GERAL
 --------------------------------------------------------------------------------
-Total de arquivos: 383
-Total de registros: 75312
-Registros válidos: 67857 (90.1%)
-Registros inválidos: 7455 (9.9%)
-Duplicatas exatas: 8553
+Total de arquivos: 386
+Total de registros: 75932
+Registros válidos: 68396 (90.1%)
+Registros inválidos: 7536 (9.9%)
+Duplicatas exatas: 8619
 
 💊 DISTRIBUIÇÃO POR MEDICAMENTO
 --------------------------------------------------------------------------------
-  Nexgard               12540 registros
-  Simparic               7084 registros
-  Bravecto               6999 registros
-  Revolution             6631 registros
-  Drontal                5953 registros
-  Vermivet               4840 registros
-  Advocate               4373 registros
-  Frontline              3996 registros
-  Maxicam                3719 registros
-  Milbemax               2040 registros
-  Baytril                1988 registros
-  Onsior                 1540 registros
-  Zenrelia               1474 registros
-  Carproflan             1247 registros
-  Previcox               1002 registros
-  Rimadyl                 929 registros
-  Apoquel                 889 registros
-  Synulox                 613 registros
+  Nexgard               12638 registros
+  Simparic               7131 registros
+  Bravecto               7054 registros
+  Revolution             6690 registros
+  Drontal                6005 registros
+  Vermivet               4873 registros
+  Advocate               4407 registros
+  Frontline              4028 registros
+  Maxicam                3747 registros
+  Milbemax               2062 registros
+  Baytril                2004 registros
+  Onsior                 1552 registros
+  Zenrelia               1486 registros
+  Carproflan             1258 registros
+  Previcox               1010 registros
+  Rimadyl                 937 registros
+  Apoquel                 896 registros
+  Synulox                 618 registros
 
 📁 DETALHES POR ARQUIVO
 --------------------------------------------------------------------------------
@@ -467,6 +467,12 @@ cobasi_20251203_201317.xlsx
   Válidos: 166
   Inválidos: 0
   Duplicatas: 14
+
+cobasi_20260211_202813.xlsx
+  Total: 167
+  Válidos: 167
+  Inválidos: 0
+  Duplicatas: 16
 
 petz_20251109_201334.xlsx
   Total: 209
@@ -1650,6 +1656,19 @@ petlove_20251025_201305.xlsx
      - Linha 124: Kit Drontal Plus Sabor Carne e Coleira Antipulgas e Carrapatos Elanco Seresto - KIT (Drontal)
      - Linha 180: Kit Agener União Anti-inflamatório Carproflan 25 mg e Suplemento Alimentar Procart 60 comprimidos - KIT (Carproflan)
 
+petlove_20260211_202940.xlsx
+  Total: 245
+  Válidos: 210
+  Inválidos: 35
+  Duplicatas: 36
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 11: Brinquedo Pelúcia Kong Zazzle Laranja para Cachorros - Tam. Único (Simparic)
+     - Linha 14: Coleira We Are Family Lila Lilás para Cães e Gatos - Tam. G (Simparic)
+     - Linha 15: Coleira We Are Family Kurô Preta para Cães e Gatos - Tam. M (Simparic)
+     - Linha 16: Coleira We Are Family Gema Amarela para Cães e Gatos - Tam. G (Simparic)
+     - Linha 17: Coleira We Are Family Milos Azul para Cães e Gatos - Tam. G (Simparic)
+     ... e mais 30
+
 petlove_20251227_201350.xlsx
   Total: 190
   Válidos: 186
@@ -2277,6 +2296,19 @@ petz_20251221_201431.xlsx
      - Linha 35: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      - Linha 36: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      ... e mais 43
+
+petz_20260211_203107.xlsx
+  Total: 208
+  Válidos: 162
+  Inválidos: 46
+  Duplicatas: 14
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 30: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 31: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 32: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
+     - Linha 33: Casa Pet Injet Evolution Prime Colors Amarela (Revolution)
+     - Linha 34: Casa Pet Injet Dog House Evolution Nude para Cães (Revolution)
+     ... e mais 41
 
 petlove_20260125_201415.xlsx
   Total: 246
