@@ -4,32 +4,32 @@ RELATÓRIO DE VALIDAÇÃO DE DADOS
 
 📊 RESUMO GERAL
 --------------------------------------------------------------------------------
-Total de arquivos: 392
-Total de registros: 77195
-Registros válidos: 69484 (90.0%)
-Registros inválidos: 7711 (10.0%)
-Duplicatas exatas: 8753
+Total de arquivos: 394
+Total de registros: 77557
+Registros válidos: 69831 (90.0%)
+Registros inválidos: 7726 (10.0%)
+Duplicatas exatas: 8791
 
 💊 DISTRIBUIÇÃO POR MEDICAMENTO
 --------------------------------------------------------------------------------
-  Nexgard               12834 registros
-  Simparic               7227 registros
-  Bravecto               7172 registros
-  Revolution             6808 registros
-  Drontal                6105 registros
-  Vermivet               4939 registros
-  Advocate               4477 registros
-  Frontline              4092 registros
-  Maxicam                3803 registros
-  Milbemax               2106 registros
-  Baytril                2036 registros
-  Onsior                 1576 registros
-  Zenrelia               1510 registros
-  Carproflan             1282 registros
-  Previcox               1026 registros
-  Rimadyl                 953 registros
-  Apoquel                 910 registros
-  Synulox                 628 registros
+  Nexgard               12896 registros
+  Simparic               7247 registros
+  Bravecto               7211 registros
+  Revolution             6833 registros
+  Drontal                6142 registros
+  Vermivet               4967 registros
+  Advocate               4500 registros
+  Frontline              4113 registros
+  Maxicam                3827 registros
+  Milbemax               2123 registros
+  Baytril                2044 registros
+  Onsior                 1584 registros
+  Zenrelia               1518 registros
+  Carproflan             1291 registros
+  Previcox               1032 registros
+  Rimadyl                 958 registros
+  Apoquel                 914 registros
+  Synulox                 631 registros
 
 📁 DETALHES POR ARQUIVO
 --------------------------------------------------------------------------------
@@ -2654,6 +2654,19 @@ petlove_20260105_201522.xlsx
      - Linha 20: Coleira We Are Family Gema Amarela para Cães e Gatos - Tam. G (Simparic)
      ... e mais 22
 
+petlove_20260214_201521.xlsx
+  Total: 195
+  Válidos: 180
+  Inválidos: 15
+  Duplicatas: 22
+  ⚠️  Produtos inválidos encontrados:
+     - Linha 65: Brinquedo Mordedor Jambo Avocatinip para Gatos - Tam. Único (Advocate)
+     - Linha 83: Alça de mão para Arnês Suporte Frontal e Pélvico Help Em' Up - Tamanho Único (Drontal)
+     - Linha 84: Alças de Ombro para Arnês Suporte Frontal e Pélvico Help Em' Up 2em1 - Tam GG (Drontal)
+     - Linha 85: Alças Duplas para Arnês Suporte Frontal e Pélvico Help 'Em Up Loop - Tam. M (Drontal)
+     - Linha 91: Peitoral H Pop Bordo Caqui - Tam. M (Drontal)
+     ... e mais 10
+
 cobasi_20251005_015337.xlsx
   Total: 161
   Válidos: 161
@@ -2892,6 +2905,12 @@ petz_20260106_201523.xlsx
      - Linha 35: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      - Linha 36: Casa Pet Injet Dog House Evolution Preta para Cães (Revolution)
      ... e mais 41
+
+cobasi_20260214_201358.xlsx
+  Total: 167
+  Válidos: 167
+  Inválidos: 0
+  Duplicatas: 16
 
 petlove_20251112_201434.xlsx
   Total: 184
